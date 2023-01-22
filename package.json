@@ -1,0 +1,30 @@
+{
+    "name": "icoons",
+    "version": "0.0.1",
+    "description": "An open source and hand-crafted SVG icons library",
+    "private": true,
+    "author": "Josemi Juanes <hi@josemi.xyz>",
+    "license": "MIT",
+    "homepage": "https://www.josemi.xyz/icoons",
+    "repository": "https://github.com/jmjuanes/icoons",
+    "bugs": "https://github.com/jmjuanes/icoons/issues",
+    "workspaces": [
+        "packages/*",
+        "website"
+    ],
+    "scripts": {
+        "build": "yarn build:json && yarn build:react",
+        "build:json": "gulp build:json",
+        "build:react": "gulp build:react"
+    },
+    "devDependencies": {
+        "gulp": "^4.0.2",
+        "gulp-cli": "^2.3.0",
+        "gulp-rename": "^2.0.0",
+        "handlebars": "^4.7.7",
+        "svg2ttf": "^6.0.3",
+        "svgicons2svgfont": "^10.0.5",
+        "through2": "^4.0.2",
+        "ttf2woff": "^3.0.0"
+    }
+}
