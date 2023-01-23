@@ -1,0 +1,7 @@
+## Icons data
+raw-icons
+
+## Other files and folders
+node_modules
+package-lock.json
+yarn.lock
