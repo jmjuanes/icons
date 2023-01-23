@@ -1,16 +1,21 @@
 {
-    "name": "icoons",
+    "name": "fonticon",
     "version": "0.0.1",
     "description": "An open source and hand-crafted SVG icons library",
     "private": true,
-    "author": "Josemi Juanes <hi@josemi.xyz>",
+    "author": "Josemi Juanes",
     "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jmjuanes/fonticon"
+    },
+    "bugs": {
+        "url": "https://github.com/jmjuanes/fonticon/issues",
+        "email": "support@josemi.xyz"
+    },
     "homepage": "https://www.josemi.xyz/icoons",
-    "repository": "https://github.com/jmjuanes/icoons",
-    "bugs": "https://github.com/jmjuanes/icoons/issues",
     "workspaces": [
-        "packages/*",
-        "website"
+        "packages/*"
     ],
     "scripts": {
         "build": "yarn build:json && yarn build:react",
