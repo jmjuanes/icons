@@ -1,0 +1,32 @@
+{
+    "name": "@fonticon/react",
+    "version": "0.0.1",
+    "description": "An open source and hand-crafted SVG icons library",
+    "author": "Josemi Juanes",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jmjuanes/fonticon",
+        "directory": "packages/react"
+    },
+    "bugs": {
+        "url": "https://github.com/jmjuanes/fonticon/issues",
+        "email": "support@josemi.xyz"
+    },
+    "homepage": "https://www.josemi.xyz/fonticon",
+    "main": "index.js",
+    "unpkg": "index.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "index.js",
+        "README.md"
+    ],
+    "scripts": {
+        "clean": "rm -rf index.js"
+    },
+    "peerDependencies": {
+        "react": "^16.5.1 || ^17.0.0 || ^18.0.0"
+    }
+}
