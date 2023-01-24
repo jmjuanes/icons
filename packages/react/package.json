@@ -1,19 +1,19 @@
 {
-    "name": "@fonticon/react",
+    "name": "@oceanicons/react",
     "version": "0.0.1",
     "description": "An open source and hand-crafted SVG icons library",
     "author": "Josemi Juanes",
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jmjuanes/fonticon",
+        "url": "https://github.com/jmjuanes/oceanicons",
         "directory": "packages/react"
     },
     "bugs": {
-        "url": "https://github.com/jmjuanes/fonticon/issues",
+        "url": "https://github.com/jmjuanes/oceanicons/issues",
         "email": "support@josemi.xyz"
     },
-    "homepage": "https://www.josemi.xyz/fonticon",
+    "homepage": "https://www.josemi.xyz/oceanicons",
     "main": "index.js",
     "unpkg": "index.js",
     "publishConfig": {

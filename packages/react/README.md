@@ -1,4 +1,4 @@
-# @fonticon/react
+# @oceanicons/react
 
 
 
@@ -7,7 +7,7 @@
 Add this package to your project using **yarn**:
 
 ```bash
-$ yarn add @fonticon/react
+$ yarn add @oceanicons/react
 ```
 
 ## Usage
@@ -16,7 +16,7 @@ This package exports each icon individually as [named exports](https://developer
 
 ```jsx
 import React from "react";
-import {CheckIcon} from "@fonticon/react";
+import {CheckIcon} from "@oceanicons/react";
 
 export const App = () => (
     <CheckIcon />
@@ -29,7 +29,7 @@ You can use the `color` and `font-size` properties of CSS to customize the icon 
 
 ```jsx
 import React from "react";
-import {HomeIcon} from "@fonticon/react";
+import {HomeIcon} from "@oceanicons/react";
 
 export const App = () => (
     <span style={{color: "blue", fontSize: "32px"}}>
