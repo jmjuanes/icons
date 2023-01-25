@@ -17,7 +17,7 @@ hbs.registerHelper("pascalCase", str => {
     return str.match(/[a-zA-Z0-9]+/g).map(w => `${w.charAt(0).toUpperCase()}${w.slice(1)}`).join("");
 });
 
-// Tiny utility to extrack the d="" segment from the icon
+// Tiny utility to extract the d="" segment from the icon
 const getIconPath = str => str.match(/\sd="([^\"]*)"/im)[1];
 
 const cleanIcons = () => {

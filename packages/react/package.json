@@ -9,10 +9,7 @@
         "url": "https://github.com/jmjuanes/oceanicons",
         "directory": "packages/react"
     },
-    "bugs": {
-        "url": "https://github.com/jmjuanes/oceanicons/issues",
-        "email": "support@josemi.xyz"
-    },
+    "bugs": "https://github.com/jmjuanes/oceanicons/issues",
     "homepage": "https://www.josemi.xyz/oceanicons",
     "main": "index.js",
     "unpkg": "index.js",
