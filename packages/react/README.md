@@ -1,5 +1,4 @@
-# @oceanicons/react
-
+# @mochicons/react
 
 
 ## Installation
@@ -7,7 +6,7 @@
 Add this package to your project using **yarn**:
 
 ```bash
-$ yarn add @oceanicons/react
+$ yarn add @mochicons/react
 ```
 
 ## Usage
@@ -16,7 +15,7 @@ This package exports each icon individually as [named exports](https://developer
 
 ```jsx
 import React from "react";
-import {CheckIcon} from "@oceanicons/react";
+import {CheckIcon} from "@mochicons/react";
 
 export const App = () => (
     <CheckIcon />
@@ -29,7 +28,7 @@ You can use the `color` and `font-size` properties of CSS to customize the icon 
 
 ```jsx
 import React from "react";
-import {HomeIcon} from "@oceanicons/react";
+import {HomeIcon} from "@mochicons/react";
 
 export const App = () => (
     <span style={{color: "blue", fontSize: "32px"}}>
@@ -40,4 +39,4 @@ export const App = () => (
 
 ## License
 
-Under the [MIT LICENSE](https://github.com/jmjuanes/fonticon/blob/main/LICENSE).
+Under the [MIT LICENSE](https://github.com/jmjuanes/mochicons/blob/main/LICENSE).
