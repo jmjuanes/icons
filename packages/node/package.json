@@ -1,0 +1,27 @@
+{
+    "name": "@mochicons/node",
+    "version": "0.0.1",
+    "description": "An open source and hand-crafted SVG icons library",
+    "author": "Josemi Juanes",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jmjuanes/mochicons",
+        "directory": "packages/node"
+    },
+    "bugs": "https://github.com/jmjuanes/mochicons/issues",
+    "homepage": "https://www.josemi.xyz/mochicons",
+    "main": "index.js",
+    "unpkg": "index.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "files": [
+        "index.js",
+        "icons.json",
+        "README.md"
+    ],
+    "scripts": {
+        "clean": "rm -rf icons.json"
+    }
+}
