@@ -2,7 +2,7 @@
 raw-icons
 
 ## Output files and folders
-packages/json/icons.json
+packages/node/icons.json
 packages/react/index.js
 
 ## Other files and folders
