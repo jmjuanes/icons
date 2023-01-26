@@ -104,10 +104,11 @@ gulp.task("update:icons-metadata", () => {
         .pipe(gulp.dest("."));
 });
 
-gulp.task("build:json", () => {
+gulp.task("build:node", () => {
     return gulp.src("icons/*.svg")
         .pipe(iconsToJson())
-        .pipe(gulp.dest("packages/json/"));
+        .pipe(rename("icons.json"))
+        .pipe(gulp.dest("packages/node/"));
 });
 
 gulp.task("build:react", () => {
@@ -128,6 +129,7 @@ gulp.task("build:react", () => {
             return callback();
         }))
         .pipe(babel({
+            configFile: false,
             plugins: [
                 "@babel/plugin-transform-react-jsx",
             ],
