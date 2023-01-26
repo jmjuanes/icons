@@ -2,6 +2,7 @@
 raw-icons
 
 ## Output files and folders
+mochicons.svg
 packages/node/icons.json
 packages/react/index.js
 

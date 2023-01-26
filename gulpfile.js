@@ -2,6 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const gulp = require("gulp");
 const rename = require("gulp-rename");
+const svgstore = require("gulp-svgstore");
 const babel = require("gulp-babel");
 const through = require("through2");
 const Vinyl = require("vinyl");
@@ -101,6 +102,13 @@ gulp.task("update:icons-svg", () => {
 gulp.task("update:icons-metadata", () => {
     return gulp.src("icons/*.svg")
         .pipe(generateMetadata())
+        .pipe(gulp.dest("."));
+});
+
+gulp.task("build:sprite", () => {
+    return gulp.src("icons/*.svg")
+        .pipe(svgstore())
+        .pipe(rename("mochicons.svg"))
         .pipe(gulp.dest("."));
 });
 
