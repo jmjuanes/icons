@@ -21,7 +21,9 @@
         "build": "yarn build:node && yarn build:react",
         "build:node": "gulp build:node",
         "build:react": "gulp build:react",
-        "test": "jest packages"
+        "test": "jest packages",
+        "test:node": "jest packages/node",
+        "test:react": "jest packages/react"
     },
     "devDependencies": {
         "@babel/core": "^7.18.0",
