@@ -19,7 +19,9 @@ hbs.registerHelper({
     pascalCase: str => {
         return str.match(/[a-zA-Z0-9]+/g).map(w => `${w.charAt(0).toUpperCase()}${w.slice(1)}`).join("");
     },
-    svg: str => encodeSvg(generateSvg(str)),
+    svg: str => {
+        return new hbs.SafeString(encodeSvg(generateSvg(str)));
+    },
 });
 
 // Tiny utility to extract the d="" segment from the icon
@@ -42,8 +44,6 @@ const encodeSvg = str => {
 		.replace(/"/g, "'")
 		.replace(/%/g, "%25")
 		.replace(/#/g, "%23")
-		.replace(/{/g, "%7B")
-		.replace(/}/g, "%7D")
 		.replace(/</g, "%3C")
 		.replace(/>/g, "%3E");
 };
