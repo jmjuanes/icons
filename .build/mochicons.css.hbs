@@ -1,0 +1,27 @@
+:root {
+    {{#each icons}}
+    --mochi-{{this.name}}: url("data:image/svg+xml;utf8,{{svg item.path}}") no-repeat;
+    {{/each}}
+}
+[class^="m-"], [class*=" m-"] {
+    align-self: center;
+    display: inline-flex;
+    line-height: 1;
+    text-rendering: auto;
+    vertical-align: -0.125em;
+}
+[class^="m-"]:before, [class*=" m-"]:before {
+    content: "''";
+    background-color: currentColor;
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+{{#each icons}}
+.m-{{this.name}}:before {
+    mask: var(--mochi-{{this.name}}) no-repeat;
+    mask-size: 100% 100%;
+    -webkit-mask: var(--mochi-{{this.name}}) no-repeat;
+    -webkit-mask-size: 100% 100%;
+}
+{{/each}}

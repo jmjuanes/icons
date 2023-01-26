@@ -3,8 +3,10 @@ raw-icons
 
 ## Output files and folders
 mochicons.svg
+packages/css/mochicons.css
 packages/node/icons.json
 packages/react/index.js
+public
 
 ## Other files and folders
 node_modules

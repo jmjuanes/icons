@@ -5,35 +5,70 @@ const rename = require("gulp-rename");
 const svgstore = require("gulp-svgstore");
 const babel = require("gulp-babel");
 const through = require("through2");
+const CleanCSS = require("clean-css");
 const Vinyl = require("vinyl");
 const hbs = require("handlebars");
 
 const pkg = require("./package.json");
 
 // Register handlebars helpers
-hbs.registerHelper("capitalizeFirst", str => {
-    return str.charAt(0).toUpperCase() + str.slice(1);
-});
-hbs.registerHelper("pascalCase", str => {
-    return str.match(/[a-zA-Z0-9]+/g).map(w => `${w.charAt(0).toUpperCase()}${w.slice(1)}`).join("");
+hbs.registerHelper({
+    capitalizeFirst: str => {
+        return str.charAt(0).toUpperCase() + str.slice(1);
+    },
+    pascalCase: str => {
+        return str.match(/[a-zA-Z0-9]+/g).map(w => `${w.charAt(0).toUpperCase()}${w.slice(1)}`).join("");
+    },
+    svg: str => encodeSvg(generateSvg(str)),
 });
 
 // Tiny utility to extract the d="" segment from the icon
 const getIconPath = str => str.match(/\sd="([^\"]*)"/im)[1];
 
+// Generate icon SVG from path
+const generateSvg = (p, size = "1em") => {
+    const items = [
+		`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="${size}" height="${size}">`,
+		`<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="${p}"/>`,
+		`</svg>`
+	];
+    return items.join("");
+};
+
+// Encode SVG for using in CSS
+// Based on https://bl.ocks.org/jennyknuth/222825e315d45a738ed9d6e04c7a88d0
+const encodeSvg = str => {
+	return str
+		.replace(/"/g, "'")
+		.replace(/%/g, "%25")
+		.replace(/#/g, "%23")
+		.replace(/{/g, "%7B")
+		.replace(/}/g, "%7D")
+		.replace(/</g, "%3C")
+		.replace(/>/g, "%3E");
+};
+
+const minify = options => {
+    return through.obj((file, enc, callback) => {
+        const content = file.contents.toString() || "";
+        new CleanCSS(options).minify(content, (errors, result) => {
+            if (errors) {
+                return callback(errors.join(" "));
+            }
+            file.contents = new Buffer.from(result.styles);
+            return callback(null, file);
+        });
+    });
+};
+
 const cleanIcons = () => {
     return through.obj(function (file, enc, callback) {
         const iconPath = getIconPath(file.contents.toString());
-        const content = [
-            `<svg viewBox="0 0 24 24" width="24" height="24" xmlns="http://www.w3.org/2000/svg">`,
-            `<g stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">`,
-            `<path d="${iconPath}" />`,
-            `</g>`,
-            `</svg>`,
-        ];
+        const content = generateSvg(iconPath, "24");
+
         this.push(new Vinyl({
             path: path.join(process.cwd(), path.basename(file.path)),
-            contents: new Buffer.from(content.join("")),
+            contents: new Buffer.from(content),
         }));
         return callback();
     });
@@ -93,6 +128,23 @@ const iconsToJson = () => {
     return through.obj(bufferContents, endStream);
 };
 
+const compileHbs = sourceFile => {
+    return through.obj(function (file, enc, callback) {
+        const source = fs.readFileSync(sourceFile, "utf8");
+        const template = hbs.compile(source);
+        const content = template({
+            icons: JSON.parse(file.contents.toString()),
+            version: pkg.version,
+        });
+
+        this.push(new Vinyl({
+            path: path.join(process.cwd(), path.basename(sourceFile, ".hbs")),
+            contents: new Buffer.from(content),
+        }));
+        return callback();
+    });
+};
+
 gulp.task("update:icons-svg", () => {
     return gulp.src("raw-icons/**/*.svg")
         .pipe(cleanIcons())
@@ -112,6 +164,18 @@ gulp.task("build:sprite", () => {
         .pipe(gulp.dest("."));
 });
 
+gulp.task("build:css", () => {
+    return gulp.src("icons/*.svg")
+        .pipe(iconsToJson())
+        .pipe(compileHbs(".build/mochicons.css.hbs"))
+        .pipe(minify({
+            compatibility: "*",
+            level: 2,
+        }))
+        // .pipe(rename("mochicons.css"))
+        .pipe(gulp.dest("packages/css"));
+});
+
 gulp.task("build:node", () => {
     return gulp.src("icons/*.svg")
         .pipe(iconsToJson())
@@ -122,20 +186,8 @@ gulp.task("build:node", () => {
 gulp.task("build:react", () => {
     return gulp.src("icons/*.svg")
         .pipe(iconsToJson())
-        .pipe(through.obj(function (file, enc, callback) {
-            const source = fs.readFileSync(".build/index-react.hbs", "utf8");
-            const template = hbs.compile(source);
-            const content = template({
-                icons: JSON.parse(file.contents.toString()),
-                version: pkg.version,
-            });
-
-            this.push(new Vinyl({
-                path: path.join(process.cwd(), "index.js"),
-                contents: new Buffer.from(content),
-            }));
-            return callback();
-        }))
+        .pipe(compileHbs(".build/index-react.js.hbs"))
+        .pipe(rename("index.js"))
         .pipe(babel({
             configFile: false,
             plugins: [
@@ -144,4 +196,3 @@ gulp.task("build:react", () => {
         }))
         .pipe(gulp.dest("packages/react/"));
 });
-
