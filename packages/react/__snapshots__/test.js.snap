@@ -171,6 +171,8 @@ exports[`@mochicons/react should export all icons as a react components 1`] = `
   "MinusIcon",
   "MinusSquareIcon",
   "MobileIcon",
+  "MochiIcon",
+  "MochiconsIcon",
   "MoneyIcon",
   "MonitorIcon",
   "MoonIcon",
