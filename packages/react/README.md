@@ -6,7 +6,7 @@
 Add this package to your project using **yarn**:
 
 ```bash
-$ yarn add @mochicons/react
+$ yarn add react @mochicons/react
 ```
 
 ## Usage
