@@ -1,11 +1,20 @@
-[class^="m-"], [class*=" m-"] {
+:root,
+*:before {
+    {{#each icons}}
+    --mochi-{{this.name}}: url("data:image/svg+xml;utf8,{{svg this.path}}") no-repeat;
+    {{/each}}
+}
+
+[class^="m-"],
+[class*=" m-"] {
     align-self: center;
     display: inline-flex;
     line-height: 1;
     text-rendering: auto;
     vertical-align: -0.125em;
 }
-[class^="m-"]:before, [class*=" m-"]:before {
+[class^="m-"]:before,
+[class*=" m-"]:before {
     content: "''";
     background-color: currentColor;
     display: inline-block;
@@ -14,7 +23,6 @@
 }
 {{#each icons}}
 .m-{{this.name}}:before {
-    --mochi-{{this.name}}: url("data:image/svg+xml;utf8,{{svg this.path}}") no-repeat;
     mask: var(--mochi-{{this.name}}) no-repeat;
     mask-size: 100% 100%;
     -webkit-mask: var(--mochi-{{this.name}}) no-repeat;
