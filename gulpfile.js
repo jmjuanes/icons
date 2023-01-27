@@ -132,9 +132,13 @@ const compileHbs = sourceFile => {
     return through.obj(function (file, enc, callback) {
         const source = fs.readFileSync(sourceFile, "utf8");
         const template = hbs.compile(source);
+        const iconsList = JSON.parse(file.contents.toString());
         const content = template({
-            icons: JSON.parse(file.contents.toString()),
+            icons: iconsList,
+            iconsCount: Object.keys(iconsList).length,
             version: pkg.version,
+            repository: pkg.repository.url,
+            bugs: pkg.bugs,
         });
 
         this.push(new Vinyl({
@@ -195,4 +199,14 @@ gulp.task("build:react", () => {
             ],
         }))
         .pipe(gulp.dest("packages/react/"));
+});
+
+gulp.task("website", () => {
+    return gulp.src("icons/*.svg")
+        .pipe(iconsToJson())
+        .pipe(compileHbs(".build/index.html.hbs"))
+        // .pipe(rename("index.html"))
+        .pipe(gulp.src("packages/css/mochicons.css"))
+        .pipe(gulp.src("node_modules/lowcss/dist/low.css"))
+        .pipe(gulp.dest("public"));
 });
