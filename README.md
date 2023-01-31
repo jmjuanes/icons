@@ -1,9 +1,14 @@
 # Mochicons
 
+## What is Mochicons?
 
-## Using icons
+**Mochicons** is a collection of hand-made and open source SVG icons that you can use in your web projects. Each icon has been designed in a 24x24 grid with a stroke width of 2px and a minimum padding of 2px.
 
-The easiest way for using Mochicons is downloading or copying the icon that you need from the [icons](https://github.com/jmjuanes/mochicons/tree/main/icons) folder of this repository.
+Our icons can be easily integrated in your project just copying the SVG code or using one of our packages.
+
+## Using Mochicons
+
+The easiest way for using Mochicons is downloading or copying the icon that you need from the [icons](/icons) folder of this repository. Each icon consists in a `<svg>` tag and a single `<path>`.
 
 ```html
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
@@ -18,68 +23,15 @@ The easiest way for using Mochicons is downloading or copying the icon that you 
 </svg>
 ```
 
-## CSS
+## Packages
 
-Install the `@mochicons/css` package from npm:
+The following NPM packages are managed on this repository and provides additional ways of using **Mochicons**.
 
-```bash
-$ yarn add @mochicons/css
-```
-
-Include the `mochicons.css` styles in your HTML file:
-
-```html
-<link rel="stylesheet" href="node_modules/@mochicons/css/mochicons.css">
-```
-
-Include the icons using the `m-*` class, and style it using CSS:
-
-```html
-<i class="m-tools" style="color:#025cca;font-size:24px;"></i>
-```
-
-## Node.js
-
-Install the `@mochicons/node` package from npm:
-
-```bash
-$ yarn add @mochicons/node
-```
-
-You can access to each icon in your Node.js application:
-
-```js
-const mochicons = require("@mochicons/node");
-
-console.log(mochicons.home);
-// {
-//     name: "home",
-//     path: "M....",
-//     toSVG: () => ...,
-// }
-
-```
-
-## React
-
-Install the `@mochicons/react` package from npm:
-
-```bash
-$ yarn add react @mochicons/react
-```
-
-Include each icon individually as a React component:
-
-```jsx
-import React from "react";
-import {HomeIcon} from "@mochicons/react";
-
-export const App = () => (
-    <span style={{color: "blue", fontSize: "32px"}}>
-        <HomeIcon />    
-    </span>
-);
-```
+| Package | Version |
+| ------- | ------- |
+| **[@mochicons/node](/packages/node)** <br />Node.js API. | [![npm version](https://img.shields.io/npm/v/@mochicons/node.svg)](https://www.npmjs.org/package/@mochicons/node) |
+| **[@mochicons/css](/packages/css)** <br />Include Mochicons using CSS classes. | [![npm version](https://img.shields.io/npm/v/@mochicons/css.svg)](https://www.npmjs.org/package/@mochicons/css) |
+| **[@mochicons/react](/packages/react)** <br />Use Mochicons as React components. | [![npm version](https://img.shields.io/npm/v/@mochicons/react.svg)](https://www.npmjs.org/package/@mochicons/react) |
 
 ## License
 
