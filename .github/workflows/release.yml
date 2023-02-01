@@ -23,6 +23,7 @@ jobs:
   
   publish:
     if: ${{ github.repository == 'jmjuanes/mochicons' }}
+    runs-on: ubuntu-latest
     name: Publish
     needs: [build]
     strategy:
