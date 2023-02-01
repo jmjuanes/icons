@@ -208,5 +208,5 @@ gulp.task("website", () => {
         // .pipe(rename("index.html"))
         .pipe(gulp.src("packages/css/mochicons.css"))
         .pipe(gulp.src("node_modules/lowcss/dist/low.css"))
-        .pipe(gulp.dest("public"));
+        .pipe(gulp.dest("www"));
 });

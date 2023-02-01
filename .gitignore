@@ -6,7 +6,7 @@ mochicons.svg
 packages/css/mochicons.css
 packages/node/icons.json
 packages/react/index.js
-public
+www
 
 ## Other files and folders
 node_modules
