@@ -201,7 +201,7 @@ gulp.task("build:react", () => {
         .pipe(gulp.dest("packages/react/"));
 });
 
-gulp.task("website", () => {
+gulp.task("build:preview", () => {
     return gulp.src("icons/*.svg")
         .pipe(iconsToJson())
         .pipe(compileHbs(".build/index.html.hbs"))

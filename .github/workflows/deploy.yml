@@ -26,7 +26,7 @@ jobs:
       - uses: actions/configure-pages@v1
       - run: yarn install
       - run: yarn run build:css
-      - run: yarn run website:build
+      - run: yarn run build:preview
       - uses: actions/upload-pages-artifact@v1
         with:
           name: github-pages

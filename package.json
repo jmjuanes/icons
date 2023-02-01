@@ -23,9 +23,8 @@
         "build:css": "gulp build:css",
         "build:node": "gulp build:node",
         "build:react": "gulp build:react",
-        "website": "yarn website:build",
-        "website:build": "gulp website",
-        "website:serve": "stattic --folder www",
+        "build:preview": "gulp build:preview",
+        "preview": "stattic --folder www",
         "test": "jest packages",
         "test:node": "jest packages/node",
         "test:react": "jest packages/react"
