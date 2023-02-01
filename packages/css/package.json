@@ -16,6 +16,12 @@
     "publishConfig": {
         "access": "public"
     },
+    "keywords": [
+        "icons",
+        "svg-icons",
+        "css",
+        "css-icons"
+    ],
     "files": [
         "mochicons.css",
         "README.md"

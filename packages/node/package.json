@@ -16,6 +16,11 @@
     "publishConfig": {
         "access": "public"
     },
+    "keywords": [
+        "icons",
+        "svg-icons",
+        "node"
+    ],
     "files": [
         "index.js",
         "icons.json",

@@ -16,6 +16,14 @@
     "publishConfig": {
         "access": "public"
     },
+    "keywords": [
+        "icons",
+        "svg-icons",
+        "react",
+        "components",
+        "react-icons",
+        "icons-components"
+    ],
     "files": [
         "index.js",
         "README.md"
