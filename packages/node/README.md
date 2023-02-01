@@ -26,7 +26,7 @@ console.log(mochicons.home);
 
 ## API
 
-### `mochicos[key].name`
+### `mochicons[key].name`
 
 This is just the name of the icon.
 
