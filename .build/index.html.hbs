@@ -18,13 +18,10 @@
             <div class="text:2xl font:bold">Mochicons</div>
         </div>
         <div class="ml:auto">
-            <!--
             <a href="{{repository}}" target="_blank" class="text:white text:no-underline d:flex gap:2 o:70 o:100:hover">
                 <i class="m-external-link"></i>
                 <span class="font:bold">GitHub</span>
             </a>
-            -->
-            <strong>v{{version}}</strong>
         </div>
     </header>
     <section class="w:full maxw:screen-xl mx:auto px:4 py:20">
@@ -35,23 +32,26 @@
             An open source collection of {{iconsCount}} SVG icons for your web projects. With Node.js and React support.
         </div>
         <div class="d:flex justify:center mt:8">
-            <a href="{{repository}}" class="d:flex items:center gap:2 p:4 r:xl cursor:pointer text:no-underline bg:gradient-to-right from:blue-400 to:indigo-400">
-                <i class="m-book text:white text:xl"></i>
-                <strong class="text:white text:lg font:bold">Documentation</strong>
+            <a href="{{repository}}" class="d:flex items:center gap:2 p:3 r:xl cursor:pointer text:no-underline b:2 b:solid b:white text:white bg:white:hover text:dark-900:hover">
+                <i class="m-book text:2xl"></i>
+                <strong class="text:lg font:bold">Documentation</strong>
             </a>
+        </div>
+        <div class="mt:3 text:center text:xs text:light-900 o:60">
+            Currently <b>v{{version}}</b>
         </div>
     </section>
     <section class="w:full maxw:screen-xl mx:auto p:4">
         <div class="mb:6">
-            <div class="d:flex items:center w:full bg:dark-300 text:white p:4 r:lg">
-                <i class="m-search text:lg"></i>
+            <div class="d:flex items:center w:full bg:dark-300 text:white p:4 r:xl">
+                <i class="m-search text:2xl"></i>
                 <input type="text" id="search" class="d:block bg:transparent text:white b:0 outline:0 w:full" placeholder="Search for icons...">
             </div>
         </div>
 
         <div class="d:grid cols:3 cols:6@md cols:10@lg gap:2 w:full">
             {{#each icons}}
-                <div class="d:flex flex:col p:4 r:lg bg:dark-100:hover" data-icon="{{this.name}}">
+                <div class="d:flex flex:col p:4 r:lg bg:dark-100:hover cursor:pointer" data-icon="{{this.name}}">
                     <div class="d:flex justify:center">
                         <i class="m-{{this.name}} text:3xl"></i>
                     </div>
@@ -62,8 +62,13 @@
             {{/each}}
         </div>
     </section>
-    <footer class="w:full maxw:screen-xl mx:auto px:4 py:20">
-        MIT License
+    <footer class="w:full maxw:screen-xl mx:auto px:4 py:32 text:center text:light-900">
+        <div class="text:center text:sm">
+            Made with <i class="m-heart"></i> by <a href="https://github.com/jmjuanes" class="text:white font:bold text:no-underline">Josemi Juanes</a>.
+        </div>
+        <div class="text:center o:50 text:xs mt:2">
+            Currently <b>v{{version}}</b>. Icons are Public Domain.
+        </div>
     </footer>
     <script type="text/javascript">
         let allVisible = true;
