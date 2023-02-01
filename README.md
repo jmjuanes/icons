@@ -35,4 +35,4 @@ The following NPM packages are managed on this repository and provides additiona
 
 ## License
 
-Under the [MIT LICENSE](LICENSE).
+Code is licensed under the [MIT LICENSE](LICENSE). Icons are [Public Domain](https://creativecommons.org/publicdomain/zero/1.0/).
