@@ -1,14 +1,9 @@
-## Icons data
-raw-icons
-
 ## Output files and folders
-mochicons.svg
-packages/css/mochicons.css
-packages/node/icons.json
-packages/react/index.js
-www
+www/
+icons.json
+icons/
 
 ## Other files and folders
-node_modules
+node_modules/
 package-lock.json
 yarn.lock
