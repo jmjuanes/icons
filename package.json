@@ -17,7 +17,7 @@
         "build:icons": "node ./scripts/build-icons.js",
         "prebuild:site": "rm -rf www && mkdir www",
         "build:site": "babel-node --presets '@babel/preset-react' scripts/build-site.jsx",
-        "postbuild:site": "cp node_modules/lowcss/dist/low.css www/ && cp node_modules/highlight.js/styles/atom-one-dark.css www/highlight.css && cp assets/* www/ && cp -R icons www/",
+        "postbuild:site": "cp node_modules/lowcss/dist/low.css www/ && cp node_modules/highlight.js/styles/nord.css www/highlight.css && cp assets/* www/ && cp -R icons www/",
         "serve": "stattic --folder www --port 3000"
     },
     "devDependencies": {

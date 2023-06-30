@@ -18,7 +18,7 @@ export const SizeInput = props => (
 <div className="text-4xl font-bold mb-4 mt-8">
     <span id="iconName">{props.page.data.icon.name}</span>
 </div>
-<div className="flex gap-8 w-full">
+<div className="flex flex-col md:flex-row gap-8 w-full mb-8">
     <div className="w-full">
         <div className="flex items-center justify-center w-full rounded-lg bg-gray-100 h-96 border border-gray-300">
             <div id="iconPreview" className="flex items-center text-gray-800" style={{fontSize: "12em"}}>
@@ -26,7 +26,7 @@ export const SizeInput = props => (
             </div>
         </div>
     </div>
-    <div className="w-96 shrink-0">
+    <div className="w-full md:w-96 shrink-0">
         <div className="mb-6">
             <div className="mb-1 font-bold text-2xl">Download</div>
             <div className="mb-4">Download the icon as SVG image to use or edit it.</div>

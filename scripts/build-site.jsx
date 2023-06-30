@@ -56,8 +56,8 @@ const CodeBlock = props => {
 };
 
 const pageComponents = {
-    "h1": props => <h1 className="mt-8 mb-4 text-gray-800 text-2xl font-bold">{props.children}</h1>,
-    "h2": props => <h2 className="mt-8 mb-4 text-gray-800 text-xl font-bold">{props.children}</h2>,
+    "h1": props => <h1 className="mb-4 text-gray-800 text-2xl font-bold">{props.children}</h1>,
+    "h2": props => <h2 className="mb-4 text-gray-800 text-xl font-bold">{props.children}</h2>,
     "p": props => <p className="mt-6 mb-6">{props.children}</p>,
     "code": props => <code className="font-bold text-sm font-mono">{`'`}{props.children}{`'`}</code>,
     Icon: props => <Icon {...props} />,
@@ -89,7 +89,7 @@ const PageWrapper = props => (
             <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" />
             <link rel="stylesheet" href="./low.css" />
             <link rel="stylesheet" href="./highlight.css" />
-            <title>{`${props?.page?.data?.title ? `${props.page.data.title} - ` : ""} josemi/icons ${pkg.version}`}</title>
+            <title>{`${props?.page?.data?.title ? `${props.page.data.title} - ` : ""} josemi/icons v${pkg.version}`}</title>
         </head>
         <body className="bg-white m-0 p-0 font-inter text-gray-800 leading-normal">
             {/* Header */}
