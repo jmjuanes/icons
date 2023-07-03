@@ -12,13 +12,14 @@
     "bugs": "https://github.com/jmjuanes/icons/issues",
     "homepage": "https://icons.josemi.xyz",
     "scripts": {
-        "build": "yarn build:icons && yarn build:site",
+        "build": "yarn build:icons",
         "prebuild:icons": "rm -rf icons.json icons && mkdir icons",
         "build:icons": "node ./scripts/build-icons.js",
-        "prebuild:site": "rm -rf www && mkdir www",
-        "build:site": "babel-node --presets '@babel/preset-react' scripts/build-site.jsx",
-        "postbuild:site": "cp node_modules/lowcss/dist/low.css www/ && cp node_modules/highlight.js/styles/nord.css www/highlight.css && cp assets/* www/ && cp -R icons www/",
-        "serve": "stattic --folder www --port 3000"
+        "prebuild:docs": "rm -rf www && mkdir www",
+        "build:docs": "babel-node --presets '@babel/preset-react' scripts/docs.js",
+        "postbuild:docs": "cp node_modules/lowcss/dist/low.css www/ && cp node_modules/highlight.js/styles/nord.css www/highlight.css && cp assets/* www/ && cp -R icons www/",
+        "serve": "yarn serve:docs",
+        "serve:docs": "stattic --folder www --port 3000"
     },
     "devDependencies": {
         "@babel/core": "^7.21.4",

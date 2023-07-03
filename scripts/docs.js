@@ -113,7 +113,7 @@ const PageWrapper = props => (
             </div>
             {/* Main content */}
             <div className="w-full maxw-7xl mx-auto px-6">
-                {props.page.element}
+                {props.element}
             </div>
             {/* Footer */}
             <div className="w-full maxw-7xl mx-auto px-6 pt-10 pb-20">
@@ -145,15 +145,14 @@ const readMarkdownFile = (folder, file) => {
 importPackages().then(pkgs => {
     const [mdx] = pkgs;
     const buildInfo = getBuildInfo();
-    const inputFolder = path.join(process.cwd(), "pages");
+    const inputFolder = path.join(process.cwd(), "docs");
     const outputFolder = path.join(process.cwd(), "www");
     const log = msg => console.log(`[docs] ${msg}`);
     log("Starting build...");
-    log("Reading .mdx files from 'pages/' folder.");
+    log("Reading .mdx files from 'docs/' folder.");
     fs.readdir(inputFolder)
         .then(files => files.filter(file => path.extname(file) === ".mdx"))
         .then(files => {
-            log(`Processing ${files.length} files.`);
             return Promise.all(files.map(file => {
                 return readMarkdownFile(inputFolder, file);
             }));
@@ -179,17 +178,14 @@ importPackages().then(pkgs => {
                 return mdx.evaluate(page.content, {...runtime})
                     .then(pageComponent => {
                         const pageContent = React.createElement(PageWrapper, {
-                            page: {
-                                ...page,
-                                element: React.createElement(pageComponent.default, {
-                                    page: page,
-                                    components: pageComponents,
-                                    icons: Object.values(icons),
-                                    version: pkg.version,
-                                    repository: pkg.repository.url,
-                                    downloadUrl: `${pkg.repository.url}/releases/download/v${pkg.version}/icons.zip`,
-                                }),
-                            },
+                            element: React.createElement(pageComponent.default, {
+                                page: page,
+                                components: pageComponents,
+                                icons: Object.values(icons),
+                                version: pkg.version,
+                                repository: pkg.repository.url,
+                            }),
+                            page: page,
                             pages: pages,
                             buildInfo: buildInfo,
                         });
