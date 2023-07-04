@@ -1,0 +1,71 @@
+---
+title: ""
+---
+
+<div className="pb-28 pt-16 md:pt-28">
+    <div className="flex justify-center w-full mb-4">
+        <a className="inline-flex items-center gap-2 rounded-lg bg-gray-200 px-3 py-1 text-sm font-medium no-underline">
+            <span className="text-gray-800">Just released <b>v{props.version}</b></span>
+            <span>🎉</span>
+        </a>
+    </div>
+    <div className="font-black text-6xl sm:text-7xl mb-6 leading-tight tracking-tight text-gray-800 maxw-5xl w-full text-center mx-auto">
+        <span>Enhance your projects with beautifully crafted SVG icons.</span> 
+    </div>
+    <div className="maxw-3xl mt-0 mb-8 text-lg sm:text-2xl text-center leading-relaxed mx-auto w-full">
+        <span>Over {Math.floor(props.icons.length / 100)*100}+ meticulously crafted, smooth and consistent line icons that serve as the perfect starting point for your next project.</span>
+    </div>
+    <div className="flex justify-center w-full">
+        <a href={`${props.repository}/releases`} target="_blank" className="flex items-center p-4 rounded-md bg-gray-900 hover:bg-gray-800 text-white cursor-pointer no-underline">
+            <div className="text-xl mr-2">
+                <Icon icon="download" />
+            </div>
+            <strong>Download Icons Pack</strong>
+        </a>
+    </div>
+</div>
+<section className="w-full">
+    <div className="mb-6">
+        <div className="relative">
+            <div className="flex items-center text-2xl absolute top-0 left-0 p-2">
+                <Icon icon="search" />
+            </div>
+            <input type="text" id="search" className="block bg-white w-full focus:outline-2 focus:outline-gray-500 border border-gray-300 rounded-md pl-10" placeholder="Search for icons..." />
+        </div>
+    </div>
+    <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-10 gap-2 w-full">
+    {props.icons.map(icon => (
+        <a key={icon.name} href={`${icon.name}.html`} className="flex flex-col p-4 rounded-lg hover:bg-gray-100 cursor-pointer no-underline text-gray-800" data-icon={icon.name}>
+            <div className="flex justify-center text-3xl">
+                <Icon icon={icon.name} />
+            </div>
+            <div className="o-50 text-2xs text-center mt-2">
+                <span>{icon.name}</span>
+            </div>
+        </a>
+    ))}
+    </div>
+</section>
+
+<script type="text/javascript" dangerouslySetInnerHTML={{ __html: `
+    let allVisible = true;
+    document.querySelector("input#search").addEventListener("input", event => {
+        const value = event.target.value || "";
+        // let count = 0;
+        if (value.length >= 3 || !allVisible) {
+            allVisible = value.length < 3;
+            Array.from(document.querySelectorAll("a[data-icon]")).forEach(item => {
+                if (value.length < 3 || item.dataset.icon.includes(value)) {
+                    // count = count + 1;
+                    item.style.display = "";
+                }
+                else {
+                    item.style.display = "none";
+                }
+            });
+            // Hide or display the empty block
+            // document.querySelector("div#empty").style.display = count === 0 ? "" : "none";
+        }
+    });
+`}} />
+
