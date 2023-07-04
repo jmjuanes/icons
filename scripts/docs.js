@@ -9,30 +9,6 @@ const hljs = require("highlight.js/lib/common");
 const pkg = require("../package.json");
 const icons = require("../icons.json");
 
-const importPackages = () => {
-    return Promise.all([
-        import("@mdx-js/mdx"),
-    ]);
-};
-
-// Generate build info
-const getBuildInfo = () => {
-    const now = new Date();
-    // Use Intl.DateFileFormat to generate build time
-    // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat
-    const dateTimeOptions = {
-        dateStyle: "full",
-        timeStyle: "long",
-        timeZone: "CET",
-    };
-    // Return build info
-    return {
-        time: {
-            formatted: new Intl.DateTimeFormat("en-US", dateTimeOptions).format(now),
-        },
-    };
-};
-
 const Icon = props => (
     <svg xmlns="http-//www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
         <path d={icons[props.icon].path} fill="none" strokeWidth="2" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
@@ -49,7 +25,6 @@ const CodeBlock = props => {
             },
         });
     }
-    // Default: render without code highlight
     return (
         <pre className={className}>{props.children}</pre>
     );
@@ -117,34 +92,16 @@ const PageWrapper = props => (
             </div>
             {/* Footer */}
             <div className="w-full maxw-7xl mx-auto px-6 pt-10 pb-20">
-                <div className="mb-12 border-t-1 border-gray-300" />
-                <div className="text-center text-sm mb-2">
-                    Designed by <a href="https://josemi.xyz" className="no-underline text-gray-800 hover:text-gray-700 font-bold">Josemi</a>. 
-                    The source code is available on <a href={pkg.repository.url} className="no-underline text-gray-800 hover:text-gray-700 font-bold">GitHub</a>.
-                </div>
-                <div className="text-center text-sm">
-                    <div>Last built on {props.buildInfo.time.formatted}.</div>
+                <div className="text-sm">
+                    Designed by <a href="https://josemi.xyz" target="_blank" className="text-gray-800 hover:text-gray-700 font-medium underline">Josemi</a>. 
+                    Source code available on <a href={pkg.repository.url} target="_blank" className="text-gray-800 hover:text-gray-700 font-medium underline">GitHub</a>.
                 </div>
             </div>
         </body>
     </html>
 );
 
-const readMarkdownFile = (folder, file) => {
-    const filePath = path.join(folder, file);
-    return fs.readFile(filePath, "utf8").then(fileContent => {
-        const {data, content} = matter(fileContent);
-        return {
-            data: data,
-            content: content,
-            fileName: path.basename(file, ".mdx") + ".html",
-        };
-    });
-};
-
-importPackages().then(pkgs => {
-    const [mdx] = pkgs;
-    const buildInfo = getBuildInfo();
+import("@mdx-js/mdx").then(mdx => {
     const inputFolder = path.join(process.cwd(), "docs");
     const outputFolder = path.join(process.cwd(), "www");
     const log = msg => console.log(`[docs] ${msg}`);
@@ -154,7 +111,15 @@ importPackages().then(pkgs => {
         .then(files => files.filter(file => path.extname(file) === ".mdx"))
         .then(files => {
             return Promise.all(files.map(file => {
-                return readMarkdownFile(inputFolder, file);
+                const filePath = path.join(inputFolder, file);
+                return fs.readFile(filePath, "utf8").then(fileContent => {
+                    const {data, content} = matter(fileContent);
+                    return {
+                        data: data,
+                        content: content,
+                        fileName: path.basename(file, ".mdx") + ".html",
+                    };
+                });
             }));
         })
         .then(pages => {
@@ -173,7 +138,7 @@ importPackages().then(pkgs => {
                 ...iconsPages,
             ];
         })
-        .then(async pages => {
+        .then(pages => {
             const buildPromises = pages.map(page => {
                 return mdx.evaluate(page.content, {...runtime})
                     .then(pageComponent => {
@@ -187,7 +152,6 @@ importPackages().then(pkgs => {
                             }),
                             page: page,
                             pages: pages,
-                            buildInfo: buildInfo,
                         });
                         return renderToStaticMarkup(pageContent);
                     })
