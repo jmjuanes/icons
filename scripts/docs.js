@@ -6,14 +6,10 @@ const runtime = require("react/jsx-runtime");
 const matter = require("gray-matter");
 const hljs = require("highlight.js/lib/common");
 
+const {Icon} = require("../packages/react/index.cjs.js");
+
 const pkg = require("../package.json");
 const icons = require("../icons.json");
-
-const Icon = props => (
-    <svg xmlns="http-//www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
-        <path d={icons[props.icon].path} fill="none" strokeWidth="2" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" />
-    </svg>
-);
 
 const CodeBlock = props => {
     const className = "p-4 rounded-md bg-gray-900 text-white overflow-auto mb-8 text-sm font-mono";
@@ -35,7 +31,7 @@ const pageComponents = {
     "h2": props => <h2 className="mb-4 text-gray-800 text-xl font-bold">{props.children}</h2>,
     "p": props => <p className="mt-6 mb-6">{props.children}</p>,
     "code": props => <code className="font-bold text-sm font-mono">{`'`}{props.children}{`'`}</code>,
-    Icon: props => <Icon {...props} />,
+    Icon: props => <Icon icon={props.icon} />,
     CodeBlock: CodeBlock,
     Fragment: React.Fragment,
 };
