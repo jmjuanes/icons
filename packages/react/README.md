@@ -1,12 +1,16 @@
-# @mochicons/react
+![@josemi-icons/react](./header.png)
+
+
+![npm version](https://badgen.net/npm/v/%40josemi-icons/react?labelColor=1d2734&color=21bf81)
+![license](https://badgen.net/github/license/jmjuanes/icons?labelColor=1d2734&color=21bf81)
 
 
 ## Installation
 
-Add this package to your project using **yarn**:
+Add this package to your project using **yarn** or **npm**:
 
 ```bash
-$ yarn add react @mochicons/react
+$ yarn add react @josemi-icons/react
 ```
 
 ## Usage
@@ -15,7 +19,7 @@ This package exports each icon individually as [named exports](https://developer
 
 ```jsx
 import React from "react";
-import {CheckIcon} from "@mochicons/react";
+import {CheckIcon} from "@josemi-icons/react";
 
 export const App = () => (
     <CheckIcon />
@@ -28,7 +32,7 @@ You can use the `color` and `font-size` properties of CSS to customize the icon 
 
 ```jsx
 import React from "react";
-import {HomeIcon} from "@mochicons/react";
+import {HomeIcon} from "@josemi-icons/react";
 
 export const App = () => (
     <span style={{color: "blue", fontSize: "32px"}}>
@@ -39,4 +43,4 @@ export const App = () => (
 
 ## License
 
-Under the [MIT LICENSE](https://github.com/jmjuanes/mochicons/blob/main/LICENSE).
+Under the [MIT LICENSE](https://github.com/jmjuanes/icons/blob/main/LICENSE).
