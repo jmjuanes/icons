@@ -20,4 +20,4 @@ jobs:
           node-version: '16.x'
       - run: yarn install
       - run: yarn build
-      - run: yarn test:{{ matrix.package }}
+      - run: yarn test:${{ matrix.package }}
