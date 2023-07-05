@@ -4,8 +4,7 @@ icons.json
 icons/
 
 ## Output packages
-packages/react/__snapshots__
-packages/react/index.js
+packages/react/index.*.js
 
 ## Other files and folders
 node_modules/
