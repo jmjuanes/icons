@@ -1,0 +1,44 @@
+{
+    "name": "@josemi-icons/react",
+    "version": "0.0.1",
+    "description": "An open source and hand-crafted SVG icons library",
+    "author": {
+        "name": "Josemi Juanes",
+        "email": "hello@josemi.xyz"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jmjuanes/icons",
+        "directory": "packages/react"
+    },
+    "bugs": "https://github.com/jmjuanes/icons/issues",
+    "homepage": "https://icons.josemi.xyz",
+    "main": "index.cjs.js",
+    "exports": "./index.esm.js",
+    "unpkg": "index.esm.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "icons",
+        "svg-icons",
+        "react",
+        "components",
+        "react-icons",
+        "icons-components"
+    ],
+    "files": [
+        "index.cjs.js",
+        "index.esm.js",
+        "README.md",
+        "header.png"
+    ],
+    "devDependencies": {
+        "react": "^18.2.0",
+        "react-test-renderer": "^18.2.0"
+    },
+    "peerDependencies": {
+        "react": "^16.5.1 || ^17.0.0 || ^18.0.0"
+    }
+}

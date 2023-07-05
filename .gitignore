@@ -3,6 +3,9 @@ www/
 icons.json
 icons/
 
+## Output packages
+packages/react/index.*.js
+
 ## Other files and folders
 node_modules/
 package-lock.json
