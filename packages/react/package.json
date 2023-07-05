@@ -14,8 +14,9 @@
     },
     "bugs": "https://github.com/jmjuanes/icons/issues",
     "homepage": "https://icons.josemi.xyz",
-    "main": "index.js",
-    "unpkg": "index.js",
+    "main": "index.cjs.js",
+    "exports": "./index.esm.js",
+    "unpkg": "index.esm.js",
     "publishConfig": {
         "access": "public"
     },
@@ -28,8 +29,10 @@
         "icons-components"
     ],
     "files": [
-        "index.js",
-        "README.md"
+        "index.cjs.js",
+        "index.esm.js",
+        "README.md",
+        "header.png"
     ],
     "devDependencies": {
         "react": "^18.2.0",
