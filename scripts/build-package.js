@@ -6,10 +6,6 @@ const path = require("node:path");
 
 const icons = require("../icons.json");
 
-const pascalCase = str => {
-    return str.match(/[a-zA-Z0-9]+/g).map(w => `${w.charAt(0).toUpperCase()}${w.slice(1)}`).join("");
-};
-
 // Transform for packages
 const transforms = {
     react: {
@@ -30,7 +26,7 @@ const transforms = {
                 `    </svg>`,
                 `);`,
                 ...Object.values(icons).map(icon => {
-                    return `export const ${pascalCase(icon.name)}Icon = () => (<Icon icon="${icon.name}" />);`;
+                    return `export const ${icon.reactComponentName} = () => (<Icon icon="${icon.name}" />);`;
                 }),
             ];
             // return code.join("\n");

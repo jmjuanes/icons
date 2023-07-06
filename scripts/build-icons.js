@@ -6,6 +6,10 @@ const path = require("node:path");
 //     return Buffer.from(str).toString("base64");
 // };
 
+const pascalCase = str => {
+    return str.match(/[a-zA-Z0-9]+/g).map(w => `${w.charAt(0).toUpperCase()}${w.slice(1)}`).join("");
+};
+
 // Tiny utility to extract the d="" segment from the icon
 const getIconPath = str => str.match(/\sd="([^\"]*)"/im)[1];
 
@@ -49,9 +53,11 @@ const main = () => {
             return Promise.all(icons.map(icon => {
                 const iconPath = path.join(srcFolder, icon);
                 return fs.readFile(iconPath, "utf8").then(iconContent => {
+                    const iconName = path.basename(icon, ".svg");
                     return {
-                        name: path.basename(icon, ".svg"),
+                        name: iconName,
                         path: getIconPath(iconContent),
+                        reactComponentName: pascalCase(iconName) + "Icon",
                     };
                 });
             }));
