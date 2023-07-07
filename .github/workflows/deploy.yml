@@ -13,20 +13,20 @@ permissions:
 
 jobs:
   deploy:
-    if: ${{ github.repository == 'jmjuanes/mochicons' }}
+    if: ${{ github.repository == 'jmjuanes/icons' }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-node@v2
+      - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: '16.x'
       - uses: actions/configure-pages@v1
       - run: yarn install
-      - run: yarn run build:css
-      - run: yarn run build:preview
+      - run: yarn run build
+      - run: yarn run build:docs
       - uses: actions/upload-pages-artifact@v1
         with:
           name: github-pages

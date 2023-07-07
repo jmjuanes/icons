@@ -1,8 +1,14 @@
 name: Release
 
+## This workflow is limited only when a new tag is created
 on:
-  release:
-    types: [created]
+  push:
+    tags: ["*"]
+
+## Set permissions to the github token
+## https://github.com/softprops/action-gh-release#permissions 
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -15,20 +21,39 @@ jobs:
           node-version: '16.x'
       - run: yarn install
       - run: yarn build
+      - run: yarn pack:icons
       - uses: actions/upload-artifact@v3
         with:
           name: packages
           path: packages
           retention-days: 1
+      - uses: actions/upload-artifact@v3
+        with:
+            name: icons
+            path: icons.zip
+            retention-days: 1
+
+  release:
+    if: ${{ github.repository == 'jmjuanes/icons' }}
+    runs-on: ubuntu-latest
+    name: Release
+    needs: [build]
+    steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: icons
+      - uses: softprops/action-gh-release@v1
+        with:
+          files: icons.zip
   
   publish:
-    if: ${{ github.repository == 'jmjuanes/mochicons' }}
+    if: ${{ github.repository == 'jmjuanes/icons' }}
     runs-on: ubuntu-latest
-    name: Publish
+    name: Publish packages
     needs: [build]
     strategy:
       matrix:
-        package: [css, node, react]
+        package: [react]
     steps:
       - uses: actions/setup-node@v3
         with:
