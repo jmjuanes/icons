@@ -25,7 +25,8 @@
         "serve": "yarn serve:docs",
         "serve:docs": "stattic --folder www --port 3000",
         "test": "jest packages",
-        "test:react": "jest packages/react"
+        "test:react": "jest packages/react",
+        "pack:icons": "zip -r icons.zip ./icons"
     },
     "devDependencies": {
         "@babel/core": "^7.21.4",
