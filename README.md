@@ -27,7 +27,7 @@ The following NPM packages are managed on this repository:
 
 | Package | Version |
 | ------- | ------- |
-| **[@josemi-icons/react](./packages/react)** <br />Use icons as React components. | ![npm version](https://badgen.net/npm/v/%40josemi-icons/react?labelColor=1d2734&color=21bf81) |
+| **[@josemi-icons/react](./packages/react)** <br />Use icons as React components. | ![npm version](https://badgen.net/npm/v/@josemi-icons/react?labelColor=1d2734&color=21bf81) |
 
 ## License
 
