@@ -19,14 +19,21 @@ const transforms = {
                 }),
                 `};`,
                 `export const Icon = props => (`,
-                `    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">`,
-                `        <g fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2">`,
-                `            <path d={ICONS[props.icon] || ""} />`,
+                `    <svg xmlns="http://www.w3.org/2000/svg" width={props.size} height={props.size} viewBox="0 0 24 24">`,
+                `        <g fill="none" stroke={props.color} strokeLinecap="round" strokeLinejoin="round" strokeWidth={props.strokeWidth}>`,
+                `            <path d={props.path || ""} />`,
                 `        </g>`,
                 `    </svg>`,
                 `);`,
+                `Icon.defaultProps = {`,
+                `    path: "",`,
+                `    size: "1em",`,
+                `    color: "currentColor",`,
+                `    strokeWidth: 2,`,
+                `};`,
+                `export const renderIcon = name => (<Icon path={ICONS[name]} />);`,
                 ...Object.values(icons).map(icon => {
-                    return `export const ${icon.reactComponentName} = () => (<Icon icon="${icon.name}" />);`;
+                    return `export const ${icon.reactComponentName} = props => (<Icon {...props} path={ICONS["${icon.name}"]} />);`;
                 }),
             ];
             // return code.join("\n");

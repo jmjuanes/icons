@@ -26,7 +26,28 @@ export const App = () => (
 );
 ```
 
-### Customize icons
+### Customize icon using props
+
+You can use the following props to customize the icon:
+
+| Prop name | Description | Default value |
+|-----------|-------------|---------------|
+| `size`    | The icon size. | `1em` |
+| `color`   | The icon color. | `currentColor` |
+| `strokeWidth` | The width of the stroke to be applied to the icon path. | `2` |
+
+Example: 
+
+```jsx
+import React from "react";
+import {LineIcon} from "@josemi-icons/react";
+
+export const App = () => (
+    <LineIcon color="#eaeaea" size="32px" />
+);
+```
+
+### Customize icons using CSS
 
 You can use the `color` and `font-size` properties of CSS to customize the icon color and size:
 
