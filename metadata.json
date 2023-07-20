@@ -1,0 +1,5801 @@
+{
+    "activity": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "health",
+            "pulse",
+            "motion"
+        ]
+    },
+    "address-book": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "address",
+            "book",
+            "contacts"
+        ]
+    },
+    "alarm-check": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "alarm",
+            "clock",
+            "check",
+            "done"
+        ]
+    },
+    "alarm-minus": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "alarm",
+            "clock",
+            "minus",
+            "remove"
+        ]
+    },
+    "alarm-plus": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "alarm",
+            "clock",
+            "add"
+        ]
+    },
+    "alarm-snooze": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "alarm",
+            "clock",
+            "snooze"
+        ]
+    },
+    "alarm-x": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "alarm",
+            "clock",
+            "remove",
+            "delete"
+        ]
+    },
+    "alarm": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "alarm",
+            "clock"
+        ]
+    },
+    "album": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "book",
+            "photos",
+            "photography",
+            "gallery",
+            "multimedia"
+        ]
+    },
+    "align-bottom": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "position",
+            "align",
+            "bottom",
+            "elements",
+            "content",
+            "layout"
+        ]
+    },
+    "align-center": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "position",
+            "align",
+            "center",
+            "elements",
+            "content",
+            "layout"
+        ]
+    },
+    "align-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "position",
+            "align",
+            "left",
+            "elements",
+            "content",
+            "layout"
+        ]
+    },
+    "align-middle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "position",
+            "align",
+            "middle",
+            "elements",
+            "content",
+            "layout"
+        ]
+    },
+    "align-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "position",
+            "align",
+            "right",
+            "elements",
+            "content",
+            "layout"
+        ]
+    },
+    "align-top": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "position",
+            "align",
+            "top",
+            "elements",
+            "content",
+            "layout"
+        ]
+    },
+    "ambulance": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "health",
+            "vehicle",
+            "hospital",
+            "doctor",
+            "emergency"
+        ]
+    },
+    "anchor": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "ship",
+            "docks"
+        ]
+    },
+    "archive": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "files",
+            "box",
+            "index"
+        ]
+    },
+    "arrow-alt-down": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction"
+        ]
+    },
+    "arrow-alt-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction"
+        ]
+    },
+    "arrow-alt-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction"
+        ]
+    },
+    "arrow-alt-up": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction"
+        ]
+    },
+    "arrow-circle-down": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "circle",
+            "down"
+        ]
+    },
+    "arrow-circle-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "circle",
+            "left"
+        ]
+    },
+    "arrow-circle-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "circle",
+            "right"
+        ]
+    },
+    "arrow-circle-up": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "circle",
+            "up"
+        ]
+    },
+    "arrow-down-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "diagonal",
+            "down",
+            "left",
+            "corner"
+        ]
+    },
+    "arrow-down-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "diagonal",
+            "down",
+            "right",
+            "corner"
+        ]
+    },
+    "arrow-down": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "down"
+        ]
+    },
+    "arrow-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "left"
+        ]
+    },
+    "arrow-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "right"
+        ]
+    },
+    "arrow-square-down": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "square",
+            "down"
+        ]
+    },
+    "arrow-square-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "square",
+            "left"
+        ]
+    },
+    "arrow-square-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "square",
+            "right"
+        ]
+    },
+    "arrow-square-up": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "square",
+            "up"
+        ]
+    },
+    "arrow-up-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "diagonal",
+            "corner",
+            "up",
+            "left"
+        ]
+    },
+    "arrow-up-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "diagonal",
+            "corner",
+            "up",
+            "right"
+        ]
+    },
+    "arrow-up": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrow",
+            "direction",
+            "up"
+        ]
+    },
+    "arrows-horizontal": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrows",
+            "double",
+            "direction",
+            "left",
+            "right"
+        ]
+    },
+    "arrows-maximize": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrows",
+            "maximize",
+            "expand"
+        ]
+    },
+    "arrows-minimize": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrows",
+            "minimize",
+            "close"
+        ]
+    },
+    "arrows-repeat": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrows",
+            "repeat",
+            "action",
+            "replay",
+            "loop"
+        ]
+    },
+    "arrows-shuffle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrows",
+            "shuffle",
+            "action",
+            "mix",
+            "music",
+            "random"
+        ]
+    },
+    "arrows-switch": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrows",
+            "switch",
+            "toggle"
+        ]
+    },
+    "arrows-vertical": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrows",
+            "double",
+            "direction",
+            "up",
+            "down"
+        ]
+    },
+    "arrows": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "arrows",
+            "move",
+            "navigation",
+            "direction",
+            "left",
+            "right",
+            "up",
+            "down"
+        ]
+    },
+    "article": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "article",
+            "news",
+            "media",
+            "newspaper",
+            "magazine"
+        ]
+    },
+    "aspect-ratio": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "aspect",
+            "ratio",
+            "size",
+            "dimensions",
+            "screen",
+            "width",
+            "height"
+        ]
+    },
+    "asterisk": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "asterisk",
+            "character",
+            "keyboard",
+            "password"
+        ]
+    },
+    "at": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "at",
+            "sign",
+            "email",
+            "character",
+            "mention"
+        ]
+    },
+    "atom": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "atom",
+            "physics",
+            "element",
+            "electron",
+            "proton"
+        ]
+    },
+    "attachment": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "attach",
+            "email",
+            "document",
+            "annex"
+        ]
+    },
+    "backpack": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "backpack",
+            "bag",
+            "travel",
+            "education",
+            "school",
+            "camping"
+        ]
+    },
+    "backspace": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "backspace",
+            "character",
+            "remove",
+            "delete",
+            "sign"
+        ]
+    },
+    "bag": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "bag",
+            "shopping",
+            "buy",
+            "food"
+        ]
+    },
+    "balance": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "balance",
+            "weight",
+            "justice",
+            "license",
+            "software"
+        ]
+    },
+    "ban": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "ban",
+            "forbidden",
+            "not-allowed",
+            "restricted"
+        ]
+    },
+    "barrier": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "barrier",
+            "building",
+            "construction",
+            "not-allowed",
+            "forbidden"
+        ]
+    },
+    "bars": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "bars",
+            "hamburger",
+            "menu",
+            "interface",
+            "navigation",
+            "options"
+        ]
+    },
+    "battery-charging": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "battery",
+            "smartphone",
+            "tablet",
+            "electricity",
+            "charger",
+            "power",
+            "device"
+        ]
+    },
+    "battery-full": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "battery",
+            "smartphone",
+            "tablet",
+            "electricity",
+            "charger",
+            "power",
+            "device"
+        ]
+    },
+    "battery-half": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "battery",
+            "smartphone",
+            "tablet",
+            "electricity",
+            "charger",
+            "power",
+            "device"
+        ]
+    },
+    "battery-low": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "battery",
+            "smartphone",
+            "tablet",
+            "electricity",
+            "charger",
+            "power",
+            "device"
+        ]
+    },
+    "battery": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "battery",
+            "smartphone",
+            "tablet",
+            "electricity",
+            "charger",
+            "power",
+            "device"
+        ]
+    },
+    "beer": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "beer",
+            "alcohol",
+            "tabern",
+            "bar",
+            "drink"
+        ]
+    },
+    "bell": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "bell",
+            "notification",
+            "sign",
+            "alarm",
+            "reminder"
+        ]
+    },
+    "bezier": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "vector",
+            "bezier",
+            "curve",
+            "design",
+            "graphics"
+        ]
+    },
+    "bluetooth": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "device",
+            "bluetooth",
+            "transfer",
+            "connection"
+        ]
+    },
+    "blur": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "blur",
+            "effect",
+            "graphics",
+            "photography"
+        ]
+    },
+    "bold": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "bold",
+            "document",
+            "text",
+            "strong",
+            "format",
+            "highlight",
+            "bolder"
+        ]
+    },
+    "bolt": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "bold",
+            "charger",
+            "electricity",
+            "storm",
+            "power"
+        ]
+    },
+    "bomb": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "bomb",
+            "explosion",
+            "weapon",
+            "war"
+        ]
+    },
+    "book-open": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "book",
+            "open",
+            "reading",
+            "novel",
+            "history"
+        ]
+    },
+    "book": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "book",
+            "reading",
+            "novel",
+            "history"
+        ]
+    },
+    "bookmark": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "bookmark",
+            "book",
+            "sign",
+            "indicator",
+            "continue",
+            "reminder"
+        ]
+    },
+    "box": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "box",
+            "container",
+            "contents"
+        ]
+    },
+    "briefcase": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "briefcase",
+            "travel",
+            "work",
+            "documents"
+        ]
+    },
+    "brush": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "brush",
+            "painting",
+            "drawing",
+            "creative"
+        ]
+    },
+    "bug": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "insect",
+            "nature",
+            "error",
+            "software",
+            "issue"
+        ]
+    },
+    "building": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "building",
+            "city",
+            "flat",
+            "office"
+        ]
+    },
+    "bus": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "bus",
+            "driver",
+            "transport",
+            "city",
+            "journey",
+            "vehicle",
+            "trip"
+        ]
+    },
+    "cake-slice": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "cake",
+            "slice",
+            "birthday",
+            "food",
+            "baking",
+            "chocolate",
+            "sweet"
+        ]
+    },
+    "cake": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "cake",
+            "birthday",
+            "food",
+            "baking",
+            "chocolate",
+            "sweet"
+        ]
+    },
+    "calendar": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "calendar",
+            "date",
+            "schedule",
+            "day",
+            "month",
+            "year"
+        ]
+    },
+    "camera": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "camera",
+            "photography",
+            "landscape",
+            "video",
+            "photo"
+        ]
+    },
+    "candy": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "candy",
+            "sweet",
+            "halloween",
+            "party",
+            "food",
+            "sugar"
+        ]
+    },
+    "car": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "car",
+            "vehicle",
+            "city",
+            "transport",
+            "drive",
+            "journey",
+            "trip"
+        ]
+    },
+    "caret-down": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "caret",
+            "down"
+        ]
+    },
+    "caret-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "caret",
+            "left"
+        ]
+    },
+    "caret-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "caret",
+            "right"
+        ]
+    },
+    "caret-up": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "caret",
+            "up"
+        ]
+    },
+    "cart": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "cart",
+            "shopping",
+            "market",
+            "food"
+        ]
+    },
+    "cast": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "cast",
+            "share",
+            "screen"
+        ]
+    },
+    "castle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "castle",
+            "building",
+            "medieval",
+            "king",
+            "queen",
+            "medieval",
+            "fort",
+            "fortification",
+            "palace"
+        ]
+    },
+    "chart-area": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chart",
+            "area",
+            "data",
+            "diagram",
+            "statistics",
+            "graph",
+            "analysis"
+        ]
+    },
+    "chart-bar": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chart",
+            "bars",
+            "data",
+            "diagram",
+            "statistics",
+            "graph",
+            "analysis"
+        ]
+    },
+    "chart-line": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chart",
+            "line",
+            "data",
+            "diagram",
+            "statistics",
+            "graph",
+            "analysis"
+        ]
+    },
+    "chart-pie": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chart",
+            "pie",
+            "data",
+            "diagram",
+            "statistics",
+            "graph",
+            "analysis"
+        ]
+    },
+    "chat-dots": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chat",
+            "message",
+            "dots",
+            "comment",
+            "conversation",
+            "reply"
+        ]
+    },
+    "chat": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chat",
+            "message",
+            "comment",
+            "conversation",
+            "reply"
+        ]
+    },
+    "check-circle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "circle",
+            "check"
+        ]
+    },
+    "check-square": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "check",
+            "square",
+            "done",
+            "completed"
+        ]
+    },
+    "check": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "check",
+            "square",
+            "complete",
+            "done"
+        ]
+    },
+    "checks": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "check",
+            "double",
+            "completed",
+            "done"
+        ]
+    },
+    "chevron-circle-down": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "circle",
+            "down"
+        ]
+    },
+    "chevron-circle-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "circle",
+            "left"
+        ]
+    },
+    "chevron-circle-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "circle",
+            "right"
+        ]
+    },
+    "chevron-circle-up": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "circle",
+            "up"
+        ]
+    },
+    "chevron-down-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "circle",
+            "down",
+            "left"
+        ]
+    },
+    "chevron-down-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "down",
+            "right"
+        ]
+    },
+    "chevron-down": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "down"
+        ]
+    },
+    "chevron-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "left"
+        ]
+    },
+    "chevron-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "right"
+        ]
+    },
+    "chevron-square-down": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "square",
+            "down"
+        ]
+    },
+    "chevron-square-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "square",
+            "left"
+        ]
+    },
+    "chevron-square-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "square",
+            "right"
+        ]
+    },
+    "chevron-square-up": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "square",
+            "up"
+        ]
+    },
+    "chevron-up-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "up",
+            "left"
+        ]
+    },
+    "chevron-up-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "up",
+            "right"
+        ]
+    },
+    "chevron-up": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevron",
+            "up"
+        ]
+    },
+    "chevrons-circle-down": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevrons",
+            "circle",
+            "down"
+        ]
+    },
+    "chevrons-circle-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevrons",
+            "circle",
+            "left"
+        ]
+    },
+    "chevrons-circle-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevrons",
+            "circle",
+            "right"
+        ]
+    },
+    "chevrons-circle-up": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevrons",
+            "circle",
+            "up"
+        ]
+    },
+    "chevrons-down": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevrons",
+            "down"
+        ]
+    },
+    "chevrons-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevrons",
+            "left"
+        ]
+    },
+    "chevrons-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevrons",
+            "right"
+        ]
+    },
+    "chevrons-square-down": {
+        "created": "0.1.0",
+        "lastUpdated": "0.2.0",
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevrons",
+            "square",
+            "down"
+        ]
+    },
+    "chevrons-square-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevrons",
+            "square",
+            "left"
+        ]
+    },
+    "chevrons-square-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevrons",
+            "square",
+            "right"
+        ]
+    },
+    "chevrons-square-up": {
+        "created": "0.2.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevrons",
+            "square",
+            "up"
+        ]
+    },
+    "chevrons-up": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevrons",
+            "up"
+        ]
+    },
+    "church": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "church",
+            "building",
+            "religion",
+            "temple",
+            "pray",
+            "cathedral"
+        ]
+    },
+    "circle-fill": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "circle",
+            "fill",
+            "shape"
+        ]
+    },
+    "circle-half": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "circle",
+            "half",
+            "shape"
+        ]
+    },
+    "circle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "circle",
+            "shape",
+            "geometry"
+        ]
+    },
+    "clipboard-minus": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "clipboard",
+            "copy",
+            "paste",
+            "minus",
+            "remove",
+            "discard"
+        ]
+    },
+    "clipboard-plus": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "clipboard",
+            "copy",
+            "paste",
+            "plus",
+            "add",
+            "append"
+        ]
+    },
+    "clipboard-x": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "clipboard",
+            "copy",
+            "paste",
+            "remove",
+            "discard"
+        ]
+    },
+    "clipboard": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "clipboard",
+            "copy",
+            "paste"
+        ]
+    },
+    "clock": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "clock",
+            "time",
+            "hour"
+        ]
+    },
+    "close": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "close",
+            "discard",
+            "x",
+            "times"
+        ]
+    },
+    "cloud-rain": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "cloud",
+            "rain",
+            "weather",
+            "rainfall"
+        ]
+    },
+    "cloud": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "cloud",
+            "weather"
+        ]
+    },
+    "code-block": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "code",
+            "block",
+            "programming",
+            "computer"
+        ]
+    },
+    "code-square": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "code",
+            "square",
+            "programming",
+            "computer"
+        ]
+    },
+    "code": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "code",
+            "programming",
+            "computer"
+        ]
+    },
+    "coffee": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "coffee",
+            "drink",
+            "morning",
+            "hot",
+            "cup",
+            "expresso",
+            "latte",
+            "cafe",
+            "mug"
+        ]
+    },
+    "cog": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "cog",
+            "settings",
+            "configuration"
+        ]
+    },
+    "command": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "command",
+            "computer"
+        ]
+    },
+    "compass": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "compass",
+            "navigation",
+            "direction",
+            "travel"
+        ]
+    },
+    "component": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "component",
+            "element",
+            "module",
+            "design"
+        ]
+    },
+    "contrast": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "contrast",
+            "photography",
+            "photo",
+            "screen",
+            "effect"
+        ]
+    },
+    "cookie": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "cookie",
+            "food",
+            "sweet",
+            "chips",
+            "chocolate",
+            "sugar"
+        ]
+    },
+    "copy": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "copy",
+            "duplicate",
+            "clone"
+        ]
+    },
+    "copyleft": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "copyleft",
+            "license",
+            "author"
+        ]
+    },
+    "copyright": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "copyright",
+            "license",
+            "author"
+        ]
+    },
+    "cpu": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "cpu",
+            "computer"
+        ]
+    },
+    "credit-card": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "credit",
+            "card",
+            "shopping",
+            "bank",
+            "pay",
+            "money"
+        ]
+    },
+    "crop": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "crop",
+            "edition",
+            "photography",
+            "image"
+        ]
+    },
+    "crown": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "crown",
+            "king",
+            "keen",
+            "monarch",
+            "kingdom"
+        ]
+    },
+    "cut": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "cut",
+            "scissors",
+            "paper",
+            "hair"
+        ]
+    },
+    "diamond": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "diamond",
+            "jewellery",
+            "gem",
+            "crystal",
+            "ring"
+        ]
+    },
+    "disk": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "disk",
+            "computer",
+            "storage"
+        ]
+    },
+    "divide-circle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "divide",
+            "circle",
+            "math"
+        ]
+    },
+    "divide-square": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "divide",
+            "square",
+            "math"
+        ]
+    },
+    "divide": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "divide",
+            "math"
+        ]
+    },
+    "dna": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "dna",
+            "health",
+            "investigation"
+        ]
+    },
+    "dollar-circle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "dollar",
+            "circle",
+            "money",
+            "pay",
+            "bank"
+        ]
+    },
+    "donut": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "donut",
+            "food",
+            "sugar",
+            "sweet"
+        ]
+    },
+    "download": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "download",
+            "file",
+            "computer"
+        ]
+    },
+    "drawing": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "drawing",
+            "paper",
+            "painting",
+            "paint"
+        ]
+    },
+    "droplet": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "droplet",
+            "water"
+        ]
+    },
+    "e-passport": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "e",
+            "passport",
+            "travel"
+        ]
+    },
+    "edit": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "edit",
+            "edition"
+        ]
+    },
+    "emoji-angry": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "emoji",
+            "angry"
+        ]
+    },
+    "emoji-confused": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "emoji",
+            "confused"
+        ]
+    },
+    "emoji-empty": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "emoji",
+            "empty"
+        ]
+    },
+    "emoji-expressionless": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "emoji",
+            "expressionless"
+        ]
+    },
+    "emoji-laugh": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "emoji",
+            "laugh"
+        ]
+    },
+    "emoji-neutral": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "emoji",
+            "neutral"
+        ]
+    },
+    "emoji-sad": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "emoji",
+            "sad"
+        ]
+    },
+    "emoji-smile": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "emoji",
+            "smile"
+        ]
+    },
+    "emoji-surprise": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "emoji",
+            "surprise"
+        ]
+    },
+    "emoji-wink": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "emoji",
+            "wink"
+        ]
+    },
+    "envelope": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "envelope",
+            "send",
+            "mail",
+            "email",
+            "post"
+        ]
+    },
+    "equal": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "equal",
+            "math"
+        ]
+    },
+    "erase": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "erase",
+            "edition",
+            "edit",
+            "discard",
+            "remove"
+        ]
+    },
+    "exclamation-circle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "exclamation",
+            "circle"
+        ]
+    },
+    "exclamation-square": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "exclamation",
+            "square"
+        ]
+    },
+    "exclamation-triangle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "exclamation",
+            "triangle"
+        ]
+    },
+    "external-link": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "external",
+            "link",
+            "browser",
+            "web"
+        ]
+    },
+    "eye-slash": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "eye",
+            "slash",
+            "view",
+            "vision"
+        ]
+    },
+    "eye": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "eye",
+            "view",
+            "vision"
+        ]
+    },
+    "factory": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "factory",
+            "industry",
+            "production"
+        ]
+    },
+    "file-check": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "file",
+            "check",
+            "computer",
+            "done",
+            "completed",
+            "document"
+        ]
+    },
+    "file-dots": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "file",
+            "dots",
+            "computer",
+            "document"
+        ]
+    },
+    "file-empty": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "file",
+            "empty",
+            "computer",
+            "document"
+        ]
+    },
+    "file-minus": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "file",
+            "minus",
+            "document",
+            "remove"
+        ]
+    },
+    "file-plus": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "file",
+            "plus",
+            "computer",
+            "document",
+            "add",
+            "include"
+        ]
+    },
+    "file-x": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "file",
+            "x",
+            "computer",
+            "document",
+            "remove",
+            "discard"
+        ]
+    },
+    "file": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "file",
+            "document",
+            "computer"
+        ]
+    },
+    "files": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "files",
+            "double",
+            "computer",
+            "document"
+        ]
+    },
+    "fill": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "fill",
+            "edition",
+            "color"
+        ]
+    },
+    "filter": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "filter",
+            "effect",
+            "photography",
+            "photo",
+            "edition"
+        ]
+    },
+    "flag": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "flag",
+            "country",
+            "map",
+            "report",
+            "alert"
+        ]
+    },
+    "flask": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "flask",
+            "investigation",
+            "laboratory",
+            "health"
+        ]
+    },
+    "float-center": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "float",
+            "center",
+            "text"
+        ]
+    },
+    "float-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "float",
+            "left",
+            "text"
+        ]
+    },
+    "float-none": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "float",
+            "none",
+            "text"
+        ]
+    },
+    "float-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "float",
+            "right",
+            "text"
+        ]
+    },
+    "folder-check": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "folder",
+            "check",
+            "computer",
+            "done",
+            "completed",
+            "documents"
+        ]
+    },
+    "folder-minus": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "folder",
+            "minus",
+            "computer",
+            "remove",
+            "documents"
+        ]
+    },
+    "folder-plus": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "folder",
+            "plus",
+            "computer",
+            "add",
+            "documents"
+        ]
+    },
+    "folder-x": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "folder",
+            "x",
+            "computer",
+            "documents",
+            "remove",
+            "discard"
+        ]
+    },
+    "folder": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "folder",
+            "computer",
+            "documents"
+        ]
+    },
+    "folders": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "folders",
+            "double",
+            "computer",
+            "documents"
+        ]
+    },
+    "frame": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "frame",
+            "edition",
+            "crop"
+        ]
+    },
+    "fullscreen-exit": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "fullscreen",
+            "exit"
+        ]
+    },
+    "fullscreen": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "fullscreen"
+        ]
+    },
+    "function-square": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "function",
+            "square",
+            "math"
+        ]
+    },
+    "gamepad": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "gamepad",
+            "games",
+            "play"
+        ]
+    },
+    "ghost": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "ghost",
+            "halloween",
+            "spirit",
+            "haunt"
+        ]
+    },
+    "gift": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "gift",
+            "present",
+            "birthday",
+            "celebration",
+            "party",
+            "surprise"
+        ]
+    },
+    "git-branch": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "git",
+            "branch"
+        ]
+    },
+    "git-commit": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "git",
+            "commit"
+        ]
+    },
+    "git-merge": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "git",
+            "merge"
+        ]
+    },
+    "git-pull-request": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "git",
+            "pull",
+            "request"
+        ]
+    },
+    "glass": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "glass",
+            "drink",
+            "water"
+        ]
+    },
+    "globe": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "globe",
+            "world",
+            "earth",
+            "global"
+        ]
+    },
+    "grid": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "grid",
+            "layout"
+        ]
+    },
+    "hamburger": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "hamburger",
+            "food",
+            "fast-food",
+            "burger"
+        ]
+    },
+    "hand-grab": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "hand",
+            "grab"
+        ]
+    },
+    "hand-pointer": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "hand",
+            "pointer"
+        ]
+    },
+    "headphones": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "headphones",
+            "music",
+            "media"
+        ]
+    },
+    "heart-crack": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "heart",
+            "crack",
+            "love"
+        ]
+    },
+    "heart": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "heart",
+            "love",
+            "health"
+        ]
+    },
+    "hexagon": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "hexagon",
+            "geometry",
+            "shape"
+        ]
+    },
+    "highlighter": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "highlighter",
+            "edit",
+            "paper"
+        ]
+    },
+    "history-redo": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "history",
+            "redo"
+        ]
+    },
+    "history-undo": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "history",
+            "undo"
+        ]
+    },
+    "history": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "history"
+        ]
+    },
+    "home": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "home",
+            "house",
+            "building",
+            "city"
+        ]
+    },
+    "hospital": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "hospital",
+            "building",
+            "city",
+            "emergency",
+            "doctor",
+            "health"
+        ]
+    },
+    "ice-cream-glass": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "ice",
+            "cream",
+            "glass",
+            "food"
+        ]
+    },
+    "ice-cream": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "ice",
+            "cream",
+            "food"
+        ]
+    },
+    "image-circle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "image",
+            "circle",
+            "picture",
+            "photo",
+            "landscape"
+        ]
+    },
+    "image": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "image",
+            "picture",
+            "photo",
+            "landscape"
+        ]
+    },
+    "inbox": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "inbox",
+            "mail",
+            "email",
+            "post"
+        ]
+    },
+    "indent": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "indent",
+            "text",
+            "format"
+        ]
+    },
+    "info-circle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "info",
+            "circle"
+        ]
+    },
+    "info-square": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "info",
+            "square"
+        ]
+    },
+    "italic": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "italic",
+            "text",
+            "format"
+        ]
+    },
+    "kanban": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "kanban",
+            "team",
+            "management",
+            "tasks",
+            "organization"
+        ]
+    },
+    "keyboard": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "keyboard",
+            "computer",
+            "input",
+            "keys"
+        ]
+    },
+    "laptop": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "laptop",
+            "computer",
+            "device",
+            "workstation",
+            "screen"
+        ]
+    },
+    "layout": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "layout",
+            "columns"
+        ]
+    },
+    "lifebuoy": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "lifebuoy",
+            "beach",
+            "ship"
+        ]
+    },
+    "lightbulb": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "lightbulb",
+            "idea",
+            "light"
+        ]
+    },
+    "line-hr": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "line",
+            "hr"
+        ]
+    },
+    "line-vr": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "line",
+            "vr"
+        ]
+    },
+    "line": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "line"
+        ]
+    },
+    "link": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "link",
+            "browser",
+            "page"
+        ]
+    },
+    "list-square": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "list",
+            "square",
+            "tasks"
+        ]
+    },
+    "list": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "list",
+            "tasks",
+            "bullets"
+        ]
+    },
+    "location": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "location",
+            "map",
+            "position",
+            "travel"
+        ]
+    },
+    "lock": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "lock",
+            "security",
+            "password",
+            "secure",
+            "protected"
+        ]
+    },
+    "login": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "login",
+            "password",
+            "input",
+            "secure"
+        ]
+    },
+    "logout": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "logout",
+            "exit"
+        ]
+    },
+    "lollipop": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "lollipop",
+            "food",
+            "sweet",
+            "sugar"
+        ]
+    },
+    "magnet": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "magnet",
+            "magnetic"
+        ]
+    },
+    "map": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "map",
+            "travel",
+            "position",
+            "navigation"
+        ]
+    },
+    "martini-glass": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "martini",
+            "glass",
+            "bar",
+            "drink",
+            "alcohol"
+        ]
+    },
+    "megaphone": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "megaphone",
+            "alert",
+            "notification",
+            "advertisement"
+        ]
+    },
+    "message": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "message",
+            "chat",
+            "conversation"
+        ]
+    },
+    "microphone": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "microphone",
+            "device"
+        ]
+    },
+    "milk-bottle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "milk",
+            "bottle",
+            "food"
+        ]
+    },
+    "minus-circle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "minus",
+            "circle",
+            "remove"
+        ]
+    },
+    "minus-square": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "minus",
+            "square",
+            "remove"
+        ]
+    },
+    "minus": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "minus",
+            "remove"
+        ]
+    },
+    "mobile": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "mobile",
+            "device",
+            "smartphone",
+            "apps",
+            "communication",
+            "calls"
+        ]
+    },
+    "mochi": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "mochi",
+            "food",
+            "japan"
+        ]
+    },
+    "money": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "money",
+            "bank",
+            "pay",
+            "cash"
+        ]
+    },
+    "monitor": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "monitor",
+            "screen",
+            "computer"
+        ]
+    },
+    "moon": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "moon",
+            "night"
+        ]
+    },
+    "mouse": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "mouse",
+            "device",
+            "computer",
+            "input",
+            "pointer"
+        ]
+    },
+    "mug": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "mug",
+            "coffee",
+            "tea",
+            "drink",
+            "food"
+        ]
+    },
+    "music-note": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "music",
+            "note",
+            "media",
+            "sound"
+        ]
+    },
+    "music-player": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "music",
+            "player",
+            "media",
+            "sound",
+            "mp3"
+        ]
+    },
+    "news": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "news",
+            "notice",
+            "newspaper",
+            "article"
+        ]
+    },
+    "not-equal": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "not",
+            "equal",
+            "math"
+        ]
+    },
+    "note": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "note",
+            "message",
+            "memo"
+        ]
+    },
+    "notebook": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "notebook",
+            "notes",
+            "diary",
+            "journal",
+            "page"
+        ]
+    },
+    "notepad": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "notepad",
+            "notes"
+        ]
+    },
+    "object-difference": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "object",
+            "difference"
+        ]
+    },
+    "object-group": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "object",
+            "group"
+        ]
+    },
+    "object-intersect": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "object",
+            "intersect"
+        ]
+    },
+    "object-substract": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "object",
+            "substract"
+        ]
+    },
+    "object-ungroup": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "object",
+            "ungroup"
+        ]
+    },
+    "object-union": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "object",
+            "union"
+        ]
+    },
+    "outdent": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "outdent"
+        ]
+    },
+    "palette": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "palette",
+            "color"
+        ]
+    },
+    "party-horn": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "party",
+            "horn",
+            "celebration"
+        ]
+    },
+    "passport": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "passport",
+            "travel"
+        ]
+    },
+    "path": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "path",
+            "vector"
+        ]
+    },
+    "pause": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "pause",
+            "media"
+        ]
+    },
+    "pen-nib": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "pen",
+            "nib",
+            "edit",
+            "design"
+        ]
+    },
+    "pen": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "pen",
+            "edit",
+            "write",
+            "design"
+        ]
+    },
+    "pencil": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "pencil",
+            "edit",
+            "design",
+            "write"
+        ]
+    },
+    "pentagon": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "pentagon",
+            "shape",
+            "geometry"
+        ]
+    },
+    "phone": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "phone",
+            "call",
+            "conversation"
+        ]
+    },
+    "pill": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "pill",
+            "health",
+            "medicine"
+        ]
+    },
+    "pin": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "pin",
+            "map",
+            "save"
+        ]
+    },
+    "plane-landing": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "plane",
+            "landing",
+            "travel"
+        ]
+    },
+    "plane-takeoff": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "plane",
+            "takeoff",
+            "travel"
+        ]
+    },
+    "plane": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "plane",
+            "travel"
+        ]
+    },
+    "planet": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "planet",
+            "universe"
+        ]
+    },
+    "play": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "play",
+            "media"
+        ]
+    },
+    "plug": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "plug",
+            "electricity",
+            "socket"
+        ]
+    },
+    "plus-circle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "plus",
+            "circle"
+        ]
+    },
+    "plus-square": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "plus",
+            "square"
+        ]
+    },
+    "plus": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "plus"
+        ]
+    },
+    "pointer": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "pointer"
+        ]
+    },
+    "popcorn": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "popcorn",
+            "food",
+            "cinema",
+            "film"
+        ]
+    },
+    "popsicle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "popsicle",
+            "ice",
+            "food",
+            "sweet"
+        ]
+    },
+    "postcard": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "postcard",
+            "travel",
+            "souvenir",
+            "photo"
+        ]
+    },
+    "presentation": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "presentation",
+            "diapositives"
+        ]
+    },
+    "printer": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "printer",
+            "print",
+            "device",
+            "computer",
+            "copy",
+            "fax",
+            "scan"
+        ]
+    },
+    "puzzle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "puzzle",
+            "item"
+        ]
+    },
+    "question-circle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "question",
+            "circle"
+        ]
+    },
+    "question-square": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "question",
+            "square"
+        ]
+    },
+    "quote": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "quote",
+            "character"
+        ]
+    },
+    "receipt-dollar": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "receipt",
+            "dollar",
+            "buy"
+        ]
+    },
+    "receipt": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "receipt",
+            "buy"
+        ]
+    },
+    "rectangle-horizontal": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "rectangle",
+            "horizontal",
+            "shape",
+            "geometry"
+        ]
+    },
+    "rectangle-vertical": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "rectangle",
+            "vertical",
+            "shape",
+            "geometry"
+        ]
+    },
+    "refresh": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "refresh",
+            "reload",
+            "restart",
+            "arrows"
+        ]
+    },
+    "reload": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "reload",
+            "refresh",
+            "repeat",
+            "arrows"
+        ]
+    },
+    "rocket": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "rocket",
+            "travel",
+            "space"
+        ]
+    },
+    "rotate": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "rotate",
+            "reload",
+            "arrows"
+        ]
+    },
+    "ruler-2": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "ruler",
+            "size"
+        ]
+    },
+    "ruler": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "ruler",
+            "size"
+        ]
+    },
+    "scroll-empty": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "scroll",
+            "empty",
+            "document",
+            "paper"
+        ]
+    },
+    "scroll": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "scroll",
+            "document",
+            "paper"
+        ]
+    },
+    "search": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "search",
+            "magnifier",
+            "find",
+            "glass"
+        ]
+    },
+    "send": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "send",
+            "message",
+            "email",
+            "paper",
+            "airplane"
+        ]
+    },
+    "server": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "server",
+            "computer"
+        ]
+    },
+    "shapes": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "shapes"
+        ]
+    },
+    "share": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "share",
+            "network",
+            "connection"
+        ]
+    },
+    "shield-check": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "shield",
+            "check",
+            "security",
+            "done"
+        ]
+    },
+    "shield-exclamation": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "shield",
+            "exclamation",
+            "security",
+            "warning"
+        ]
+    },
+    "shield-question": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "shield",
+            "question",
+            "security"
+        ]
+    },
+    "shield-x": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "shield",
+            "x",
+            "security",
+            "danger"
+        ]
+    },
+    "shield": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "shield",
+            "security"
+        ]
+    },
+    "ship": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "ship",
+            "travel"
+        ]
+    },
+    "sidebar-left-close": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "sidebar",
+            "left",
+            "close",
+            "layout,"
+        ]
+    },
+    "sidebar-left-open": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "sidebar",
+            "left",
+            "open",
+            "layout"
+        ]
+    },
+    "sidebar-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "sidebar",
+            "left",
+            "layout"
+        ]
+    },
+    "sidebar-right-close": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "sidebar",
+            "right",
+            "close",
+            "layout"
+        ]
+    },
+    "sidebar-right-open": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "sidebar",
+            "right",
+            "open",
+            "layout"
+        ]
+    },
+    "sidebar-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "sidebar",
+            "right",
+            "layout"
+        ]
+    },
+    "sliders": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "sliders",
+            "configuration"
+        ]
+    },
+    "soda-cup": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "soda",
+            "cup",
+            "drink"
+        ]
+    },
+    "soup": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "soup",
+            "food"
+        ]
+    },
+    "space": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "space",
+            "text"
+        ]
+    },
+    "square-fill": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "square",
+            "fill"
+        ]
+    },
+    "square-half": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "square",
+            "half"
+        ]
+    },
+    "square": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "square",
+            "shape",
+            "geometry"
+        ]
+    },
+    "stack": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "stack",
+            "layers"
+        ]
+    },
+    "star-half": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "star",
+            "half"
+        ]
+    },
+    "star": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "star"
+        ]
+    },
+    "step-backward": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "step",
+            "backward",
+            "media"
+        ]
+    },
+    "step-forward": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "step",
+            "forward",
+            "media"
+        ]
+    },
+    "stop": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "stop",
+            "media"
+        ]
+    },
+    "store": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "store",
+            "building",
+            "shop",
+            "buy",
+            "shopping"
+        ]
+    },
+    "suitcase": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "suitcase",
+            "travel"
+        ]
+    },
+    "sun": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "sun",
+            "sunny"
+        ]
+    },
+    "table": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "table",
+            "layout"
+        ]
+    },
+    "tablet": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "tablet",
+            "device"
+        ]
+    },
+    "tent": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "tent",
+            "campsite",
+            "nature"
+        ]
+    },
+    "terminal": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "terminal",
+            "command",
+            "computer"
+        ]
+    },
+    "text-center": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "text",
+            "center",
+            "format"
+        ]
+    },
+    "text-cursor": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "text",
+            "cursor",
+            "format"
+        ]
+    },
+    "text-input": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "text"
+        ]
+    },
+    "text-justify": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "text",
+            "justify"
+        ]
+    },
+    "text-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "text",
+            "left",
+            "format"
+        ]
+    },
+    "text-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "text",
+            "right",
+            "format"
+        ]
+    },
+    "text-selection": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "text",
+            "selection"
+        ]
+    },
+    "text-wrap": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "text",
+            "wrap",
+            "format"
+        ]
+    },
+    "text": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "text"
+        ]
+    },
+    "ticket": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "ticket",
+            "cinema",
+            "theater",
+            "event",
+            "spectacle"
+        ]
+    },
+    "toggle-left": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "toggle",
+            "left"
+        ]
+    },
+    "toggle-right": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "toggle",
+            "right"
+        ]
+    },
+    "togo-cup": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "togo",
+            "cup",
+            "drink"
+        ]
+    },
+    "tool": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "tool",
+            "preferences",
+            "settings"
+        ]
+    },
+    "tools": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "tools",
+            "preferences",
+            "settings"
+        ]
+    },
+    "tower": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "tower",
+            "building",
+            "castle"
+        ]
+    },
+    "trash": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "trash",
+            "delete",
+            "remove",
+            "bin"
+        ]
+    },
+    "tree-pine": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "tree",
+            "pine",
+            "nature"
+        ]
+    },
+    "tree": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "tree",
+            "nature"
+        ]
+    },
+    "triangle-inverted": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "triangle",
+            "inverted",
+            "shape",
+            "geometry"
+        ]
+    },
+    "triangle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "triangle",
+            "shape",
+            "geometry"
+        ]
+    },
+    "trophy": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "trophy",
+            "challenge",
+            "sport",
+            "winner"
+        ]
+    },
+    "truck": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "truck",
+            "transport",
+            "vehicle"
+        ]
+    },
+    "tv-retro": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "tv",
+            "retro",
+            "screen"
+        ]
+    },
+    "tv": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "tv",
+            "screen"
+        ]
+    },
+    "umbrella": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "umbrella",
+            "rain"
+        ]
+    },
+    "underline": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "underline",
+            "text",
+            "format"
+        ]
+    },
+    "unlock": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "unlock",
+            "unsecure"
+        ]
+    },
+    "upload": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "upload",
+            "computer",
+            "document",
+            "file"
+        ]
+    },
+    "user-circle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "user",
+            "circle"
+        ]
+    },
+    "user-minus": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "user",
+            "minus"
+        ]
+    },
+    "user-plus": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "user",
+            "plus"
+        ]
+    },
+    "user-x": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "user",
+            "x"
+        ]
+    },
+    "user": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "user"
+        ]
+    },
+    "video": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "video",
+            "media"
+        ]
+    },
+    "virus": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "virus",
+            "health"
+        ]
+    },
+    "volume-down": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "volume",
+            "down",
+            "media"
+        ]
+    },
+    "volume-mute": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "volume",
+            "mute",
+            "media"
+        ]
+    },
+    "volume-up": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "volume",
+            "up",
+            "media"
+        ]
+    },
+    "wallet-cards": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "wallet",
+            "cards",
+            "buy",
+            "shopping",
+            "money"
+        ]
+    },
+    "wallet": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "wallet",
+            "money",
+            "shopping",
+            "cash"
+        ]
+    },
+    "watch": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "watch",
+            "clock",
+            "time"
+        ]
+    },
+    "window": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "window",
+            "computer",
+            "app"
+        ]
+    },
+    "wine-glass": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "wine",
+            "glass",
+            "cup",
+            "drink",
+            "alcohol"
+        ]
+    },
+    "x-circle": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "x",
+            "circle"
+        ]
+    },
+    "x-square": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "x",
+            "square"
+        ]
+    },
+    "x": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "x",
+            "math"
+        ]
+    },
+    "zoom-in": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "zoom",
+            "in",
+            "magnifier",
+            "glass"
+        ]
+    },
+    "zoom-out": {
+        "created": "0.1.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "zoom",
+            "out",
+            "magnifier",
+            "glass"
+        ]
+    }
+}
