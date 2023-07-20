@@ -115,7 +115,7 @@
         "keywords": [
             "book",
             "photos",
-            "photograpy",
+            "photography",
             "gallery",
             "multimedia"
         ]
@@ -1000,7 +1000,7 @@
             "blur",
             "effect",
             "graphics",
-            "photograpy"
+            "photography"
         ]
     },
     "bold": {
@@ -1157,7 +1157,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "building",
+            "city",
+            "flat",
+            "office"
+        ]
     },
     "bus": {
         "created": "0.1.0",
@@ -1166,7 +1171,15 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "bus",
+            "driver",
+            "transport",
+            "city",
+            "journey",
+            "vehicle",
+            "trip"
+        ]
     },
     "cake-slice": {
         "created": "0.1.0",
@@ -1175,7 +1188,15 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "cake",
+            "slice",
+            "birthday",
+            "food",
+            "baking",
+            "chocolate",
+            "sweet"
+        ]
     },
     "cake": {
         "created": "0.1.0",
@@ -1184,7 +1205,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "cake",
+            "birthday",
+            "food",
+            "baking",
+            "chocolate",
+            "sweet"
+        ]
     },
     "calendar": {
         "created": "0.1.0",
@@ -1193,7 +1221,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "calendar",
+            "date",
+            "schedule",
+            "day",
+            "month",
+            "year"
+        ]
     },
     "camera": {
         "created": "0.1.0",
@@ -1202,7 +1237,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "camera",
+            "photography",
+            "landscape",
+            "video",
+            "photo"
+        ]
     },
     "candy": {
         "created": "0.1.0",
@@ -1211,7 +1252,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "candy",
+            "sweet",
+            "halloween",
+            "party",
+            "food",
+            "sugar"
+        ]
     },
     "car": {
         "created": "0.1.0",
@@ -1220,7 +1268,15 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "car",
+            "vehicle",
+            "city",
+            "transport",
+            "drive",
+            "journey",
+            "trip"
+        ]
     },
     "caret-down": {
         "created": "0.1.0",
@@ -1229,7 +1285,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "caret",
+            "down"
+        ]
     },
     "caret-left": {
         "created": "0.1.0",
@@ -1238,7 +1297,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "caret",
+            "left"
+        ]
     },
     "caret-right": {
         "created": "0.1.0",
@@ -1247,7 +1309,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "caret",
+            "right"
+        ]
     },
     "caret-up": {
         "created": "0.1.0",
@@ -1256,7 +1321,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "caret",
+            "up"
+        ]
     },
     "cart": {
         "created": "0.1.0",
@@ -1265,7 +1333,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "cart",
+            "shopping",
+            "market",
+            "food"
+        ]
     },
     "cast": {
         "created": "0.1.0",
@@ -1274,7 +1347,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "cast",
+            "share",
+            "screen"
+        ]
     },
     "castle": {
         "created": "0.1.0",
@@ -1283,7 +1360,17 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "castle",
+            "building",
+            "medieval",
+            "king",
+            "queen",
+            "medieval",
+            "fort",
+            "fortification",
+            "palace"
+        ]
     },
     "chart-area": {
         "created": "0.1.0",
@@ -1292,7 +1379,15 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chart",
+            "area",
+            "data",
+            "diagram",
+            "statistics",
+            "graph",
+            "analysis"
+        ]
     },
     "chart-bar": {
         "created": "0.1.0",
@@ -1301,7 +1396,15 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chart",
+            "bars",
+            "data",
+            "diagram",
+            "statistics",
+            "graph",
+            "analysis"
+        ]
     },
     "chart-line": {
         "created": "0.1.0",
@@ -1310,7 +1413,15 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chart",
+            "line",
+            "data",
+            "diagram",
+            "statistics",
+            "graph",
+            "analysis"
+        ]
     },
     "chart-pie": {
         "created": "0.1.0",
@@ -1319,7 +1430,15 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chart",
+            "pie",
+            "data",
+            "diagram",
+            "statistics",
+            "graph",
+            "analysis"
+        ]
     },
     "chat-dots": {
         "created": "0.1.0",
@@ -1328,7 +1447,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chat",
+            "message",
+            "dots",
+            "comment",
+            "conversation",
+            "reply"
+        ]
     },
     "chat": {
         "created": "0.1.0",
@@ -1337,7 +1463,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chat",
+            "message",
+            "comment",
+            "conversation",
+            "reply"
+        ]
     },
     "check-circle": {
         "created": "0.1.0",
@@ -1346,7 +1478,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "circle",
+            "check"
+        ]
     },
     "check-square": {
         "created": "0.1.0",
@@ -1355,7 +1490,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "check",
+            "square",
+            "done",
+            "completed"
+        ]
     },
     "check": {
         "created": "0.1.0",
@@ -1364,7 +1504,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "check",
+            "square",
+            "complete",
+            "done"
+        ]
     },
     "checks": {
         "created": "0.1.0",
@@ -1373,7 +1518,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "check",
+            "double",
+            "completed",
+            "done"
+        ]
     },
     "chevron-circle-down": {
         "created": "0.1.0",
@@ -1382,7 +1532,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "circle",
+            "down"
+        ]
     },
     "chevron-circle-left": {
         "created": "0.1.0",
@@ -1391,7 +1545,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "circle",
+            "left"
+        ]
     },
     "chevron-circle-right": {
         "created": "0.1.0",
@@ -1400,7 +1558,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "circle",
+            "right"
+        ]
     },
     "chevron-circle-up": {
         "created": "0.1.0",
@@ -1409,7 +1571,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "circle",
+            "up"
+        ]
     },
     "chevron-down-left": {
         "created": "0.1.0",
@@ -1418,7 +1584,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "circle",
+            "down",
+            "left"
+        ]
     },
     "chevron-down-right": {
         "created": "0.1.0",
@@ -1427,7 +1598,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "down",
+            "right"
+        ]
     },
     "chevron-down": {
         "created": "0.1.0",
@@ -1436,7 +1611,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "down"
+        ]
     },
     "chevron-left": {
         "created": "0.1.0",
@@ -1445,7 +1623,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "left"
+        ]
     },
     "chevron-right": {
         "created": "0.1.0",
@@ -1454,7 +1635,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "right"
+        ]
     },
     "chevron-square-down": {
         "created": "0.1.0",
@@ -1463,7 +1647,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "square",
+            "down"
+        ]
     },
     "chevron-square-left": {
         "created": "0.1.0",
@@ -1472,7 +1660,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "square",
+            "left"
+        ]
     },
     "chevron-square-right": {
         "created": "0.1.0",
@@ -1481,7 +1673,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "square",
+            "right"
+        ]
     },
     "chevron-square-up": {
         "created": "0.1.0",
@@ -1490,7 +1686,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "square",
+            "up"
+        ]
     },
     "chevron-up-left": {
         "created": "0.1.0",
@@ -1499,7 +1699,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "up",
+            "left"
+        ]
     },
     "chevron-up-right": {
         "created": "0.1.0",
@@ -1508,7 +1712,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "up",
+            "right"
+        ]
     },
     "chevron-up": {
         "created": "0.1.0",
@@ -1517,7 +1725,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevron",
+            "up"
+        ]
     },
     "chevrons-circle-down": {
         "created": "0.1.0",
@@ -1526,7 +1737,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevrons",
+            "circle",
+            "down"
+        ]
     },
     "chevrons-circle-left": {
         "created": "0.1.0",
@@ -1535,7 +1750,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevrons",
+            "circle",
+            "left"
+        ]
     },
     "chevrons-circle-right": {
         "created": "0.1.0",
@@ -1544,7 +1763,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevrons",
+            "circle",
+            "right"
+        ]
     },
     "chevrons-circle-up": {
         "created": "0.1.0",
@@ -1553,7 +1776,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevrons",
+            "circle",
+            "up"
+        ]
     },
     "chevrons-down": {
         "created": "0.1.0",
@@ -1562,7 +1789,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevrons",
+            "down"
+        ]
     },
     "chevrons-left": {
         "created": "0.1.0",
@@ -1571,7 +1801,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevrons",
+            "left"
+        ]
     },
     "chevrons-right": {
         "created": "0.1.0",
@@ -1580,25 +1813,23 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
-    },
-    "chevrons-square-down(1)": {
-        "created": "0.1.0",
-        "lastUpdated": null,
-        "contributors": [
-            "Josemi Juanes <hello@josemi.xyz>"
-        ],
-        "category": "",
-        "keywords": []
+        "keywords": [
+            "chevrons",
+            "right"
+        ]
     },
     "chevrons-square-down": {
         "created": "0.1.0",
-        "lastUpdated": null,
+        "lastUpdated": "0.2.0",
         "contributors": [
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevrons",
+            "square",
+            "down"
+        ]
     },
     "chevrons-square-left": {
         "created": "0.1.0",
@@ -1607,7 +1838,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevrons",
+            "square",
+            "left"
+        ]
     },
     "chevrons-square-right": {
         "created": "0.1.0",
@@ -1616,7 +1851,24 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevrons",
+            "square",
+            "right"
+        ]
+    },
+    "chevrons-square-up": {
+        "created": "0.2.0",
+        "lastUpdated": null,
+        "contributors": [
+            "Josemi Juanes <hello@josemi.xyz>"
+        ],
+        "category": "",
+        "keywords": [
+            "chevrons",
+            "square",
+            "up"
+        ]
     },
     "chevrons-up": {
         "created": "0.1.0",
@@ -1625,7 +1877,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "chevrons",
+            "up"
+        ]
     },
     "church": {
         "created": "0.1.0",
@@ -1634,7 +1889,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "church",
+            "building",
+            "religion",
+            "temple",
+            "pray",
+            "cathedral"
+        ]
     },
     "circle-fill": {
         "created": "0.1.0",
@@ -1643,7 +1905,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "circle",
+            "fill",
+            "shape"
+        ]
     },
     "circle-half": {
         "created": "0.1.0",
@@ -1652,7 +1918,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "circle",
+            "half",
+            "shape"
+        ]
     },
     "circle": {
         "created": "0.1.0",
@@ -1661,7 +1931,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "circle",
+            "shape",
+            "geometry"
+        ]
     },
     "clipboard-minus": {
         "created": "0.1.0",
@@ -1670,7 +1944,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "clipboard",
+            "copy",
+            "paste",
+            "minus",
+            "remove",
+            "discard"
+        ]
     },
     "clipboard-plus": {
         "created": "0.1.0",
@@ -1679,7 +1960,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "clipboard",
+            "copy",
+            "paste",
+            "plus",
+            "add",
+            "append"
+        ]
     },
     "clipboard-x": {
         "created": "0.1.0",
@@ -1688,7 +1976,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "clipboard",
+            "copy",
+            "paste",
+            "remove",
+            "discard"
+        ]
     },
     "clipboard": {
         "created": "0.1.0",
@@ -1697,7 +1991,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "clipboard",
+            "copy",
+            "paste"
+        ]
     },
     "clock": {
         "created": "0.1.0",
@@ -1706,7 +2004,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "clock",
+            "time",
+            "hour"
+        ]
     },
     "close": {
         "created": "0.1.0",
@@ -1715,7 +2017,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "close",
+            "discard",
+            "x",
+            "times"
+        ]
     },
     "cloud-rain": {
         "created": "0.1.0",
@@ -1724,7 +2031,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "cloud",
+            "rain",
+            "weather",
+            "rainfall"
+        ]
     },
     "cloud": {
         "created": "0.1.0",
@@ -1733,7 +2045,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "cloud",
+            "weather"
+        ]
     },
     "code-block": {
         "created": "0.1.0",
@@ -1742,7 +2057,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "code",
+            "block",
+            "programming",
+            "computer"
+        ]
     },
     "code-square": {
         "created": "0.1.0",
@@ -1751,7 +2071,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "code",
+            "square",
+            "programming",
+            "computer"
+        ]
     },
     "code": {
         "created": "0.1.0",
@@ -1760,7 +2085,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "code",
+            "programming",
+            "computer"
+        ]
     },
     "coffee": {
         "created": "0.1.0",
@@ -1769,7 +2098,17 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "coffee",
+            "drink",
+            "morning",
+            "hot",
+            "cup",
+            "expresso",
+            "latte",
+            "cafe",
+            "mug"
+        ]
     },
     "cog": {
         "created": "0.1.0",
@@ -1778,7 +2117,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "cog",
+            "settings",
+            "configuration"
+        ]
     },
     "command": {
         "created": "0.1.0",
@@ -1787,7 +2130,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "command",
+            "computer"
+        ]
     },
     "compass": {
         "created": "0.1.0",
@@ -1796,7 +2142,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "compass",
+            "navigation",
+            "direction",
+            "travel"
+        ]
     },
     "component": {
         "created": "0.1.0",
@@ -1805,7 +2156,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "component",
+            "element",
+            "module",
+            "design"
+        ]
     },
     "contrast": {
         "created": "0.1.0",
@@ -1814,7 +2170,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "contrast",
+            "photography",
+            "photo",
+            "screen",
+            "effect"
+        ]
     },
     "cookie": {
         "created": "0.1.0",
@@ -1823,7 +2185,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "cookie",
+            "food",
+            "sweet",
+            "chips",
+            "chocolate",
+            "sugar"
+        ]
     },
     "copy": {
         "created": "0.1.0",
@@ -1832,7 +2201,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "copy",
+            "duplicate",
+            "clone"
+        ]
     },
     "copyleft": {
         "created": "0.1.0",
@@ -1841,7 +2214,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "copyleft",
+            "license",
+            "author"
+        ]
     },
     "copyright": {
         "created": "0.1.0",
@@ -1850,7 +2227,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "copyright",
+            "license",
+            "author"
+        ]
     },
     "cpu": {
         "created": "0.1.0",
@@ -1859,7 +2240,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "cpu",
+            "computer"
+        ]
     },
     "credit-card": {
         "created": "0.1.0",
@@ -1868,7 +2252,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "credit",
+            "card",
+            "shopping",
+            "bank",
+            "pay",
+            "money"
+        ]
     },
     "crop": {
         "created": "0.1.0",
@@ -1877,7 +2268,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "crop",
+            "edition",
+            "photography",
+            "image"
+        ]
     },
     "crown": {
         "created": "0.1.0",
@@ -1886,7 +2282,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "crown",
+            "king",
+            "keen",
+            "monarch",
+            "kingdom"
+        ]
     },
     "cut": {
         "created": "0.1.0",
@@ -1895,7 +2297,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "cut",
+            "scissors",
+            "paper",
+            "hair"
+        ]
     },
     "diamond": {
         "created": "0.1.0",
@@ -1904,7 +2311,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "diamond",
+            "jewellery",
+            "gem",
+            "crystal",
+            "ring"
+        ]
     },
     "disk": {
         "created": "0.1.0",
@@ -1913,7 +2326,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "disk",
+            "computer",
+            "storage"
+        ]
     },
     "divide-circle": {
         "created": "0.1.0",
@@ -1922,7 +2339,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "divide",
+            "circle",
+            "math"
+        ]
     },
     "divide-square": {
         "created": "0.1.0",
@@ -1931,7 +2352,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "divide",
+            "square",
+            "math"
+        ]
     },
     "divide": {
         "created": "0.1.0",
@@ -1940,7 +2365,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "divide",
+            "math"
+        ]
     },
     "dna": {
         "created": "0.1.0",
@@ -1949,7 +2377,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "dna",
+            "health",
+            "investigation"
+        ]
     },
     "dollar-circle": {
         "created": "0.1.0",
@@ -1958,7 +2390,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "dollar",
+            "circle",
+            "money",
+            "pay",
+            "bank"
+        ]
     },
     "donut": {
         "created": "0.1.0",
@@ -1967,7 +2405,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "donut",
+            "food",
+            "sugar",
+            "sweet"
+        ]
     },
     "download": {
         "created": "0.1.0",
@@ -1976,7 +2419,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "download",
+            "file",
+            "computer"
+        ]
     },
     "drawing": {
         "created": "0.1.0",
@@ -1985,7 +2432,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "drawing",
+            "paper",
+            "painting",
+            "paint"
+        ]
     },
     "droplet": {
         "created": "0.1.0",
@@ -1994,7 +2446,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "droplet",
+            "water"
+        ]
     },
     "e-passport": {
         "created": "0.1.0",
@@ -2003,7 +2458,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "e",
+            "passport",
+            "travel"
+        ]
     },
     "edit": {
         "created": "0.1.0",
@@ -2012,7 +2471,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "edit",
+            "edition"
+        ]
     },
     "emoji-angry": {
         "created": "0.1.0",
@@ -2021,7 +2483,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "emoji",
+            "angry"
+        ]
     },
     "emoji-confused": {
         "created": "0.1.0",
@@ -2030,7 +2495,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "emoji",
+            "confused"
+        ]
     },
     "emoji-empty": {
         "created": "0.1.0",
@@ -2039,7 +2507,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "emoji",
+            "empty"
+        ]
     },
     "emoji-expressionless": {
         "created": "0.1.0",
@@ -2048,7 +2519,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "emoji",
+            "expressionless"
+        ]
     },
     "emoji-laugh": {
         "created": "0.1.0",
@@ -2057,7 +2531,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "emoji",
+            "laugh"
+        ]
     },
     "emoji-neutral": {
         "created": "0.1.0",
@@ -2066,7 +2543,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "emoji",
+            "neutral"
+        ]
     },
     "emoji-sad": {
         "created": "0.1.0",
@@ -2075,7 +2555,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "emoji",
+            "sad"
+        ]
     },
     "emoji-smile": {
         "created": "0.1.0",
@@ -2084,7 +2567,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "emoji",
+            "smile"
+        ]
     },
     "emoji-surprise": {
         "created": "0.1.0",
@@ -2093,7 +2579,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "emoji",
+            "surprise"
+        ]
     },
     "emoji-wink": {
         "created": "0.1.0",
@@ -2102,7 +2591,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "emoji",
+            "wink"
+        ]
     },
     "envelope": {
         "created": "0.1.0",
@@ -2111,7 +2603,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "envelope",
+            "send",
+            "mail",
+            "email",
+            "post"
+        ]
     },
     "equal": {
         "created": "0.1.0",
@@ -2120,7 +2618,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "equal",
+            "math"
+        ]
     },
     "erase": {
         "created": "0.1.0",
@@ -2129,7 +2630,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "erase",
+            "edition",
+            "edit",
+            "discard",
+            "remove"
+        ]
     },
     "exclamation-circle": {
         "created": "0.1.0",
@@ -2138,7 +2645,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "exclamation",
+            "circle"
+        ]
     },
     "exclamation-square": {
         "created": "0.1.0",
@@ -2147,7 +2657,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "exclamation",
+            "square"
+        ]
     },
     "exclamation-triangle": {
         "created": "0.1.0",
@@ -2156,7 +2669,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "exclamation",
+            "triangle"
+        ]
     },
     "external-link": {
         "created": "0.1.0",
@@ -2165,7 +2681,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "external",
+            "link",
+            "browser",
+            "web"
+        ]
     },
     "eye-slash": {
         "created": "0.1.0",
@@ -2174,7 +2695,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "eye",
+            "slash",
+            "view",
+            "vision"
+        ]
     },
     "eye": {
         "created": "0.1.0",
@@ -2183,7 +2709,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "eye",
+            "view",
+            "vision"
+        ]
     },
     "factory": {
         "created": "0.1.0",
@@ -2192,7 +2722,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "factory",
+            "industry",
+            "production"
+        ]
     },
     "file-check": {
         "created": "0.1.0",
@@ -2201,7 +2735,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "file",
+            "check",
+            "computer",
+            "done",
+            "completed",
+            "document"
+        ]
     },
     "file-dots": {
         "created": "0.1.0",
@@ -2210,7 +2751,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "file",
+            "dots",
+            "computer",
+            "document"
+        ]
     },
     "file-empty": {
         "created": "0.1.0",
@@ -2219,7 +2765,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "file",
+            "empty",
+            "computer",
+            "document"
+        ]
     },
     "file-minus": {
         "created": "0.1.0",
@@ -2228,7 +2779,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "file",
+            "minus",
+            "document",
+            "remove"
+        ]
     },
     "file-plus": {
         "created": "0.1.0",
@@ -2237,7 +2793,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "file",
+            "plus",
+            "computer",
+            "document",
+            "add",
+            "include"
+        ]
     },
     "file-x": {
         "created": "0.1.0",
@@ -2246,7 +2809,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "file",
+            "x",
+            "computer",
+            "document",
+            "remove",
+            "discard"
+        ]
     },
     "file": {
         "created": "0.1.0",
@@ -2255,7 +2825,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "file",
+            "document",
+            "computer"
+        ]
     },
     "files": {
         "created": "0.1.0",
@@ -2264,7 +2838,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "files",
+            "double",
+            "computer",
+            "document"
+        ]
     },
     "fill": {
         "created": "0.1.0",
@@ -2273,7 +2852,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "fill",
+            "edition",
+            "color"
+        ]
     },
     "filter": {
         "created": "0.1.0",
@@ -2282,7 +2865,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "filter",
+            "effect",
+            "photography",
+            "photo",
+            "edition"
+        ]
     },
     "flag": {
         "created": "0.1.0",
@@ -2291,7 +2880,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "flag",
+            "country",
+            "map",
+            "report",
+            "alert"
+        ]
     },
     "flask": {
         "created": "0.1.0",
@@ -2300,7 +2895,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "flask",
+            "investigation",
+            "laboratory",
+            "health"
+        ]
     },
     "float-center": {
         "created": "0.1.0",
@@ -2309,7 +2909,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "float",
+            "center",
+            "text"
+        ]
     },
     "float-left": {
         "created": "0.1.0",
@@ -2318,7 +2922,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "float",
+            "left",
+            "text"
+        ]
     },
     "float-none": {
         "created": "0.1.0",
@@ -2327,7 +2935,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "float",
+            "none",
+            "text"
+        ]
     },
     "float-right": {
         "created": "0.1.0",
@@ -2336,7 +2948,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "float",
+            "right",
+            "text"
+        ]
     },
     "folder-check": {
         "created": "0.1.0",
@@ -2345,7 +2961,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "folder",
+            "check",
+            "computer",
+            "done",
+            "completed",
+            "documents"
+        ]
     },
     "folder-minus": {
         "created": "0.1.0",
@@ -2354,7 +2977,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "folder",
+            "minus",
+            "computer",
+            "remove",
+            "documents"
+        ]
     },
     "folder-plus": {
         "created": "0.1.0",
@@ -2363,7 +2992,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "folder",
+            "plus",
+            "computer",
+            "add",
+            "documents"
+        ]
     },
     "folder-x": {
         "created": "0.1.0",
@@ -2372,7 +3007,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "folder",
+            "x",
+            "computer",
+            "documents",
+            "remove",
+            "discard"
+        ]
     },
     "folder": {
         "created": "0.1.0",
@@ -2381,7 +3023,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "folder",
+            "computer",
+            "documents"
+        ]
     },
     "folders": {
         "created": "0.1.0",
@@ -2390,7 +3036,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "folders",
+            "double",
+            "computer",
+            "documents"
+        ]
     },
     "frame": {
         "created": "0.1.0",
@@ -2399,16 +3050,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
-    },
-    "front": {
-        "created": "0.1.0",
-        "lastUpdated": null,
-        "contributors": [
-            "Josemi Juanes <hello@josemi.xyz>"
-        ],
-        "category": "",
-        "keywords": []
+        "keywords": [
+            "frame",
+            "edition",
+            "crop"
+        ]
     },
     "fullscreen-exit": {
         "created": "0.1.0",
@@ -2417,7 +3063,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "fullscreen",
+            "exit"
+        ]
     },
     "fullscreen": {
         "created": "0.1.0",
@@ -2426,7 +3075,9 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "fullscreen"
+        ]
     },
     "function-square": {
         "created": "0.1.0",
@@ -2435,7 +3086,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "function",
+            "square",
+            "math"
+        ]
     },
     "gamepad": {
         "created": "0.1.0",
@@ -2444,7 +3099,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "gamepad",
+            "games",
+            "play"
+        ]
     },
     "ghost": {
         "created": "0.1.0",
@@ -2453,7 +3112,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "ghost",
+            "halloween",
+            "spirit",
+            "haunt"
+        ]
     },
     "gift": {
         "created": "0.1.0",
@@ -2462,7 +3126,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "gift",
+            "present",
+            "birthday",
+            "celebration",
+            "party",
+            "surprise"
+        ]
     },
     "git-branch": {
         "created": "0.1.0",
@@ -2471,7 +3142,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "git",
+            "branch"
+        ]
     },
     "git-commit": {
         "created": "0.1.0",
@@ -2480,7 +3154,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "git",
+            "commit"
+        ]
     },
     "git-merge": {
         "created": "0.1.0",
@@ -2489,7 +3166,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "git",
+            "merge"
+        ]
     },
     "git-pull-request": {
         "created": "0.1.0",
@@ -2498,7 +3178,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "git",
+            "pull",
+            "request"
+        ]
     },
     "glass": {
         "created": "0.1.0",
@@ -2507,7 +3191,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "glass",
+            "drink",
+            "water"
+        ]
     },
     "globe": {
         "created": "0.1.0",
@@ -2516,7 +3204,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "globe",
+            "world",
+            "earth",
+            "global"
+        ]
     },
     "grid": {
         "created": "0.1.0",
@@ -2525,7 +3218,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "grid",
+            "layout"
+        ]
     },
     "hamburger": {
         "created": "0.1.0",
@@ -2534,7 +3230,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "hamburger",
+            "food",
+            "fast-food",
+            "burger"
+        ]
     },
     "hand-grab": {
         "created": "0.1.0",
@@ -2543,7 +3244,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "hand",
+            "grab"
+        ]
     },
     "hand-pointer": {
         "created": "0.1.0",
@@ -2552,7 +3256,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "hand",
+            "pointer"
+        ]
     },
     "headphones": {
         "created": "0.1.0",
@@ -2561,7 +3268,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "headphones",
+            "music",
+            "media"
+        ]
     },
     "heart-crack": {
         "created": "0.1.0",
@@ -2570,7 +3281,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "heart",
+            "crack",
+            "love"
+        ]
     },
     "heart": {
         "created": "0.1.0",
@@ -2579,7 +3294,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "heart",
+            "love",
+            "health"
+        ]
     },
     "hexagon": {
         "created": "0.1.0",
@@ -2588,7 +3307,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "hexagon",
+            "geometry",
+            "shape"
+        ]
     },
     "highlighter": {
         "created": "0.1.0",
@@ -2597,7 +3320,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "highlighter",
+            "edit",
+            "paper"
+        ]
     },
     "history-redo": {
         "created": "0.1.0",
@@ -2606,7 +3333,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "history",
+            "redo"
+        ]
     },
     "history-undo": {
         "created": "0.1.0",
@@ -2615,7 +3345,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "history",
+            "undo"
+        ]
     },
     "history": {
         "created": "0.1.0",
@@ -2624,7 +3357,9 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "history"
+        ]
     },
     "home": {
         "created": "0.1.0",
@@ -2633,7 +3368,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "home",
+            "house",
+            "building",
+            "city"
+        ]
     },
     "hospital": {
         "created": "0.1.0",
@@ -2642,7 +3382,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "hospital",
+            "building",
+            "city",
+            "emergency",
+            "doctor",
+            "health"
+        ]
     },
     "ice-cream-glass": {
         "created": "0.1.0",
@@ -2651,7 +3398,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "ice",
+            "cream",
+            "glass",
+            "food"
+        ]
     },
     "ice-cream": {
         "created": "0.1.0",
@@ -2660,7 +3412,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "ice",
+            "cream",
+            "food"
+        ]
     },
     "image-circle": {
         "created": "0.1.0",
@@ -2669,7 +3425,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "image",
+            "circle",
+            "picture",
+            "photo",
+            "landscape"
+        ]
     },
     "image": {
         "created": "0.1.0",
@@ -2678,7 +3440,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "image",
+            "picture",
+            "photo",
+            "landscape"
+        ]
     },
     "inbox": {
         "created": "0.1.0",
@@ -2687,7 +3454,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "inbox",
+            "mail",
+            "email",
+            "post"
+        ]
     },
     "indent": {
         "created": "0.1.0",
@@ -2696,7 +3468,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "indent",
+            "text",
+            "format"
+        ]
     },
     "info-circle": {
         "created": "0.1.0",
@@ -2705,7 +3481,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "info",
+            "circle"
+        ]
     },
     "info-square": {
         "created": "0.1.0",
@@ -2714,7 +3493,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "info",
+            "square"
+        ]
     },
     "italic": {
         "created": "0.1.0",
@@ -2723,7 +3505,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "italic",
+            "text",
+            "format"
+        ]
     },
     "kanban": {
         "created": "0.1.0",
@@ -2732,7 +3518,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "kanban",
+            "team",
+            "management",
+            "tasks",
+            "organization"
+        ]
     },
     "keyboard": {
         "created": "0.1.0",
@@ -2741,7 +3533,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "keyboard",
+            "computer",
+            "input",
+            "keys"
+        ]
     },
     "laptop": {
         "created": "0.1.0",
@@ -2750,7 +3547,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "laptop",
+            "computer",
+            "device",
+            "workstation",
+            "screen"
+        ]
     },
     "layout": {
         "created": "0.1.0",
@@ -2759,7 +3562,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "layout",
+            "columns"
+        ]
     },
     "lifebuoy": {
         "created": "0.1.0",
@@ -2768,7 +3574,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "lifebuoy",
+            "beach",
+            "ship"
+        ]
     },
     "lightbulb": {
         "created": "0.1.0",
@@ -2777,7 +3587,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "lightbulb",
+            "idea",
+            "light"
+        ]
     },
     "line-hr": {
         "created": "0.1.0",
@@ -2786,7 +3600,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "line",
+            "hr"
+        ]
     },
     "line-vr": {
         "created": "0.1.0",
@@ -2795,7 +3612,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "line",
+            "vr"
+        ]
     },
     "line": {
         "created": "0.1.0",
@@ -2804,7 +3624,9 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "line"
+        ]
     },
     "link": {
         "created": "0.1.0",
@@ -2813,7 +3635,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "link",
+            "browser",
+            "page"
+        ]
     },
     "list-square": {
         "created": "0.1.0",
@@ -2822,7 +3648,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "list",
+            "square",
+            "tasks"
+        ]
     },
     "list": {
         "created": "0.1.0",
@@ -2831,7 +3661,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "list",
+            "tasks",
+            "bullets"
+        ]
     },
     "location": {
         "created": "0.1.0",
@@ -2840,7 +3674,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "location",
+            "map",
+            "position",
+            "travel"
+        ]
     },
     "lock": {
         "created": "0.1.0",
@@ -2849,7 +3688,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "lock",
+            "security",
+            "password",
+            "secure",
+            "protected"
+        ]
     },
     "login": {
         "created": "0.1.0",
@@ -2858,7 +3703,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "login",
+            "password",
+            "input",
+            "secure"
+        ]
     },
     "logout": {
         "created": "0.1.0",
@@ -2867,7 +3717,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "logout",
+            "exit"
+        ]
     },
     "lollipop": {
         "created": "0.1.0",
@@ -2876,7 +3729,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "lollipop",
+            "food",
+            "sweet",
+            "sugar"
+        ]
     },
     "magnet": {
         "created": "0.1.0",
@@ -2885,7 +3743,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "magnet",
+            "magnetic"
+        ]
     },
     "map": {
         "created": "0.1.0",
@@ -2894,7 +3755,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "map",
+            "travel",
+            "position",
+            "navigation"
+        ]
     },
     "martini-glass": {
         "created": "0.1.0",
@@ -2903,7 +3769,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "martini",
+            "glass",
+            "bar",
+            "drink",
+            "alcohol"
+        ]
     },
     "megaphone": {
         "created": "0.1.0",
@@ -2912,7 +3784,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "megaphone",
+            "alert",
+            "notification",
+            "advertisement"
+        ]
     },
     "message": {
         "created": "0.1.0",
@@ -2921,7 +3798,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "message",
+            "chat",
+            "conversation"
+        ]
     },
     "microphone": {
         "created": "0.1.0",
@@ -2930,7 +3811,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "microphone",
+            "device"
+        ]
     },
     "milk-bottle": {
         "created": "0.1.0",
@@ -2939,7 +3823,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "milk",
+            "bottle",
+            "food"
+        ]
     },
     "minus-circle": {
         "created": "0.1.0",
@@ -2948,7 +3836,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "minus",
+            "circle",
+            "remove"
+        ]
     },
     "minus-square": {
         "created": "0.1.0",
@@ -2957,7 +3849,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "minus",
+            "square",
+            "remove"
+        ]
     },
     "minus": {
         "created": "0.1.0",
@@ -2966,7 +3862,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "minus",
+            "remove"
+        ]
     },
     "mobile": {
         "created": "0.1.0",
@@ -2975,7 +3874,14 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "mobile",
+            "device",
+            "smartphone",
+            "apps",
+            "communication",
+            "calls"
+        ]
     },
     "mochi": {
         "created": "0.1.0",
@@ -2984,7 +3890,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "mochi",
+            "food",
+            "japan"
+        ]
     },
     "money": {
         "created": "0.1.0",
@@ -2993,7 +3903,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "money",
+            "bank",
+            "pay",
+            "cash"
+        ]
     },
     "monitor": {
         "created": "0.1.0",
@@ -3002,7 +3917,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "monitor",
+            "screen",
+            "computer"
+        ]
     },
     "moon": {
         "created": "0.1.0",
@@ -3011,7 +3930,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "moon",
+            "night"
+        ]
     },
     "mouse": {
         "created": "0.1.0",
@@ -3020,7 +3942,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "mouse",
+            "device",
+            "computer",
+            "input",
+            "pointer"
+        ]
     },
     "mug": {
         "created": "0.1.0",
@@ -3029,7 +3957,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "mug",
+            "coffee",
+            "tea",
+            "drink",
+            "food"
+        ]
     },
     "music-note": {
         "created": "0.1.0",
@@ -3038,7 +3972,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "music",
+            "note",
+            "media",
+            "sound"
+        ]
     },
     "music-player": {
         "created": "0.1.0",
@@ -3047,7 +3986,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "music",
+            "player",
+            "media",
+            "sound",
+            "mp3"
+        ]
     },
     "news": {
         "created": "0.1.0",
@@ -3056,7 +4001,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "news",
+            "notice",
+            "newspaper",
+            "article"
+        ]
     },
     "not-equal": {
         "created": "0.1.0",
@@ -3065,7 +4015,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "not",
+            "equal",
+            "math"
+        ]
     },
     "note": {
         "created": "0.1.0",
@@ -3074,7 +4028,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "note",
+            "message",
+            "memo"
+        ]
     },
     "notebook": {
         "created": "0.1.0",
@@ -3083,7 +4041,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "notebook",
+            "notes",
+            "diary",
+            "journal",
+            "page"
+        ]
     },
     "notepad": {
         "created": "0.1.0",
@@ -3092,7 +4056,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "notepad",
+            "notes"
+        ]
     },
     "object-difference": {
         "created": "0.1.0",
@@ -3101,7 +4068,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "object",
+            "difference"
+        ]
     },
     "object-group": {
         "created": "0.1.0",
@@ -3110,7 +4080,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "object",
+            "group"
+        ]
     },
     "object-intersect": {
         "created": "0.1.0",
@@ -3119,7 +4092,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "object",
+            "intersect"
+        ]
     },
     "object-substract": {
         "created": "0.1.0",
@@ -3128,7 +4104,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "object",
+            "substract"
+        ]
     },
     "object-ungroup": {
         "created": "0.1.0",
@@ -3137,7 +4116,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "object",
+            "ungroup"
+        ]
     },
     "object-union": {
         "created": "0.1.0",
@@ -3146,7 +4128,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "object",
+            "union"
+        ]
     },
     "outdent": {
         "created": "0.1.0",
@@ -3155,7 +4140,9 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "outdent"
+        ]
     },
     "palette": {
         "created": "0.1.0",
@@ -3164,7 +4151,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "palette",
+            "color"
+        ]
     },
     "party-horn": {
         "created": "0.1.0",
@@ -3173,7 +4163,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "party",
+            "horn",
+            "celebration"
+        ]
     },
     "passport": {
         "created": "0.1.0",
@@ -3182,7 +4176,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "passport",
+            "travel"
+        ]
     },
     "path": {
         "created": "0.1.0",
@@ -3191,7 +4188,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "path",
+            "vector"
+        ]
     },
     "pause": {
         "created": "0.1.0",
@@ -3200,7 +4200,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "pause",
+            "media"
+        ]
     },
     "pen-nib": {
         "created": "0.1.0",
@@ -3209,7 +4212,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "pen",
+            "nib",
+            "edit",
+            "design"
+        ]
     },
     "pen": {
         "created": "0.1.0",
@@ -3218,7 +4226,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "pen",
+            "edit",
+            "write",
+            "design"
+        ]
     },
     "pencil": {
         "created": "0.1.0",
@@ -3227,7 +4240,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "pencil",
+            "edit",
+            "design",
+            "write"
+        ]
     },
     "pentagon": {
         "created": "0.1.0",
@@ -3236,7 +4254,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "pentagon",
+            "shape",
+            "geometry"
+        ]
     },
     "phone": {
         "created": "0.1.0",
@@ -3245,7 +4267,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "phone",
+            "call",
+            "conversation"
+        ]
     },
     "pill": {
         "created": "0.1.0",
@@ -3254,7 +4280,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "pill",
+            "health",
+            "medicine"
+        ]
     },
     "pin": {
         "created": "0.1.0",
@@ -3263,7 +4293,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "pin",
+            "map",
+            "save"
+        ]
     },
     "plane-landing": {
         "created": "0.1.0",
@@ -3272,7 +4306,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "plane",
+            "landing",
+            "travel"
+        ]
     },
     "plane-takeoff": {
         "created": "0.1.0",
@@ -3281,7 +4319,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "plane",
+            "takeoff",
+            "travel"
+        ]
     },
     "plane": {
         "created": "0.1.0",
@@ -3290,7 +4332,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "plane",
+            "travel"
+        ]
     },
     "planet": {
         "created": "0.1.0",
@@ -3299,7 +4344,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "planet",
+            "universe"
+        ]
     },
     "play": {
         "created": "0.1.0",
@@ -3308,7 +4356,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "play",
+            "media"
+        ]
     },
     "plug": {
         "created": "0.1.0",
@@ -3317,7 +4368,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "plug",
+            "electricity",
+            "socket"
+        ]
     },
     "plus-circle": {
         "created": "0.1.0",
@@ -3326,7 +4381,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "plus",
+            "circle"
+        ]
     },
     "plus-square": {
         "created": "0.1.0",
@@ -3335,7 +4393,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "plus",
+            "square"
+        ]
     },
     "plus": {
         "created": "0.1.0",
@@ -3344,7 +4405,9 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "plus"
+        ]
     },
     "pointer": {
         "created": "0.1.0",
@@ -3353,7 +4416,9 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "pointer"
+        ]
     },
     "popcorn": {
         "created": "0.1.0",
@@ -3362,7 +4427,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "popcorn",
+            "food",
+            "cinema",
+            "film"
+        ]
     },
     "popsicle": {
         "created": "0.1.0",
@@ -3371,7 +4441,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "popsicle",
+            "ice",
+            "food",
+            "sweet"
+        ]
     },
     "postcard": {
         "created": "0.1.0",
@@ -3380,7 +4455,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "postcard",
+            "travel",
+            "souvenir",
+            "photo"
+        ]
     },
     "presentation": {
         "created": "0.1.0",
@@ -3389,7 +4469,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "presentation",
+            "diapositives"
+        ]
     },
     "printer": {
         "created": "0.1.0",
@@ -3398,7 +4481,15 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "printer",
+            "print",
+            "device",
+            "computer",
+            "copy",
+            "fax",
+            "scan"
+        ]
     },
     "puzzle": {
         "created": "0.1.0",
@@ -3407,7 +4498,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "puzzle",
+            "item"
+        ]
     },
     "question-circle": {
         "created": "0.1.0",
@@ -3416,7 +4510,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "question",
+            "circle"
+        ]
     },
     "question-square": {
         "created": "0.1.0",
@@ -3425,7 +4522,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "question",
+            "square"
+        ]
     },
     "quote": {
         "created": "0.1.0",
@@ -3434,7 +4534,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "quote",
+            "character"
+        ]
     },
     "receipt-dollar": {
         "created": "0.1.0",
@@ -3443,7 +4546,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "receipt",
+            "dollar",
+            "buy"
+        ]
     },
     "receipt": {
         "created": "0.1.0",
@@ -3452,7 +4559,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "receipt",
+            "buy"
+        ]
     },
     "rectangle-horizontal": {
         "created": "0.1.0",
@@ -3461,7 +4571,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "rectangle",
+            "horizontal",
+            "shape",
+            "geometry"
+        ]
     },
     "rectangle-vertical": {
         "created": "0.1.0",
@@ -3470,7 +4585,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "rectangle",
+            "vertical",
+            "shape",
+            "geometry"
+        ]
     },
     "refresh": {
         "created": "0.1.0",
@@ -3479,7 +4599,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "refresh",
+            "reload",
+            "restart",
+            "arrows"
+        ]
     },
     "reload": {
         "created": "0.1.0",
@@ -3488,7 +4613,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "reload",
+            "refresh",
+            "repeat",
+            "arrows"
+        ]
     },
     "rocket": {
         "created": "0.1.0",
@@ -3497,7 +4627,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "rocket",
+            "travel",
+            "space"
+        ]
     },
     "rotate": {
         "created": "0.1.0",
@@ -3506,7 +4640,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "rotate",
+            "reload",
+            "arrows"
+        ]
     },
     "ruler-2": {
         "created": "0.1.0",
@@ -3515,7 +4653,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "ruler",
+            "size"
+        ]
     },
     "ruler": {
         "created": "0.1.0",
@@ -3524,7 +4665,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "ruler",
+            "size"
+        ]
     },
     "scroll-empty": {
         "created": "0.1.0",
@@ -3533,7 +4677,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "scroll",
+            "empty",
+            "document",
+            "paper"
+        ]
     },
     "scroll": {
         "created": "0.1.0",
@@ -3542,7 +4691,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "scroll",
+            "document",
+            "paper"
+        ]
     },
     "search": {
         "created": "0.1.0",
@@ -3551,7 +4704,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "search",
+            "magnifier",
+            "find",
+            "glass"
+        ]
     },
     "send": {
         "created": "0.1.0",
@@ -3560,7 +4718,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "send",
+            "message",
+            "email",
+            "paper",
+            "airplane"
+        ]
     },
     "server": {
         "created": "0.1.0",
@@ -3569,7 +4733,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "server",
+            "computer"
+        ]
     },
     "shapes": {
         "created": "0.1.0",
@@ -3578,7 +4745,9 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "shapes"
+        ]
     },
     "share": {
         "created": "0.1.0",
@@ -3587,7 +4756,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "share",
+            "network",
+            "connection"
+        ]
     },
     "shield-check": {
         "created": "0.1.0",
@@ -3596,7 +4769,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "shield",
+            "check",
+            "security",
+            "done"
+        ]
     },
     "shield-exclamation": {
         "created": "0.1.0",
@@ -3605,7 +4783,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "shield",
+            "exclamation",
+            "security",
+            "warning"
+        ]
     },
     "shield-question": {
         "created": "0.1.0",
@@ -3614,7 +4797,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "shield",
+            "question",
+            "security"
+        ]
     },
     "shield-x": {
         "created": "0.1.0",
@@ -3623,7 +4810,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "shield",
+            "x",
+            "security",
+            "danger"
+        ]
     },
     "shield": {
         "created": "0.1.0",
@@ -3632,7 +4824,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "shield",
+            "security"
+        ]
     },
     "ship": {
         "created": "0.1.0",
@@ -3641,7 +4836,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "ship",
+            "travel"
+        ]
     },
     "sidebar-left-close": {
         "created": "0.1.0",
@@ -3650,7 +4848,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "sidebar",
+            "left",
+            "close",
+            "layout,"
+        ]
     },
     "sidebar-left-open": {
         "created": "0.1.0",
@@ -3659,7 +4862,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "sidebar",
+            "left",
+            "open",
+            "layout"
+        ]
     },
     "sidebar-left": {
         "created": "0.1.0",
@@ -3668,7 +4876,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "sidebar",
+            "left",
+            "layout"
+        ]
     },
     "sidebar-right-close": {
         "created": "0.1.0",
@@ -3677,7 +4889,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "sidebar",
+            "right",
+            "close",
+            "layout"
+        ]
     },
     "sidebar-right-open": {
         "created": "0.1.0",
@@ -3686,7 +4903,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "sidebar",
+            "right",
+            "open",
+            "layout"
+        ]
     },
     "sidebar-right": {
         "created": "0.1.0",
@@ -3695,7 +4917,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "sidebar",
+            "right",
+            "layout"
+        ]
     },
     "sliders": {
         "created": "0.1.0",
@@ -3704,7 +4930,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "sliders",
+            "configuration"
+        ]
     },
     "soda-cup": {
         "created": "0.1.0",
@@ -3713,7 +4942,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "soda",
+            "cup",
+            "drink"
+        ]
     },
     "soup": {
         "created": "0.1.0",
@@ -3722,7 +4955,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "soup",
+            "food"
+        ]
     },
     "space": {
         "created": "0.1.0",
@@ -3731,7 +4967,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "space",
+            "text"
+        ]
     },
     "square-fill": {
         "created": "0.1.0",
@@ -3740,7 +4979,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "square",
+            "fill"
+        ]
     },
     "square-half": {
         "created": "0.1.0",
@@ -3749,7 +4991,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "square",
+            "half"
+        ]
     },
     "square": {
         "created": "0.1.0",
@@ -3758,7 +5003,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "square",
+            "shape",
+            "geometry"
+        ]
     },
     "stack": {
         "created": "0.1.0",
@@ -3767,7 +5016,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "stack",
+            "layers"
+        ]
     },
     "star-half": {
         "created": "0.1.0",
@@ -3776,7 +5028,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "star",
+            "half"
+        ]
     },
     "star": {
         "created": "0.1.0",
@@ -3785,7 +5040,9 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "star"
+        ]
     },
     "step-backward": {
         "created": "0.1.0",
@@ -3794,7 +5051,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "step",
+            "backward",
+            "media"
+        ]
     },
     "step-forward": {
         "created": "0.1.0",
@@ -3803,7 +5064,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "step",
+            "forward",
+            "media"
+        ]
     },
     "stop": {
         "created": "0.1.0",
@@ -3812,7 +5077,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "stop",
+            "media"
+        ]
     },
     "store": {
         "created": "0.1.0",
@@ -3821,7 +5089,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "store",
+            "building",
+            "shop",
+            "buy",
+            "shopping"
+        ]
     },
     "suitcase": {
         "created": "0.1.0",
@@ -3830,7 +5104,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "suitcase",
+            "travel"
+        ]
     },
     "sun": {
         "created": "0.1.0",
@@ -3839,7 +5116,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "sun",
+            "sunny"
+        ]
     },
     "table": {
         "created": "0.1.0",
@@ -3848,7 +5128,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "table",
+            "layout"
+        ]
     },
     "tablet": {
         "created": "0.1.0",
@@ -3857,7 +5140,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "tablet",
+            "device"
+        ]
     },
     "tent": {
         "created": "0.1.0",
@@ -3866,7 +5152,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "tent",
+            "campsite",
+            "nature"
+        ]
     },
     "terminal": {
         "created": "0.1.0",
@@ -3875,7 +5165,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "terminal",
+            "command",
+            "computer"
+        ]
     },
     "text-center": {
         "created": "0.1.0",
@@ -3884,7 +5178,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "text",
+            "center",
+            "format"
+        ]
     },
     "text-cursor": {
         "created": "0.1.0",
@@ -3893,7 +5191,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "text",
+            "cursor",
+            "format"
+        ]
     },
     "text-input": {
         "created": "0.1.0",
@@ -3902,7 +5204,9 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "text"
+        ]
     },
     "text-justify": {
         "created": "0.1.0",
@@ -3911,7 +5215,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "text",
+            "justify"
+        ]
     },
     "text-left": {
         "created": "0.1.0",
@@ -3920,7 +5227,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "text",
+            "left",
+            "format"
+        ]
     },
     "text-right": {
         "created": "0.1.0",
@@ -3929,7 +5240,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "text",
+            "right",
+            "format"
+        ]
     },
     "text-selection": {
         "created": "0.1.0",
@@ -3938,7 +5253,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "text",
+            "selection"
+        ]
     },
     "text-wrap": {
         "created": "0.1.0",
@@ -3947,7 +5265,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "text",
+            "wrap",
+            "format"
+        ]
     },
     "text": {
         "created": "0.1.0",
@@ -3956,7 +5278,9 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "text"
+        ]
     },
     "ticket": {
         "created": "0.1.0",
@@ -3965,7 +5289,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "ticket",
+            "cinema",
+            "theater",
+            "event",
+            "spectacle"
+        ]
     },
     "toggle-left": {
         "created": "0.1.0",
@@ -3974,7 +5304,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "toggle",
+            "left"
+        ]
     },
     "toggle-right": {
         "created": "0.1.0",
@@ -3983,7 +5316,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "toggle",
+            "right"
+        ]
     },
     "togo-cup": {
         "created": "0.1.0",
@@ -3992,7 +5328,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "togo",
+            "cup",
+            "drink"
+        ]
     },
     "tool": {
         "created": "0.1.0",
@@ -4001,7 +5341,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "tool",
+            "preferences",
+            "settings"
+        ]
     },
     "tools": {
         "created": "0.1.0",
@@ -4010,7 +5354,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "tools",
+            "preferences",
+            "settings"
+        ]
     },
     "tower": {
         "created": "0.1.0",
@@ -4019,7 +5367,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "tower",
+            "building",
+            "castle"
+        ]
     },
     "trash": {
         "created": "0.1.0",
@@ -4028,7 +5380,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "trash",
+            "delete",
+            "remove",
+            "bin"
+        ]
     },
     "tree-pine": {
         "created": "0.1.0",
@@ -4037,7 +5394,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "tree",
+            "pine",
+            "nature"
+        ]
     },
     "tree": {
         "created": "0.1.0",
@@ -4046,7 +5407,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "tree",
+            "nature"
+        ]
     },
     "triangle-inverted": {
         "created": "0.1.0",
@@ -4055,7 +5419,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "triangle",
+            "inverted",
+            "shape",
+            "geometry"
+        ]
     },
     "triangle": {
         "created": "0.1.0",
@@ -4064,7 +5433,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "triangle",
+            "shape",
+            "geometry"
+        ]
     },
     "trophy": {
         "created": "0.1.0",
@@ -4073,7 +5446,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "trophy",
+            "challenge",
+            "sport",
+            "winner"
+        ]
     },
     "truck": {
         "created": "0.1.0",
@@ -4082,7 +5460,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "truck",
+            "transport",
+            "vehicle"
+        ]
     },
     "tv-retro": {
         "created": "0.1.0",
@@ -4091,7 +5473,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "tv",
+            "retro",
+            "screen"
+        ]
     },
     "tv": {
         "created": "0.1.0",
@@ -4100,7 +5486,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "tv",
+            "screen"
+        ]
     },
     "umbrella": {
         "created": "0.1.0",
@@ -4109,7 +5498,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "umbrella",
+            "rain"
+        ]
     },
     "underline": {
         "created": "0.1.0",
@@ -4118,7 +5510,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "underline",
+            "text",
+            "format"
+        ]
     },
     "unlock": {
         "created": "0.1.0",
@@ -4127,7 +5523,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "unlock",
+            "unsecure"
+        ]
     },
     "upload": {
         "created": "0.1.0",
@@ -4136,7 +5535,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "upload",
+            "computer",
+            "document",
+            "file"
+        ]
     },
     "user-circle": {
         "created": "0.1.0",
@@ -4145,7 +5549,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "user",
+            "circle"
+        ]
     },
     "user-minus": {
         "created": "0.1.0",
@@ -4154,7 +5561,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "user",
+            "minus"
+        ]
     },
     "user-plus": {
         "created": "0.1.0",
@@ -4163,7 +5573,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "user",
+            "plus"
+        ]
     },
     "user-x": {
         "created": "0.1.0",
@@ -4172,7 +5585,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "user",
+            "x"
+        ]
     },
     "user": {
         "created": "0.1.0",
@@ -4181,7 +5597,9 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "user"
+        ]
     },
     "video": {
         "created": "0.1.0",
@@ -4190,7 +5608,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "video",
+            "media"
+        ]
     },
     "virus": {
         "created": "0.1.0",
@@ -4199,7 +5620,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "virus",
+            "health"
+        ]
     },
     "volume-down": {
         "created": "0.1.0",
@@ -4208,7 +5632,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "volume",
+            "down",
+            "media"
+        ]
     },
     "volume-mute": {
         "created": "0.1.0",
@@ -4217,7 +5645,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "volume",
+            "mute",
+            "media"
+        ]
     },
     "volume-up": {
         "created": "0.1.0",
@@ -4226,7 +5658,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "volume",
+            "up",
+            "media"
+        ]
     },
     "wallet-cards": {
         "created": "0.1.0",
@@ -4235,7 +5671,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "wallet",
+            "cards",
+            "buy",
+            "shopping",
+            "money"
+        ]
     },
     "wallet": {
         "created": "0.1.0",
@@ -4244,7 +5686,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "wallet",
+            "money",
+            "shopping",
+            "cash"
+        ]
     },
     "watch": {
         "created": "0.1.0",
@@ -4253,7 +5700,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "watch",
+            "clock",
+            "time"
+        ]
     },
     "window": {
         "created": "0.1.0",
@@ -4262,7 +5713,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "window",
+            "computer",
+            "app"
+        ]
     },
     "wine-glass": {
         "created": "0.1.0",
@@ -4271,7 +5726,13 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "wine",
+            "glass",
+            "cup",
+            "drink",
+            "alcohol"
+        ]
     },
     "x-circle": {
         "created": "0.1.0",
@@ -4280,7 +5741,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "x",
+            "circle"
+        ]
     },
     "x-square": {
         "created": "0.1.0",
@@ -4289,7 +5753,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "x",
+            "square"
+        ]
     },
     "x": {
         "created": "0.1.0",
@@ -4298,7 +5765,10 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "x",
+            "math"
+        ]
     },
     "zoom-in": {
         "created": "0.1.0",
@@ -4307,7 +5777,12 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "zoom",
+            "in",
+            "magnifier",
+            "glass"
+        ]
     },
     "zoom-out": {
         "created": "0.1.0",
@@ -4316,6 +5791,11 @@
             "Josemi Juanes <hello@josemi.xyz>"
         ],
         "category": "",
-        "keywords": []
+        "keywords": [
+            "zoom",
+            "out",
+            "magnifier",
+            "glass"
+        ]
     }
 }
