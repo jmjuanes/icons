@@ -45,6 +45,14 @@ describe("@josemi-icons/react", () => {
 
             expect(groupElement.props.stroke).toEqual(customColor);
         });
+
+        it("should allow to change icon stroke width", () => {
+            const customStroke = 4;
+            const iconInstance = TestRenderer.create(<Icons.Icon stroke={customStroke} />);
+            const groupElement = iconInstance.root.findByType("g");
+
+            expect(groupElement.props.strokeWidth).toEqual(customStroke);
+        });
     });
 
     describe("renderIcon", () => {

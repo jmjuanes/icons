@@ -30,11 +30,11 @@ export const App = () => (
 
 You can use the following props to customize the icon:
 
-| Prop name | Description | Default value |
-|-----------|-------------|---------------|
-| `size`    | The icon size. | `1em` |
-| `color`   | The icon color. | `currentColor` |
-| `strokeWidth` | The width of the stroke to be applied to the icon path. | `2` |
+| Prop name | Description | Type | Default value |
+|-----------|-------------|------|---------------|
+| `size`    | The icon size. | String | `"1em"` |
+| `color`   | The icon color. | String | `"currentColor"` |
+| `stroke` | The width of the stroke to be applied to the icon path. | String or Number | `2` |
 
 Example: 
 

@@ -20,7 +20,7 @@ const transforms = {
                 `};`,
                 `export const Icon = props => (`,
                 `    <svg xmlns="http://www.w3.org/2000/svg" width={props.size} height={props.size} viewBox="0 0 24 24">`,
-                `        <g fill="none" stroke={props.color} strokeLinecap="round" strokeLinejoin="round" strokeWidth={props.strokeWidth}>`,
+                `        <g fill="none" stroke={props.color} strokeLinecap="round" strokeLinejoin="round" strokeWidth={props.stroke}>`,
                 `            <path d={props.path || ""} />`,
                 `        </g>`,
                 `    </svg>`,
@@ -29,7 +29,7 @@ const transforms = {
                 `    path: "",`,
                 `    size: "1em",`,
                 `    color: "currentColor",`,
-                `    strokeWidth: 2,`,
+                `    stroke: 2,`,
                 `};`,
                 `export const renderIcon = name => (<Icon path={ICONS[name]} />);`,
                 ...Object.values(icons).map(icon => {
