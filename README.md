@@ -21,13 +21,22 @@ The easiest way is downloading or copying the icons from https://icons.josemi.xy
 </svg>
 ```
 
+You can also include or icons as images in a `<img>` element using a public CDN:
+
+```html
+<img src="https://unpkg.com/@josemi-icons/svg/icons/activity.svg" />
+```
+
+Read more about how to use icons in the [Usage section](https://icons.josemi.xyz/usage.html) of our website.
+
 ## Packages
 
 The following NPM packages are managed on this repository:
 
-| Package | Version |
-| ------- | ------- |
-| **[@josemi-icons/react](./packages/react)** <br />Use icons as React components. | ![npm version](https://badgen.net/npm/v/@josemi-icons/react?labelColor=1d2734&color=21bf81) |
+| Package | Description | Version |
+| ------- | ----------- | ------- |
+| **[@josemi-icons/svg](./packages/svg)** | A single package including all icons in SVG. | ![npm version](https://badgen.net/npm/v/@josemi-icons/svg?labelColor=1d2734&color=21bf81) |
+| **[@josemi-icons/react](./packages/react)** | Use icons as React components. | ![npm version](https://badgen.net/npm/v/@josemi-icons/react?labelColor=1d2734&color=21bf81) |
 
 ## License
 
