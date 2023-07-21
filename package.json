@@ -15,11 +15,13 @@
         "packages/*"
     ],
     "scripts": {
-        "build": "yarn build:icons && yarn build:react",
+        "build": "yarn build:icons && yarn build:react && yarn build:svg",
         "prebuild:icons": "rm -rf icons.json icons && mkdir icons",
         "build:icons": "node ./scripts/build-icons.js",
         "build:metadata": "node ./scripts/build-metadata.js",
         "build:react": "node ./scripts/build-package.js react",
+        "prebuild:svg": "rm -rf ./packages/svg/icons",
+        "build:svg": "cp -R icons ./packages/svg/",
         "prebuild:docs": "rm -rf www && mkdir www",
         "build:docs": "babel-node scripts/docs.js",
         "metadata": "yarn build:metadata",
@@ -28,6 +30,7 @@
         "serve:docs": "stattic --folder www --port 3000",
         "test": "jest packages",
         "test:react": "jest packages/react",
+        "test:svg": "jest packages/svg",
         "pack:icons": "zip -r icons.zip ./icons"
     },
     "devDependencies": {
