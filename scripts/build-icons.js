@@ -1,6 +1,9 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
 
+// Import metadata
+const metadata = require("../metadata.json");
+
 // Convert string to base64
 // const toBase64 = str => {
 //     return Buffer.from(str).toString("base64");
@@ -56,8 +59,11 @@ const main = () => {
                     const iconName = path.basename(icon, ".svg");
                     return {
                         name: iconName,
+                        componentName: pascalCase(iconName),
+                        version: metadata[iconName].version,
                         path: getIconPath(iconContent),
-                        reactComponentName: pascalCase(iconName) + "Icon",
+                        tags: metadata[iconName].tags || [],
+                        contributors: metadata[iconName].contributors || [],
                     };
                 });
             }));
