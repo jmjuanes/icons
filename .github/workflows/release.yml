@@ -53,7 +53,7 @@ jobs:
     needs: [build]
     strategy:
       matrix:
-        package: [react]
+        package: [svg, react]
     steps:
       - uses: actions/setup-node@v3
         with:
