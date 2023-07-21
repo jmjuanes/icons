@@ -36,7 +36,7 @@ layout: "default"
     </div>
     <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-10 gap-2 w-full">
     {props.icons.map(icon => (
-        <a key={icon.name} href={`${icon.name}.html`} className="flex flex-col p-4 rounded-lg hover:bg-gray-100 cursor-pointer no-underline text-gray-800" data-icon={icon.name}>
+        <a key={icon.name} href={`${icon.name}.html`} className="flex flex-col p-4 rounded-lg hover:bg-gray-100 cursor-pointer no-underline text-gray-800" data-icon-name={icon.name} data-icon-tags={icon.tags.join(",")}>
             <div className="flex justify-center text-3xl">
                 <Icon icon={icon.name} />
             </div>
@@ -50,13 +50,20 @@ layout: "default"
 
 <script type="text/javascript" dangerouslySetInnerHTML={{ __html: `
     let allVisible = true;
+    const isIconVisible = (value, target) => {
+        const name = target.dataset.iconName || "";
+        const tags = (target.dataset.iconTags || "").split(",");
+
+        return name.includes(value) || tags.some(t => t.includes(value));
+    };
     document.querySelector("input#search").addEventListener("input", event => {
         const value = event.target.value || "";
         // let count = 0;
         if (value.length >= 3 || !allVisible) {
             allVisible = value.length < 3;
-            Array.from(document.querySelectorAll("a[data-icon]")).forEach(item => {
-                if (value.length < 3 || item.dataset.icon.includes(value)) {
+            Array.from(document.querySelectorAll("a[data-icon-name]")).forEach(item => {
+                // if (value.length < 3 || item.dataset.icon.includes(value)) {
+                if (value.length < 3 || isIconVisible(value, item)) {
                     // count = count + 1;
                     item.style.display = "";
                 }
