@@ -1,0 +1,30 @@
+{
+    "name": "@josemi-icons/svg",
+    "version": "0.1.0",
+    "description": "An open source and hand-crafted SVG icons library",
+    "author": {
+        "name": "Josemi Juanes",
+        "email": "hello@josemi.xyz"
+    },
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jmjuanes/icons",
+        "directory": "packages/svg"
+    },
+    "bugs": "https://github.com/jmjuanes/icons/issues",
+    "homepage": "https://icons.josemi.xyz",
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "icons",
+        "svg",
+        "svg-icons"
+    ],
+    "files": [
+        "icons",
+        "README.md",
+        "header.png"
+    ]
+}
