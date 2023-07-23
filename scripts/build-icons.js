@@ -1,8 +1,6 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
-
-// Import metadata
-const metadata = require("../metadata.json");
+const {version} = require("../package.json");
 
 // Convert string to base64
 // const toBase64 = str => {
@@ -38,42 +36,45 @@ const generateSvg = async icons => {
 };
 
 const generateJson = icons => {
-    const outputPath = path.join(process.cwd(), "icons.json");
-    const outputJson = Object.fromEntries(icons.map(icon => {
-        return [icon.name, icon];
-    }));
+    const iconsPath = path.join(process.cwd(), "icons.json");
+    const iconsJson = {
+        "$id": "./icons.schema.json",
+        "version": version,
+        "icons": icons,
+    };
     // Save icons to JSON file
-    return fs.writeFile(outputPath, JSON.stringify(outputJson, null, "    "), "utf8");
+    return fs.writeFile(iconsPath, JSON.stringify(iconsJson, null, "    "), "utf8");
 };
 
-const main = () => {
+const main = async () => {
     const srcFolder = path.join(process.cwd(), "src");
-    return fs.readdir(srcFolder)
-        .then(icons => {
-            return icons.filter(icon => path.extname(icon) === ".svg");
-        })
-        .then(icons => {
-            return Promise.all(icons.map(icon => {
-                const iconPath = path.join(srcFolder, icon);
-                return fs.readFile(iconPath, "utf8").then(iconContent => {
-                    const iconName = path.basename(icon, ".svg");
-                    return {
-                        name: iconName,
-                        componentName: pascalCase(iconName),
-                        version: metadata[iconName].version,
-                        path: getIconPath(iconContent),
-                        tags: metadata[iconName].tags || [],
-                        contributors: metadata[iconName].contributors || [],
-                    };
-                });
-            }));
-        })
-        .then(icons => {
-            return Promise.all([
-                generateSvg(icons),
-                generateJson(icons),
-            ]);
-        });
+    const metadataFolder = path.join(process.cwd(), "metadata");
+    const iconsFiles = await fs.readdir(srcFolder);
+    const icons = [];
+    // Generate icons in JSON format
+    for (let i = 0; i < iconsFiles.length; i++) {
+        const icon = iconsFiles[i];
+        if (path.extname(icon) === ".svg") {
+            const name = path.basename(icon, ".svg");
+            const iconPath = path.join(srcFolder, icon);
+            const iconContent = await fs.readFile(iconPath, "utf8");
+            const metadataPath = path.join(metadataFolder, `${name}.json`);
+            const metadataContent = await fs.readFile(metadataPath, "utf8");
+            const metadata = JSON.parse(metadataContent);
+            // Insert icon object
+            icons.push({
+                name: name,
+                componentName: pascalCase(name),
+                version: metadata.version,
+                path: getIconPath(iconContent),
+                contributors: metadata.contributors || [],
+                tags: metadata.tags || [],
+            });
+        }
+    }
+    // Generate SVG and JSON
+    await generateSvg(icons);
+    await generateJson(icons);
 };
 
 // Build icons

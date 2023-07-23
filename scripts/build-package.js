@@ -4,7 +4,7 @@ const babel = require("@babel/core");
 const virtual = require("@rollup/plugin-virtual");
 const path = require("node:path");
 
-const icons = require("../icons.json");
+const {icons} = require("../icons.json");
 
 // Transform for packages
 const transforms = {
@@ -14,7 +14,7 @@ const transforms = {
             const code = [
                 `import React from "react";`,
                 `const ICONS = {`,
-                ...Object.values(icons).map(icon => {
+                ...icons.map(icon => {
                     return `"${icon.name}": "${icon.path}",`;
                 }),
                 `};`,
@@ -32,7 +32,7 @@ const transforms = {
                 `    stroke: 2,`,
                 `};`,
                 `export const renderIcon = name => (<Icon path={ICONS[name]} />);`,
-                ...Object.values(icons).map(icon => {
+                ...icons.map(icon => {
                     return `export const ${icon.componentName}Icon = props => (<Icon {...props} path={ICONS["${icon.name}"]} />);`;
                 }),
             ];
