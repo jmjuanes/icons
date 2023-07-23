@@ -36,7 +36,7 @@ layout: "default"
     </div>
     <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-10 gap-2 w-full">
     {props.icons.map(icon => (
-        <a key={icon.name} href={`${icon.name}.html`} className="flex flex-col p-4 rounded-lg hover:bg-gray-100 cursor-pointer no-underline text-gray-800" data-icon-name={icon.name} data-icon-tags={icon.tags.join(",")}>
+        <a key={icon.name} href={`${icon.name}.html`} className="flex flex-col justify-center p-4 rounded-lg hover:bg-gray-100 cursor-pointer no-underline text-gray-800" data-icon-name={icon.name} data-icon-tags={icon.tags.join(",")}>
             <div className="flex justify-center text-3xl">
                 <Icon icon={icon.name} />
             </div>
