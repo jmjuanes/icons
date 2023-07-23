@@ -1,0 +1,16 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "wallet-cards",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "wallet",
+        "cards",
+        "buy",
+        "shopping",
+        "money"
+    ]
+}

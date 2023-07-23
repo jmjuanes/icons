@@ -9,7 +9,7 @@ const hljs = require("highlight.js/lib/common");
 const {renderIcon, BarsIcon} = require("../packages/react/index.cjs.js");
 
 const pkg = require("../package.json");
-const icons = require("../icons.json");
+const {icons} = require("../icons.json");
 
 const CodeBlock = props => {
     const className = "p-4 rounded-md bg-gray-900 text-white overflow-auto mb-8 text-sm font-mono";
@@ -166,14 +166,14 @@ import("@mdx-js/mdx").then(mdx => {
         })
         .then(pages => {
             const templatePage = pages.find(page => page.fileName.startsWith("["));
-            const iconsPages = Object.keys(icons).map(icon => ({
+            const iconsPages = icons.map(icon => ({
                 data: {
                     ...templatePage.data,
-                    title: icon,
-                    icon: icons[icon],
+                    title: icon.name,
+                    icon: icon,
                 },
                 content: templatePage.content,
-                fileName: `${icon}.html`,
+                fileName: `${icon.name}.html`,
             }));
             return [
                 ...pages.filter(page => !page.fileName.startsWith("[")),
@@ -188,7 +188,7 @@ import("@mdx-js/mdx").then(mdx => {
                             element: React.createElement(pageComponent.default, {
                                 page: page,
                                 components: pageComponents,
-                                icons: Object.values(icons),
+                                icons: icons,
                                 version: pkg.version,
                                 repository: pkg.repository.url,
                             }),

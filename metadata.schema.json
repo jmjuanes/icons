@@ -1,0 +1,38 @@
+{
+    "$id": "https://icons.josemi.xyz/metadata.schema.json",
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "title": "Icon metadata schema",
+    "description": "A JSON Schema for the metadata object of an icon",
+    "type": "object",
+    "properties": {
+        "name": {
+            "type": "string"
+        },
+        "version": {
+            "type": "string"
+        },
+        "contributors": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        },
+        "categories": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "uniqueItems": true
+        },
+        "tags": {
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 1,
+            "uniqueItems": true
+        }
+    }
+}

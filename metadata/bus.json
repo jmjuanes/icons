@@ -1,0 +1,18 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "bus",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "bus",
+        "driver",
+        "transport",
+        "city",
+        "journey",
+        "vehicle",
+        "trip"
+    ]
+}

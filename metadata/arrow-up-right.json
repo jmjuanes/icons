@@ -1,0 +1,17 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "arrow-up-right",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "arrow",
+        "direction",
+        "diagonal",
+        "corner",
+        "up",
+        "right"
+    ]
+}

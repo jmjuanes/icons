@@ -1,0 +1,17 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "chat-dots",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "chat",
+        "message",
+        "dots",
+        "comment",
+        "conversation",
+        "reply"
+    ]
+}

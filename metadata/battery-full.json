@@ -1,0 +1,18 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "battery-full",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "battery",
+        "smartphone",
+        "tablet",
+        "electricity",
+        "charger",
+        "power",
+        "device"
+    ]
+}
