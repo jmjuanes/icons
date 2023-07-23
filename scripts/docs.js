@@ -6,7 +6,7 @@ const runtime = require("react/jsx-runtime");
 const matter = require("gray-matter");
 const hljs = require("highlight.js/lib/common");
 
-const {Icon, BarsIcon} = require("../packages/react/index.cjs.js");
+const {renderIcon, BarsIcon} = require("../packages/react/index.cjs.js");
 
 const pkg = require("../package.json");
 const icons = require("../icons.json");
@@ -30,7 +30,7 @@ const NavbarLink = props => (
     <a href={props.to} className="flex items-center gap-2 text-gray-800 px-3 py-2 rounded-md hover:bg-gray-200 no-underline">
         {props.icon && (
             <div className="flex items-center text-xl">
-                <Icon icon={props.icon} />
+                {renderIcon(props.icon)}
             </div>
         )}
         <div className="font-medium">
@@ -49,7 +49,7 @@ const pageComponents = {
         </a>
     ),
     "code": props => <code className="font-bold text-sm font-mono">{`'`}{props.children}{`'`}</code>,
-    Icon: props => <Icon icon={props.icon} />,
+    Icon: props => renderIcon(props.icon), // <Icon path={props.icon} />,
     Separator: () => <div className="w-full h-px bg-gray-200 my-10" />,
     CodeBlock: CodeBlock,
     Fragment: React.Fragment,

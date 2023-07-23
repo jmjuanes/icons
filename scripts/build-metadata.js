@@ -1,9 +1,9 @@
 const fs = require("node:fs/promises");
 const path = require("node:path");
 
-const {version, author} = require("../package.json");
+const {version} = require("../package.json");
 
-const generateKeywords = iconName => {
+const generateTags = iconName => {
     return iconName.split("-");
 };
 
@@ -24,22 +24,16 @@ const main = () => {
                 const iconName = path.basename(file, ".svg");
                 if (typeof metadata[iconName] === "undefined") {
                     metadata[iconName] = {
-                        created: version,
-                        lastUpdated: null,
+                        name: iconName,
+                        version: version,
                         contributors: [
-                            author,
+                            "jmjuanes",
                         ],
-                        category: "",
-                        keywords: generateKeywords(iconName),
+                        tags: generateTags(iconName),
+                        categories: [],
                     };
                 }
             });
-            // Fix keywords of existing icons
-            // Object.keys(metadata).forEach(iconName => {
-            //     if (metadata[iconName].keywords.length === 0) {
-            //         metadata[iconName].keywords = generateKeywords(iconName);
-            //     }
-            // });
             // Convert metadata object to string
             return JSON.stringify(metadata, null, "    ");
         })

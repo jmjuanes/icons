@@ -21,8 +21,20 @@ export const SizeInput = props => (
     <input defaultValue="24" id={props.id} type="number" min="1" step="1" className="w-full block bg-white p-2 border border-gray-300 rounded-md text-sm" />
 );
 
-<div className="text-4xl font-bold mb-4 mt-8">
-    <span id="iconName">{props.page.data.icon.name}</span>
+<div className="mt-8 mb-4 flex items-center justify-between">
+    <div className="text-4xl font-bold">
+        <span id="iconName">{props.page.data.icon.name}</span>
+    </div>
+    <div className="text-sm">
+        <span>Added: <b>v{props.page.data.icon.version}</b></span>
+    </div>
+</div>
+<div className="flex gap-2 w-full mb-4">
+    {props.page.data.icon.tags.map(tag => (
+        <span key={tag} className="text-xs bg-gray-200 rounded-full px-2 py-1">
+            {tag}
+        </span>
+    ))}
 </div>
 <div className="flex flex-col md:flex-row gap-8 w-full mb-8">
     <div className="w-full">
@@ -101,12 +113,12 @@ You can integrate this icon in your React application using our React icons comp
 
 Now you can import this icon in your React application
 
-<CodeBlock language="jsx">{`import {${props.page.data.icon.reactComponentName}} from "@josemi-icons/react";`}</CodeBlock>
+<CodeBlock language="jsx">{`import {${props.page.data.icon.componentName}Icon} from "@josemi-icons/react";`}</CodeBlock>
 
 Alternatively, if you only need this icon jou can just copy and paste the following component into your React application:
 
 <CodeBlock language="jsx">
-{`const ${props.page.data.icon.reactComponentName} = () => (
+{`const ${props.page.data.icon.componentName}Icon = () => (
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em">
         <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="${props.page.data.icon.path}" />
     </svg>

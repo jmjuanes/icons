@@ -33,7 +33,7 @@ const transforms = {
                 `};`,
                 `export const renderIcon = name => (<Icon path={ICONS[name]} />);`,
                 ...Object.values(icons).map(icon => {
-                    return `export const ${icon.reactComponentName} = props => (<Icon {...props} path={ICONS["${icon.name}"]} />);`;
+                    return `export const ${icon.componentName}Icon = props => (<Icon {...props} path={ICONS["${icon.name}"]} />);`;
                 }),
             ];
             // return code.join("\n");
