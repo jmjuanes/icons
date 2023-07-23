@@ -1,0 +1,14 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "chevron-up-left",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "chevron",
+        "up",
+        "left"
+    ]
+}

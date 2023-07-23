@@ -1,0 +1,18 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "aspect-ratio",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "aspect",
+        "ratio",
+        "size",
+        "dimensions",
+        "screen",
+        "width",
+        "height"
+    ]
+}

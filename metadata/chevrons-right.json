@@ -1,0 +1,13 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "chevrons-right",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "chevrons",
+        "right"
+    ]
+}

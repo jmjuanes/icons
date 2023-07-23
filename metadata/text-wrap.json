@@ -1,0 +1,14 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "text-wrap",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "text",
+        "wrap",
+        "format"
+    ]
+}

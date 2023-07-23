@@ -1,0 +1,14 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "arrows-maximize",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "arrows",
+        "maximize",
+        "expand"
+    ]
+}

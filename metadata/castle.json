@@ -1,0 +1,20 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "castle",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "castle",
+        "building",
+        "medieval",
+        "king",
+        "queen",
+        "medieval",
+        "fort",
+        "fortification",
+        "palace"
+    ]
+}

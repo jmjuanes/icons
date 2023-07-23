@@ -1,0 +1,16 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "filter",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "filter",
+        "effect",
+        "photography",
+        "photo",
+        "edition"
+    ]
+}

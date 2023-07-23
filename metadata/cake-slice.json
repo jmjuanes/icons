@@ -1,0 +1,18 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "cake-slice",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "cake",
+        "slice",
+        "birthday",
+        "food",
+        "baking",
+        "chocolate",
+        "sweet"
+    ]
+}

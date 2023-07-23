@@ -1,0 +1,18 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "bold",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "bold",
+        "document",
+        "text",
+        "strong",
+        "format",
+        "highlight",
+        "bolder"
+    ]
+}

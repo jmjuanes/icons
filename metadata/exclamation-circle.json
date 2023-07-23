@@ -1,0 +1,13 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "exclamation-circle",
+    "version": "0.1.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "exclamation",
+        "circle"
+    ]
+}
