@@ -14,7 +14,7 @@ const getNamesFromFiles = (list, extname) => {
 };
 
 const main = async () => {
-    const metadataFolder = path.join(process.cwd(), "metadata2");
+    const metadataFolder = path.join(process.cwd(), "metadata");
     const iconsFolder = path.join(process.cwd(), "src");
     const result = await Promise.all([
         fs.readdir(metadataFolder),
