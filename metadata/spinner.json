@@ -1,0 +1,15 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "spinner",
+    "version": "0.2.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "spinner",
+        "loading",
+        "loader",
+        "waiting"
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "box-selection",
+    "version": "0.2.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "box",
+        "selection"
+    ]
+}

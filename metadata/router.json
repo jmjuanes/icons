@@ -1,0 +1,17 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "router",
+    "version": "0.2.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "router",
+        "computer",
+        "network",
+        "connectivity",
+        "internet",
+        "wifi"
+    ]
+}

@@ -1,16 +1,15 @@
 {
     "$schema": "../metadata.schema.json",
-    "name": "pill",
-    "version": "0.1.0",
+    "name": "thermometer",
+    "version": "0.2.0",
     "contributors": [
         "jmjuanes"
     ],
     "categories": [],
     "tags": [
-        "pill",
+        "thermometer",
+        "temperature",
         "health",
-        "medicine",
-        "treatment",
-        "illness"
+        "medicine"
     ]
 }

@@ -1,0 +1,15 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "pizza",
+    "version": "0.2.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "pizza",
+        "food",
+        "italian",
+        "slice"
+    ]
+}

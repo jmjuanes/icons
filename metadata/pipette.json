@@ -1,0 +1,14 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "pipette",
+    "version": "0.2.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "pipette",
+        "color",
+        "picker"
+    ]
+}

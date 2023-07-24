@@ -1,0 +1,14 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "stopwatch",
+    "version": "0.2.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "stopwatch",
+        "timer",
+        "time"
+    ]
+}

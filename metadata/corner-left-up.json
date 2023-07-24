@@ -1,0 +1,15 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "corner-left-up",
+    "version": "0.2.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "corner",
+        "left",
+        "up",
+        "arrow"
+    ]
+}

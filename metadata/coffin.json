@@ -1,0 +1,15 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "coffin",
+    "version": "0.2.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "coffin",
+        "dead",
+        "cementery",
+        "halloween"
+    ]
+}

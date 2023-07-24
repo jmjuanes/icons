@@ -1,0 +1,17 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "heading-4",
+    "version": "0.2.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "heading",
+        "header",
+        "h4",
+        "markdown",
+        "html",
+        "text"
+    ]
+}

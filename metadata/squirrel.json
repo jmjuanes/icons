@@ -1,0 +1,15 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "squirrel",
+    "version": "0.2.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "squirrel",
+        "nature",
+        "animal",
+        "nuts"
+    ]
+}
