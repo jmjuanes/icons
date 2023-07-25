@@ -30,7 +30,8 @@
         "test": "jest packages",
         "test:react": "jest packages/react",
         "test:svg": "jest packages/svg",
-        "pack:icons": "zip -r icons.zip ./icons"
+        "pack:icons": "zip -r icons.zip ./icons",
+        "release": "node ./scripts/release.js"
     },
     "devDependencies": {
         "@babel/core": "^7.21.4",

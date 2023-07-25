@@ -20,8 +20,9 @@ jobs:
         with:
           node-version: '16.x'
       - run: yarn install
-      - run: yarn build
-      - run: yarn pack:icons
+      - run: yarn run build
+      - run: yarn run release
+      - run: yarn run pack:icons
       - uses: actions/upload-artifact@v3
         with:
           name: packages
