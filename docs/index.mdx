@@ -1,6 +1,16 @@
 ---
 title: ""
 layout: "default"
+features:
+    - title: "Extensive Icon Library"
+      description: "Enjoy access to a vast collection of meticulously crafted SVG icons covering a wide range of categories."
+      icon: "box"
+    - title: "Pixel-Perfect Clarity"
+      description: "Each icon is designed with precision to ensure pixel-perfect clarity at various sizes, providing a seamless visual experience."
+      icon: "drawing"
+    - title: "Easy Integration"
+      description: "Integrate icons into your projects effortlessly, whether it's for web development, mobile apps, presentations, or desktop applications."
+      icon: "laptop-mobile"
 ---
 
 <div className="pb-28 pt-16 md:pt-28">
@@ -25,6 +35,19 @@ layout: "default"
         </a>
     </div>
 </div>
+<section className="w-full mb-12">
+    <div className="w-full flex flex-col md:flex-row gap-6 flex-nowrap">
+        {props.page.data.features.map(feature => (
+            <div key={feature.title} className="w-full bg-gray-100 p-8 rounded-md">
+                <div className="mb-3 text-5xl">
+                    <Icon icon={feature.icon} />
+                </div>
+                <div className="text-xl font-bold mb-2">{feature.title}</div>
+                <div className="leading-normal">{feature.description}</div>
+            </div>
+        ))}
+    </div>
+</section>
 <section className="w-full">
     <div className="mb-6">
         <div className="relative">
