@@ -1,0 +1,12 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "badge",
+    "version": "0.3.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "badge"
+    ]
+}
