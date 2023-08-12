@@ -1,6 +1,6 @@
 {
     "name": "icons",
-    "version": "0.3.0",
+    "version": "0.3.1",
     "description": "An open source and hand-crafted SVG icons library",
     "private": true,
     "author": "Josemi Juanes <hello@josemi.xyz>",
@@ -25,8 +25,8 @@
         "build:docs": "babel-node scripts/docs.js",
         "build:metadata": "node ./scripts/metadata.js",
         "postbuild:docs": " cp *.schema.json www/ && cp node_modules/lowcss/dist/low.css www/ && cp node_modules/highlight.js/styles/nord.css www/highlight.css && cp assets/* www/ && cp -R icons www/",
-        "serve": "yarn serve:docs",
-        "serve:docs": "stattic --folder www --port 3000",
+        "docs": "yarn run build:docs",
+        "serve": "stattic ./www --port 5000",
         "test": "jest packages",
         "test:react": "jest packages/react",
         "test:svg": "jest packages/svg",
