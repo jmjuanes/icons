@@ -101,7 +101,7 @@ const PageWrapper = props => (
                         <div className="fixed sm:initial top-0 right-0 p-6 sm:p-0 hidden sm:block group-focus-within:block z-5">
                             <div className="flex flex-col sm:flex-row gap-3 sm:items-center rounded-md bg-white p-4 sm:p-0 w-72 sm:w-auto">
                                 <div className="pr-12 sm:pr-0 sm:flex sm:gap-3">
-                                    <NavbarLink to="./usage.html" text="Usage" icon="book-open" />
+                                    <NavbarLink to="./usage" text="Usage" icon="book-open" />
                                 </div>
                                 <div className="h-px w-full sm:h-8 sm:w-px bg-gray-300" />
                                 <div className="flex">
@@ -116,11 +116,11 @@ const PageWrapper = props => (
                 </div>
             </div>
             {/* Main content */}
-            <div className="w-full maxw-7xl mx-auto px-6">
+            <div className="w-full maxw-7xl mx-auto px-6 pb-16">
                 {props.page?.data?.layout === "page" && (
-                    <div className="mx-auto maxw-4xl w-full">
-                        <div className="my-10">
-                            <div className="text-5xl font-black">{props.page.data.title}</div>
+                    <div className="mx-auto maxw-4xl w-full mt-10">
+                        <div className="mb-10">
+                            <div className="text-4xl font-bold mb-1">{props.page.data.title}</div>
                             <div className="mt-0 text-lg text-gray-500 font-medium leading-relaxed">{props.page.data.description}</div>
                         </div>
                         {props.element}
@@ -133,8 +133,8 @@ const PageWrapper = props => (
                 )}
             </div>
             {/* Footer */}
-            <div className="w-full maxw-7xl mx-auto px-6 pt-10 pb-20">
-                <div className="text-sm">
+            <div className="w-full border-t border-gray-300">
+                <div className="w-full maxw-7xl mx-auto px-6 pt-10 pb-20 text-sm">
                     Designed by <a href="https://josemi.xyz" target="_blank" className="text-gray-800 hover:text-gray-700 font-medium underline">Josemi</a>. 
                     Source code available on <a href={pkg.repository.url} target="_blank" className="text-gray-800 hover:text-gray-700 font-medium underline">GitHub</a>.
                 </div>
