@@ -7,6 +7,11 @@
     ],
     "categories": [],
     "tags": [
-        "temperature"
+        "temperature",
+        "weather",
+        "celsius",
+        "fahrenheit",
+        "cold",
+        "hot"
     ]
 }
