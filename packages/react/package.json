@@ -15,7 +15,12 @@
     "bugs": "https://github.com/jmjuanes/icons/issues",
     "homepage": "https://icons.josemi.xyz",
     "main": "index.cjs.js",
-    "exports": "./index.esm.js",
+    "exports": {
+        ".": "./index.esm.js",
+        "./esm": "./index.esm.js",
+        "./cjs": "./index.csj.js",
+        "./package.json": "./package.json"
+    },
     "unpkg": "index.esm.js",
     "publishConfig": {
         "access": "public"
