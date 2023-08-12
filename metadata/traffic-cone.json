@@ -1,0 +1,15 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "traffic-cone",
+    "version": "0.3.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "traffic",
+        "cone",
+        "vehicle",
+        "road"
+    ]
+}

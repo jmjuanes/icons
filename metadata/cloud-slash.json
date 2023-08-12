@@ -1,0 +1,14 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "cloud-slash",
+    "version": "0.3.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "cloud",
+        "weather",
+        "slash"
+    ]
+}

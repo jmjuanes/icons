@@ -1,0 +1,17 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "wifi-slash",
+    "version": "0.3.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "wifi",
+        "internet",
+        "connection",
+        "network",
+        "slash",
+        "off"
+    ]
+}

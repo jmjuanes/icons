@@ -1,0 +1,14 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "tombstone-cross",
+    "version": "0.3.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "tombstone",
+        "cross",
+        "halloween"
+    ]
+}

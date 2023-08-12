@@ -1,0 +1,14 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "flame",
+    "version": "0.3.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "flame",
+        "fire",
+        "nature"
+    ]
+}

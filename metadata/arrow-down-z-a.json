@@ -1,0 +1,17 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "arrow-down-z-a",
+    "version": "0.3.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "arrow",
+        "down",
+        "filter",
+        "descending",
+        "sort",
+        "alphabetical"
+    ]
+}

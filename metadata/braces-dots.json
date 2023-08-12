@@ -1,0 +1,18 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "braces-dots",
+    "version": "0.3.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "braces",
+        "punctuation",
+        "code",
+        "token",
+        "dots",
+        "extend",
+        "more"
+    ]
+}
