@@ -1,0 +1,16 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "pen-slash",
+    "version": "0.4.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "pen",
+        "edit",
+        "drawing",
+        "design",
+        "slash"
+    ]
+}

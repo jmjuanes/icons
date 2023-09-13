@@ -1,0 +1,16 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "cart-x",
+    "version": "0.4.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "cart",
+        "x",
+        "remove",
+        "shopping",
+        "market"
+    ]
+}

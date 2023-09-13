@@ -1,0 +1,16 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "clipboard-slash",
+    "version": "0.4.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "clipboard",
+        "slash",
+        "copy",
+        "paste",
+        "disabled"
+    ]
+}

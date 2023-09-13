@@ -1,0 +1,14 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "paint-roller-slash",
+    "version": "0.4.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "paint",
+        "roller",
+        "slash"
+    ]
+}

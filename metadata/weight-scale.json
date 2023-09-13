@@ -1,0 +1,14 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "weight-scale",
+    "version": "0.4.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "weight",
+        "scale",
+        "health"
+    ]
+}

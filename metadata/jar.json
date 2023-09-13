@@ -1,0 +1,12 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "jar",
+    "version": "0.4.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "jar"
+    ]
+}

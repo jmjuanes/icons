@@ -1,0 +1,17 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "bolt-slash",
+    "version": "0.4.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "bolt",
+        "slash",
+        "charger",
+        "electricity",
+        "storm",
+        "power"
+    ]
+}

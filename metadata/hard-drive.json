@@ -1,0 +1,16 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "hard-drive",
+    "version": "0.4.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "hard",
+        "drive",
+        "disk",
+        "data",
+        "information"
+    ]
+}

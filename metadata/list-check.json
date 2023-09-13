@@ -1,0 +1,13 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "list-check",
+    "version": "0.4.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "list",
+        "check"
+    ]
+}

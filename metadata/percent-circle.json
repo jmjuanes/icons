@@ -1,0 +1,13 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "percent-circle",
+    "version": "0.4.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "percent",
+        "circle"
+    ]
+}
