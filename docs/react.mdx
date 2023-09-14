@@ -1,0 +1,36 @@
+---
+title: "React"
+description: "How to integrate our icons into a React Application."
+layout: "docs"
+---
+
+We provide a dedicated NPM package that offers our entire collection of icons as React components, simplifying the process of integrating our icons with your React application.
+
+## Installing React package
+
+You can easily add the package to your project using either Yarn or NPM package managers:
+
+<CodeBlock language="shell">{`$ yarn add @josemi-icons/react`}</CodeBlock>
+
+<CodeBlock language="shell">{`$ npm install --save @josemi-icons/react`}</CodeBlock>
+
+## Using React icons components
+
+After successfully installing the package, you can start utilizing icons in your React application just like any other React component:
+
+<CodeBlock language="jsx">
+{`import React from "react";
+import {ArrowCircleLeftIcon, ArrowCircleRightIcon} from "@josemi-icons/react";
+
+export const App = () => (
+    <div className="...">
+        <ArrowCircleLeftIcon />
+        <ArrowCircleRightIcon />
+    </div>
+);`}
+</CodeBlock>
+
+The example above showcases how to import and use two of our icons, namely `ArrowCircleLeftIcon` and `ArrowCircleRightIcon`. Feel free to explore our extensive icon library and incorporate any relevant icons into your application as needed.
+
+By leveraging our React component-based approach, you can seamlessly integrate our icons within your React project, enabling dynamic and customizable visuals. Customize the icons further by adjusting their size, color, or any other applicable properties based on your project's requirements.
+

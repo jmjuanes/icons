@@ -4,6 +4,7 @@ const React = require("react");
 const {renderToStaticMarkup} = require("react-dom/server");
 const runtime = require("react/jsx-runtime");
 const matter = require("gray-matter");
+const classnames = require("classnames");
 const hljs = require("highlight.js/lib/common");
 
 const {renderIcon, BarsIcon} = require("../packages/react/index.cjs.js");
@@ -26,14 +27,35 @@ const CodeBlock = props => {
     );
 };
 
+const MenuSection = props => (
+    <div className="text-gray-800">{props.children}</div>
+);
+
+const MenuGroup = props => (
+    <div className="font-bold mb-1 capitalize px-3">{props.text}</div>
+);
+
+const MenuLink = props => {
+    const classList = classnames({
+        "block py-2 px-3 rounded-md no-underline": true,
+        "bg-gray-200 font-bold text-gray-800": props.active,
+        "bg-white hover:bg-gray-100 text-gray-500 hover:text-gray-700": !props.active,
+    });
+    return (
+        <a href={props.href} className={classList}>
+            <span className="text-sm">{props.text}</span>
+        </a>
+    );
+};
+
 const NavbarLink = props => (
     <a href={props.to} className="flex items-center gap-2 text-gray-800 px-3 py-2 rounded-md hover:bg-gray-200 no-underline">
         {props.icon && (
-            <div className="flex items-center text-xl">
+            <div className="flex items-center text-lg">
                 {renderIcon(props.icon)}
             </div>
         )}
-        <div className="font-medium">
+        <div className="flex items-center font-medium text-sm">
             {props.text || props.children}
         </div>
     </a>
@@ -53,6 +75,36 @@ const pageComponents = {
     Separator: () => <div className="w-full h-px bg-gray-200 my-10" />,
     CodeBlock: CodeBlock,
     Fragment: React.Fragment,
+};
+
+const DocsLayout = props => {
+    const current = props.page.fileName;
+    return (
+        <div className="flex w-full">
+            <div className="hidden lg:block w-56 shrink-0">
+                <div className="w-full py-12 text-gray-300 flex flex-col gap-6 sticky top-0">
+                    <MenuSection>
+                        <MenuGroup text="Getting Started" />
+                        <MenuLink active={current === "installation.html"} href="./installation" text="Installation" />
+                        <MenuLink active={current === "usage.html"} href="./usage" text="Usage" />
+                    </MenuSection>
+                    <MenuSection>
+                        <MenuGroup text="Integrations" />
+                        <MenuLink active={current === "react.html"} href="./react" text="React" />
+                    </MenuSection>
+                </div>
+            </div>
+            <div className="w-full maxw-3xl mx-auto py-10">
+                <div className="mb-10">
+                    <div className="text-4xl font-bold mb-1">{props.page.data.title}</div>
+                    <div className="text-lg text-gray-500 font-medium leading-relaxed">
+                        <span>{props.page.data.description}</span>
+                    </div>
+                </div>
+                {props.element}
+            </div>
+        </div>
+    );
 };
 
 const PageWrapper = props => (
@@ -85,7 +137,7 @@ const PageWrapper = props => (
             {/* Header */}
             <div className="border-b-1 border-gray-300">
                 <div className="w-full maxw-7xl h-16 px-6 mx-auto flex items-center justify-between">
-                    <a href="./index.html" className="flex items-center gap-2 text-gray-800 no-underline">
+                    <a href="./" className="flex items-center gap-2 text-gray-800 no-underline">
                         <div className="font-bold flex items-center">
                             <span>josemi/</span>
                             <span className="text-gray-500">icons</span>
@@ -101,7 +153,9 @@ const PageWrapper = props => (
                         <div className="fixed sm:initial top-0 right-0 p-6 sm:p-0 hidden sm:block group-focus-within:block z-5">
                             <div className="flex flex-col sm:flex-row gap-3 sm:items-center rounded-md bg-white p-4 sm:p-0 w-72 sm:w-auto">
                                 <div className="pr-12 sm:pr-0 sm:flex sm:gap-3">
+                                    <NavbarLink to="./installation" text="Installation" icon="rocket" />
                                     <NavbarLink to="./usage" text="Usage" icon="book-open" />
+                                    <NavbarLink to="./react" text="Icons + React" icon="atom" />
                                 </div>
                                 <div className="h-px w-full sm:h-8 sm:w-px bg-gray-300" />
                                 <div className="flex">
@@ -117,19 +171,13 @@ const PageWrapper = props => (
             </div>
             {/* Main content */}
             <div className="w-full maxw-7xl mx-auto px-6 pb-16">
-                {props.page?.data?.layout === "page" && (
-                    <div className="mx-auto maxw-4xl w-full mt-10">
-                        <div className="mb-10">
-                            <div className="text-4xl font-bold mb-1">{props.page.data.title}</div>
-                            <div className="mt-0 text-lg text-gray-500 font-medium leading-relaxed">{props.page.data.description}</div>
-                        </div>
-                        {props.element}
-                    </div>
+                {props.page?.data?.layout === "docs" && (
+                    <DocsLayout {...props} />
                 )}
                 {props.page?.data?.layout === "default" && (
-                    <React.Fragment>
+                    <div className="w-full">
                         {props.element}
-                    </React.Fragment>
+                    </div>
                 )}
             </div>
             {/* Footer */}

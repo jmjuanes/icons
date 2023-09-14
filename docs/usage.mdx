@@ -1,10 +1,8 @@
 ---
 title: "Usage"
 description: "How to integrate our icons into your project."
-layout: "page"
+layout: "docs"
 ---
-
-<Separator />
 
 # Embed Icons within HTML
 
@@ -51,42 +49,29 @@ Alternatively, you can reference the icons as normal images using the `<img>` el
 </html>`}
 </CodeBlock>
 
+## Using the SVG Sprite
+
+We provide a convenient SVG sprite as part of the `@josemi-icons/svg` package that includes all the icons in a single file. This approach reduces the number of HTTP requests, improves loading times, and simplifies the management of icons in your project. You can easily reference icons anywhere in your HTML by using the `<svg>` and `<use>` elements.
+
+<CodeBlock language="html">
+{`<svg class="icon">
+    <use xlink:href="./node_modules/@josemi-icons/svg/sprite.svg#rocket"></use>
+</svg>`}
+</CodeBlock>
+
+You can apply styles to your icons using CSS, just as you would with any other HTML element. 
+
+<CodeBlock language="css">
+{`.icon {
+    color: #FF5733; /* Replace with your desired color */
+    width: 32px;   /* Set the icon's width */
+    height: 32px;  /* Set the icon's height */
+}`}
+</CodeBlock>
+
+
+<Separator />
 
 By employing these embedding techniques, you can seamlessly integrate our icons into your HTML-based projects, enhancing your visual aesthetics and user experience.
 
 Remember, you can download the complete icon pack or select specific icons from our gallery to suit your project's needs. Feel free to customize the icons further to align with your project's unique design requirements.
-
-<Separator />
-
-# Integrating with React
-
-We provide a dedicated NPM package that offers our entire collection of icons as React components, simplifying the process of integrating our icons with your React application.
-
-## Installing React package
-
-You can easily add the package to your project using either Yarn or NPM package managers:
-
-<CodeBlock language="shell">{`$ yarn add @josemi-icons/react`}</CodeBlock>
-
-<CodeBlock language="shell">{`$ npm install --save @josemi-icons/react`}</CodeBlock>
-
-## Using React icons components
-
-After successfully installing the package, you can start utilizing icons in your React application just like any other React component:
-
-<CodeBlock language="jsx">
-{`import React from "react";
-import {ArrowCircleLeftIcon, ArrowCircleRightIcon} from "@josemi-icons/react";
-
-export const App = () => (
-    <div className="...">
-        <ArrowCircleLeftIcon />
-        <ArrowCircleRightIcon />
-    </div>
-);`}
-</CodeBlock>
-
-The example above showcases how to import and use two of our icons, namely `ArrowCircleLeftIcon` and `ArrowCircleRightIcon`. Feel free to explore our extensive icon library and incorporate any relevant icons into your application as needed.
-
-By leveraging our React component-based approach, you can seamlessly integrate our icons within your React project, enabling dynamic and customizable visuals. Customize the icons further by adjusting their size, color, or any other applicable properties based on your project's requirements.
-
