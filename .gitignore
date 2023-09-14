@@ -7,6 +7,7 @@ icons/
 ## Output packages
 packages/react/index.*.js
 packages/svg/icons
+packages/svg/sprite.svg
 
 ## Other files and folders
 node_modules/

@@ -46,6 +46,27 @@ Example:
 </svg>
 ```
 
+### SVG Sprite
+
+We provide a convenient SVG sprite that includes all the icons in a single file. This approach reduces the number of HTTP requests, improves loading times, and simplifies the management of icons in your project. You can easily reference icons anywhere in your HTML by using the `<svg>` and `<use>` elements.
+
+```html
+<svg class="icon">
+    <use xlink:href="./node_modules/@josemi-icons/svg/sprite.svg#rocket"></use>
+</svg>
+```
+
+You can apply styles to your icons using CSS, just as you would with any other HTML element. 
+
+```css
+.icon {
+    color: #FF5733; /* Replace with your desired color */
+    width: 32px;   /* Set the icon's width */
+    height: 32px;  /* Set the icon's height */
+}
+```
+
+
 ## License
 
 Under the [MIT LICENSE](https://github.com/jmjuanes/icons/blob/main/LICENSE).
