@@ -22,7 +22,7 @@
         "prebuild:svg": "rm -rf ./packages/svg/icons",
         "build:svg": "cp -R icons ./packages/svg/ && node ./scripts/build-sprite.js packages/svg/sprite.svg",
         "prebuild:docs": "rm -rf www && mkdir www",
-        "build:docs": "babel-node scripts/docs.js",
+        "build:docs": "redocus --config ./redocus.config.js",
         "build:metadata": "node ./scripts/metadata.js",
         "postbuild:docs": " cp *.schema.json www/ && cp node_modules/lowcss/dist/low.css www/ && cp node_modules/highlight.js/styles/nord.css www/highlight.css && cp assets/* www/ && cp -R icons www/",
         "docs": "yarn run build:docs",
@@ -35,21 +35,22 @@
     },
     "devDependencies": {
         "@babel/core": "^7.21.4",
-        "@babel/node": "^7.20.7",
         "@babel/preset-env": "^7.22.6",
         "@babel/preset-react": "^7.18.6",
-        "@mdx-js/mdx": "^2.3.0",
         "@rollup/plugin-babel": "^6.0.3",
         "@rollup/plugin-virtual": "^3.0.1",
         "classnames": "^2.3.2",
-        "gray-matter": "^4.0.3",
         "highlight.js": "^11.8.0",
         "jest": "^29.6.0",
         "jest-environment-jsdom": "^29.6.0",
-        "lowcss": "^0.13.0",
+        "lowcss": "^0.17.1",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "rollup": "^3.26.0",
         "serve": "^14.2.1"
+    },
+    "dependencies": {
+        "@mdx-js/mdx": "^2.3.0",
+        "redocus": "^0.1.1"
     }
 }
