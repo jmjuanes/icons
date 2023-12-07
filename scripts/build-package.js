@@ -13,11 +13,6 @@ const transforms = {
         generateEntry: () => {
             const code = [
                 `import React from "react";`,
-                `const ICONS = {`,
-                ...icons.map(icon => {
-                    return `"${icon.name}": "${icon.path}",`;
-                }),
-                `};`,
                 `export const Icon = props => (`,
                 `    <svg xmlns="http://www.w3.org/2000/svg" width={props.size} height={props.size} viewBox="0 0 24 24">`,
                 `        <g fill="none" stroke={props.color} strokeLinecap="round" strokeLinejoin="round" strokeWidth={props.stroke}>`,
@@ -31,10 +26,15 @@ const transforms = {
                 `    color: "currentColor",`,
                 `    stroke: 2,`,
                 `};`,
-                `export const renderIcon = name => (<Icon path={ICONS[name]} />);`,
                 ...icons.map(icon => {
-                    return `export const ${icon.componentName}Icon = props => (<Icon {...props} path={ICONS["${icon.name}"]} />);`;
+                    return `export const ${icon.componentName}Icon = props => (<Icon {...props} path={"${icon.path}"} />);`;
                 }),
+                `const ICONS = {`,
+                ...icons.map(icon => {
+                    return `"${icon.name}": ${icon.componentName}Icon,`;
+                }),
+                `};`,
+                `export const renderIcon = name => React.createElement(ICONS[name], {});`,
             ];
             // return code.join("\n");
             return babel.transformSync(code.join("\n"), {
