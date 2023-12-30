@@ -15,19 +15,19 @@ features:
 
 <div className="pb-28 pt-16 md:pt-28">
     <div className="flex justify-center w-full mb-4">
-        <a className="inline-flex items-center gap-2 rounded-lg bg-gray-100 px-3 py-1 text-sm font-medium no-underline">
-            <span className="text-gray-800">Just released <b>v{props.site.version}</b></span>
+        <a className="inline-flex items-center gap-2 rounded-lg bg-neutral-100 px-3 py-1 text-sm font-medium no-underline">
+            <span className="text-neutral-800">Just released <b>v{props.site.version}</b></span>
             <span>🎉</span>
         </a>
     </div>
-    <div className="font-black text-6xl sm:text-7xl mb-6 leading-tight tracking-tight text-gray-900 max-w-5xl w-full text-center mx-auto">
+    <div className="font-black text-6xl sm:text-7xl mb-6 leading-tight tracking-tight text-neutral-900 max-w-5xl w-full text-center mx-auto">
         <span>Enhance your projects with beautifully crafted SVG icons.</span> 
     </div>
     <div className="max-w-3xl mt-0 mb-8 text-lg sm:text-2xl text-center leading-relaxed mx-auto w-full">
         <span>Over {Math.floor(props.site.icons.length / 100)*100}+ meticulously crafted, smooth and consistent line icons that serve as the perfect starting point for your next project.</span>
     </div>
     <div className="flex justify-center w-full">
-        <a href={`${props.repository}/releases`} target="_blank" className="flex items-center p-4 rounded-md bg-gray-900 hover:bg-gray-950 text-white cursor-pointer no-underline">
+        <a href={`${props.repository}/releases`} target="_blank" className="flex items-center p-4 rounded-md bg-neutral-900 hover:bg-neutral-950 text-white cursor-pointer no-underline">
             <div className="text-xl mr-2">
                 <Icon icon="download" />
             </div>
@@ -38,11 +38,11 @@ features:
 <section className="w-full mb-12">
     <div className="w-full flex flex-col md:flex-row gap-6 flex-nowrap">
         {props.page.data.features.map(feature => (
-            <div key={feature.title} className="w-full bg-gray-100 p-8 rounded-md">
-                <div className="mb-3 text-5xl text-gray-800">
+            <div key={feature.title} className="w-full bg-neutral-100 p-8 rounded-md">
+                <div className="mb-3 text-5xl text-neutral-800">
                     <Icon icon={feature.icon} />
                 </div>
-                <div className="text-xl font-bold mb-2 text-gray-900">{feature.title}</div>
+                <div className="text-xl font-bold mb-2 text-neutral-900">{feature.title}</div>
                 <div className="leading-normal">{feature.description}</div>
             </div>
         ))}
@@ -54,12 +54,12 @@ features:
             <div className="flex items-center text-2xl absolute top-0 left-0 p-2">
                 <Icon icon="search" />
             </div>
-            <input type="text" id="search" className="block bg-white w-full focus:outline-2 focus:outline-gray-500 border border-gray-200 rounded-md pl-10" placeholder="Search for icons..." />
+            <input type="text" id="search" className="block bg-white w-full focus:outline-2 focus:outline-neutral-500 border border-neutral-200 rounded-md pl-10" placeholder="Search for icons..." />
         </div>
     </div>
     <div className="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-10 gap-2 w-full">
     {props.site.icons.map(icon => (
-        <a key={icon.name} href={icon.name} className="relative flex flex-col justify-center p-4 rounded-lg hover:bg-gray-100 cursor-pointer no-underline text-gray-800" data-icon-name={icon.name} data-icon-tags={icon.tags.join(",")}>
+        <a key={icon.name} href={icon.name} className="relative flex flex-col justify-center p-4 rounded-lg hover:bg-neutral-100 cursor-pointer no-underline text-neutral-800" data-icon-name={icon.name} data-icon-tags={icon.tags.join(",")}>
             {props.site.version.split(".").slice(0,2).join(".") === icon.version.split(".").slice(0,2).join(".") && (
                 <div className="absolute bg-red-400 top-0 right-0 w-2 h-2 rounded-full mt-2 mr-2" />
             )}

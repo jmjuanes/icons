@@ -10,7 +10,7 @@ const pkg = require("./package.json");
 const {icons} = require("./icons.json");
 
 const CodeBlock = props => {
-    const className = "p-4 rounded-md bg-gray-900 text-white overflow-auto mb-8 text-sm font-mono";
+    const className = "p-4 rounded-md bg-neutral-900 text-white overflow-auto mb-8 text-sm font-mono";
     if (props.language) {
         return React.createElement("pre", {
             className: className,
@@ -25,7 +25,7 @@ const CodeBlock = props => {
 };
 
 const MenuSection = props => (
-    <div className="text-gray-800">{props.children}</div>
+    <div className="text-neutral-800">{props.children}</div>
 );
 
 const MenuGroup = props => (
@@ -35,8 +35,8 @@ const MenuGroup = props => (
 const MenuLink = props => {
     const classList = classnames({
         "block py-2 px-3 rounded-md no-underline": true,
-        "bg-gray-100 font-bold text-gray-800": props.active,
-        "bg-white hover:bg-gray-100 hover:text-gray-800": !props.active,
+        "bg-neutral-100 font-bold text-neutral-800": props.active,
+        "bg-white hover:bg-neutral-100 hover:text-neutral-800": !props.active,
     });
     return (
         <a href={props.href} className={classList}>
@@ -46,7 +46,7 @@ const MenuLink = props => {
 };
 
 const NavbarLink = props => (
-    <a href={props.to} className="flex items-center gap-2 text-gray-800 px-3 py-2 rounded-md hover:bg-gray-100 no-underline">
+    <a href={props.to} className="flex items-center gap-2 text-neutral-800 px-3 py-2 rounded-md hover:bg-neutral-100 no-underline">
         {props.icon && (
             <div className="flex items-center text-lg">
                 {renderIcon(props.icon)}
@@ -59,17 +59,17 @@ const NavbarLink = props => (
 );
 
 const pageComponents = {
-    "h1": props => <h1 className="mt-8 mb-4 text-gray-900 text-2xl font-bold">{props.children}</h1>,
-    "h2": props => <h2 className="mt-8 mb-4 text-gray-900 text-xl font-bold">{props.children}</h2>,
+    "h1": props => <h1 className="mt-8 mb-4 text-neutral-900 text-2xl font-bold">{props.children}</h1>,
+    "h2": props => <h2 className="mt-8 mb-4 text-neutral-900 text-xl font-bold">{props.children}</h2>,
     "p": props => <p className="mt-6 mb-6">{props.children}</p>,
     "a": props => (
-        <a {...props} className={props.className || `underline text-gray-800 hover:text-gray-900 font-medium`}>
+        <a {...props} className={props.className || `underline text-neutral-800 hover:text-neutral-900 font-medium`}>
             {props.children}
         </a>
     ),
     "code": props => <code className="font-bold text-sm font-mono">{`'`}{props.children}{`'`}</code>,
     Icon: props => renderIcon(props.icon), // <Icon path={props.icon} />,
-    Separator: () => <div className="w-full h-px bg-gray-200 my-10" />,
+    Separator: () => <div className="w-full h-px bg-neutral-200 my-10" />,
     CodeBlock: CodeBlock,
     Fragment: React.Fragment,
 };
@@ -93,8 +93,8 @@ const DocsLayout = props => {
             </div>
             <div className="w-full max-w-3xl mx-auto py-10">
                 <div className="mb-10">
-                    <div className="text-4xl font-bold text-gray-900 mb-1">{props.page.data.title}</div>
-                    <div className="text-lg text-gray-800 font-medium leading-relaxed">
+                    <div className="text-4xl font-bold text-neutral-900 mb-1">{props.page.data.title}</div>
+                    <div className="text-lg text-neutral-800 font-medium leading-relaxed">
                         <span>{props.page.data.description}</span>
                     </div>
                 </div>
@@ -130,21 +130,21 @@ const PageWrapper = props => (
             <link rel="stylesheet" href="./highlight.css" />
             <title>{`${props?.page?.data?.title ? `${props.page.data.title} - ` : ""} josemi/icons v${props.site.version}`}</title>
         </head>
-        <body className="bg-white m-0 p-0 font-inter text-gray-700 leading-normal">
+        <body className="bg-white m-0 p-0 font-inter text-neutral-700 leading-normal">
             {/* Header */}
-            <div className="border-b-1 border-gray-100">
+            <div className="border-b-1 border-neutral-100">
                 <div className="w-full max-w-7xl h-16 px-6 mx-auto flex items-center justify-between">
-                    <a href="./" className="flex items-center gap-2 text-gray-900 no-underline">
+                    <a href="./" className="flex items-center gap-2 text-neutral-900 no-underline">
                         <div className="font-bold flex items-center">
                             <span>josemi/</span>
-                            <span className="text-gray-600">icons</span>
+                            <span className="text-neutral-600">icons</span>
                         </div>
-                        <div className="flex items-center font-bold text-2xs bg-gray-100 px-2 py-1 rounded-lg">
+                        <div className="flex items-center font-bold text-2xs bg-neutral-100 px-2 py-1 rounded-lg">
                             <span>v{props.site.version}</span>
                         </div>
                     </a>
                     <div className="group peer" tabIndex="0">
-                        <div className="flex sm:hidden text-xl p-2 border border-gray-200 rounded-md cursor-pointer">
+                        <div className="flex sm:hidden text-xl p-2 border border-neutral-200 rounded-md cursor-pointer">
                             <BarsIcon />
                         </div>
                         <div className="fixed sm:initial top-0 right-0 p-6 sm:p-0 hidden sm:block group-focus-within:block z-5">
@@ -154,7 +154,7 @@ const PageWrapper = props => (
                                     <NavbarLink to="./usage" text="Usage" icon="book-open" />
                                     <NavbarLink to="./react" text="Icons + React" icon="atom" />
                                 </div>
-                                <div className="h-px w-full sm:h-8 sm:w-px bg-gray-200" />
+                                <div className="h-px w-full sm:h-8 sm:w-px bg-neutral-200" />
                                 <div className="flex">
                                     <NavbarLink to={props.site.repository}>
                                         <img className="w-6 h-6" src="./github.svg" />
@@ -163,7 +163,7 @@ const PageWrapper = props => (
                             </div>
                         </div>
                     </div>
-                    <div className="fixed top-0 left-0 w-full h-full sm:h-0 peer-focus-within:block hidden sm:hidden bg-gray-900 o-60 z-2" />
+                    <div className="fixed top-0 left-0 w-full h-full sm:h-0 peer-focus-within:block hidden sm:hidden bg-neutral-900 o-60 z-2" />
                 </div>
             </div>
             {/* Main content */}
@@ -178,10 +178,10 @@ const PageWrapper = props => (
                 )}
             </div>
             {/* Footer */}
-            <div className="w-full border-t border-gray-100 text-gray-600">
+            <div className="w-full border-t border-neutral-100 text-neutral-600">
                 <div className="w-full max-w-7xl mx-auto px-6 pt-10 pb-20 text-sm">
-                    Designed by <a href="https://josemi.xyz" target="_blank" className="text-gray-800 hover:text-gray-900 font-medium underline">Josemi</a>. 
-                    Source code available on <a href={props.site.repository} target="_blank" className="text-gray-800 hover:text-gray-900 font-medium underline">GitHub</a>.
+                    Designed by <a href="https://josemi.xyz" target="_blank" className="text-neutral-800 hover:text-neutral-900 font-medium underline">Josemi</a>. 
+                    Source code available on <a href={props.site.repository} target="_blank" className="text-neutral-800 hover:text-neutral-900 font-medium underline">GitHub</a>.
                 </div>
             </div>
         </body>
