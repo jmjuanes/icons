@@ -1,0 +1,14 @@
+{
+    "$schema": "../metadata.schema.json",
+    "name": "number-circle-five",
+    "version": "0.6.0",
+    "contributors": [
+        "jmjuanes"
+    ],
+    "categories": [],
+    "tags": [
+        "number",
+        "circle",
+        "five"
+    ]
+}
