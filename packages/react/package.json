@@ -19,6 +19,7 @@
         ".": "./index.esm.js",
         "./esm": "./index.esm.js",
         "./cjs": "./index.cjs.js",
+        "./umd": "./index.umd.js",
         "./package.json": "./package.json"
     },
     "unpkg": "index.esm.js",
@@ -36,6 +37,7 @@
     "files": [
         "index.cjs.js",
         "index.esm.js",
+        "index.umd.js",
         "README.md",
         "header.png"
     ],
