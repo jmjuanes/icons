@@ -9,6 +9,10 @@ module.exports = {
         "cjs": {
             type: "commonjs2",
         },
+        "umd": {
+            type: "umd",
+            name: "Icons",
+        },
     },
     externals: {
         react: "react",
