@@ -1,0 +1,72 @@
+---
+title: "Beautifully crafted SVG icons"
+layout: "default"
+---
+
+<section class="pb-16 pt-16">
+    <div class="font-black text-4xl sm:text-5xl mb-2 leading-tight tracking-tight text-neutral-900">
+        <span>Beautifully crafted SVG icons.</span> 
+    </div>
+    <div class="w-full max-w-2xl mb-8 text-xl leading-relaxed">
+        <span>Over {{data.iconsCount}}+ meticulously crafted, smooth and consistent line icons that serve as the perfect starting point for your next project.</span>
+    </div>
+    <div class="flex w-full">
+        <a href="{{site.repository}}/releases" target="_blank" class="flex items-center gap-2 px-4 py-3 rounded-md bg-neutral-900 hover:bg-neutral-950 text-white cursor-pointer no-underline">
+            <div class="text-xl flex items-center">
+                {{=icon icon="download"}}
+            </div>
+            <strong>Download Icons Pack</strong>
+        </a>
+    </div>
+</section>
+<section class="w-full">
+    <div class="mb-6">
+        <div class="relative">
+            <div class="flex items-center text-2xl absolute top-0 left-0 p-2">
+                {{=icon icon="search"}}
+            </div>
+            <input type="text" id="search" class="block bg-white w-full focus:outline-2 focus:outline-neutral-500 border border-neutral-200 rounded-md pl-10" placeholder="Search for icons..." />
+        </div>
+    </div>
+    <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-2 w-full">
+    {{#each data.icons}}
+        <a href="/{{name}}" class="relative flex flex-col justify-center p-4 rounded-lg hover:bg-neutral-100 cursor-pointer no-underline text-neutral-800" data-icon-name="{{name}}">
+            <div class="flex justify-center text-3xl">
+                {{=icon icon=name}}
+            </div>
+            <div class="o-50 text-2xs text-center mt-2">
+                <span>{{name}}</span>
+            </div>
+        </a>
+    {{/each}}
+    </div>
+</section>
+
+<script type="text/javascript">
+    let allVisible = true;
+    const isIconVisible = (value, target) => {
+        const name = target.dataset.iconName || "";
+        const tags = (target.dataset.iconTags || "").split(",");
+
+        return name.includes(value) || tags.some(t => t.includes(value));
+    };
+    document.querySelector("input#search").addEventListener("input", event => {
+        const value = event.target.value || "";
+        // let count = 0;
+        if (value.length >= 3 || !allVisible) {
+            allVisible = value.length < 3;
+            Array.from(document.querySelectorAll("a[data-icon-name]")).forEach(item => {
+                // if (value.length < 3 || item.dataset.icon.includes(value)) {
+                if (value.length < 3 || isIconVisible(value, item)) {
+                    // count = count + 1;
+                    item.style.display = "";
+                }
+                else {
+                    item.style.display = "none";
+                }
+            });
+            // Hide or display the empty block
+            // document.querySelector("div#empty").style.display = count === 0 ? "" : "none";
+        }
+    });
+</script>
