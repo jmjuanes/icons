@@ -80,18 +80,6 @@ const globalData = {
     page: null,
 };
 
-// @description read a markdown file
-// const readMarkdownFile = file => {
-//     const fileContent = fs.readFileSync(file, "utf8");
-//     const page = frontMatter(fileContent);
-//     return {
-//         name: path.basename(file, ".md"),
-//         content: marked.parse(page.body || ""),
-//         data: page.attributes || {},
-//         url: page.attributes?.permalink || path.join("/", path.basename(file, ".md") + ".html"),
-//     };
-// };
-
 // @description build site
 const build = async () => {
     const mikel = (await import("mikel")).default;
