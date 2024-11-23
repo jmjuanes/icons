@@ -1,9 +1,36 @@
 const fs = require("node:fs");
 const path = require("node:path");
 const frontMatter = require("front-matter");
+const hljs = require("highlight.js/lib/common");
 
 const pkg = require("../package.json");
 const {icons} = require("../icons.json");
+
+// code blocks
+const codeBlocks = {
+    htmlUsage: {
+        language: "html",
+        code: icon => ([
+            `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em">`,
+            `    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="${icon.path}" />`,
+            `<svg/>`,
+        ]),
+    },
+    reactImport: {
+        language: "jsx",
+        code: icon => ([`import {${icon.componentName}Icon} from "@josemi-icons/react";`]),
+    },
+    reactUsage: {
+        language: "jsx",
+        code: icon => ([
+            `const ${icon.componentName}Icon = () => (`,
+            `    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em">`,
+            `        <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="${icon.path}" />`,
+            `    </svg>`,
+            `);`,
+        ]),
+    },
+};
 
 // get pages from specified folder
 const getPages = folder => {
@@ -67,18 +94,22 @@ const globalData = {
 
 // @description build site
 const build = async () => {
-    const m = (await import("mikel")).default;
+    const mikel = (await import("mikel")).default;
     const template = fs.readFileSync(path.join(process.cwd(), "index.html"), "utf8");
     // 2. Generate documentation pages
     globalData.pages.forEach(page => {
         globalData.page = page; // set current page
-        const content = m(template, globalData, {
+        const content = mikel(template, globalData, {
             partials: {
                 content: page.content,
             },
             functions: {
                 icon: args => {
                     return `<svg width="1em" height="1em"><use xlink:href="/sprite.svg#${args.opt.icon}"></use></svg>`;
+                },
+                code: args => {
+                    const block = codeBlocks[args.opt.block];
+                    return hljs.highlight(block.code(args.opt.icon).join("\n"), {language: block.language}).value;
                 },
             },
         });
