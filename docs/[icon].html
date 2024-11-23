@@ -1,0 +1,103 @@
+---
+title: "{{icon.name}}"
+layout: "default"
+---
+
+<div class="mt-8 mb-4 flex items-center justify-between">
+    <div class="text-4xl font-bold text-neutral-900">
+        <span id="iconName">{{page.data.icon.name}}</span>
+    </div>
+</div>
+<div class="flex flex-col md:flex-row gap-8 w-full mb-8">
+    <div class="w-full">
+        <div class="flex items-center justify-center w-full rounded-lg bg-neutral-100 h-96 border border-neutral-200">
+            <div id="iconPreview" class="flex items-center text-neutral-900" style="font-size:12em;">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em">
+                    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="{{page.data.icon.path}}" />
+                <svg/>
+            </div>
+        </div>
+    </div>
+    <div class="w-full md:w-96 shrink-0">
+        <div class="mb-6">
+            <div class="mb-1 font-bold text-2xl text-neutral-900">Download</div>
+            <div class="mb-4">Download the icon as SVG image to use or edit it.</div>
+            <a href="/icons/{{page.data.icon.name}}.svg" target="_blank" class="flex justify-center items-center w-full rounded-md bg-neutral-900 hover:bg-neutral-950 p-3 gap-2 no-underline">
+                <div class="flex items-center text-2xl text-white">
+                    {{=icon icon="download"}}
+                </div>
+                <div class="text-white font-bold">
+                    <span>Download Icon</span>
+                </div>
+            </a>
+        </div>
+        <div class="">
+            <div class="mb-1 font-bold text-2xl text-neutral-900">Customize icon</div>
+            <div class="mb-4">Set your custom size or color and download the icon as SVG or PNG image.</div>
+            <div class="flex gap-2 flex-nowrap mb-4">
+                <div class="w-full">
+                    <div class="flex items-center gap-1 text-neutral-600 mb-1">
+                        <div class="flex items-center text-sm">{{=icon icon="arrows-horizontal"}}</div>
+                        <div class="text-xs font-bold">Width</div>
+                    </div>
+                    <input value="24" id="iconWidth" type="number" min="1" step="1" class="w-full block bg-white p-2 border border-neutral-200 rounded-md text-sm" />
+                </div>
+                <div class="w-full">
+                    <div class="flex items-center gap-1 text-neutral-600 mb-1">
+                        <div class="flex items-center text-sm">{{=icon icon="arrows-vertical"}}</div>
+                        <div class="text-xs font-bold">Height</div>
+                    </div>
+                    <input value="24" id="iconHeight" type="number" min="1" step="1" class="w-full block bg-white p-2 border border-neutral-200 rounded-md text-sm" />
+                </div>
+                <div class="w-full">
+                    <div class="flex items-center gap-1 text-neutral-600 mb-1">
+                        <div class="flex items-center text-sm">{{=icon icon="palette"}}</div>
+                        <div class="text-xs font-bold">Color</div>
+                    </div>
+                    <input id="iconColor" type="color" value="#000" class="w-full block bg-white p-1 border border-neutral-200 rounded-md h-10 outline-0" />
+                </div>
+            </div>
+            <div class="flex flex-nowrap gap-2">
+                <div id="downloadSvg" class="flex justify-center items-center w-full rounded-md bg-neutral-900 hover:bg-neutral-950 p-3 gap-2 cursor-pointer">
+                    <div class="flex items-center text-2xl text-white">
+                        {{=icon icon="code"}}
+                    </div>
+                    <div class="text-white font-bold">
+                        <span>Get SVG</span>
+                    </div>
+                </div>
+                <div id="downloadPng" class="flex justify-center items-center w-full rounded-md bg-neutral-900 hover:bg-neutral-950 p-3 gap-2 cursor-pointer">
+                    <div class="flex items-center text-2xl text-white">
+                        {{=icon icon="image"}}
+                    </div>
+                    <div class="text-white font-bold">
+                        <span>Get PNG</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<Separator />
+
+<div class="markup">
+    <h2>Embed this icon within HTML</h2>
+    <p>
+        Copy and paste the following SVG code into your HTML file where you want the icon to appear. 
+        Then, you can customize the SVG attributes, such as size or color, using inline styling or CSS classes.
+    </p>
+    <pre>{{=code block="htmlUsage" icon=page.data.icon}}</pre>
+    <h2>Using as a React Component</h2>
+    <p>
+        You can integrate this icon in your React application using our React icons components. 
+        First install the package using <strong>YARN</strong> or <strong>NPM</strong>:
+    </p>
+    <pre class="language-shell">$ yarn add @josemi-icons/react</pre>
+    <p>Now you can import this icon in your React application</p>
+    <pre>{{=code block="reactImport" icon=page.data.icon}}</pre>
+    <p>Alternatively, if you only need this icon jou can just copy and paste the following component into your React application:</p>
+    <pre>{{=code block="reactUsage" icon=page.data.icon}}</pre>
+    <p>You can now use the icon component in your React application like any other React component.</p>
+</div>
+<script type="text/javascript" src="/customize.js"></script>
