@@ -23,7 +23,7 @@
         "build:svg": "cp -R icons ./packages/svg/ && node ./scripts/build-sprite.js packages/svg/sprite.svg",
         "prebuild:docs": "rm -rf www && mkdir www",
         "build:docs": "node ./scripts/site.js",
-        "postbuild:docs": " cp *.schema.json www/ && cp node_modules/lowcss/low.css www/ && cp assets/* www/ && cp -R icons www/ && cp packages/svg/sprite.svg www/",
+        "postbuild:docs": " cp *.schema.json www/ && cp node_modules/lowcss/low.css www/ && cp node_modules/highlight.js/styles/nord.css www/highlight.css && cp assets/* www/ && cp -R icons www/ && cp packages/svg/sprite.svg www/",
         "docs": "yarn run build:docs",
         "site": "yarn run build:docs",
         "serve": "serve ./www",
