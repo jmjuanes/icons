@@ -1,6 +1,11 @@
 const babel = require("@babel/core");
 const {icons} = require("../../icons.json");
 
+// convert string to pascal case
+const pascalCase = str => {
+    return str.match(/[a-zA-Z0-9]+/g).map(w => `${w.charAt(0).toUpperCase()}${w.slice(1)}`).join("");
+};
+
 module.exports = {
     output: {
         "esm": {
@@ -34,11 +39,11 @@ module.exports = {
             `    stroke: 2,`,
             `};`,
             ...icons.map(icon => {
-                return `export const ${icon.componentName}Icon = props => (<Icon {...props} path={"${icon.path}"} />);`;
+                return `export const ${pascalCase(icon.name)}Icon = props => (<Icon {...props} path={"${icon.path}"} />);`;
             }),
             `const ICONS = {`,
             ...icons.map(icon => {
-                return `"${icon.name}": ${icon.componentName}Icon,`;
+                return `"${icon.name}": ${pascalCase(icon.name)}Icon,`;
             }),
             `};`,
             `export const renderIcon = name => React.createElement(ICONS[name], {});`,
