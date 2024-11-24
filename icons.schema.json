@@ -16,30 +16,11 @@
                     "name": {
                         "type": "string"
                     },
-                    "componentName": {
-                        "type": "string"
-                    },
                     "version": {
                         "type": "string"
                     },
                     "path": {
                         "type": "string"
-                    },
-                    "contributors": {
-                        "type": "array",
-                        "items": {
-                            "type": "string"
-                        },
-                        "minItems": 1,
-                        "uniqueItems": true
-                    },
-                    "tags": {
-                        "type": "array",
-                        "items": {
-                            "type": "string"
-                        },
-                        "minItems": 1,
-                        "uniqueItems": true
                     }
                 }
             }

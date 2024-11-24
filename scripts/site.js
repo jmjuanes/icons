@@ -6,6 +6,11 @@ const hljs = require("highlight.js/lib/common");
 const pkg = require("../package.json");
 const {icons} = require("../icons.json");
 
+// convert string to pascal case
+const pascalCase = str => {
+    return str.match(/[a-zA-Z0-9]+/g).map(w => `${w.charAt(0).toUpperCase()}${w.slice(1)}`).join("");
+};
+
 // code blocks
 const codeBlocks = {
     htmlUsage: {
@@ -18,12 +23,12 @@ const codeBlocks = {
     },
     reactImport: {
         language: "jsx",
-        code: icon => ([`import {${icon.componentName}Icon} from "@josemi-icons/react";`]),
+        code: icon => ([`import {${pascalCase(icon.name)}Icon} from "@josemi-icons/react";`]),
     },
     reactUsage: {
         language: "jsx",
         code: icon => ([
-            `const ${icon.componentName}Icon = () => (`,
+            `const ${pascalCase(icon.name)}Icon = () => (`,
             `    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em">`,
             `        <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="${icon.path}" />`,
             `    </svg>`,

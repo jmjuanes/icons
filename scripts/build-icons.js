@@ -2,15 +2,6 @@ const fs = require("node:fs/promises");
 const path = require("node:path");
 const {version} = require("../package.json");
 
-// Convert string to base64
-// const toBase64 = str => {
-//     return Buffer.from(str).toString("base64");
-// };
-
-const pascalCase = str => {
-    return str.match(/[a-zA-Z0-9]+/g).map(w => `${w.charAt(0).toUpperCase()}${w.slice(1)}`).join("");
-};
-
 // Tiny utility to extract the d="" segment from the icon
 const getIconPath = str => str.match(/\sd="([^\"]*)"/im)[1];
 
@@ -48,7 +39,6 @@ const generateJson = icons => {
 
 const main = async () => {
     const srcFolder = path.join(process.cwd(), "src");
-    const metadataFolder = path.join(process.cwd(), "metadata");
     const iconsFiles = await fs.readdir(srcFolder);
     const icons = [];
     // Generate icons in JSON format
@@ -58,17 +48,10 @@ const main = async () => {
             const name = path.basename(icon, ".svg");
             const iconPath = path.join(srcFolder, icon);
             const iconContent = await fs.readFile(iconPath, "utf8");
-            const metadataPath = path.join(metadataFolder, `${name}.json`);
-            const metadataContent = await fs.readFile(metadataPath, "utf8");
-            const metadata = JSON.parse(metadataContent);
             // Insert icon object
             icons.push({
                 name: name,
-                componentName: pascalCase(name),
-                version: metadata.version,
                 path: getIconPath(iconContent),
-                contributors: metadata.contributors || [],
-                tags: metadata.tags || [],
             });
         }
     }
