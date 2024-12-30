@@ -37,6 +37,7 @@ The following NPM packages are managed on this repository:
 | ------- | ----------- | ------- |
 | **[@josemi-icons/svg](./packages/svg)** | A single package including all icons in SVG. | ![npm version](https://badgen.net/npm/v/@josemi-icons/svg?labelColor=1d2734&color=21bf81) |
 | **[@josemi-icons/react](./packages/react)** | Use icons as React components. | ![npm version](https://badgen.net/npm/v/@josemi-icons/react?labelColor=1d2734&color=21bf81) |
+| **[@josemi-icons/css](./packages/css)** | Use icons with CSS. | ![npm version](https://badgen.net/npm/v/@josemi-icons/css?labelColor=1d2734&color=21bf81) |
 
 ## License
 
