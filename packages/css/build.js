@@ -4,7 +4,7 @@ const icons = require("../../icons.json");
 
 const build = async () => {
     const mikel = (await import("mikel")).default;
-    const template = fs.readFileSync("./icons.css.mustache", "utf8");
+    const template = fs.readFileSync("../../templates/icons.css.mustache", "utf8");
     const content = mikel(template, icons, {
         functions: {
             svg: args => {
