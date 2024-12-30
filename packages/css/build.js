@@ -1,9 +1,5 @@
 const fs = require("node:fs");
-const path = require("node:path");
-const CleanCSS = require("clean-css");
-const {generateSvg, encodeSvg} = require("../../scripts/helpers.js");
-
-// const pkg = require("../../package.json");
+const {generateSvg, encodeSvg, minifyCss} = require("../../scripts/helpers.js");
 const icons = require("../../icons.json");
 
 const build = async () => {
@@ -17,8 +13,12 @@ const build = async () => {
         },
     });
     // minify the css
-    const css = new CleanCSS({level: 2, compatibility: "*"}).minify(content);
-    fs.writeFileSync("./icons.css", css, "utf8");
+    const output = minifyCss(content, {
+        level: 2,
+        compatibility: "*",
+    });
+    // write the minified css to a file
+    fs.writeFileSync("./icons.css", output.styles, "utf8");
 };
 
 // run build script
