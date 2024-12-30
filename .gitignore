@@ -8,6 +8,7 @@ icons/
 packages/react/index.*.js
 packages/svg/icons
 packages/svg/sprite.svg
+packages/css/icons.css
 
 ## Other files and folders
 node_modules/
