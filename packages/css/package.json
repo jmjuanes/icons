@@ -24,6 +24,9 @@
     "publishConfig": {
         "access": "public"
     },
+    "scripts": {
+        "build": "node ./build.js"
+    },
     "keywords": [
         "icons"
     ],
