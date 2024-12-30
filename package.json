@@ -15,7 +15,8 @@
         "packages/*"
     ],
     "scripts": {
-        "build": "yarn build:icons && yarn build:react && yarn build:svg",
+        "build": "yarn build:icons && yarn build:react && yarn build:svg && yarn build:css",
+        "build:css": "node ./packages/css/build.js",
         "prebuild:icons": "rm -rf icons.json icons && mkdir icons",
         "build:icons": "node ./scripts/build-icons.js",
         "build:react": "node ./scripts/build-package.js react",
