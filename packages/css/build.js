@@ -8,8 +8,8 @@ const build = () => {
         `:root,`,
         `*:before {`,
         ...icons.map(icon => {
-            const path = encodeSvg(generateSvg(icon.path));
-            return `--josemi-icons-${icon.name}: url("data:image/svg+xml;utf8,${path}") no-repeat;`;
+            const data = encodeSvg(generateSvg(icon.path));
+            return `--josemi-icons-${icon.name}: url("data:image/svg+xml;utf8,${data}") no-repeat;`;
         }),
         `}`,
         `[class^="ji-"],`,
@@ -30,7 +30,7 @@ const build = () => {
         `}`,
         ...icons.map(icon => {
             const iconStyles = [
-                `.ji-{{name}}:before {`
+                `.ji-{{name}}:before {`,
                 `    mask: var(--josemi-icons-${icon.name}) no-repeat;`,
                 `    mask-size: 100% 100%;`,
                 `    -webkit-mask: var(--josemi-icons-${icon.name}) no-repeat;`,
