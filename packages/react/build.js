@@ -34,13 +34,13 @@ const build = () => {
         `export const renderIcon = name => React.createElement(ICONS[name], {});`,
     ];
     // convert jsx to react.createElement calls
-    const output = babel.transformSync(code.join("\n"), {
+    const result = babel.transformSync(code.join("\n"), {
         presets: [
             "@babel/preset-react",
         ],
     });
     // write output
-    fs.writeFileSync("./index.js", output, "utf8");
+    fs.writeFileSync("./index.js", result.code, "utf8");
 };
 
 build();
