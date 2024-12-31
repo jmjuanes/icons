@@ -17,7 +17,7 @@
     "scripts": {
         "build": "yarn build:icons && yarn build:react && yarn build:svg && yarn build:css",
         "prebuild:icons": "rm -rf icons.json icons && mkdir icons",
-        "build:icons": "node ./scripts/build-icons.js",
+        "build:icons": "node ./scripts/build.js",
         "build:css": "yarn workspace @josemi-icons/css run build",
         "build:react": "yarn workspace @josemi-icons/react run build",
         "prebuild:svg": "rm -rf ./packages/svg/icons",
