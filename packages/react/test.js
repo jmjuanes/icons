@@ -1,7 +1,7 @@
 import TestRenderer from "react-test-renderer";
 import {isElement} from 'react-dom/test-utils';
 
-import * as Icons from "./index.esm.js";
+import * as Icons from "./index.js";
 
 describe("@josemi-icons/react", () => {
     describe("Icon", () => {
