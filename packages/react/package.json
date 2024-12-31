@@ -14,15 +14,13 @@
     },
     "bugs": "https://github.com/jmjuanes/icons/issues",
     "homepage": "https://icons.josemi.xyz",
-    "main": "index.cjs.js",
+    "main": "index.js",
     "exports": {
-        ".": "./index.esm.js",
-        "./esm": "./index.esm.js",
-        "./cjs": "./index.cjs.js",
-        "./umd": "./index.umd.js",
+        ".": "./index.js",
+        "./index.js": "./index.js",
         "./package.json": "./package.json"
     },
-    "unpkg": "index.esm.js",
+    "unpkg": "index.js",
     "publishConfig": {
         "access": "public"
     },
@@ -38,9 +36,7 @@
         "icons-components"
     ],
     "files": [
-        "index.cjs.js",
-        "index.esm.js",
-        "index.umd.js",
+        "index.js",
         "README.md",
         "header.png"
     ],
@@ -49,6 +45,6 @@
         "react-test-renderer": "^18.2.0"
     },
     "peerDependencies": {
-        "react": "^16.5.1 || ^17.0.0 || ^18.0.0"
+        "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0"
     }
 }
