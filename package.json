@@ -19,7 +19,7 @@
         "build:css": "yarn workspace @josemi-icons/css run build",
         "prebuild:icons": "rm -rf icons.json icons && mkdir icons",
         "build:icons": "node ./scripts/build-icons.js",
-        "build:react": "node ./scripts/build-package.js react",
+        "build:react": "yarn workspace @josemi-icons/react run build",
         "prebuild:svg": "rm -rf ./packages/svg/icons",
         "build:svg": "cp -R icons ./packages/svg/ && node ./scripts/build-sprite.js packages/svg/sprite.svg",
         "prebuild:docs": "rm -rf www && mkdir www",
@@ -47,7 +47,6 @@
         "mikel": "^0.13.0",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
-        "serve": "^14.2.1",
-        "webpack": "^5.91.0"
+        "serve": "^14.2.1"
     }
 }
