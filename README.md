@@ -21,7 +21,7 @@ The easiest way is downloading or copying the icons from https://icons.josemi.xy
 </svg>
 ```
 
-You can also include or icons as images in a `<img>` element using a public CDN:
+You can also include the icons as images in a `<img>` element using a public CDN:
 
 ```html
 <img src="https://unpkg.com/@josemi-icons/svg/icons/activity.svg" />
