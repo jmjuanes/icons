@@ -5,7 +5,7 @@ icons.zip
 icons/
 
 ## Output packages
-packages/react/index.*.js
+packages/react/index.js
 packages/svg/icons
 packages/svg/sprite.svg
 packages/css/icons.css
