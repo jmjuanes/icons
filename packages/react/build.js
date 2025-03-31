@@ -1,6 +1,6 @@
-const fs = require("node:fs");
-const babel = require("@babel/core");
-const {icons} = require("../../icons.json");
+import * as fs from "node:fs";
+import * as babel from "@babel/core";
+import iconsConfig from "../../icons.json" with {type: "json"};
 
 // convert string to pascal case
 const pascalCase = str => {
@@ -8,6 +8,7 @@ const pascalCase = str => {
 };
 
 const build = () => {
+    const icons = iconsConfig.icons;
     const code = [
         `import React from "react";`,
         `export const Icon = ({size = "1em", color = "currentColor", stroke = 2, path = ""}) => (`,

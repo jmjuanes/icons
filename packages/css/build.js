@@ -1,9 +1,10 @@
-const fs = require("node:fs");
-const {generateSvg, encodeSvg, minifyCss} = require("../../scripts/helpers.js");
-const {icons} = require("../../icons.json");
+import * as fs from "node:fs";
+import {generateSvg, encodeSvg, minifyCss} from "../../scripts/helpers.js";
+import iconsConfig from "../../icons.json" with {type: "json"};
 
 const build = () => {
     const separator = "\n";
+    const icons = iconsConfig.icons;
     const css = [
         `:root,`,
         `*:before {`,
