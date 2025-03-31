@@ -2,6 +2,7 @@
     "name": "@josemi-icons/svg",
     "version": "0.0.0",
     "description": "An open source and hand-crafted SVG icons library",
+    "type": "module",
     "author": {
         "name": "Josemi Juanes",
         "email": "hello@josemi.xyz"
@@ -14,6 +15,12 @@
     },
     "bugs": "https://github.com/jmjuanes/icons/issues",
     "homepage": "https://icons.josemi.xyz",
+    "main": "sprite.svg",
+    "exports": {
+        ".": "./sprite.svg",
+        "./sprite.svg": "./sprite.svg",
+        "./package.json": "./package.json"
+    },
     "publishConfig": {
         "access": "public"
     },

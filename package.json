@@ -3,6 +3,7 @@
     "version": "0.6.1",
     "description": "An open source and hand-crafted SVG icons library",
     "private": true,
+    "type": "module",
     "author": "Josemi Juanes <hello@josemi.xyz>",
     "license": "MIT",
     "repository": {
