@@ -15,20 +15,20 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
         with:
-          node-version: '16.x'
+          node-version: 22
       - run: yarn install
       - run: yarn run build
       - run: yarn run release
       - run: yarn run pack:icons
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: packages
           path: packages
           retention-days: 1
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
             name: icons
             path: icons.zip
@@ -40,12 +40,13 @@ jobs:
     name: Release
     needs: [build]
     steps:
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: icons
-      - uses: softprops/action-gh-release@v1
+      - uses: softprops/action-gh-release@v2
         with:
           files: icons.zip
+          generate_release_notes: true
   
   publish:
     if: ${{ github.repository == 'jmjuanes/icons' }}
@@ -56,11 +57,11 @@ jobs:
       matrix:
         package: [svg, react, css]
     steps:
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: '16.x'
+          node-version: 22
           registry-url: 'https://registry.npmjs.org'
-      - uses: actions/download-artifact@v3
+      - uses: actions/download-artifact@v4
         with:
           name: packages
           path: packages
