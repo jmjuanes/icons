@@ -1,6 +1,5 @@
 /** @type {import("jest").Config} */
-const config = {
+export default {
     testEnvironment: "jsdom",
+    transform: {},
 };
-
-module.exports = config;
