@@ -1,5 +1,5 @@
-const fs = require("node:fs");
-const {icons} = require("../../icons.json");
+import * as fs from "node:fs";
+import iconsConfig from "../../icons.json" with {type: "json"};
 
 const getIconSymbol = icon => {
     return [
@@ -13,7 +13,7 @@ const build = () => {
     const separator = "\n";
     const sprite = [
         `<svg xmlns="http://www.w3.org/2000/svg">`,
-        ...(icons.map(icon => getIconSymbol(icon)).flat()),
+        ...(iconsConfig.icons.map(icon => getIconSymbol(icon)).flat()),
         `</svg>`,
     ];
     // write sprite to file

@@ -2,6 +2,7 @@
     "name": "@josemi-icons/css",
     "version": "0.0.0",
     "description": "An open source and hand-crafted SVG icons library",
+    "type": "module",
     "author": {
         "name": "Josemi Juanes",
         "email": "hello@josemi.xyz"

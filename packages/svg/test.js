@@ -1,4 +1,4 @@
-const fs = require("node:fs");
+import * as fs from "node:fs";
 
 describe("@josemi-icons/svg", () => {
     let target = null;

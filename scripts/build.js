@@ -1,7 +1,7 @@
-const fs = require("node:fs");
-const path = require("node:path");
-const {generateSvg} = require("./helpers.js");
-const {version} = require("../package.json");
+import * as fs from "node:fs";
+import * as path from "node:path";
+import {generateSvg} from "./helpers.js";
+import pkg from "../package.json" with {type: "json"};
 
 // Tiny utility to extract the d="" segment from the icon
 const getIconPath = str => str.match(/\sd="([^\"]*)"/im)[1];
@@ -20,7 +20,7 @@ const generateIconsJson = icons => {
     const iconsPath = path.join(process.cwd(), "icons.json");
     const iconsJson = {
         "$id": "./icons.schema.json",
-        "version": version,
+        "version": pkg.version,
         "icons": icons,
     };
     // Save icons to JSON file
