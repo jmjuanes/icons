@@ -1,10 +1,12 @@
-const fs = require("node:fs");
-const path = require("node:path");
-const frontMatter = require("front-matter");
-const hljs = require("highlight.js/lib/common");
+import * as path from "node:path";
+import press from "mikel-press";
+import * as marked from "marked";
+import * as yaml from "js-yaml";
+import hljs from "highlight.js";
 
-const pkg = require("../package.json");
-const {icons} = require("../icons.json");
+import pkg from "../package.json" with {type: "json"};
+import iconsConfig from "../icons.json" with {type: "json"};
+import websiteConfig from "../website.config.json" with {type: "json"};
 
 // convert string to pascal case
 const pascalCase = str => {
@@ -18,7 +20,7 @@ const codeBlocks = {
         code: icon => ([
             `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em">`,
             `    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="${icon.path}" />`,
-            `<svg/>`,
+            `</svg>`,
         ]),
     },
     reactImport: {
@@ -37,78 +39,92 @@ const codeBlocks = {
     },
 };
 
-// get pages from specified folder
-const getPages = folder => {
-    const allFiles = fs.readdirSync(folder, "utf8")
-        .filter(file => path.extname(file) === ".html")
-        .map(file => {
-            const content = frontMatter(fs.readFileSync(path.join(folder, file), "utf8"));
-            return {
-                name: path.basename(file, ".html"),
-                url: path.join("/", path.basename(file, ".html")),
-                data: content.attributes,
-                content: content.body,
-            };
-        });
-    // compile icons
-    const iconTemplate = allFiles.find(file => file.name === "[icon]");
-    const allIconsFiles = icons.map(icon => {
-        return Object.assign({}, iconTemplate, {
-            name: icon.name,
-            url: path.join("/", icon.name),
-            data: Object.assign({}, iconTemplate.data, {
-                title: icon.name,
-                icon: icon,
-            }),
-        });
-    });
-    // return all pages
-    return [
-        ...allFiles.filter(file => !file.name.startsWith("[")),
-        ...allIconsFiles,
-    ];
+// Custom plugin for generating icons pages
+const IconsPagesPlugin = () => {
+    const label = "page/icon";
+    const templateContent = press.utils.read(path.resolve("docs/[icon].html"));
+    return {
+        name: "IconsPagesPlugin",
+        load: context => {
+            const folder = path.resolve(context.source, "./docs");
+            return iconsConfig.icons.map(icon => {
+                return press.createNode(folder, icon.name + ".html", label);
+            });
+        },
+        transform: (_, node) => {
+            if (node.label === label) {
+                node.data.content = templateContent; // utils.read(path.join(node.source, node.path));
+            }
+        },
+        shouldEmit: (_, node) => {
+            return !node.path.includes("[icon]");
+        },
+        emit: (_, nodesToEmit) => {
+            const iconsMap = Object.fromEntries(iconsConfig.icons.map(icon => {
+                return [icon.name, icon];
+            }));
+            // inject icons data into nodes
+            nodesToEmit.forEach(node => {
+                if (node.label === label) {
+                    node.data.attributes.icon = iconsMap[path.basename(node.path, ".html")];
+                    node.data.attributes.title = path.basename(node.path, ".html");
+                }
+            });
+        },
+    };
 };
 
-// global data object
-const globalData = {
-    site: {
-        version: pkg.version,
-        title: pkg.title,
-        description: pkg.description,
-        repository: pkg.repository.url,
-    },
-    data: {
-        icons: icons,
-        iconsCount: Math.floor(icons.length / 100)*100,
-    },
-    pages: getPages(path.join(process.cwd(), "docs")),
-    page: null,
-};
-
-// @description build site
-const build = async () => {
-    const mikel = (await import("mikel")).default;
-    const template = fs.readFileSync(path.join(process.cwd(), "index.html"), "utf8");
-    // 2. Generate documentation pages
-    globalData.pages.forEach(page => {
-        globalData.page = page; // set current page
-        const content = mikel(template, globalData, {
-            partials: {
-                content: page.content,
-            },
+press.build({
+    ...websiteConfig,
+    version: pkg.version,
+    repository: pkg.repository.url,
+    icons: iconsConfig.icons,
+    iconsCount: Math.floor(iconsConfig.icons.length / 100)*100,
+    plugins: [
+        press.SourcePlugin({source: "./docs"}),
+        IconsPagesPlugin(),
+        press.FrontmatterPlugin({
+            parser: yaml.load,
+        }),
+        press.MarkdownPlugin({
+            parser: marked.parse,
+        }),
+        press.PermalinkPlugin(),
+        press.ContentPlugin({
+            layout: "./layout.html",
             functions: {
                 icon: args => {
-                    return `<svg width="1em" height="1em"><use xlink:href="/sprite.svg#${args.opt.icon}"></use></svg>`;
+                    return [
+                        `<svg width="1em" height="1em">`,
+                        `<use xlink:href="/sprite.svg#${args.opt.icon}"></use>`,
+                        `</svg>`,
+                    ].join("");
                 },
                 code: args => {
                     const block = codeBlocks[args.opt.block];
                     return hljs.highlight(block.code(args.opt.icon).join("\n"), {language: block.language}).value;
                 },
             },
-        });
-        console.log(`[build:site] saving file to www${page.url}.html`);
-        fs.writeFileSync(path.join(process.cwd(), "www", page.url + ".html"), content, "utf8");
-    });
-};
-
-build();
+        }),
+        press.CopyAssetsPlugin({
+            patterns: [
+                {
+                    from: path.resolve("icons.schema.json"),
+                    to: "icons.schema.json",
+                },
+                {
+                    from: path.resolve("node_modules/lowcss/low.css"),
+                    to: "low.css",
+                },
+                {
+                    from: path.resolve("node_modules/highlight.js/styles/nord.css"),
+                    to: "highlight.css",
+                },
+                {
+                    from: path.resolve("node_modules/@josemi-icons/svg/sprite.svg"),
+                    to: "sprite.svg",
+                },
+            ],
+        }),
+    ],
+});
