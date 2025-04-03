@@ -1,9 +1,6 @@
 import * as path from "node:path";
 import press from "mikel-press";
-import * as marked from "marked";
-import * as yaml from "js-yaml";
 import hljs from "highlight.js";
-
 import pkg from "../package.json" with {type: "json"};
 import iconsConfig from "../icons.json" with {type: "json"};
 import websiteConfig from "../website.config.json" with {type: "json"};
@@ -23,19 +20,13 @@ const codeBlocks = {
             `</svg>`,
         ]),
     },
-    reactImport: {
+    reactUsage: {
         language: "jsx",
         code: icon => ([`import {${pascalCase(icon.name)}Icon} from "@josemi-icons/react";`]),
     },
-    reactUsage: {
-        language: "jsx",
-        code: icon => ([
-            `const ${pascalCase(icon.name)}Icon = () => (`,
-            `    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em">`,
-            `        <path fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="${icon.path}" />`,
-            `    </svg>`,
-            `);`,
-        ]),
+    cssUsage: {
+        language: "html",
+        code: icon => ([`<i class="ji-${icon.name}"></i>`]),
     },
 };
 
@@ -84,10 +75,7 @@ press.build({
         press.SourcePlugin({source: "./docs"}),
         IconsPagesPlugin(),
         press.FrontmatterPlugin({
-            parser: yaml.load,
-        }),
-        press.MarkdownPlugin({
-            parser: marked.parse,
+            parser: JSON.parse,
         }),
         press.PermalinkPlugin(),
         press.ContentPlugin({

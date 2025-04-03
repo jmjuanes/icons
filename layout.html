@@ -1,52 +1,66 @@
+{{<ui.heading}}
+<div class="font-heading text-5xl mt-10 first:mt-0 mb-4 last:mb-0">{{!@content}}</div>
+{{/ui.heading}}
+{{<ui.subheading}}
+<div class="font-heading text-3xl mt-8 first:mt-0 mb-2">{{!@content}}</div>
+{{/ui.subheading}}
+{{<ui.paragraph}}
+<div class="mb-4">{{!@content}}</div>
+{{/ui.paragraph}}
+{{<ui.code}}
+<pre class="px-5 py-4 overflow-x-auto rounded-xl bg-primary font-mono text-sm">{{!@content}}</pre>
+{{/ui.code}}
+{{<ui.logo}}
+<span class="">josemi</span>
+<span class="opacity-60">/</span>
+<span class="font-heading font-bold">icons</span>
+{{/ui.logo}}
 <html lang="en">
 <head>
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
     <meta name="title" content="{{site.title}}" />
     <meta name="description" content="{{site.description}}" />
-    <meta property="og:site_name" content="josemi/icons" />
-    <meta property="og:title" content="josemi/icons" />
+    <meta property="og:title" content="{{site.title}}" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://icons.josemi.xyz" />
-    <meta property="og:image" content="https://icons.josemi.xyz/og.png" />
+    <meta property="og:url" content="{{site.url}}" />
+    <meta property="og:image" content="{{site.url}}/og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="josemi/icons" />
+    <meta property="og:image:alt" content="{{site.title}}" />
     <meta property="description" content="{{site.description}}" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:author" content="@jmjuanes" />
-    <meta name="twitter:title" content="josemi/icons" />
+    <meta name="twitter:title" content="{{site.title}}" />
     <meta name="twitter:description" content="{{site.description}}" />
     <meta name="twitter:image" content="https://icons.josemi.xyz/og.png" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&display=swap">
     <link rel="stylesheet" href="/low.css" />
     <link rel="stylesheet" href="/theme.css" />
     <link rel="stylesheet" href="/highlight.css" />
-    <title>{{page.attributes.title}} - josemi/icons v{{site.version}}</title>
+    <title>{{page.attributes.title}} - {{site.title}} v{{site.version}}</title>
 </head>
 <body class="bg-background text-foreground m-0 p-0 font-inter leading-normal">
-    <header class="w-full max-w-6xl h-16 px-6 mx-auto flex items-center justify-between">
-        <a href="/" class="flex items-center gap-2 text-neutral-900 no-underline">
-            <div class="font-bold flex items-center">
-                <span>josemi/</span>
-                <span class="text-neutral-600">icons</span>
-            </div>
-            <div class="flex items-center font-bold text-2xs bg-neutral-100 px-2 py-1 rounded-lg">
+    <header class="w-full max-w-7xl h-16 px-6 mx-auto flex items-center justify-between">
+        <a href="/" class="flex items-center gap-2 text-foreground no-underline">
+            <div class="flex items-center gap-1 text-xl">{{>ui.logo}}</div>
+            <div class="flex items-center font-bold text-2xs px-3 py-1 rounded-full bg-primary text-primary-foreground">
                 <span>v{{site.version}}</span>
             </div>
         </a>
         <div class="flex flex-row gap-3 items-center">
-            <a href="{{site.repository}}" target="_blank" class="flex items-cneter no-underline">
+            <a href="{{site.repository}}" target="_blank" class="flex items-center no-underline">
                 <img class="w-6 h-6" src="/github.svg" />
             </a>
         </div>
     </header>
-    <main class="w-full max-w-6xl mx-auto px-6 pb-16">
+    <main class="w-full max-w-7xl mx-auto px-6 pb-16">
         {{>content}}
     </main>
-    <footer class="w-full max-w-6xl mx-auto px-6 pt-10 pb-20 text-sm text-neutral-600">
-        Designed by <a href="https://josemi.xyz" target="_blank" class="text-neutral-800 hover:text-neutral-900 font-medium underline">Josemi</a>. 
-        Source code available on <a href="{{site.repository}}" target="_blank" class="text-neutral-800 hover:text-neutral-900 font-medium underline">GitHub</a>.
+    <footer class="w-full max-w-7xl mx-auto px-6 pt-10 pb-20 text-sm text-muted">
+        Designed by <a href="https://josemi.xyz" target="_blank" class="text-muted hover:text-primary font-medium underline">Josemi</a>. 
+        Source code available on <a href="{{site.repository}}" target="_blank" class="text-muted hover:text-primary font-medium underline">GitHub</a>.
     </footer>
 </body>
 </html>

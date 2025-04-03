@@ -1,0 +1,38 @@
+/* documentation site theme */
+:root {
+    /* common colors */
+    --space-cadet: #37334d;
+    --gray: #919191;
+    --alabaster: #f2eee3;
+    --seasalt: #fafafa;
+    --font-heading: "Bricolage Grotesque", sans-serif;
+    /* theme colors */
+    --low-background: var(--alabaster);
+    --low-foreground: var(--space-cadet);
+    --low-primary: var(--space-cadet);
+    --low-primary-foreground: var(--alabaster);
+    --low-muted: var(--gray);
+    --low-accent: var(--seasalt);
+    --low-accent-foreground: var(--space-cadet);
+    --low-input: var(--seasalt);
+}
+
+/* font used in the headings */
+.font-heading {
+    font-family: var(--font-heading);
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/* icon preview style */
+.icon-preview {
+    background-image: linear-gradient(var(--alabaster) 1px, transparent 1px), linear-gradient(90deg, var(--alabaster) 1px, transparent 1px);
+    background-size: 10px 10px;
+    border-color: var(--alabaster);
+    border-bottom-width: 1px;
+    border-right-width: 1px;
+    border-style: solid;
+    font-size: 240px;
+}
