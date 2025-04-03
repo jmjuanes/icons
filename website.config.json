@@ -1,6 +1,6 @@
 {
-    "title": "",
-    "description": "",
+    "title": "josemi/icons",
+    "description": "An open source and hand-crafted SVG icons library.",
     "url": "https://icons.josemi.xyz",
     "navbar": {
         "links": [
@@ -9,5 +9,13 @@
     },
     "footer": {
         "text": "Icons by Josemi"
+    },
+    "theme": {
+        "colors": [
+            {"name": "Space Cadet", "value": "#37334d"},
+            {"name": "Gray", "value": "#919191"},
+            {"name": "Alabaster", "value": "#f2eee3"},
+            {"name": "Sea Salt", "value": "#fafafa"}
+        ]
     }
 }
