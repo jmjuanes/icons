@@ -28,6 +28,11 @@ const blobToDataUrl = blob => {
     });
 };
 
+// validate the provided color value
+const isValidColor = color => {
+    return (/^#([0-9A-F]{3}){1,2}$/i).test(color);
+};
+
 // Generate SVG icon
 const generateSvgIcon = (width, height, color) => {
     const iconPath = el("div#iconPreview path").getAttribute("d");
@@ -43,8 +48,8 @@ const generateSvgIcon = (width, height, color) => {
 const generateCustomizedSvgIcon = () => {
     const iconWidth = parseInt(el("input#iconWidth")?.value || 24);
     const iconHeight = parseInt(el("input#iconHeight")?.value || 24);
-    const iconColor = el("input#iconColor")?.value || "#000";
-    return generateSvgIcon(iconWidth, iconHeight, iconColor);
+    const iconColor = ("#" + (el("input#iconColor")?.value || "000")).replace("##", "#");
+    return generateSvgIcon(iconWidth, iconHeight, isValidColor(iconColor) ? iconColor : "#000");
 };
 
 const downloadCustomizedSvgIcon = () => {

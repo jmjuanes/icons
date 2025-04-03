@@ -1,0 +1,56 @@
+---
+{
+    "title": "Branding",
+    "description": "Branding and design guidelines for the Josemi Icons project."
+}
+---
+<section class="pt-10 pb-10">
+    {{>>ui.heading}}Branding assets{{/ui.heading}}
+    {{>>ui.subheading}}Logo{{/ui.subheading}}
+    {{>>ui.paragraph}}The <b>logo</b> is the main visual representation of the project. It should be used in all official communications and branding materials.{{/ui.paragraph}}
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 w-full mb-12">
+        <div class="rounded-3xl bg-input text-foreground text-4xl flex items-center gap-1 justify-center h-48">
+            {{>ui.logo}}
+        </div>
+        <div class="rounded-3xl bg-primary text-primary-foreground text-4xl flex items-center gap-1 justify-center h-48">
+            {{>ui.logo}}
+        </div>
+    </div>
+    {{>>ui.subheading}}Color Palette{{/ui.subheading}}
+    {{>>ui.paragraph}}Our color palette is designed to be simple and elegant. The color palette is used throughout the project to maintain a consistent look and feel.{{/ui.paragraph}}
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-full mb-12">
+    {{#each site.theme.colors}}
+        <div class="flex flex-col gap-2">
+            <div class="rounded-2xl h-24 border border-muted" style="background-color:{{value}};"></div>
+            <div class="flex items-center justify-between">
+                <div class="font-medium">{{name}}</div>
+                <div class="text-sm font-mono">{{value}}</div>
+            </div>
+        </div>
+    {{/each}}
+    </div>
+    {{>>ui.subheading}}Open Graph image{{/ui.subheading}}
+    {{>>ui.paragraph}}The <b>OG image</b> is used for social media sharing and should be used as a preview image when sharing the project.{{/ui.paragraph}}
+    <div class="relative bg-background overflow-hidden border border-primary" style="height:600px;">
+        <div class="flex flex-wrap gap-2 w-full p-2">
+        {{#each site.icons}}
+            <div class="p-3 flex items-center justify-center text-primary text-3xl bg-input rounded-2xl">
+                {{=icon icon=name}}
+            </div>
+        {{/each}}
+        </div>
+        <div class="absolute z-20 top-0 left-0 bottom-0 right-0">
+            <svg class="text-primary" viewBox="0 0 20 10">
+                <path fill="currentColor" d="M16,0 L20,0 L20,10 L0,10 Z" />
+            </svg>
+        </div>
+        <div class="absolute z-30 right-0 bottom-0 mr-14 mb-14">
+            <div class="font-heading text-background text-8xl text-right leading-none mb-3">
+                <div>Beautifully</div><div>crafted SVG icons.</div>
+            </div>
+            <div class="text-background text-3xl text-right">
+                <span>icons.josemi.xyz</span>
+            </div>
+        </div>
+    </div>
+</section>
