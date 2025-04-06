@@ -2,20 +2,33 @@
     "title": "josemi/icons",
     "description": "An open source and hand-crafted SVG icons library.",
     "url": "https://icons.josemi.xyz",
-    "navbar": {
-        "links": [
-
-        ]
-    },
+    "navbar": {},
     "footer": {
-        "text": "Icons by Josemi"
+        "text": "Icons by Josemi",
+        "links": [
+            {"text": "Branding", "url": "/branding"},
+            {"text": "Source code", "url": "https://github.com/jmjuanes/icons"},
+            {"text": "Request an icon", "url": "https://github.com/jmjuanes/icons/issues"}
+        ]
     },
     "theme": {
-        "colors": [
-            {"name": "Space Cadet", "value": "#37334d"},
-            {"name": "Gray", "value": "#919191"},
-            {"name": "Alabaster", "value": "#f2eee3"},
-            {"name": "Sea Salt", "value": "#fafafa"}
-        ]
+        "colors": {
+            "primary": {
+                "name": "Space Cadet",
+                "value": "#37334d"
+            },
+            "neutral": {
+                "name": "Gray",
+                "value": "#919191"
+            },
+            "accent": {
+                "name": "Sea Salt",
+                "value": "#fafafa"
+            },
+            "background": {
+                "name": "Alabaster",
+                "value": "#f2eee3"
+            }
+        }
     }
 }
