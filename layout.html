@@ -58,9 +58,20 @@
     <main class="w-full max-w-7xl mx-auto px-6 pb-16">
         {{>content}}
     </main>
-    <footer class="w-full max-w-7xl mx-auto px-6 pt-10 pb-20 text-sm text-muted">
-        Designed by <a href="https://josemi.xyz" target="_blank" class="text-muted hover:text-primary font-medium underline">Josemi</a>. 
-        Source code available on <a href="{{site.repository}}" target="_blank" class="text-muted hover:text-primary font-medium underline">GitHub</a>.
+    <footer class="w-full max-w-7xl mx-auto px-6 pt-10 pb-20 text-sm">
+        <div class="mb-2">
+            Designed by <a href="https://josemi.xyz" target="_blank" class="text-foreground font-bold hover:underline">Josemi</a> in Valencia, Spain. 
+        </div>
+        {{#if site.footer.links}}
+        <div class="flex items-center gap-2">
+            {{#each site.footer.links}}
+            <a class="hover:underline text-foreground font-bold" href="{{url}}">
+                <span>{{text}}</span>
+            </a>
+            <div class="last:hidden text-xs">•</div>
+            {{/each}}
+        </div>
+        {{/if}}
     </footer>
 </body>
 </html>
