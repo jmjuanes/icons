@@ -22,10 +22,13 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 w-full mb-12">
     {{#each site.theme.colors}}
         <div class="flex flex-col gap-2">
-            <div class="rounded-2xl h-24 border border-muted" style="background-color:{{value}};"></div>
-            <div class="flex items-center justify-between">
-                <div class="font-medium">{{name}}</div>
-                <div class="text-sm font-mono">{{value}}</div>
+            <div class="rounded-2xl h-24 border border-muted" style="background-color:{{@value.value}};"></div>
+            <div class="flex items-start justify-between">
+                <div class="font-bold">{{@key}}</div>
+                <div class="flex flex-col items-end">
+                    <div class="text-sm font-medium">{{@value.name}}</div>
+                    <div class="text-2xs font-mono">{{@value.value}}</div>
+                </div>
             </div>
         </div>
     {{/each}}
