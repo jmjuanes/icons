@@ -52,37 +52,36 @@ const generateCustomizedSvgIcon = () => {
     return generateSvgIcon(iconWidth, iconHeight, isValidColor(iconColor) ? iconColor : "#000");
 };
 
-const downloadCustomizedSvgIcon = () => {
-    const name = el("#iconName").textContent;
-    const content = generateCustomizedSvgIcon();
-    return downloadBlob(createBlob(content, "image/svg+xml"), `${name}.svg`);
-};
-
-const downloadCustomizedPngIcon = () => {
-    console.log("DOWNLOADING PNG");
+const downloadCustomizedIcon = (format = "SVG") => {
     const name = el("#iconName").textContent;
     const content = createBlob(generateCustomizedSvgIcon(), "image/svg+xml");
-    const canvas = document.createElement("canvas");
-    const img = new Image();
-    // img.setAttribute("crossorigin", "anonymous");
-    // img.crossOrigin = "anonymous";
-    img.addEventListener("load", () => {
-        // Set the canvas size to the total image size
-        canvas.width = img.width;
-        canvas.height = img.height;
-        const ctx = canvas.getContext("2d");
-        ctx.drawImage(img, 0, 0);
-        canvas.toBlob(blob => {
-            return downloadBlob(blob, `${name}.png`);
+    // 1. check if the format is SVG --> just download the SVG
+    if (format === "SVG") {
+        return downloadBlob(content, `${name}.svg`);
+    }
+    // 2. check if the format is PNG --> convert the SVG to PNG
+    if (format === "PNG") {
+        const canvas = document.createElement("canvas");
+        const img = new Image();
+        img.addEventListener("load", () => {
+            // Set the canvas size to the total image size
+            canvas.width = img.width;
+            canvas.height = img.height;
+            const ctx = canvas.getContext("2d");
+            ctx.drawImage(img, 0, 0);
+            canvas.toBlob(blob => {
+                return downloadBlob(blob, `${name}.png`);
+            });
         });
-    });
-    img.addEventListener("error", event => {
-        console.error(event);
-    });
-    // Generate image
-    blobToDataUrl(content).then(data => img.src = data);
+        img.addEventListener("error", event => {
+            console.error(event);
+        });
+        // generate image
+        return blobToDataUrl(content).then(data => img.src = data);
+    }
 };
 
-// Register download events
-el("div#downloadSvg").addEventListener("click", () => downloadCustomizedSvgIcon());
-el("div#downloadPng").addEventListener("click", () => downloadCustomizedPngIcon());
+// register download events
+Array.from(document.querySelectorAll(`div[data-download]`)).forEach(element => {
+    element.addEventListener("click", () => downloadCustomizedIcon(element.dataset.download));
+});
