@@ -1,9 +1,20 @@
 import * as path from "node:path";
 import press from "mikel-press";
+import markdown from "mikel-markdown";
 import hljs from "highlight.js";
 import pkg from "../package.json" with {type: "json"};
 import iconsConfig from "../icons.json" with {type: "json"};
 import websiteConfig from "../website.config.json" with {type: "json"};
+
+// custom configuration for markdown
+const markdownConfig = markdown({
+    classNames: {
+        code: "font-mono font-bold text-sm px-1",
+        heading: "font-heading mt-10 first:mt-0 mb-4 last:mb-0",
+        paragraph: "mb-4",
+        pre: "text-accent bg-primary rounded-xl p-4 font-mono text-xs overflow-x-auto mb-6",
+    },
+});
 
 // convert string to pascal case
 const pascalCase = str => {
@@ -22,7 +33,15 @@ const codeBlocks = {
     },
     reactUsage: {
         language: "jsx",
-        code: icon => ([`import {${pascalCase(icon.name)}Icon} from "@josemi-icons/react";`]),
+        code: icon => ([
+            `import {${pascalCase(icon.name)}Icon} from "@josemi-icons/react";`,
+            ``,
+            `const MyComponent = () => {`,
+            `    return (`,
+            `        <${pascalCase(icon.name)}Icon />`,
+            `    );`,
+            `};`,
+        ]),
     },
     cssUsage: {
         language: "html",
@@ -39,12 +58,12 @@ const IconsPagesPlugin = () => {
         load: context => {
             const folder = path.resolve(context.source, "./docs");
             return iconsConfig.icons.map(icon => {
-                return press.createNode(folder, icon.name + ".html", label);
+                return press.createNode(folder, "icon/" + icon.name + ".html", label);
             });
         },
         transform: (_, node) => {
             if (node.label === label) {
-                node.data.content = templateContent; // utils.read(path.join(node.source, node.path));
+                node.data.content = templateContent;
             }
         },
         shouldEmit: (_, node) => {
@@ -93,12 +112,21 @@ press.build({
                     return hljs.highlight(block.code(args.opt.icon).join("\n"), {language: block.language}).value;
                 },
             },
+            ...markdownConfig,
         }),
         press.CopyAssetsPlugin({
             patterns: [
                 {
+                    from: path.resolve("icons.json"),
+                    to: "icons.json",
+                },
+                {
                     from: path.resolve("icons.schema.json"),
                     to: "icons.schema.json",
+                },
+                {
+                    from: path.resolve("assets/customize.js"),
+                    to: "customize.js",
                 },
                 {
                     from: path.resolve("node_modules/lowcss/low.css"),
