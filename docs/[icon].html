@@ -11,17 +11,17 @@
 <div class="flex flex-col md:flex-row gap-8 w-full mb-8">
     <div class="w-full">
         <div class="flex items-center justify-center w-full rounded-3xl bg-input h-96">
-            <div id="iconPreview" class="icon-preview flex items-center text-foreground">
+            <div id="iconPreview" class="flex items-center text-foreground" style="font-size:240px;">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em">
                     <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="{{page.attributes.icon.path}}" />
                 <svg/>
             </div>
         </div>
     </div>
-    <div class="w-full md:w-96 shrink-0">
+    <div class="w-full md:max-w-lg shrink-0">
         <div class="mb-6">
             <div class="font-bold font-heading text-2xl">Download</div>
-            <div class="mb-3">Download the icon as SVG image to use or edit it.</div>
+            <div class="mb-3">Download the icon as SVG image.</div>
             <a href="/icons/{{page.attributes.icon.name}}.svg" target="_blank" class="flex justify-center items-center w-full rounded-full bg-primary text-primary-foreground p-3 gap-2 no-underline">
                 <div class="flex items-center text-2xl">
                     {{=icon icon="download"}}
@@ -58,7 +58,7 @@
                 </div>
             </div>
             <div class="flex flex-nowrap gap-2">
-                <div id="downloadSvg" class="flex justify-center items-center w-full rounded-full bg-primary text-primary-foreground p-3 gap-2 cursor-pointer">
+                <div data-download="SVG" class="flex justify-center items-center w-full rounded-full bg-primary text-primary-foreground p-3 gap-2 cursor-pointer">
                     <div class="flex items-center text-2xl">
                         {{=icon icon="code"}}
                     </div>
@@ -66,7 +66,7 @@
                         <span>Get SVG</span>
                     </div>
                 </div>
-                <div id="downloadPng" class="flex justify-center items-center w-full rounded-full bg-primary text-primary-foreground p-3 gap-2 cursor-pointer">
+                <div data-download="PNG" class="flex justify-center items-center w-full rounded-full bg-primary text-primary-foreground p-3 gap-2 cursor-pointer">
                     <div class="flex items-center text-2xl">
                         {{=icon icon="image"}}
                     </div>
@@ -98,6 +98,4 @@
     {{/ui.paragraph}}
     {{>>ui.code}}{{=code block="cssUsage" icon=page.attributes.icon}}{{/ui.code}}
 </section>
-
-
 <script type="text/javascript" src="/customize.js"></script>

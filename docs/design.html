@@ -1,0 +1,36 @@
+---
+{
+    "title": "Design guidelines"
+}
+---
+<style>
+    .guides {
+        background-image: linear-gradient(var(--alabaster) 1px, transparent 1px), linear-gradient(90deg, var(--alabaster) 1px, transparent 1px);
+        background-size: 7.5px 7.5px;
+        border-color: var(--alabaster);
+        border-bottom-width: 1px;
+        border-right-width: 1px;
+        border-style: solid;
+    }
+</style>
+<section class="w-full pt-10 pb-10">
+    {{>>ui.heading}}Design Guidelines{{/ui.heading}}
+
+    {{>>ui.subheading}}Icons{{/ui.subheading}}
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full">
+    {{#each site.icons}}
+        <div class="relative flex flex-col justify-center p-4 rounded-2xl bg-accent">
+            <div class="font-heading text-lg mb-2 text-center">
+                <span>{{name}}</span>
+            </div>
+            <div class="flex items-center justify-center mx-auto">
+                <div class="guides flex items-center text-foreground" style="font-size:180px;">
+                    <div class="flex items-center opacity-50">
+                        {{=icon icon=name}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {{/each}}
+    </div>
+</section>

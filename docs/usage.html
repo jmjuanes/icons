@@ -1,0 +1,139 @@
+---
+{
+    "title": "Usage",
+    "description": "How to use the josemi/icons in your projects."
+}
+---
+
+<section class="w-full pt-10 pb-10">
+{{#markdown}}
+{{>>ui.heading}}Usage{{/ui.heading}}
+
+{{>>ui.subheading}}Embedded as SVG element{{/ui.subheading}}
+
+To embed an icon as an SVG image, simply copy and paste the SVG code of the desired icon directly into your HTML. This allows you to customize the icon's size, color, and other properties as needed, using CSS or inline styles.
+
+```html
+<html>
+<head>
+    <title>Icon Usage Example</title>
+    <style>
+        .icon {
+            fill: #ff0000; /* Customize the color */
+            width: 24px;   /* Customize the size */
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Using an Icon in HTML</h1>
+    <svg class="icon">
+        <!-- Paste the SVG code of the icon here -->
+    </svg>
+</body>
+</html>
+```
+
+{{>>ui.subheading}}Using as an external image{{/ui.subheading}}
+
+Alternatively, you can reference the icons as normal images using the `<img>` element. Provide the path or URL to the SVG file in the `src` attribute of the `<img>` tag.
+
+```html
+<html>
+<head>
+    <title>Icon Usage Example</title>
+</head>
+<body>
+    <h1>Using an Icon as an External Image</h1>
+    <img src="path/to/your/icon.svg" alt="Icon Description" width="24" height="24">
+</body>
+</html>
+```
+
+{{>>ui.subheading}}Using the SVG Sprite{{/ui.subheading}}
+
+We provide a convenient SVG sprite as part of the `@josemi-icons/svg` package that includes all the icons in a single file. This approach reduces the number of HTTP requests, improves loading times, and simplifies the management of icons in your project. You can easily reference icons anywhere in your HTML by using the `<svg>` and `<use>` elements.
+
+```html
+<svg class="icon">
+    <use xlink:href="./node_modules/@josemi-icons/svg/sprite.svg#rocket"></use>
+</svg>
+```
+
+You can apply styles to your icons using CSS, just as you would with any other HTML element. 
+
+```css
+.icon {
+    color: #FF5733; /* Replace with your desired color */
+    width: 32px;   /* Set the icon's width */
+    height: 32px;  /* Set the icon's height */
+}
+```
+
+{{>>ui.subheading}}Using with CSS{{/ui.subheading}}
+
+We also provide a CSS package that allows you to use our icons as CSS classes. You can install it via **npm** or **yarn**:
+
+```shell
+$ yarn add @josemi-icons/css
+```
+
+```shell
+$ npm install --save @josemi-icons/css
+```
+
+Then, you can include the CSS file in your project:
+
+```html
+<link rel="stylesheet" href="node_modules/@josemi-icons/css/icons.css">
+```
+
+After including the CSS file, you can use the icons as classes in your HTML:
+
+```html
+<i class="ji-circle"></i>
+```
+
+You can customize the size and color of the icons using CSS. For example, to change the color and size of the icon, you can use the following CSS:
+
+```css
+.icon {
+    color: #FF5733; /* Replace with your desired color */
+    font-size: 32px; /* Set the icon's size */
+}
+.icon:hover {
+    color: #FF0000; /* Change color on hover */
+}
+```
+
+{{>>ui.subheading}}Using Icons in React{{/ui.subheading}}
+
+We provide a dedicated NPM package that offers our entire collection of icons as React components, simplifying the process of integrating our icons with your React application.
+
+You can easily add the package to your project using either **yarn** or **npm**:
+
+```shell
+$ yarn add @josemi-icons/react
+```
+
+```shell
+$ npm install --save @josemi-icons/react
+```
+
+After successfully installing the package, you can start using icons in your React application just like any other React component:
+
+```jsx
+import React from "react";
+import {ArrowCircleLeftIcon, ArrowCircleRightIcon} from "@josemi-icons/react";
+
+export const App = () => (
+    <div className="...">
+        <ArrowCircleLeftIcon />
+        <ArrowCircleRightIcon />
+    </div>
+);
+```
+
+The example above showcases how to import and use two of our icons, namely `ArrowCircleLeftIcon` and `ArrowCircleRightIcon`. Feel free to explore our extensive icon library and incorporate any relevant icons into your application as needed.
+{{/markdown}}
+</section>

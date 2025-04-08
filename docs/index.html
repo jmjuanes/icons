@@ -12,7 +12,7 @@
         <span>Over {{site.iconsCount}}+ meticulously crafted, smooth and consistent line icons that serve as the perfect starting point for your next project.</span>
     </div>
     <div class="flex justify-center">
-        <a href="{{site.repository}}/releases" target="_blank" class="flex items-center gap-2 px-6 py-4 rounded-full bg-primary text-primary-foreground cursor-pointer no-underline">
+        <a href="{{site.repository}}/releases" target="_blank" class="flex items-center gap-2 px-6 py-4 rounded-full bg-primary text-primary-foreground cursor-pointer no-underline hover:underline">
             <div class="text-2xl flex items-center">
                 {{=icon icon="download"}}
             </div>
@@ -40,7 +40,7 @@
     </div>
     <div class="grid grid-cols-3 md:grid-cols-6 lg:grid-cols-8 gap-4 w-full">
     {{#each site.icons}}
-        <a href="/{{name}}" class="relative flex flex-col justify-center p-4 rounded-3xl cursor-pointer no-underline bg-accent hover:bg-primary text-accent-foreground hover:text-primary-foreground" data-icon-name="{{name}}">
+        <a href="/icon/{{name}}" class="relative flex flex-col justify-center p-4 rounded-3xl cursor-pointer no-underline bg-accent hover:bg-primary text-accent-foreground hover:text-primary-foreground" data-icon-name="{{name}}">
             <div class="flex justify-center text-3xl">
                 {{=icon icon=name}}
             </div>
@@ -51,8 +51,7 @@
     {{/each}}
     </div>
 </section>
-
-<script type="text/javascript">
+<script type="module">
     let allVisible = true;
     const isIconVisible = (value, target) => {
         const name = target.dataset.iconName || "";
