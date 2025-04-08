@@ -8,7 +8,7 @@
 <div class="mb-4">{{!@content}}</div>
 {{/ui.paragraph}}
 {{<ui.code}}
-<pre class="px-5 py-4 overflow-x-auto rounded-xl bg-primary font-mono text-sm">{{!@content}}</pre>
+<pre class="px-5 py-4 overflow-x-auto rounded-xl bg-primary font-mono text-sm text-muted">{{!@content}}</pre>
 {{/ui.code}}
 {{<ui.logo}}
 <span class="">josemi</span>
@@ -34,14 +34,44 @@
     <meta name="twitter:title" content="{{site.title}}" />
     <meta name="twitter:description" content="{{site.description}}" />
     <meta name="twitter:image" content="https://icons.josemi.xyz/og.png" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&display=swap">
+    {{#each site.theme.fonts}}
+    <link rel="stylesheet" href="{{@value.url}}" />
+    {{/each}}
     <link rel="stylesheet" href="/low.css" />
-    <link rel="stylesheet" href="/theme.css" />
     <link rel="stylesheet" href="/highlight.css" />
     <title>{{page.attributes.title}} - {{site.title}} v{{site.version}}</title>
+    <style>
+        :root {
+            --color-primary: {{site.theme.colors.primary.value}};
+            --color-neutral: {{site.theme.colors.neutral.value}};
+            --color-accent: {{site.theme.colors.accent.value}};
+            --color-background: {{site.theme.colors.background.value}};
+            --font-body: {{!site.theme.fonts.body.value}};
+            --font-heading: {{!site.theme.fonts.heading.value}};
+            /* low theme colors */
+            --low-background: var(--color-background);
+            --low-foreground: var(--color-primary);
+            --low-primary: var(--color-primary);
+            --low-primary-foreground: var(--color-background);
+            --low-muted: var(--color-neutral);
+            --low-accent: var(--color-accent);
+            --low-accent-foreground: var(--color-primary);
+            --low-input: var(--color-accent);
+        }
+        /* fonts */
+        .font-body {
+            font-family: var(--font-body);
+        }
+        .font-heading {
+            font-family: var(--font-heading);
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+        }
+    </style>
 </head>
-<body class="bg-background text-foreground m-0 p-0 font-inter leading-normal">
+<body class="bg-background text-foreground m-0 p-0 font-body leading-normal">
     <header class="w-full max-w-7xl h-16 px-6 mx-auto flex items-center justify-between">
         <a href="/" class="flex items-center gap-2 text-foreground no-underline">
             <div class="flex items-center gap-1 text-xl">{{>ui.logo}}</div>
@@ -49,10 +79,12 @@
                 <span>v{{site.version}}</span>
             </div>
         </a>
-        <div class="flex flex-row gap-3 items-center">
-            <a href="{{site.repository}}" target="_blank" class="flex items-center no-underline">
-                <img class="w-6 h-6" src="/github.svg" />
+        <div class="hidden sm:flex flex-row gap-1 items-center">
+            {{#each site.header.links}}
+            <a href="{{url}}" class="font-bold no-underline hover:bg-primary text-foreground hover:text-accent rounded-xl px-3 py-2 flex items-center">
+                <span>{{text}}</span>
             </a>
+            {{/each}}
         </div>
     </header>
     <main class="w-full max-w-7xl mx-auto px-6 pb-16">

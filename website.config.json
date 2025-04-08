@@ -2,7 +2,11 @@
     "title": "josemi/icons",
     "description": "An open source and hand-crafted SVG icons library.",
     "url": "https://icons.josemi.xyz",
-    "navbar": {},
+    "header": {
+        "links": [
+            {"text": "Usage", "url": "/usage"}
+        ]
+    },
     "footer": {
         "text": "Icons by Josemi",
         "links": [
@@ -28,6 +32,18 @@
             "background": {
                 "name": "Alabaster",
                 "value": "#f2eee3"
+            }
+        },
+        "fonts": {
+            "body": {
+                "name": "Inter",
+                "value": "'Inter', sans-serif",
+                "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap"
+            },
+            "heading": {
+                "name": "Bricolage Grotesque",
+                "value": "'Bricolage Grotesque', sans-serif",
+                "url": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&display=swap"
             }
         }
     }
