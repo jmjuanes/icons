@@ -89,6 +89,7 @@ press.build({
     version: pkg.version,
     repository: pkg.repository.url,
     icons: iconsConfig.icons,
+    releases: (iconsConfig.releases || []).reverse(),
     iconsCount: Math.floor(iconsConfig.icons.length / 100)*100,
     plugins: [
         press.SourcePlugin({source: "./docs"}),
@@ -110,6 +111,9 @@ press.build({
                 code: args => {
                     const block = codeBlocks[args.opt.block];
                     return hljs.highlight(block.code(args.opt.icon).join("\n"), {language: block.language}).value;
+                },
+                len: params => {
+                    return params.args[0].length;
                 },
             },
             ...markdownConfig,
