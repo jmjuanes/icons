@@ -5,8 +5,11 @@
 ---
 <div class="mt-10 mb-4 flex items-center justify-between">
     {{>>ui.heading}}
-        <span id="iconName">{{page.attributes.icon.name}}</span>
+    <span id="iconName">{{page.attributes.icon.name}}</span>
     {{/ui.heading}}
+    {{#if page.attributes.icon.version}}
+    <span class="bg-primary text-accent text-xs font-bold rounded-full px-3 py-1">v{{page.attributes.icon.version}}</span>
+    {{/if}}
 </div>
 <div class="flex flex-col md:flex-row gap-8 w-full mb-8">
     <div class="w-full">
