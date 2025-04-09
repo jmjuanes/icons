@@ -10,6 +10,7 @@
     "footer": {
         "text": "Icons by Josemi",
         "links": [
+            {"text": "Changelog", "url": "/changelog"},
             {"text": "Branding", "url": "/branding"},
             {"text": "Source code", "url": "https://github.com/jmjuanes/icons"},
             {"text": "Request an icon", "url": "https://github.com/jmjuanes/icons/issues"}
