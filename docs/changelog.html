@@ -1,0 +1,31 @@
+---
+{
+    "title": "Changelog",
+    "description": "New features, bug fixes, and improvements in josemi/icons."
+}
+---
+<section class="w-full pt-10 pb-10">
+    {{>>ui.heading}}Changelog{{/ui.heading}}
+    {{#each site.releases}}
+    <div class="grid grid-cols-12 gap-2 py-8">
+        <div class="col-span-12 sm:col-span-3">
+            <div class="font-bold text-xl mb-2 leading-none">Version v{{version}}</div>
+            <div class="text-muted text-sm">{{date}}</div>
+            <div class="text-muted text-sm">{{=len icons}} new icons</div>
+        </div>
+        <div class="col-span-12 sm:col-span-9 flex flex-wrap gap-2">
+            {{#each icons}}
+            <div class="flex gap-2 items-center py-1 px-2 rounded-lg bg-accent">
+                <div class="flex items-center text-lg">
+                    {{=icon icon=.}}
+                </div>
+                <div class="text-xs">{{.}}</div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+    {{#unless @last}}
+    <div class="border-b border-muted my-2"></div>
+    {{/unless}}
+    {{/each}}
+</section>

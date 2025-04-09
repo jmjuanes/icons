@@ -1,0 +1,109 @@
+{{<ui.heading}}
+<div class="font-heading text-5xl mt-10 first:mt-0 mb-4 last:mb-0">{{!@content}}</div>
+{{/ui.heading}}
+{{<ui.subheading}}
+<div class="font-heading text-3xl mt-8 first:mt-0 mb-2">{{!@content}}</div>
+{{/ui.subheading}}
+{{<ui.paragraph}}
+<div class="mb-4">{{!@content}}</div>
+{{/ui.paragraph}}
+{{<ui.code}}
+<pre class="px-5 py-4 overflow-x-auto rounded-xl bg-primary font-mono text-sm text-muted">{{!@content}}</pre>
+{{/ui.code}}
+{{<ui.logo}}
+<span class="">josemi</span>
+<span class="opacity-60">/</span>
+<span class="font-heading font-bold">icons</span>
+{{/ui.logo}}
+<html lang="en">
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=no" />
+    <meta name="title" content="{{site.title}}" />
+    <meta name="description" content="{{site.description}}" />
+    <meta property="og:title" content="{{site.title}}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{site.url}}" />
+    <meta property="og:image" content="{{site.url}}/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="{{site.title}}" />
+    <meta property="description" content="{{site.description}}" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:author" content="@jmjuanes" />
+    <meta name="twitter:title" content="{{site.title}}" />
+    <meta name="twitter:description" content="{{site.description}}" />
+    <meta name="twitter:image" content="https://icons.josemi.xyz/og.png" />
+    {{#each site.theme.fonts}}
+    <link rel="stylesheet" href="{{@value.url}}" />
+    {{/each}}
+    <link rel="stylesheet" href="/low.css" />
+    <link rel="stylesheet" href="/highlight.css" />
+    <title>{{page.attributes.title}} - {{site.title}} v{{site.version}}</title>
+    <style>
+        :root {
+            --color-primary: {{site.theme.colors.primary.value}};
+            --color-neutral: {{site.theme.colors.neutral.value}};
+            --color-accent: {{site.theme.colors.accent.value}};
+            --color-background: {{site.theme.colors.background.value}};
+            --font-body: {{!site.theme.fonts.body.value}};
+            --font-heading: {{!site.theme.fonts.heading.value}};
+            /* low theme colors */
+            --low-background: var(--color-background);
+            --low-foreground: var(--color-primary);
+            --low-primary: var(--color-primary);
+            --low-primary-foreground: var(--color-background);
+            --low-muted: var(--color-neutral);
+            --low-accent: var(--color-accent);
+            --low-accent-foreground: var(--color-primary);
+            --low-input: var(--color-accent);
+        }
+        /* fonts */
+        .font-body {
+            font-family: var(--font-body);
+        }
+        .font-heading {
+            font-family: var(--font-heading);
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+            font-variation-settings: "wdth" 100;
+        }
+    </style>
+</head>
+<body class="bg-background text-foreground m-0 p-0 font-body leading-normal">
+    <header class="w-full max-w-7xl h-16 px-6 mx-auto flex items-center justify-between">
+        <a href="/" class="flex items-center gap-2 text-foreground no-underline">
+            <div class="flex items-center gap-1 text-xl">{{>ui.logo}}</div>
+            <div class="flex items-center font-bold text-2xs px-3 py-1 rounded-full bg-primary text-primary-foreground">
+                <span>v{{site.version}}</span>
+            </div>
+        </a>
+        <div class="hidden sm:flex flex-row gap-1 items-center">
+            {{#each site.header.links}}
+            <a href="{{url}}" class="font-bold no-underline hover:bg-primary text-foreground hover:text-accent rounded-xl px-3 py-2 flex items-center">
+                <span>{{text}}</span>
+            </a>
+            {{/each}}
+        </div>
+    </header>
+    <main class="w-full max-w-7xl mx-auto px-6 pb-16">
+        {{>content}}
+    </main>
+    <footer class="w-full max-w-7xl mx-auto px-6 pt-10 pb-20 text-sm">
+        <div class="mb-2">
+            Designed by <a href="https://josemi.xyz" target="_blank" class="text-foreground font-bold hover:underline">Josemi</a> in Valencia, Spain. 
+        </div>
+        {{#if site.footer.links}}
+        <div class="flex items-center gap-2">
+            {{#each site.footer.links}}
+            <a class="hover:underline text-foreground font-bold" href="{{url}}">
+                <span>{{text}}</span>
+            </a>
+            <div class="last:hidden text-xs">•</div>
+            {{/each}}
+        </div>
+        {{/if}}
+    </footer>
+</body>
+</html>

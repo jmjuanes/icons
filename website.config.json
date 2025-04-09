@@ -1,0 +1,51 @@
+{
+    "title": "josemi/icons",
+    "description": "An open source and hand-crafted SVG icons library.",
+    "url": "https://icons.josemi.xyz",
+    "header": {
+        "links": [
+            {"text": "Usage", "url": "/usage"}
+        ]
+    },
+    "footer": {
+        "text": "Icons by Josemi",
+        "links": [
+            {"text": "Changelog", "url": "/changelog"},
+            {"text": "Branding", "url": "/branding"},
+            {"text": "Source code", "url": "https://github.com/jmjuanes/icons"},
+            {"text": "Request an icon", "url": "https://github.com/jmjuanes/icons/issues"}
+        ]
+    },
+    "theme": {
+        "colors": {
+            "primary": {
+                "name": "Space Cadet",
+                "value": "#37334d"
+            },
+            "neutral": {
+                "name": "Gray",
+                "value": "#919191"
+            },
+            "accent": {
+                "name": "Sea Salt",
+                "value": "#fafafa"
+            },
+            "background": {
+                "name": "Alabaster",
+                "value": "#f2eee3"
+            }
+        },
+        "fonts": {
+            "body": {
+                "name": "Inter",
+                "value": "'Inter', sans-serif",
+                "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap"
+            },
+            "heading": {
+                "name": "Bricolage Grotesque",
+                "value": "'Bricolage Grotesque', sans-serif",
+                "url": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700&display=swap"
+            }
+        }
+    }
+}
