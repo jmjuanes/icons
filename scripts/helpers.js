@@ -9,10 +9,23 @@ export const minifyCss = (css = "", options = {}) => {
 export const generateSvg = (p, size = "1em", separator = "") => {
     const items = [
 		`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="${size}" height="${size}">`,
-		`<path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="${p}"/>`,
+		`    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="${p}"/>`,
 		`</svg>`
 	];
     return items.join(separator);
+};
+
+// @description tiny utility to extract the d="" segment from the icon
+// @param {string} str - the SVG image content
+// @returns {string} - the path of the icon
+// @example extractIconPath('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L2 22h20L12 2z"/></svg>')
+export const extractIconPath = str => {
+    return str.match(/\sd="([^\"]*)"/im)[1].replace(/\+/g, " ");
+};
+
+// sort icons by name
+export const sortIcons = icons => {
+    return icons.sort((a, b) => a.name.localeCompare(b.name));
 };
 
 // encode SVG for using in CSS
