@@ -2,7 +2,7 @@
 www/
 icons.json
 icons.zip
-icons/
+src/
 
 ## Output packages
 packages/react/index.js
@@ -14,3 +14,4 @@ packages/css/icons.css
 node_modules/
 package-lock.json
 yarn.lock
+.DS_Store
