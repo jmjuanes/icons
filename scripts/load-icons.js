@@ -56,7 +56,10 @@ const loadIcons = (options) => {
             meta[icon.name].keywords = meta[icon.name].keywords || [];
         });
         // save the meta object
-        fs.writeFileSync(path.join("meta.json"), JSON.stringify(meta, null, "    "), "utf-8");
+        const sortedMeta = Object.fromEntries(Object.keys(meta).sort().map(key => {
+            return [key, meta[key]];
+        }));
+        fs.writeFileSync(path.join("meta.json"), JSON.stringify(sortedMeta, null, "    "), "utf-8");
         console.log(`[load] Updated meta.json with ${icons.length} new icons.`);
     }
     console.log(`[load] Load finished.`);
