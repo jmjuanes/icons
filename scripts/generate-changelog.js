@@ -1,4 +1,3 @@
-import {sortIcons} from "./helpers.js";
 import meta from "../meta.json" with {type: "json"};
 
 // @description function to short the versions
@@ -24,9 +23,9 @@ export const generateChangelogData = () => {
     return versions.map(version => {
         return {
             version: version,
-            icons: sortIcons(icons.filter(icon => {
+            icons: icons.filter(icon => {
                 return meta[icon].version === version;
-            })),
+            }),
         };
     });
 };

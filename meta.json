@@ -4,34 +4,17 @@
             "wireless",
             "network",
             "router"
-        ]
+        ],
+        "version": "0.7.0"
     },
     "accessible": {
         "keywords": [
             "accessibility",
             "disabled"
-        ]
-    },
-    "ai": {
-        "keywords": [
-            "artificial intelligence",
-            "machine learning",
-            "neural network",
-            "technology"
-        ]
-    },
-    "api": {
-        "keywords": [
-            "application programming interface",
-            "software",
-            "development"
-        ]
+        ],
+        "version": "0.7.0"
     },
     "acorn": {
-        "version": "",
-        "keywords": []
-    },
-    "activity-square": {
         "version": "",
         "keywords": []
     },
@@ -39,7 +22,24 @@
         "version": "",
         "keywords": []
     },
+    "activity-square": {
+        "version": "",
+        "keywords": []
+    },
     "address-book": {
+        "version": "",
+        "keywords": []
+    },
+    "ai": {
+        "keywords": [
+            "artificial intelligence",
+            "machine learning",
+            "neural network",
+            "technology"
+        ],
+        "version": "0.7.0"
+    },
+    "alarm": {
         "version": "",
         "keywords": []
     },
@@ -67,16 +67,48 @@
         "version": "",
         "keywords": []
     },
-    "alarm": {
-        "version": "",
-        "keywords": []
-    },
     "album": {
         "version": "",
         "keywords": []
     },
     "align-bottom": {
         "version": "",
+        "keywords": []
+    },
+    "align-box-bottom-center": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "align-box-bottom-left": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "align-box-bottom-right": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "align-box-middle-center 2": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "align-box-middle-left": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "align-box-middle-right": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "align-box-top-center": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "align-box-top-left": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "align-box-top-right": {
+        "version": "0.7.0",
         "keywords": []
     },
     "align-center": {
@@ -107,15 +139,23 @@
         "version": "",
         "keywords": []
     },
+    "api": {
+        "keywords": [
+            "application programming interface",
+            "software",
+            "development"
+        ],
+        "version": "0.7.0"
+    },
     "apple": {
         "version": "",
         "keywords": []
     },
-    "archive-slash": {
+    "archive": {
         "version": "",
         "keywords": []
     },
-    "archive": {
+    "archive-slash": {
         "version": "",
         "keywords": []
     },
@@ -155,6 +195,10 @@
         "version": "",
         "keywords": []
     },
+    "arrow-down": {
+        "version": "",
+        "keywords": []
+    },
     "arrow-down-0-9": {
         "version": "",
         "keywords": []
@@ -183,7 +227,7 @@
         "version": "",
         "keywords": []
     },
-    "arrow-down": {
+    "arrow-left": {
         "version": "",
         "keywords": []
     },
@@ -191,15 +235,11 @@
         "version": "",
         "keywords": []
     },
-    "arrow-left": {
+    "arrow-right": {
         "version": "",
         "keywords": []
     },
     "arrow-right-line": {
-        "version": "",
-        "keywords": []
-    },
-    "arrow-right": {
         "version": "",
         "keywords": []
     },
@@ -216,6 +256,10 @@
         "keywords": []
     },
     "arrow-square-up": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-up": {
         "version": "",
         "keywords": []
     },
@@ -247,11 +291,7 @@
         "version": "",
         "keywords": []
     },
-    "arrow-up": {
-        "version": "",
-        "keywords": []
-    },
-    "arrows-down-up": {
+    "arrows": {
         "version": "",
         "keywords": []
     },
@@ -259,15 +299,19 @@
         "version": "",
         "keywords": []
     },
+    "arrows-down-up": {
+        "version": "",
+        "keywords": []
+    },
     "arrows-horizontal": {
         "version": "",
         "keywords": []
     },
-    "arrows-left-right": {
+    "arrows-left": {
         "version": "",
         "keywords": []
     },
-    "arrows-left": {
+    "arrows-left-right": {
         "version": "",
         "keywords": []
     },
@@ -283,11 +327,11 @@
         "version": "",
         "keywords": []
     },
-    "arrows-right-left": {
+    "arrows-right": {
         "version": "",
         "keywords": []
     },
-    "arrows-right": {
+    "arrows-right-left": {
         "version": "",
         "keywords": []
     },
@@ -303,19 +347,15 @@
         "version": "",
         "keywords": []
     },
-    "arrows-up-down": {
-        "version": "",
-        "keywords": []
-    },
     "arrows-up": {
         "version": "",
         "keywords": []
     },
-    "arrows-vertical": {
+    "arrows-up-down": {
         "version": "",
         "keywords": []
     },
-    "arrows": {
+    "arrows-vertical": {
         "version": "",
         "keywords": []
     },
@@ -343,8 +383,20 @@
         "version": "",
         "keywords": []
     },
+    "audio-lines": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "audio-waveform": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "award": {
         "version": "",
+        "keywords": []
+    },
+    "background": {
+        "version": "0.7.0",
         "keywords": []
     },
     "backpack": {
@@ -352,6 +404,10 @@
         "keywords": []
     },
     "backspace": {
+        "version": "",
+        "keywords": []
+    },
+    "badge": {
         "version": "",
         "keywords": []
     },
@@ -371,16 +427,28 @@
         "version": "",
         "keywords": []
     },
-    "badge": {
-        "version": "",
-        "keywords": []
-    },
     "bag": {
         "version": "",
         "keywords": []
     },
     "balance": {
         "version": "",
+        "keywords": []
+    },
+    "ball-basketball": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "ball-bowling": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "ball-tennis": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "ball-volleyball": {
+        "version": "0.7.0",
         "keywords": []
     },
     "ban": {
@@ -399,8 +467,24 @@
         "version": "",
         "keywords": []
     },
+    "basket": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "bat": {
         "version": "",
+        "keywords": []
+    },
+    "bath": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "battery": {
+        "version": "",
+        "keywords": []
+    },
+    "battery-car": {
+        "version": "0.7.0",
         "keywords": []
     },
     "battery-charging": {
@@ -427,7 +511,7 @@
         "version": "",
         "keywords": []
     },
-    "battery": {
+    "bed": {
         "version": "",
         "keywords": []
     },
@@ -443,23 +527,7 @@
         "version": "",
         "keywords": []
     },
-    "bed": {
-        "version": "",
-        "keywords": []
-    },
     "beer": {
-        "version": "",
-        "keywords": []
-    },
-    "bell-school-slash": {
-        "version": "",
-        "keywords": []
-    },
-    "bell-school": {
-        "version": "",
-        "keywords": []
-    },
-    "bell-slash": {
         "version": "",
         "keywords": []
     },
@@ -467,8 +535,24 @@
         "version": "",
         "keywords": []
     },
+    "bell-school": {
+        "version": "",
+        "keywords": []
+    },
+    "bell-school-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "bell-slash": {
+        "version": "",
+        "keywords": []
+    },
     "bezier": {
         "version": "",
+        "keywords": []
+    },
+    "bezier-2": {
+        "version": "0.7.0",
         "keywords": []
     },
     "bike": {
@@ -476,6 +560,14 @@
         "keywords": []
     },
     "binary": {
+        "version": "",
+        "keywords": []
+    },
+    "blocks": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "bluetooth": {
         "version": "",
         "keywords": []
     },
@@ -487,10 +579,6 @@
         "version": "",
         "keywords": []
     },
-    "bluetooth": {
-        "version": "",
-        "keywords": []
-    },
     "blur": {
         "version": "",
         "keywords": []
@@ -499,11 +587,11 @@
         "version": "",
         "keywords": []
     },
-    "bolt-slash": {
+    "bolt": {
         "version": "",
         "keywords": []
     },
-    "bolt": {
+    "bolt-slash": {
         "version": "",
         "keywords": []
     },
@@ -512,6 +600,10 @@
         "keywords": []
     },
     "bone": {
+        "version": "",
+        "keywords": []
+    },
+    "book": {
         "version": "",
         "keywords": []
     },
@@ -551,10 +643,6 @@
         "version": "",
         "keywords": []
     },
-    "book": {
-        "version": "",
-        "keywords": []
-    },
     "bookmark": {
         "version": "",
         "keywords": []
@@ -563,11 +651,67 @@
         "version": "",
         "keywords": []
     },
+    "border-all": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "border-bottom": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "border-horizontal": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "border-inner": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "border-left": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "border-none": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "border-outer": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "border-radius": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "border-right": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "border-style": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "border-top": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "border-vertical": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "bot": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "box": {
+        "version": "",
+        "keywords": []
+    },
     "box-selection": {
         "version": "",
         "keywords": []
     },
-    "box": {
+    "braces": {
         "version": "",
         "keywords": []
     },
@@ -583,15 +727,7 @@
         "version": "",
         "keywords": []
     },
-    "braces": {
-        "version": "",
-        "keywords": []
-    },
     "brackets": {
-        "version": "",
-        "keywords": []
-    },
-    "brain-circuit": {
         "version": "",
         "keywords": []
     },
@@ -599,11 +735,15 @@
         "version": "",
         "keywords": []
     },
-    "briefcase-medical": {
+    "brain-circuit": {
         "version": "",
         "keywords": []
     },
     "briefcase": {
+        "version": "",
+        "keywords": []
+    },
+    "briefcase-medical": {
         "version": "",
         "keywords": []
     },
@@ -627,11 +767,15 @@
         "version": "",
         "keywords": []
     },
-    "bug-slash": {
-        "version": "",
+    "bubbles": {
+        "version": "0.7.0",
         "keywords": []
     },
     "bug": {
+        "version": "",
+        "keywords": []
+    },
+    "bug-slash": {
         "version": "",
         "keywords": []
     },
@@ -639,11 +783,19 @@
         "version": "",
         "keywords": []
     },
+    "bus": {
+        "version": "",
+        "keywords": []
+    },
     "bus-front": {
         "version": "",
         "keywords": []
     },
-    "bus": {
+    "cactus": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "cake": {
         "version": "",
         "keywords": []
     },
@@ -651,7 +803,7 @@
         "version": "",
         "keywords": []
     },
-    "cake": {
+    "calendar": {
         "version": "",
         "keywords": []
     },
@@ -675,7 +827,7 @@
         "version": "",
         "keywords": []
     },
-    "calendar": {
+    "camera": {
         "version": "",
         "keywords": []
     },
@@ -683,8 +835,8 @@
         "version": "",
         "keywords": []
     },
-    "camera": {
-        "version": "",
+    "camper": {
+        "version": "0.7.0",
         "keywords": []
     },
     "candle-holder": {
@@ -695,11 +847,11 @@
         "version": "",
         "keywords": []
     },
-    "car-front": {
+    "car": {
         "version": "",
         "keywords": []
     },
-    "car": {
+    "car-front": {
         "version": "",
         "keywords": []
     },
@@ -716,6 +868,14 @@
         "keywords": []
     },
     "caret-up": {
+        "version": "",
+        "keywords": []
+    },
+    "carrot": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "cart": {
         "version": "",
         "keywords": []
     },
@@ -739,10 +899,6 @@
         "version": "",
         "keywords": []
     },
-    "cart": {
-        "version": "",
-        "keywords": []
-    },
     "cassette-tape": {
         "version": "",
         "keywords": []
@@ -757,6 +913,10 @@
     },
     "cauldron": {
         "version": "",
+        "keywords": []
+    },
+    "celsius": {
+        "version": "0.7.0",
         "keywords": []
     },
     "certificate": {
@@ -783,11 +943,19 @@
         "version": "",
         "keywords": []
     },
+    "chart-treemap": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "chat": {
+        "version": "",
+        "keywords": []
+    },
     "chat-dots": {
         "version": "",
         "keywords": []
     },
-    "chat": {
+    "check": {
         "version": "",
         "keywords": []
     },
@@ -799,12 +967,36 @@
         "version": "",
         "keywords": []
     },
-    "check": {
+    "checks": {
         "version": "",
         "keywords": []
     },
-    "checks": {
-        "version": "",
+    "cheese": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "chess-bishop": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "chess-king": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "chess-knight": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "chess-pawn": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "chess-queen": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "chess-rook": {
+        "version": "0.7.0",
         "keywords": []
     },
     "chevron-circle-down": {
@@ -823,15 +1015,15 @@
         "version": "",
         "keywords": []
     },
+    "chevron-down": {
+        "version": "",
+        "keywords": []
+    },
     "chevron-down-left": {
         "version": "",
         "keywords": []
     },
     "chevron-down-right": {
-        "version": "",
-        "keywords": []
-    },
-    "chevron-down": {
         "version": "",
         "keywords": []
     },
@@ -859,15 +1051,15 @@
         "version": "",
         "keywords": []
     },
+    "chevron-up": {
+        "version": "",
+        "keywords": []
+    },
     "chevron-up-left": {
         "version": "",
         "keywords": []
     },
     "chevron-up-right": {
-        "version": "",
-        "keywords": []
-    },
-    "chevron-up": {
         "version": "",
         "keywords": []
     },
@@ -923,6 +1115,10 @@
         "version": "",
         "keywords": []
     },
+    "circle": {
+        "version": "",
+        "keywords": []
+    },
     "circle-fill": {
         "version": "",
         "keywords": []
@@ -931,7 +1127,11 @@
         "version": "",
         "keywords": []
     },
-    "circle": {
+    "circuit-board": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "clipboard": {
         "version": "",
         "keywords": []
     },
@@ -951,15 +1151,19 @@
         "version": "",
         "keywords": []
     },
-    "clipboard": {
-        "version": "",
-        "keywords": []
-    },
     "clock": {
         "version": "",
         "keywords": []
     },
+    "clock-square": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "close": {
+        "version": "",
+        "keywords": []
+    },
+    "cloud": {
         "version": "",
         "keywords": []
     },
@@ -987,7 +1191,7 @@
         "version": "",
         "keywords": []
     },
-    "cloud": {
+    "code": {
         "version": "",
         "keywords": []
     },
@@ -999,7 +1203,7 @@
         "version": "",
         "keywords": []
     },
-    "code": {
+    "coffee": {
         "version": "",
         "keywords": []
     },
@@ -1007,15 +1211,11 @@
         "version": "",
         "keywords": []
     },
-    "coffee": {
+    "coffin": {
         "version": "",
         "keywords": []
     },
     "coffin-cross": {
-        "version": "",
-        "keywords": []
-    },
-    "coffin": {
         "version": "",
         "keywords": []
     },
@@ -1027,6 +1227,10 @@
         "version": "",
         "keywords": []
     },
+    "color-wheel": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "column-insert-left": {
         "version": "",
         "keywords": []
@@ -1035,11 +1239,11 @@
         "version": "",
         "keywords": []
     },
-    "columns-slash": {
+    "columns": {
         "version": "",
         "keywords": []
     },
-    "columns": {
+    "columns-slash": {
         "version": "",
         "keywords": []
     },
@@ -1053,6 +1257,10 @@
     },
     "component": {
         "version": "",
+        "keywords": []
+    },
+    "container": {
+        "version": "0.7.0",
         "keywords": []
     },
     "contrast": {
@@ -1107,6 +1315,14 @@
         "version": "",
         "keywords": []
     },
+    "counter": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "courtain": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "cpu": {
         "version": "",
         "keywords": []
@@ -1139,12 +1355,16 @@
         "version": "",
         "keywords": []
     },
+    "database": {
+        "version": "",
+        "keywords": []
+    },
     "database-slash": {
         "version": "",
         "keywords": []
     },
-    "database": {
-        "version": "",
+    "desk": {
+        "version": "0.7.0",
         "keywords": []
     },
     "diagram-project": {
@@ -1159,8 +1379,16 @@
         "version": "",
         "keywords": []
     },
+    "dialpad": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "diamond": {
         "version": "",
+        "keywords": []
+    },
+    "dimensions": {
+        "version": "0.7.0",
         "keywords": []
     },
     "disc": {
@@ -1171,15 +1399,15 @@
         "version": "",
         "keywords": []
     },
+    "divide": {
+        "version": "",
+        "keywords": []
+    },
     "divide-circle": {
         "version": "",
         "keywords": []
     },
     "divide-square": {
-        "version": "",
-        "keywords": []
-    },
-    "divide": {
         "version": "",
         "keywords": []
     },
@@ -1207,11 +1435,11 @@
         "version": "",
         "keywords": []
     },
-    "dots-vertical": {
+    "dots": {
         "version": "",
         "keywords": []
     },
-    "dots": {
+    "dots-vertical": {
         "version": "",
         "keywords": []
     },
@@ -1223,6 +1451,10 @@
         "version": "",
         "keywords": []
     },
+    "drawing-compass": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "droplet": {
         "version": "",
         "keywords": []
@@ -1231,11 +1463,19 @@
         "version": "",
         "keywords": []
     },
+    "eclipse": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "edit": {
+        "version": "",
+        "keywords": []
+    },
     "edit-slash": {
         "version": "",
         "keywords": []
     },
-    "edit": {
+    "egg": {
         "version": "",
         "keywords": []
     },
@@ -1243,8 +1483,8 @@
         "version": "",
         "keywords": []
     },
-    "egg": {
-        "version": "",
+    "eject": {
+        "version": "0.7.0",
         "keywords": []
     },
     "emoji-angry": {
@@ -1287,11 +1527,11 @@
         "version": "",
         "keywords": []
     },
-    "envelope-open": {
+    "envelope": {
         "version": "",
         "keywords": []
     },
-    "envelope": {
+    "envelope-open": {
         "version": "",
         "keywords": []
     },
@@ -1301,6 +1541,10 @@
     },
     "erase": {
         "version": "",
+        "keywords": []
+    },
+    "escape": {
+        "version": "0.7.0",
         "keywords": []
     },
     "exclamation-circle": {
@@ -1323,11 +1567,11 @@
         "version": "",
         "keywords": []
     },
-    "eye-slash": {
+    "eye": {
         "version": "",
         "keywords": []
     },
-    "eye": {
+    "eye-slash": {
         "version": "",
         "keywords": []
     },
@@ -1339,7 +1583,15 @@
         "version": "",
         "keywords": []
     },
+    "fahrenheit": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "ferris-wheel": {
+        "version": "",
+        "keywords": []
+    },
+    "file": {
         "version": "",
         "keywords": []
     },
@@ -1355,12 +1607,24 @@
         "version": "",
         "keywords": []
     },
+    "file-database": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "file-digit": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "file-dots": {
         "version": "",
         "keywords": []
     },
     "file-empty": {
         "version": "",
+        "keywords": []
+    },
+    "file-image": {
+        "version": "0.7.0",
         "keywords": []
     },
     "file-minus": {
@@ -1375,12 +1639,16 @@
         "version": "",
         "keywords": []
     },
+    "file-type": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "file-x": {
         "version": "",
         "keywords": []
     },
-    "file": {
-        "version": "",
+    "file-zip": {
+        "version": "0.7.0",
         "keywords": []
     },
     "files": {
@@ -1395,11 +1663,11 @@
         "version": "",
         "keywords": []
     },
-    "filter-slash": {
+    "filter": {
         "version": "",
         "keywords": []
     },
-    "filter": {
+    "filter-slash": {
         "version": "",
         "keywords": []
     },
@@ -1411,11 +1679,15 @@
         "version": "",
         "keywords": []
     },
+    "flame": {
+        "version": "",
+        "keywords": []
+    },
     "flame-slash": {
         "version": "",
         "keywords": []
     },
-    "flame": {
+    "flashlight": {
         "version": "",
         "keywords": []
     },
@@ -1423,7 +1695,7 @@
         "version": "",
         "keywords": []
     },
-    "flashlight": {
+    "flask": {
         "version": "",
         "keywords": []
     },
@@ -1432,10 +1704,6 @@
         "keywords": []
     },
     "flask-slash": {
-        "version": "",
-        "keywords": []
-    },
-    "flask": {
         "version": "",
         "keywords": []
     },
@@ -1463,12 +1731,20 @@
         "version": "",
         "keywords": []
     },
+    "folder": {
+        "version": "",
+        "keywords": []
+    },
     "folder-check": {
         "version": "",
         "keywords": []
     },
     "folder-minus": {
         "version": "",
+        "keywords": []
+    },
+    "folder-open": {
+        "version": "0.7.0",
         "keywords": []
     },
     "folder-plus": {
@@ -1480,10 +1756,6 @@
         "keywords": []
     },
     "folder-x": {
-        "version": "",
-        "keywords": []
-    },
-    "folder": {
         "version": "",
         "keywords": []
     },
@@ -1503,11 +1775,19 @@
         "version": "",
         "keywords": []
     },
-    "fullscreen-exit": {
-        "version": "",
+    "fridge": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "fuel": {
+        "version": "0.7.0",
         "keywords": []
     },
     "fullscreen": {
+        "version": "",
+        "keywords": []
+    },
+    "fullscreen-exit": {
         "version": "",
         "keywords": []
     },
@@ -1547,11 +1827,11 @@
         "version": "",
         "keywords": []
     },
-    "gift-card": {
+    "gift": {
         "version": "",
         "keywords": []
     },
-    "gift": {
+    "gift-card": {
         "version": "",
         "keywords": []
     },
@@ -1599,6 +1879,10 @@
         "version": "",
         "keywords": []
     },
+    "grid": {
+        "version": "",
+        "keywords": []
+    },
     "grid-divider": {
         "version": "",
         "keywords": []
@@ -1624,10 +1908,6 @@
         "keywords": []
     },
     "grid-x": {
-        "version": "",
-        "keywords": []
-    },
-    "grid": {
         "version": "",
         "keywords": []
     },
@@ -1667,6 +1947,14 @@
         "version": "",
         "keywords": []
     },
+    "haze": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "heading": {
+        "version": "",
+        "keywords": []
+    },
     "heading-1": {
         "version": "",
         "keywords": []
@@ -1691,7 +1979,7 @@
         "version": "",
         "keywords": []
     },
-    "heading": {
+    "headphones": {
         "version": "",
         "keywords": []
     },
@@ -1699,11 +1987,11 @@
         "version": "",
         "keywords": []
     },
-    "headphones": {
+    "headset": {
         "version": "",
         "keywords": []
     },
-    "headset": {
+    "heart": {
         "version": "",
         "keywords": []
     },
@@ -1715,11 +2003,11 @@
         "version": "",
         "keywords": []
     },
-    "heart": {
+    "hexagon": {
         "version": "",
         "keywords": []
     },
-    "hexagon": {
+    "highlighter": {
         "version": "",
         "keywords": []
     },
@@ -1727,7 +2015,7 @@
         "version": "",
         "keywords": []
     },
-    "highlighter": {
+    "history": {
         "version": "",
         "keywords": []
     },
@@ -1736,10 +2024,6 @@
         "keywords": []
     },
     "history-undo": {
-        "version": "",
-        "keywords": []
-    },
-    "history": {
         "version": "",
         "keywords": []
     },
@@ -1759,12 +2043,28 @@
         "version": "",
         "keywords": []
     },
-    "ice-cream-glass": {
-        "version": "",
+    "html": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "html5": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "hurricane": {
+        "version": "0.7.0",
         "keywords": []
     },
     "ice-cream": {
         "version": "",
+        "keywords": []
+    },
+    "ice-cream-glass": {
+        "version": "",
+        "keywords": []
+    },
+    "icons": {
+        "version": "0.7.0",
         "keywords": []
     },
     "id-badge": {
@@ -1772,6 +2072,10 @@
         "keywords": []
     },
     "id-card": {
+        "version": "",
+        "keywords": []
+    },
+    "image": {
         "version": "",
         "keywords": []
     },
@@ -1783,15 +2087,11 @@
         "version": "",
         "keywords": []
     },
-    "image": {
+    "inbox": {
         "version": "",
         "keywords": []
     },
     "inbox-slash": {
-        "version": "",
-        "keywords": []
-    },
-    "inbox": {
         "version": "",
         "keywords": []
     },
@@ -1831,6 +2131,10 @@
         "version": "",
         "keywords": []
     },
+    "json": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "kanban": {
         "version": "",
         "keywords": []
@@ -1843,19 +2147,35 @@
         "version": "",
         "keywords": []
     },
-    "lamp-desk": {
-        "version": "",
+    "keyboard-music": {
+        "version": "0.7.0",
         "keywords": []
     },
     "lamp": {
         "version": "",
         "keywords": []
     },
-    "laptop-mobile": {
+    "lamp-desk": {
         "version": "",
         "keywords": []
     },
+    "landmark": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "landscape": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "language": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "laptop": {
+        "version": "",
+        "keywords": []
+    },
+    "laptop-mobile": {
         "version": "",
         "keywords": []
     },
@@ -1879,6 +2199,10 @@
         "version": "",
         "keywords": []
     },
+    "line": {
+        "version": "",
+        "keywords": []
+    },
     "line-horizontal": {
         "version": "",
         "keywords": []
@@ -1887,11 +2211,11 @@
         "version": "",
         "keywords": []
     },
-    "line": {
+    "link": {
         "version": "",
         "keywords": []
     },
-    "link": {
+    "list": {
         "version": "",
         "keywords": []
     },
@@ -1911,11 +2235,11 @@
         "version": "",
         "keywords": []
     },
-    "list": {
+    "loader": {
         "version": "",
         "keywords": []
     },
-    "loader": {
+    "location": {
         "version": "",
         "keywords": []
     },
@@ -1932,10 +2256,6 @@
         "keywords": []
     },
     "location-slash": {
-        "version": "",
-        "keywords": []
-    },
-    "location": {
         "version": "",
         "keywords": []
     },
@@ -1963,11 +2283,15 @@
         "version": "",
         "keywords": []
     },
-    "map-pinned": {
-        "version": "",
+    "mansion": {
+        "version": "0.7.0",
         "keywords": []
     },
     "map": {
+        "version": "",
+        "keywords": []
+    },
+    "map-pinned": {
         "version": "",
         "keywords": []
     },
@@ -1983,6 +2307,10 @@
         "version": "",
         "keywords": []
     },
+    "message": {
+        "version": "",
+        "keywords": []
+    },
     "message-dots": {
         "version": "",
         "keywords": []
@@ -1995,19 +2323,15 @@
         "version": "",
         "keywords": []
     },
-    "message": {
-        "version": "",
-        "keywords": []
-    },
     "microchip": {
         "version": "",
         "keywords": []
     },
-    "microphone-slash": {
+    "microphone": {
         "version": "",
         "keywords": []
     },
-    "microphone": {
+    "microphone-slash": {
         "version": "",
         "keywords": []
     },
@@ -2023,6 +2347,10 @@
         "version": "",
         "keywords": []
     },
+    "minus": {
+        "version": "",
+        "keywords": []
+    },
     "minus-circle": {
         "version": "",
         "keywords": []
@@ -2031,15 +2359,15 @@
         "version": "",
         "keywords": []
     },
-    "minus": {
+    "mirror": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "mobile": {
         "version": "",
         "keywords": []
     },
     "mobile-slash": {
-        "version": "",
-        "keywords": []
-    },
-    "mobile": {
         "version": "",
         "keywords": []
     },
@@ -2051,11 +2379,11 @@
         "version": "",
         "keywords": []
     },
-    "monitor-heart-rate": {
+    "monitor": {
         "version": "",
         "keywords": []
     },
-    "monitor": {
+    "monitor-heart-rate": {
         "version": "",
         "keywords": []
     },
@@ -2151,6 +2479,10 @@
         "version": "",
         "keywords": []
     },
+    "option": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "orbit": {
         "version": "",
         "keywords": []
@@ -2163,11 +2495,11 @@
         "version": "",
         "keywords": []
     },
-    "paint-roller-slash": {
+    "paint-roller": {
         "version": "",
         "keywords": []
     },
-    "paint-roller": {
+    "paint-roller-slash": {
         "version": "",
         "keywords": []
     },
@@ -2183,11 +2515,11 @@
         "version": "",
         "keywords": []
     },
-    "parking-slash": {
+    "parking": {
         "version": "",
         "keywords": []
     },
-    "parking": {
+    "parking-slash": {
         "version": "",
         "keywords": []
     },
@@ -2207,6 +2539,14 @@
         "version": "",
         "keywords": []
     },
+    "pdf": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "pen": {
+        "version": "",
+        "keywords": []
+    },
     "pen-nib": {
         "version": "",
         "keywords": []
@@ -2215,7 +2555,7 @@
         "version": "",
         "keywords": []
     },
-    "pen": {
+    "pencil": {
         "version": "",
         "keywords": []
     },
@@ -2227,11 +2567,11 @@
         "version": "",
         "keywords": []
     },
-    "pencil": {
+    "pentagon": {
         "version": "",
         "keywords": []
     },
-    "pentagon": {
+    "percent": {
         "version": "",
         "keywords": []
     },
@@ -2239,7 +2579,7 @@
         "version": "",
         "keywords": []
     },
-    "percent": {
+    "phone": {
         "version": "",
         "keywords": []
     },
@@ -2271,10 +2611,6 @@
         "version": "",
         "keywords": []
     },
-    "phone": {
-        "version": "",
-        "keywords": []
-    },
     "pill": {
         "version": "",
         "keywords": []
@@ -2295,15 +2631,15 @@
         "version": "",
         "keywords": []
     },
+    "plane": {
+        "version": "",
+        "keywords": []
+    },
     "plane-landing": {
         "version": "",
         "keywords": []
     },
     "plane-takeoff": {
-        "version": "",
-        "keywords": []
-    },
-    "plane": {
         "version": "",
         "keywords": []
     },
@@ -2315,11 +2651,15 @@
         "version": "",
         "keywords": []
     },
+    "plug": {
+        "version": "",
+        "keywords": []
+    },
     "plug-slash": {
         "version": "",
         "keywords": []
     },
-    "plug": {
+    "plus": {
         "version": "",
         "keywords": []
     },
@@ -2328,10 +2668,6 @@
         "keywords": []
     },
     "plus-square": {
-        "version": "",
-        "keywords": []
-    },
-    "plus": {
         "version": "",
         "keywords": []
     },
@@ -2363,6 +2699,10 @@
         "version": "",
         "keywords": []
     },
+    "power": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "power-bank": {
         "version": "",
         "keywords": []
@@ -2391,6 +2731,10 @@
         "version": "",
         "keywords": []
     },
+    "qr-code": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "question-circle": {
         "version": "",
         "keywords": []
@@ -2407,11 +2751,11 @@
         "version": "",
         "keywords": []
     },
-    "radio-slash": {
+    "radio": {
         "version": "",
         "keywords": []
     },
-    "radio": {
+    "radio-slash": {
         "version": "",
         "keywords": []
     },
@@ -2423,11 +2767,11 @@
         "version": "",
         "keywords": []
     },
-    "receipt-dollar": {
+    "receipt": {
         "version": "",
         "keywords": []
     },
-    "receipt": {
+    "receipt-dollar": {
         "version": "",
         "keywords": []
     },
@@ -2445,6 +2789,10 @@
     },
     "reload": {
         "version": "",
+        "keywords": []
+    },
+    "reorder": {
+        "version": "0.7.0",
         "keywords": []
     },
     "rocket": {
@@ -2471,12 +2819,20 @@
         "version": "",
         "keywords": []
     },
+    "ruler": {
+        "version": "",
+        "keywords": []
+    },
     "ruler-2": {
         "version": "",
         "keywords": []
     },
-    "ruler": {
-        "version": "",
+    "satellite": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "scan": {
+        "version": "0.7.0",
         "keywords": []
     },
     "scarecrow": {
@@ -2487,11 +2843,11 @@
         "version": "",
         "keywords": []
     },
-    "scribble": {
-        "version": "",
+    "scoreboard": {
+        "version": "0.7.0",
         "keywords": []
     },
-    "scroll-empty": {
+    "scribble": {
         "version": "",
         "keywords": []
     },
@@ -2499,7 +2855,15 @@
         "version": "",
         "keywords": []
     },
+    "scroll-empty": {
+        "version": "",
+        "keywords": []
+    },
     "sd-card": {
+        "version": "",
+        "keywords": []
+    },
+    "search": {
         "version": "",
         "keywords": []
     },
@@ -2515,7 +2879,11 @@
         "version": "",
         "keywords": []
     },
-    "search": {
+    "selector": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "send": {
         "version": "",
         "keywords": []
     },
@@ -2524,10 +2892,6 @@
         "keywords": []
     },
     "send-backward": {
-        "version": "",
-        "keywords": []
-    },
-    "send": {
         "version": "",
         "keywords": []
     },
@@ -2540,6 +2904,10 @@
         "keywords": []
     },
     "share": {
+        "version": "",
+        "keywords": []
+    },
+    "shield": {
         "version": "",
         "keywords": []
     },
@@ -2575,11 +2943,11 @@
         "version": "",
         "keywords": []
     },
-    "shield": {
+    "ship": {
         "version": "",
         "keywords": []
     },
-    "ship": {
+    "sidebar-left": {
         "version": "",
         "keywords": []
     },
@@ -2591,7 +2959,7 @@
         "version": "",
         "keywords": []
     },
-    "sidebar-left": {
+    "sidebar-right": {
         "version": "",
         "keywords": []
     },
@@ -2600,10 +2968,6 @@
         "keywords": []
     },
     "sidebar-right-open": {
-        "version": "",
-        "keywords": []
-    },
-    "sidebar-right": {
         "version": "",
         "keywords": []
     },
@@ -2635,6 +2999,10 @@
         "version": "",
         "keywords": []
     },
+    "sink": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "siren": {
         "version": "",
         "keywords": []
@@ -2651,15 +3019,23 @@
         "version": "",
         "keywords": []
     },
-    "smoking-slash": {
-        "version": "",
-        "keywords": []
-    },
     "smoking": {
         "version": "",
         "keywords": []
     },
+    "smoking-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "soccer-field": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "soda-cup": {
+        "version": "",
+        "keywords": []
+    },
+    "sort": {
         "version": "",
         "keywords": []
     },
@@ -2671,10 +3047,6 @@
         "version": "",
         "keywords": []
     },
-    "sort": {
-        "version": "",
-        "keywords": []
-    },
     "soup": {
         "version": "",
         "keywords": []
@@ -2683,12 +3055,24 @@
         "version": "",
         "keywords": []
     },
-    "speaker-slash": {
-        "version": "",
+    "sparkles": {
+        "version": "0.7.0",
         "keywords": []
     },
     "speaker": {
         "version": "",
+        "keywords": []
+    },
+    "speaker-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "spell-check": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "sphere": {
+        "version": "0.7.0",
         "keywords": []
     },
     "spider": {
@@ -2703,15 +3087,15 @@
         "version": "",
         "keywords": []
     },
+    "square": {
+        "version": "",
+        "keywords": []
+    },
     "square-fill": {
         "version": "",
         "keywords": []
     },
     "square-half": {
-        "version": "",
-        "keywords": []
-    },
-    "square": {
         "version": "",
         "keywords": []
     },
@@ -2727,15 +3111,15 @@
         "version": "",
         "keywords": []
     },
+    "star": {
+        "version": "",
+        "keywords": []
+    },
     "star-half": {
         "version": "",
         "keywords": []
     },
     "star-slash": {
-        "version": "",
-        "keywords": []
-    },
-    "star": {
         "version": "",
         "keywords": []
     },
@@ -2779,7 +3163,27 @@
         "version": "",
         "keywords": []
     },
+    "sunrise": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "sunset": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "sword": {
+        "version": "0.7.0",
+        "keywords": []
+    },
     "syringe": {
+        "version": "",
+        "keywords": []
+    },
+    "tab": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "table": {
         "version": "",
         "keywords": []
     },
@@ -2799,15 +3203,7 @@
         "version": "",
         "keywords": []
     },
-    "table": {
-        "version": "",
-        "keywords": []
-    },
     "tablet": {
-        "version": "",
-        "keywords": []
-    },
-    "tag-slash": {
         "version": "",
         "keywords": []
     },
@@ -2815,7 +3211,15 @@
         "version": "",
         "keywords": []
     },
+    "tag-slash": {
+        "version": "",
+        "keywords": []
+    },
     "tags": {
+        "version": "",
+        "keywords": []
+    },
+    "temperature": {
         "version": "",
         "keywords": []
     },
@@ -2835,10 +3239,6 @@
         "version": "",
         "keywords": []
     },
-    "temperature": {
-        "version": "",
-        "keywords": []
-    },
     "template": {
         "version": "",
         "keywords": []
@@ -2848,6 +3248,14 @@
         "keywords": []
     },
     "terminal": {
+        "version": "",
+        "keywords": []
+    },
+    "terrace": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "text": {
         "version": "",
         "keywords": []
     },
@@ -2883,10 +3291,6 @@
         "version": "",
         "keywords": []
     },
-    "text": {
-        "version": "",
-        "keywords": []
-    },
     "thermometer": {
         "version": "",
         "keywords": []
@@ -2915,11 +3319,11 @@
         "version": "",
         "keywords": []
     },
-    "tombstone-cross": {
+    "tombstone": {
         "version": "",
         "keywords": []
     },
-    "tombstone": {
+    "tombstone-cross": {
         "version": "",
         "keywords": []
     },
@@ -2931,11 +3335,11 @@
         "version": "",
         "keywords": []
     },
-    "tower-observation": {
+    "tower": {
         "version": "",
         "keywords": []
     },
-    "tower": {
+    "tower-observation": {
         "version": "",
         "keywords": []
     },
@@ -2955,19 +3359,19 @@
         "version": "",
         "keywords": []
     },
-    "tree-pine": {
-        "version": "",
-        "keywords": []
-    },
     "tree": {
         "version": "",
         "keywords": []
     },
-    "triangle-inverted": {
+    "tree-pine": {
         "version": "",
         "keywords": []
     },
     "triangle": {
+        "version": "",
+        "keywords": []
+    },
+    "triangle-inverted": {
         "version": "",
         "keywords": []
     },
@@ -2979,11 +3383,11 @@
         "version": "",
         "keywords": []
     },
-    "tv-retro": {
+    "tv": {
         "version": "",
         "keywords": []
     },
-    "tv": {
+    "tv-retro": {
         "version": "",
         "keywords": []
     },
@@ -3015,11 +3419,15 @@
         "version": "",
         "keywords": []
     },
+    "usb": {
+        "version": "",
+        "keywords": []
+    },
     "usb-device": {
         "version": "",
         "keywords": []
     },
-    "usb": {
+    "user": {
         "version": "",
         "keywords": []
     },
@@ -3051,16 +3459,32 @@
         "version": "",
         "keywords": []
     },
-    "user": {
-        "version": "",
-        "keywords": []
-    },
     "users": {
         "version": "",
         "keywords": []
     },
     "variable": {
         "version": "",
+        "keywords": []
+    },
+    "vector-circle": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "vector-handle": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "vector-handle-2": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "vector-rectangle": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "vector-square": {
+        "version": "0.7.0",
         "keywords": []
     },
     "vial": {
@@ -3071,19 +3495,19 @@
         "version": "",
         "keywords": []
     },
-    "video-slash": {
-        "version": "",
-        "keywords": []
-    },
     "video": {
         "version": "",
         "keywords": []
     },
-    "virus-slash": {
+    "video-slash": {
         "version": "",
         "keywords": []
     },
     "virus": {
+        "version": "",
+        "keywords": []
+    },
+    "virus-slash": {
         "version": "",
         "keywords": []
     },
@@ -3103,16 +3527,24 @@
         "version": "",
         "keywords": []
     },
-    "wallet-cards": {
-        "version": "",
+    "wall-bricks": {
+        "version": "0.7.0",
         "keywords": []
     },
     "wallet": {
         "version": "",
         "keywords": []
     },
+    "wallet-cards": {
+        "version": "",
+        "keywords": []
+    },
     "wand": {
         "version": "",
+        "keywords": []
+    },
+    "wardrobe": {
+        "version": "0.7.0",
         "keywords": []
     },
     "warehouse": {
@@ -3123,15 +3555,19 @@
         "version": "",
         "keywords": []
     },
-    "webcam-slash": {
-        "version": "",
-        "keywords": []
-    },
     "webcam": {
         "version": "",
         "keywords": []
     },
+    "webcam-slash": {
+        "version": "",
+        "keywords": []
+    },
     "weight-scale": {
+        "version": "",
+        "keywords": []
+    },
+    "wifi": {
         "version": "",
         "keywords": []
     },
@@ -3143,15 +3579,11 @@
         "version": "",
         "keywords": []
     },
-    "wifi": {
+    "wind": {
         "version": "",
         "keywords": []
     },
     "wind-slash": {
-        "version": "",
-        "keywords": []
-    },
-    "wind": {
         "version": "",
         "keywords": []
     },
@@ -3167,6 +3599,10 @@
         "version": "",
         "keywords": []
     },
+    "x": {
+        "version": "",
+        "keywords": []
+    },
     "x-circle": {
         "version": "",
         "keywords": []
@@ -3175,8 +3611,52 @@
         "version": "",
         "keywords": []
     },
-    "x": {
-        "version": "",
+    "zodiac-aquarius": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "zodiac-aries": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "zodiac-cancer": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "zodiac-capricorn": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "zodiac-gemini": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "zodiac-leo": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "zodiac-libra": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "zodiac-pisces": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "zodiac-sagittarius": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "zodiac-scorpio": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "zodiac-taurus": {
+        "version": "0.7.0",
+        "keywords": []
+    },
+    "zodiac-virgo": {
+        "version": "0.7.0",
         "keywords": []
     },
     "zoom-in": {
