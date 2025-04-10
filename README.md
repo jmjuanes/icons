@@ -1,4 +1,4 @@
-![josemi/icons header](./assets//og.png)
+![josemi/icons header](./header.png)
 
 A collection of hand-made and open source SVG icons that you can use in your web projects. Each icon has been designed in a 24x24 grid with a stroke width of 2px and a minimum padding of 2px.
 
