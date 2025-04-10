@@ -1,4 +1,8 @@
-# @josemi-icons/css
+![@josemi-icons/css](./header.png)
+
+![npm version](https://badgen.net/npm/v/@josemi-icons/css?labelColor=1d2734&color=21bf81)
+![license](https://badgen.net/github/license/jmjuanes/icons?labelColor=1d2734&color=21bf81)
+
 
 ## Installation
 

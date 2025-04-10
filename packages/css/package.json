@@ -33,6 +33,7 @@
     ],
     "files": [
         "icons.css",
-        "README.md"
+        "README.md",
+        "header.png"
     ]
 }
