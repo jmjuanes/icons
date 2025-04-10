@@ -1,0 +1,3190 @@
+{
+    "access-point": {
+        "keywords": [
+            "wireless",
+            "network",
+            "router"
+        ]
+    },
+    "accessible": {
+        "keywords": [
+            "accessibility",
+            "disabled"
+        ]
+    },
+    "ai": {
+        "keywords": [
+            "artificial intelligence",
+            "machine learning",
+            "neural network",
+            "technology"
+        ]
+    },
+    "api": {
+        "keywords": [
+            "application programming interface",
+            "software",
+            "development"
+        ]
+    },
+    "acorn": {
+        "version": "",
+        "keywords": []
+    },
+    "activity-square": {
+        "version": "",
+        "keywords": []
+    },
+    "activity": {
+        "version": "",
+        "keywords": []
+    },
+    "address-book": {
+        "version": "",
+        "keywords": []
+    },
+    "alarm-check": {
+        "version": "",
+        "keywords": []
+    },
+    "alarm-minus": {
+        "version": "",
+        "keywords": []
+    },
+    "alarm-plus": {
+        "version": "",
+        "keywords": []
+    },
+    "alarm-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "alarm-snooze": {
+        "version": "",
+        "keywords": []
+    },
+    "alarm-x": {
+        "version": "",
+        "keywords": []
+    },
+    "alarm": {
+        "version": "",
+        "keywords": []
+    },
+    "album": {
+        "version": "",
+        "keywords": []
+    },
+    "align-bottom": {
+        "version": "",
+        "keywords": []
+    },
+    "align-center": {
+        "version": "",
+        "keywords": []
+    },
+    "align-left": {
+        "version": "",
+        "keywords": []
+    },
+    "align-middle": {
+        "version": "",
+        "keywords": []
+    },
+    "align-right": {
+        "version": "",
+        "keywords": []
+    },
+    "align-top": {
+        "version": "",
+        "keywords": []
+    },
+    "ambulance": {
+        "version": "",
+        "keywords": []
+    },
+    "anchor": {
+        "version": "",
+        "keywords": []
+    },
+    "apple": {
+        "version": "",
+        "keywords": []
+    },
+    "archive-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "archive": {
+        "version": "",
+        "keywords": []
+    },
+    "armchair": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-alt-down": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-alt-left": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-alt-right": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-alt-up": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-circle-down": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-circle-left": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-circle-right": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-circle-up": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-down-0-9": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-down-9-0": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-down-a-z": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-down-left": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-down-line": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-down-right": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-down-z-a": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-down": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-left-line": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-left": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-right-line": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-right": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-square-down": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-square-left": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-square-right": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-square-up": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-up-0-9": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-up-9-0": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-up-a-z": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-up-left": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-up-line": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-up-right": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-up-z-a": {
+        "version": "",
+        "keywords": []
+    },
+    "arrow-up": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-down-up": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-down": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-horizontal": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-left-right": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-left": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-maximize": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-minimize": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-repeat": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-right-left": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-right": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-shuffle": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-split": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-switch": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-up-down": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-up": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows-vertical": {
+        "version": "",
+        "keywords": []
+    },
+    "arrows": {
+        "version": "",
+        "keywords": []
+    },
+    "article": {
+        "version": "",
+        "keywords": []
+    },
+    "aspect-ratio": {
+        "version": "",
+        "keywords": []
+    },
+    "asterisk": {
+        "version": "",
+        "keywords": []
+    },
+    "at": {
+        "version": "",
+        "keywords": []
+    },
+    "atom": {
+        "version": "",
+        "keywords": []
+    },
+    "attachment": {
+        "version": "",
+        "keywords": []
+    },
+    "award": {
+        "version": "",
+        "keywords": []
+    },
+    "backpack": {
+        "version": "",
+        "keywords": []
+    },
+    "backspace": {
+        "version": "",
+        "keywords": []
+    },
+    "badge-check": {
+        "version": "",
+        "keywords": []
+    },
+    "badge-exclamation": {
+        "version": "",
+        "keywords": []
+    },
+    "badge-percent": {
+        "version": "",
+        "keywords": []
+    },
+    "badge-x": {
+        "version": "",
+        "keywords": []
+    },
+    "badge": {
+        "version": "",
+        "keywords": []
+    },
+    "bag": {
+        "version": "",
+        "keywords": []
+    },
+    "balance": {
+        "version": "",
+        "keywords": []
+    },
+    "ban": {
+        "version": "",
+        "keywords": []
+    },
+    "bandage": {
+        "version": "",
+        "keywords": []
+    },
+    "barrier": {
+        "version": "",
+        "keywords": []
+    },
+    "bars": {
+        "version": "",
+        "keywords": []
+    },
+    "bat": {
+        "version": "",
+        "keywords": []
+    },
+    "battery-charging": {
+        "version": "",
+        "keywords": []
+    },
+    "battery-exclamation": {
+        "version": "",
+        "keywords": []
+    },
+    "battery-full": {
+        "version": "",
+        "keywords": []
+    },
+    "battery-half": {
+        "version": "",
+        "keywords": []
+    },
+    "battery-low": {
+        "version": "",
+        "keywords": []
+    },
+    "battery-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "battery": {
+        "version": "",
+        "keywords": []
+    },
+    "bed-empty": {
+        "version": "",
+        "keywords": []
+    },
+    "bed-front": {
+        "version": "",
+        "keywords": []
+    },
+    "bed-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "bed": {
+        "version": "",
+        "keywords": []
+    },
+    "beer": {
+        "version": "",
+        "keywords": []
+    },
+    "bell-school-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "bell-school": {
+        "version": "",
+        "keywords": []
+    },
+    "bell-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "bell": {
+        "version": "",
+        "keywords": []
+    },
+    "bezier": {
+        "version": "",
+        "keywords": []
+    },
+    "bike": {
+        "version": "",
+        "keywords": []
+    },
+    "binary": {
+        "version": "",
+        "keywords": []
+    },
+    "bluetooth-connected": {
+        "version": "",
+        "keywords": []
+    },
+    "bluetooth-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "bluetooth": {
+        "version": "",
+        "keywords": []
+    },
+    "blur": {
+        "version": "",
+        "keywords": []
+    },
+    "bold": {
+        "version": "",
+        "keywords": []
+    },
+    "bolt-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "bolt": {
+        "version": "",
+        "keywords": []
+    },
+    "bomb": {
+        "version": "",
+        "keywords": []
+    },
+    "bone": {
+        "version": "",
+        "keywords": []
+    },
+    "book-down": {
+        "version": "",
+        "keywords": []
+    },
+    "book-marked": {
+        "version": "",
+        "keywords": []
+    },
+    "book-minus": {
+        "version": "",
+        "keywords": []
+    },
+    "book-open": {
+        "version": "",
+        "keywords": []
+    },
+    "book-plus": {
+        "version": "",
+        "keywords": []
+    },
+    "book-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "book-template": {
+        "version": "",
+        "keywords": []
+    },
+    "book-up": {
+        "version": "",
+        "keywords": []
+    },
+    "book-x": {
+        "version": "",
+        "keywords": []
+    },
+    "book": {
+        "version": "",
+        "keywords": []
+    },
+    "bookmark": {
+        "version": "",
+        "keywords": []
+    },
+    "books": {
+        "version": "",
+        "keywords": []
+    },
+    "box-selection": {
+        "version": "",
+        "keywords": []
+    },
+    "box": {
+        "version": "",
+        "keywords": []
+    },
+    "braces-dots": {
+        "version": "",
+        "keywords": []
+    },
+    "braces-minus": {
+        "version": "",
+        "keywords": []
+    },
+    "braces-plus": {
+        "version": "",
+        "keywords": []
+    },
+    "braces": {
+        "version": "",
+        "keywords": []
+    },
+    "brackets": {
+        "version": "",
+        "keywords": []
+    },
+    "brain-circuit": {
+        "version": "",
+        "keywords": []
+    },
+    "brain": {
+        "version": "",
+        "keywords": []
+    },
+    "briefcase-medical": {
+        "version": "",
+        "keywords": []
+    },
+    "briefcase": {
+        "version": "",
+        "keywords": []
+    },
+    "bring-forward": {
+        "version": "",
+        "keywords": []
+    },
+    "bring-front": {
+        "version": "",
+        "keywords": []
+    },
+    "broom": {
+        "version": "",
+        "keywords": []
+    },
+    "browser": {
+        "version": "",
+        "keywords": []
+    },
+    "brush": {
+        "version": "",
+        "keywords": []
+    },
+    "bug-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "bug": {
+        "version": "",
+        "keywords": []
+    },
+    "building": {
+        "version": "",
+        "keywords": []
+    },
+    "bus-front": {
+        "version": "",
+        "keywords": []
+    },
+    "bus": {
+        "version": "",
+        "keywords": []
+    },
+    "cake-slice": {
+        "version": "",
+        "keywords": []
+    },
+    "cake": {
+        "version": "",
+        "keywords": []
+    },
+    "calendar-check": {
+        "version": "",
+        "keywords": []
+    },
+    "calendar-minus": {
+        "version": "",
+        "keywords": []
+    },
+    "calendar-plus": {
+        "version": "",
+        "keywords": []
+    },
+    "calendar-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "calendar-x": {
+        "version": "",
+        "keywords": []
+    },
+    "calendar": {
+        "version": "",
+        "keywords": []
+    },
+    "camera-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "camera": {
+        "version": "",
+        "keywords": []
+    },
+    "candle-holder": {
+        "version": "",
+        "keywords": []
+    },
+    "candy": {
+        "version": "",
+        "keywords": []
+    },
+    "car-front": {
+        "version": "",
+        "keywords": []
+    },
+    "car": {
+        "version": "",
+        "keywords": []
+    },
+    "caret-down": {
+        "version": "",
+        "keywords": []
+    },
+    "caret-left": {
+        "version": "",
+        "keywords": []
+    },
+    "caret-right": {
+        "version": "",
+        "keywords": []
+    },
+    "caret-up": {
+        "version": "",
+        "keywords": []
+    },
+    "cart-check": {
+        "version": "",
+        "keywords": []
+    },
+    "cart-minus": {
+        "version": "",
+        "keywords": []
+    },
+    "cart-plus": {
+        "version": "",
+        "keywords": []
+    },
+    "cart-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "cart-x": {
+        "version": "",
+        "keywords": []
+    },
+    "cart": {
+        "version": "",
+        "keywords": []
+    },
+    "cassette-tape": {
+        "version": "",
+        "keywords": []
+    },
+    "cast": {
+        "version": "",
+        "keywords": []
+    },
+    "castle": {
+        "version": "",
+        "keywords": []
+    },
+    "cauldron": {
+        "version": "",
+        "keywords": []
+    },
+    "certificate": {
+        "version": "",
+        "keywords": []
+    },
+    "chalkboard": {
+        "version": "",
+        "keywords": []
+    },
+    "chart-area": {
+        "version": "",
+        "keywords": []
+    },
+    "chart-bar": {
+        "version": "",
+        "keywords": []
+    },
+    "chart-line": {
+        "version": "",
+        "keywords": []
+    },
+    "chart-pie": {
+        "version": "",
+        "keywords": []
+    },
+    "chat-dots": {
+        "version": "",
+        "keywords": []
+    },
+    "chat": {
+        "version": "",
+        "keywords": []
+    },
+    "check-circle": {
+        "version": "",
+        "keywords": []
+    },
+    "check-square": {
+        "version": "",
+        "keywords": []
+    },
+    "check": {
+        "version": "",
+        "keywords": []
+    },
+    "checks": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-circle-down": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-circle-left": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-circle-right": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-circle-up": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-down-left": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-down-right": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-down": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-left": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-right": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-square-down": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-square-left": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-square-right": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-square-up": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-up-left": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-up-right": {
+        "version": "",
+        "keywords": []
+    },
+    "chevron-up": {
+        "version": "",
+        "keywords": []
+    },
+    "chevrons-circle-down": {
+        "version": "",
+        "keywords": []
+    },
+    "chevrons-circle-left": {
+        "version": "",
+        "keywords": []
+    },
+    "chevrons-circle-right": {
+        "version": "",
+        "keywords": []
+    },
+    "chevrons-circle-up": {
+        "version": "",
+        "keywords": []
+    },
+    "chevrons-down": {
+        "version": "",
+        "keywords": []
+    },
+    "chevrons-left": {
+        "version": "",
+        "keywords": []
+    },
+    "chevrons-right": {
+        "version": "",
+        "keywords": []
+    },
+    "chevrons-square-down": {
+        "version": "",
+        "keywords": []
+    },
+    "chevrons-square-left": {
+        "version": "",
+        "keywords": []
+    },
+    "chevrons-square-right": {
+        "version": "",
+        "keywords": []
+    },
+    "chevrons-square-up": {
+        "version": "",
+        "keywords": []
+    },
+    "chevrons-up": {
+        "version": "",
+        "keywords": []
+    },
+    "church": {
+        "version": "",
+        "keywords": []
+    },
+    "circle-fill": {
+        "version": "",
+        "keywords": []
+    },
+    "circle-half": {
+        "version": "",
+        "keywords": []
+    },
+    "circle": {
+        "version": "",
+        "keywords": []
+    },
+    "clipboard-minus": {
+        "version": "",
+        "keywords": []
+    },
+    "clipboard-plus": {
+        "version": "",
+        "keywords": []
+    },
+    "clipboard-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "clipboard-x": {
+        "version": "",
+        "keywords": []
+    },
+    "clipboard": {
+        "version": "",
+        "keywords": []
+    },
+    "clock": {
+        "version": "",
+        "keywords": []
+    },
+    "close": {
+        "version": "",
+        "keywords": []
+    },
+    "cloud-bolt": {
+        "version": "",
+        "keywords": []
+    },
+    "cloud-fog": {
+        "version": "",
+        "keywords": []
+    },
+    "cloud-rain": {
+        "version": "",
+        "keywords": []
+    },
+    "cloud-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "cloud-snow": {
+        "version": "",
+        "keywords": []
+    },
+    "cloud-sun": {
+        "version": "",
+        "keywords": []
+    },
+    "cloud": {
+        "version": "",
+        "keywords": []
+    },
+    "code-block": {
+        "version": "",
+        "keywords": []
+    },
+    "code-square": {
+        "version": "",
+        "keywords": []
+    },
+    "code": {
+        "version": "",
+        "keywords": []
+    },
+    "coffee-pot": {
+        "version": "",
+        "keywords": []
+    },
+    "coffee": {
+        "version": "",
+        "keywords": []
+    },
+    "coffin-cross": {
+        "version": "",
+        "keywords": []
+    },
+    "coffin": {
+        "version": "",
+        "keywords": []
+    },
+    "cog": {
+        "version": "",
+        "keywords": []
+    },
+    "color-swatch": {
+        "version": "",
+        "keywords": []
+    },
+    "column-insert-left": {
+        "version": "",
+        "keywords": []
+    },
+    "column-insert-right": {
+        "version": "",
+        "keywords": []
+    },
+    "columns-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "columns": {
+        "version": "",
+        "keywords": []
+    },
+    "command": {
+        "version": "",
+        "keywords": []
+    },
+    "compass": {
+        "version": "",
+        "keywords": []
+    },
+    "component": {
+        "version": "",
+        "keywords": []
+    },
+    "contrast": {
+        "version": "",
+        "keywords": []
+    },
+    "cookie": {
+        "version": "",
+        "keywords": []
+    },
+    "copy": {
+        "version": "",
+        "keywords": []
+    },
+    "copyleft": {
+        "version": "",
+        "keywords": []
+    },
+    "copyright": {
+        "version": "",
+        "keywords": []
+    },
+    "corner-down-left": {
+        "version": "",
+        "keywords": []
+    },
+    "corner-down-right": {
+        "version": "",
+        "keywords": []
+    },
+    "corner-left-down": {
+        "version": "",
+        "keywords": []
+    },
+    "corner-left-up": {
+        "version": "",
+        "keywords": []
+    },
+    "corner-right-down": {
+        "version": "",
+        "keywords": []
+    },
+    "corner-right-up": {
+        "version": "",
+        "keywords": []
+    },
+    "corner-up-left": {
+        "version": "",
+        "keywords": []
+    },
+    "corner-up-right": {
+        "version": "",
+        "keywords": []
+    },
+    "cpu": {
+        "version": "",
+        "keywords": []
+    },
+    "credit-card": {
+        "version": "",
+        "keywords": []
+    },
+    "crop": {
+        "version": "",
+        "keywords": []
+    },
+    "cross": {
+        "version": "",
+        "keywords": []
+    },
+    "crow": {
+        "version": "",
+        "keywords": []
+    },
+    "crown": {
+        "version": "",
+        "keywords": []
+    },
+    "css": {
+        "version": "",
+        "keywords": []
+    },
+    "cut": {
+        "version": "",
+        "keywords": []
+    },
+    "database-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "database": {
+        "version": "",
+        "keywords": []
+    },
+    "diagram-project": {
+        "version": "",
+        "keywords": []
+    },
+    "diagram-sankey": {
+        "version": "",
+        "keywords": []
+    },
+    "diagram-subtask": {
+        "version": "",
+        "keywords": []
+    },
+    "diamond": {
+        "version": "",
+        "keywords": []
+    },
+    "disc": {
+        "version": "",
+        "keywords": []
+    },
+    "disk": {
+        "version": "",
+        "keywords": []
+    },
+    "divide-circle": {
+        "version": "",
+        "keywords": []
+    },
+    "divide-square": {
+        "version": "",
+        "keywords": []
+    },
+    "divide": {
+        "version": "",
+        "keywords": []
+    },
+    "dna": {
+        "version": "",
+        "keywords": []
+    },
+    "do-not-enter": {
+        "version": "",
+        "keywords": []
+    },
+    "dollar-circle": {
+        "version": "",
+        "keywords": []
+    },
+    "donut": {
+        "version": "",
+        "keywords": []
+    },
+    "door-closed": {
+        "version": "",
+        "keywords": []
+    },
+    "door-open": {
+        "version": "",
+        "keywords": []
+    },
+    "dots-vertical": {
+        "version": "",
+        "keywords": []
+    },
+    "dots": {
+        "version": "",
+        "keywords": []
+    },
+    "download": {
+        "version": "",
+        "keywords": []
+    },
+    "drawing": {
+        "version": "",
+        "keywords": []
+    },
+    "droplet": {
+        "version": "",
+        "keywords": []
+    },
+    "e-passport": {
+        "version": "",
+        "keywords": []
+    },
+    "edit-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "edit": {
+        "version": "",
+        "keywords": []
+    },
+    "egg-cracked": {
+        "version": "",
+        "keywords": []
+    },
+    "egg": {
+        "version": "",
+        "keywords": []
+    },
+    "emoji-angry": {
+        "version": "",
+        "keywords": []
+    },
+    "emoji-confused": {
+        "version": "",
+        "keywords": []
+    },
+    "emoji-empty": {
+        "version": "",
+        "keywords": []
+    },
+    "emoji-expressionless": {
+        "version": "",
+        "keywords": []
+    },
+    "emoji-laugh": {
+        "version": "",
+        "keywords": []
+    },
+    "emoji-neutral": {
+        "version": "",
+        "keywords": []
+    },
+    "emoji-sad": {
+        "version": "",
+        "keywords": []
+    },
+    "emoji-smile": {
+        "version": "",
+        "keywords": []
+    },
+    "emoji-surprise": {
+        "version": "",
+        "keywords": []
+    },
+    "emoji-wink": {
+        "version": "",
+        "keywords": []
+    },
+    "envelope-open": {
+        "version": "",
+        "keywords": []
+    },
+    "envelope": {
+        "version": "",
+        "keywords": []
+    },
+    "equal": {
+        "version": "",
+        "keywords": []
+    },
+    "erase": {
+        "version": "",
+        "keywords": []
+    },
+    "exclamation-circle": {
+        "version": "",
+        "keywords": []
+    },
+    "exclamation-diamond": {
+        "version": "",
+        "keywords": []
+    },
+    "exclamation-square": {
+        "version": "",
+        "keywords": []
+    },
+    "exclamation-triangle": {
+        "version": "",
+        "keywords": []
+    },
+    "external-link": {
+        "version": "",
+        "keywords": []
+    },
+    "eye-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "eye": {
+        "version": "",
+        "keywords": []
+    },
+    "face-mask": {
+        "version": "",
+        "keywords": []
+    },
+    "factory": {
+        "version": "",
+        "keywords": []
+    },
+    "ferris-wheel": {
+        "version": "",
+        "keywords": []
+    },
+    "file-brackets": {
+        "version": "",
+        "keywords": []
+    },
+    "file-check": {
+        "version": "",
+        "keywords": []
+    },
+    "file-code": {
+        "version": "",
+        "keywords": []
+    },
+    "file-dots": {
+        "version": "",
+        "keywords": []
+    },
+    "file-empty": {
+        "version": "",
+        "keywords": []
+    },
+    "file-minus": {
+        "version": "",
+        "keywords": []
+    },
+    "file-plus": {
+        "version": "",
+        "keywords": []
+    },
+    "file-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "file-x": {
+        "version": "",
+        "keywords": []
+    },
+    "file": {
+        "version": "",
+        "keywords": []
+    },
+    "files": {
+        "version": "",
+        "keywords": []
+    },
+    "fill": {
+        "version": "",
+        "keywords": []
+    },
+    "film": {
+        "version": "",
+        "keywords": []
+    },
+    "filter-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "filter": {
+        "version": "",
+        "keywords": []
+    },
+    "fingerprint": {
+        "version": "",
+        "keywords": []
+    },
+    "flag": {
+        "version": "",
+        "keywords": []
+    },
+    "flame-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "flame": {
+        "version": "",
+        "keywords": []
+    },
+    "flashlight-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "flashlight": {
+        "version": "",
+        "keywords": []
+    },
+    "flask-round": {
+        "version": "",
+        "keywords": []
+    },
+    "flask-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "flask": {
+        "version": "",
+        "keywords": []
+    },
+    "float-center": {
+        "version": "",
+        "keywords": []
+    },
+    "float-left": {
+        "version": "",
+        "keywords": []
+    },
+    "float-none": {
+        "version": "",
+        "keywords": []
+    },
+    "float-right": {
+        "version": "",
+        "keywords": []
+    },
+    "fold-horizontal": {
+        "version": "",
+        "keywords": []
+    },
+    "fold-vertical": {
+        "version": "",
+        "keywords": []
+    },
+    "folder-check": {
+        "version": "",
+        "keywords": []
+    },
+    "folder-minus": {
+        "version": "",
+        "keywords": []
+    },
+    "folder-plus": {
+        "version": "",
+        "keywords": []
+    },
+    "folder-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "folder-x": {
+        "version": "",
+        "keywords": []
+    },
+    "folder": {
+        "version": "",
+        "keywords": []
+    },
+    "folders": {
+        "version": "",
+        "keywords": []
+    },
+    "forbid": {
+        "version": "",
+        "keywords": []
+    },
+    "fork-knife": {
+        "version": "",
+        "keywords": []
+    },
+    "frame": {
+        "version": "",
+        "keywords": []
+    },
+    "fullscreen-exit": {
+        "version": "",
+        "keywords": []
+    },
+    "fullscreen": {
+        "version": "",
+        "keywords": []
+    },
+    "function-square": {
+        "version": "",
+        "keywords": []
+    },
+    "function-x": {
+        "version": "",
+        "keywords": []
+    },
+    "function-y": {
+        "version": "",
+        "keywords": []
+    },
+    "gallery-horizontal": {
+        "version": "",
+        "keywords": []
+    },
+    "gallery-thumbnails": {
+        "version": "",
+        "keywords": []
+    },
+    "gallery-vertical": {
+        "version": "",
+        "keywords": []
+    },
+    "gamepad": {
+        "version": "",
+        "keywords": []
+    },
+    "gem": {
+        "version": "",
+        "keywords": []
+    },
+    "ghost": {
+        "version": "",
+        "keywords": []
+    },
+    "gift-card": {
+        "version": "",
+        "keywords": []
+    },
+    "gift": {
+        "version": "",
+        "keywords": []
+    },
+    "git-branch": {
+        "version": "",
+        "keywords": []
+    },
+    "git-commit": {
+        "version": "",
+        "keywords": []
+    },
+    "git-fork": {
+        "version": "",
+        "keywords": []
+    },
+    "git-merge": {
+        "version": "",
+        "keywords": []
+    },
+    "git-pull-closed": {
+        "version": "",
+        "keywords": []
+    },
+    "git-pull-draft": {
+        "version": "",
+        "keywords": []
+    },
+    "git-pull-request": {
+        "version": "",
+        "keywords": []
+    },
+    "glass": {
+        "version": "",
+        "keywords": []
+    },
+    "glasses": {
+        "version": "",
+        "keywords": []
+    },
+    "globe": {
+        "version": "",
+        "keywords": []
+    },
+    "graduation-hat": {
+        "version": "",
+        "keywords": []
+    },
+    "grid-divider": {
+        "version": "",
+        "keywords": []
+    },
+    "grid-horizontal": {
+        "version": "",
+        "keywords": []
+    },
+    "grid-minus": {
+        "version": "",
+        "keywords": []
+    },
+    "grid-plus": {
+        "version": "",
+        "keywords": []
+    },
+    "grid-search": {
+        "version": "",
+        "keywords": []
+    },
+    "grid-vertical": {
+        "version": "",
+        "keywords": []
+    },
+    "grid-x": {
+        "version": "",
+        "keywords": []
+    },
+    "grid": {
+        "version": "",
+        "keywords": []
+    },
+    "hamburger": {
+        "version": "",
+        "keywords": []
+    },
+    "hand-click": {
+        "version": "",
+        "keywords": []
+    },
+    "hand-grab": {
+        "version": "",
+        "keywords": []
+    },
+    "hand-move": {
+        "version": "",
+        "keywords": []
+    },
+    "hand-pointer": {
+        "version": "",
+        "keywords": []
+    },
+    "hand-rock": {
+        "version": "",
+        "keywords": []
+    },
+    "hand-stop": {
+        "version": "",
+        "keywords": []
+    },
+    "hard-drive": {
+        "version": "",
+        "keywords": []
+    },
+    "hash": {
+        "version": "",
+        "keywords": []
+    },
+    "heading-1": {
+        "version": "",
+        "keywords": []
+    },
+    "heading-2": {
+        "version": "",
+        "keywords": []
+    },
+    "heading-3": {
+        "version": "",
+        "keywords": []
+    },
+    "heading-4": {
+        "version": "",
+        "keywords": []
+    },
+    "heading-5": {
+        "version": "",
+        "keywords": []
+    },
+    "heading-6": {
+        "version": "",
+        "keywords": []
+    },
+    "heading": {
+        "version": "",
+        "keywords": []
+    },
+    "headphones-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "headphones": {
+        "version": "",
+        "keywords": []
+    },
+    "headset": {
+        "version": "",
+        "keywords": []
+    },
+    "heart-crack": {
+        "version": "",
+        "keywords": []
+    },
+    "heart-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "heart": {
+        "version": "",
+        "keywords": []
+    },
+    "hexagon": {
+        "version": "",
+        "keywords": []
+    },
+    "highlighter-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "highlighter": {
+        "version": "",
+        "keywords": []
+    },
+    "history-redo": {
+        "version": "",
+        "keywords": []
+    },
+    "history-undo": {
+        "version": "",
+        "keywords": []
+    },
+    "history": {
+        "version": "",
+        "keywords": []
+    },
+    "home": {
+        "version": "",
+        "keywords": []
+    },
+    "hospital": {
+        "version": "",
+        "keywords": []
+    },
+    "hotel": {
+        "version": "",
+        "keywords": []
+    },
+    "hourglass": {
+        "version": "",
+        "keywords": []
+    },
+    "ice-cream-glass": {
+        "version": "",
+        "keywords": []
+    },
+    "ice-cream": {
+        "version": "",
+        "keywords": []
+    },
+    "id-badge": {
+        "version": "",
+        "keywords": []
+    },
+    "id-card": {
+        "version": "",
+        "keywords": []
+    },
+    "image-circle": {
+        "version": "",
+        "keywords": []
+    },
+    "image-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "image": {
+        "version": "",
+        "keywords": []
+    },
+    "inbox-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "inbox": {
+        "version": "",
+        "keywords": []
+    },
+    "indent": {
+        "version": "",
+        "keywords": []
+    },
+    "infinity": {
+        "version": "",
+        "keywords": []
+    },
+    "info-circle": {
+        "version": "",
+        "keywords": []
+    },
+    "info-square": {
+        "version": "",
+        "keywords": []
+    },
+    "italic": {
+        "version": "",
+        "keywords": []
+    },
+    "jar": {
+        "version": "",
+        "keywords": []
+    },
+    "javascript": {
+        "version": "",
+        "keywords": []
+    },
+    "journal": {
+        "version": "",
+        "keywords": []
+    },
+    "joystick": {
+        "version": "",
+        "keywords": []
+    },
+    "kanban": {
+        "version": "",
+        "keywords": []
+    },
+    "key": {
+        "version": "",
+        "keywords": []
+    },
+    "keyboard": {
+        "version": "",
+        "keywords": []
+    },
+    "lamp-desk": {
+        "version": "",
+        "keywords": []
+    },
+    "lamp": {
+        "version": "",
+        "keywords": []
+    },
+    "laptop-mobile": {
+        "version": "",
+        "keywords": []
+    },
+    "laptop": {
+        "version": "",
+        "keywords": []
+    },
+    "laser-pointer": {
+        "version": "",
+        "keywords": []
+    },
+    "layout": {
+        "version": "",
+        "keywords": []
+    },
+    "lifebuoy": {
+        "version": "",
+        "keywords": []
+    },
+    "lightbulb": {
+        "version": "",
+        "keywords": []
+    },
+    "lighthouse": {
+        "version": "",
+        "keywords": []
+    },
+    "line-horizontal": {
+        "version": "",
+        "keywords": []
+    },
+    "line-vertical": {
+        "version": "",
+        "keywords": []
+    },
+    "line": {
+        "version": "",
+        "keywords": []
+    },
+    "link": {
+        "version": "",
+        "keywords": []
+    },
+    "list-check": {
+        "version": "",
+        "keywords": []
+    },
+    "list-ordered": {
+        "version": "",
+        "keywords": []
+    },
+    "list-square": {
+        "version": "",
+        "keywords": []
+    },
+    "list-todo": {
+        "version": "",
+        "keywords": []
+    },
+    "list": {
+        "version": "",
+        "keywords": []
+    },
+    "loader": {
+        "version": "",
+        "keywords": []
+    },
+    "location-minus": {
+        "version": "",
+        "keywords": []
+    },
+    "location-pin": {
+        "version": "",
+        "keywords": []
+    },
+    "location-plus": {
+        "version": "",
+        "keywords": []
+    },
+    "location-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "location": {
+        "version": "",
+        "keywords": []
+    },
+    "lock": {
+        "version": "",
+        "keywords": []
+    },
+    "login": {
+        "version": "",
+        "keywords": []
+    },
+    "logout": {
+        "version": "",
+        "keywords": []
+    },
+    "lollipop": {
+        "version": "",
+        "keywords": []
+    },
+    "magnet": {
+        "version": "",
+        "keywords": []
+    },
+    "mailbox": {
+        "version": "",
+        "keywords": []
+    },
+    "map-pinned": {
+        "version": "",
+        "keywords": []
+    },
+    "map": {
+        "version": "",
+        "keywords": []
+    },
+    "martini-glass": {
+        "version": "",
+        "keywords": []
+    },
+    "medal": {
+        "version": "",
+        "keywords": []
+    },
+    "megaphone": {
+        "version": "",
+        "keywords": []
+    },
+    "message-dots": {
+        "version": "",
+        "keywords": []
+    },
+    "message-empty": {
+        "version": "",
+        "keywords": []
+    },
+    "message-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "message": {
+        "version": "",
+        "keywords": []
+    },
+    "microchip": {
+        "version": "",
+        "keywords": []
+    },
+    "microphone-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "microphone": {
+        "version": "",
+        "keywords": []
+    },
+    "microscope": {
+        "version": "",
+        "keywords": []
+    },
+    "microwave": {
+        "version": "",
+        "keywords": []
+    },
+    "milk-bottle": {
+        "version": "",
+        "keywords": []
+    },
+    "minus-circle": {
+        "version": "",
+        "keywords": []
+    },
+    "minus-square": {
+        "version": "",
+        "keywords": []
+    },
+    "minus": {
+        "version": "",
+        "keywords": []
+    },
+    "mobile-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "mobile": {
+        "version": "",
+        "keywords": []
+    },
+    "mochi": {
+        "version": "",
+        "keywords": []
+    },
+    "money": {
+        "version": "",
+        "keywords": []
+    },
+    "monitor-heart-rate": {
+        "version": "",
+        "keywords": []
+    },
+    "monitor": {
+        "version": "",
+        "keywords": []
+    },
+    "moon": {
+        "version": "",
+        "keywords": []
+    },
+    "mountain": {
+        "version": "",
+        "keywords": []
+    },
+    "mouse": {
+        "version": "",
+        "keywords": []
+    },
+    "mug": {
+        "version": "",
+        "keywords": []
+    },
+    "music-note": {
+        "version": "",
+        "keywords": []
+    },
+    "music-player": {
+        "version": "",
+        "keywords": []
+    },
+    "news": {
+        "version": "",
+        "keywords": []
+    },
+    "not-equal": {
+        "version": "",
+        "keywords": []
+    },
+    "note": {
+        "version": "",
+        "keywords": []
+    },
+    "notebook": {
+        "version": "",
+        "keywords": []
+    },
+    "notepad": {
+        "version": "",
+        "keywords": []
+    },
+    "number-circle-five": {
+        "version": "",
+        "keywords": []
+    },
+    "number-circle-four": {
+        "version": "",
+        "keywords": []
+    },
+    "number-circle-one": {
+        "version": "",
+        "keywords": []
+    },
+    "number-circle-three": {
+        "version": "",
+        "keywords": []
+    },
+    "number-circle-two": {
+        "version": "",
+        "keywords": []
+    },
+    "numbers": {
+        "version": "",
+        "keywords": []
+    },
+    "object-difference": {
+        "version": "",
+        "keywords": []
+    },
+    "object-group": {
+        "version": "",
+        "keywords": []
+    },
+    "object-intersect": {
+        "version": "",
+        "keywords": []
+    },
+    "object-substract": {
+        "version": "",
+        "keywords": []
+    },
+    "object-ungroup": {
+        "version": "",
+        "keywords": []
+    },
+    "object-union": {
+        "version": "",
+        "keywords": []
+    },
+    "orbit": {
+        "version": "",
+        "keywords": []
+    },
+    "outdent": {
+        "version": "",
+        "keywords": []
+    },
+    "owl": {
+        "version": "",
+        "keywords": []
+    },
+    "paint-roller-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "paint-roller": {
+        "version": "",
+        "keywords": []
+    },
+    "palette": {
+        "version": "",
+        "keywords": []
+    },
+    "panel": {
+        "version": "",
+        "keywords": []
+    },
+    "parentheses": {
+        "version": "",
+        "keywords": []
+    },
+    "parking-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "parking": {
+        "version": "",
+        "keywords": []
+    },
+    "party-horn": {
+        "version": "",
+        "keywords": []
+    },
+    "passport": {
+        "version": "",
+        "keywords": []
+    },
+    "path": {
+        "version": "",
+        "keywords": []
+    },
+    "pause": {
+        "version": "",
+        "keywords": []
+    },
+    "pen-nib": {
+        "version": "",
+        "keywords": []
+    },
+    "pen-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "pen": {
+        "version": "",
+        "keywords": []
+    },
+    "pencil-line": {
+        "version": "",
+        "keywords": []
+    },
+    "pencil-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "pencil": {
+        "version": "",
+        "keywords": []
+    },
+    "pentagon": {
+        "version": "",
+        "keywords": []
+    },
+    "percent-circle": {
+        "version": "",
+        "keywords": []
+    },
+    "percent": {
+        "version": "",
+        "keywords": []
+    },
+    "phone-block": {
+        "version": "",
+        "keywords": []
+    },
+    "phone-call": {
+        "version": "",
+        "keywords": []
+    },
+    "phone-incoming": {
+        "version": "",
+        "keywords": []
+    },
+    "phone-office": {
+        "version": "",
+        "keywords": []
+    },
+    "phone-outgoing": {
+        "version": "",
+        "keywords": []
+    },
+    "phone-pause": {
+        "version": "",
+        "keywords": []
+    },
+    "phone-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "phone": {
+        "version": "",
+        "keywords": []
+    },
+    "pill": {
+        "version": "",
+        "keywords": []
+    },
+    "pills": {
+        "version": "",
+        "keywords": []
+    },
+    "pin": {
+        "version": "",
+        "keywords": []
+    },
+    "pipette": {
+        "version": "",
+        "keywords": []
+    },
+    "pizza": {
+        "version": "",
+        "keywords": []
+    },
+    "plane-landing": {
+        "version": "",
+        "keywords": []
+    },
+    "plane-takeoff": {
+        "version": "",
+        "keywords": []
+    },
+    "plane": {
+        "version": "",
+        "keywords": []
+    },
+    "planet": {
+        "version": "",
+        "keywords": []
+    },
+    "play": {
+        "version": "",
+        "keywords": []
+    },
+    "plug-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "plug": {
+        "version": "",
+        "keywords": []
+    },
+    "plus-circle": {
+        "version": "",
+        "keywords": []
+    },
+    "plus-square": {
+        "version": "",
+        "keywords": []
+    },
+    "plus": {
+        "version": "",
+        "keywords": []
+    },
+    "pointer": {
+        "version": "",
+        "keywords": []
+    },
+    "poll-horizontal": {
+        "version": "",
+        "keywords": []
+    },
+    "poll-vertical": {
+        "version": "",
+        "keywords": []
+    },
+    "poo": {
+        "version": "",
+        "keywords": []
+    },
+    "popcorn": {
+        "version": "",
+        "keywords": []
+    },
+    "popsicle": {
+        "version": "",
+        "keywords": []
+    },
+    "postcard": {
+        "version": "",
+        "keywords": []
+    },
+    "power-bank": {
+        "version": "",
+        "keywords": []
+    },
+    "prescription-bottle": {
+        "version": "",
+        "keywords": []
+    },
+    "presentation": {
+        "version": "",
+        "keywords": []
+    },
+    "printer": {
+        "version": "",
+        "keywords": []
+    },
+    "projector": {
+        "version": "",
+        "keywords": []
+    },
+    "pumpkin": {
+        "version": "",
+        "keywords": []
+    },
+    "puzzle": {
+        "version": "",
+        "keywords": []
+    },
+    "question-circle": {
+        "version": "",
+        "keywords": []
+    },
+    "question-square": {
+        "version": "",
+        "keywords": []
+    },
+    "quote": {
+        "version": "",
+        "keywords": []
+    },
+    "radiation": {
+        "version": "",
+        "keywords": []
+    },
+    "radio-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "radio": {
+        "version": "",
+        "keywords": []
+    },
+    "rainbow": {
+        "version": "",
+        "keywords": []
+    },
+    "rat": {
+        "version": "",
+        "keywords": []
+    },
+    "receipt-dollar": {
+        "version": "",
+        "keywords": []
+    },
+    "receipt": {
+        "version": "",
+        "keywords": []
+    },
+    "rectangle-horizontal": {
+        "version": "",
+        "keywords": []
+    },
+    "rectangle-vertical": {
+        "version": "",
+        "keywords": []
+    },
+    "refresh": {
+        "version": "",
+        "keywords": []
+    },
+    "reload": {
+        "version": "",
+        "keywords": []
+    },
+    "rocket": {
+        "version": "",
+        "keywords": []
+    },
+    "rotate": {
+        "version": "",
+        "keywords": []
+    },
+    "route": {
+        "version": "",
+        "keywords": []
+    },
+    "router": {
+        "version": "",
+        "keywords": []
+    },
+    "row-insert-down": {
+        "version": "",
+        "keywords": []
+    },
+    "row-insert-up": {
+        "version": "",
+        "keywords": []
+    },
+    "ruler-2": {
+        "version": "",
+        "keywords": []
+    },
+    "ruler": {
+        "version": "",
+        "keywords": []
+    },
+    "scarecrow": {
+        "version": "",
+        "keywords": []
+    },
+    "school": {
+        "version": "",
+        "keywords": []
+    },
+    "scribble": {
+        "version": "",
+        "keywords": []
+    },
+    "scroll-empty": {
+        "version": "",
+        "keywords": []
+    },
+    "scroll": {
+        "version": "",
+        "keywords": []
+    },
+    "sd-card": {
+        "version": "",
+        "keywords": []
+    },
+    "search-check": {
+        "version": "",
+        "keywords": []
+    },
+    "search-code": {
+        "version": "",
+        "keywords": []
+    },
+    "search-x": {
+        "version": "",
+        "keywords": []
+    },
+    "search": {
+        "version": "",
+        "keywords": []
+    },
+    "send-back": {
+        "version": "",
+        "keywords": []
+    },
+    "send-backward": {
+        "version": "",
+        "keywords": []
+    },
+    "send": {
+        "version": "",
+        "keywords": []
+    },
+    "server": {
+        "version": "",
+        "keywords": []
+    },
+    "shapes": {
+        "version": "",
+        "keywords": []
+    },
+    "share": {
+        "version": "",
+        "keywords": []
+    },
+    "shield-alt": {
+        "version": "",
+        "keywords": []
+    },
+    "shield-check": {
+        "version": "",
+        "keywords": []
+    },
+    "shield-exclamation": {
+        "version": "",
+        "keywords": []
+    },
+    "shield-minus": {
+        "version": "",
+        "keywords": []
+    },
+    "shield-plus": {
+        "version": "",
+        "keywords": []
+    },
+    "shield-question": {
+        "version": "",
+        "keywords": []
+    },
+    "shield-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "shield-x": {
+        "version": "",
+        "keywords": []
+    },
+    "shield": {
+        "version": "",
+        "keywords": []
+    },
+    "ship": {
+        "version": "",
+        "keywords": []
+    },
+    "sidebar-left-close": {
+        "version": "",
+        "keywords": []
+    },
+    "sidebar-left-open": {
+        "version": "",
+        "keywords": []
+    },
+    "sidebar-left": {
+        "version": "",
+        "keywords": []
+    },
+    "sidebar-right-close": {
+        "version": "",
+        "keywords": []
+    },
+    "sidebar-right-open": {
+        "version": "",
+        "keywords": []
+    },
+    "sidebar-right": {
+        "version": "",
+        "keywords": []
+    },
+    "sign-post": {
+        "version": "",
+        "keywords": []
+    },
+    "signal-empty": {
+        "version": "",
+        "keywords": []
+    },
+    "signal-high": {
+        "version": "",
+        "keywords": []
+    },
+    "signal-low": {
+        "version": "",
+        "keywords": []
+    },
+    "signal-medium": {
+        "version": "",
+        "keywords": []
+    },
+    "signature": {
+        "version": "",
+        "keywords": []
+    },
+    "sim-card": {
+        "version": "",
+        "keywords": []
+    },
+    "siren": {
+        "version": "",
+        "keywords": []
+    },
+    "sitemap": {
+        "version": "",
+        "keywords": []
+    },
+    "skull": {
+        "version": "",
+        "keywords": []
+    },
+    "sliders": {
+        "version": "",
+        "keywords": []
+    },
+    "smoking-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "smoking": {
+        "version": "",
+        "keywords": []
+    },
+    "soda-cup": {
+        "version": "",
+        "keywords": []
+    },
+    "sort-down": {
+        "version": "",
+        "keywords": []
+    },
+    "sort-up": {
+        "version": "",
+        "keywords": []
+    },
+    "sort": {
+        "version": "",
+        "keywords": []
+    },
+    "soup": {
+        "version": "",
+        "keywords": []
+    },
+    "space": {
+        "version": "",
+        "keywords": []
+    },
+    "speaker-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "speaker": {
+        "version": "",
+        "keywords": []
+    },
+    "spider": {
+        "version": "",
+        "keywords": []
+    },
+    "spinner": {
+        "version": "",
+        "keywords": []
+    },
+    "spray-can": {
+        "version": "",
+        "keywords": []
+    },
+    "square-fill": {
+        "version": "",
+        "keywords": []
+    },
+    "square-half": {
+        "version": "",
+        "keywords": []
+    },
+    "square": {
+        "version": "",
+        "keywords": []
+    },
+    "squirrel": {
+        "version": "",
+        "keywords": []
+    },
+    "stack": {
+        "version": "",
+        "keywords": []
+    },
+    "stamp": {
+        "version": "",
+        "keywords": []
+    },
+    "star-half": {
+        "version": "",
+        "keywords": []
+    },
+    "star-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "star": {
+        "version": "",
+        "keywords": []
+    },
+    "step-backward": {
+        "version": "",
+        "keywords": []
+    },
+    "step-forward": {
+        "version": "",
+        "keywords": []
+    },
+    "stethoscope": {
+        "version": "",
+        "keywords": []
+    },
+    "sticker": {
+        "version": "",
+        "keywords": []
+    },
+    "stop": {
+        "version": "",
+        "keywords": []
+    },
+    "stopwatch": {
+        "version": "",
+        "keywords": []
+    },
+    "store": {
+        "version": "",
+        "keywords": []
+    },
+    "strikethrough": {
+        "version": "",
+        "keywords": []
+    },
+    "suitcase": {
+        "version": "",
+        "keywords": []
+    },
+    "sun": {
+        "version": "",
+        "keywords": []
+    },
+    "syringe": {
+        "version": "",
+        "keywords": []
+    },
+    "table-cells": {
+        "version": "",
+        "keywords": []
+    },
+    "table-columns": {
+        "version": "",
+        "keywords": []
+    },
+    "table-rows": {
+        "version": "",
+        "keywords": []
+    },
+    "table-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "table": {
+        "version": "",
+        "keywords": []
+    },
+    "tablet": {
+        "version": "",
+        "keywords": []
+    },
+    "tag-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "tag": {
+        "version": "",
+        "keywords": []
+    },
+    "tags": {
+        "version": "",
+        "keywords": []
+    },
+    "temperature-down": {
+        "version": "",
+        "keywords": []
+    },
+    "temperature-minus": {
+        "version": "",
+        "keywords": []
+    },
+    "temperature-plus": {
+        "version": "",
+        "keywords": []
+    },
+    "temperature-up": {
+        "version": "",
+        "keywords": []
+    },
+    "temperature": {
+        "version": "",
+        "keywords": []
+    },
+    "template": {
+        "version": "",
+        "keywords": []
+    },
+    "tent": {
+        "version": "",
+        "keywords": []
+    },
+    "terminal": {
+        "version": "",
+        "keywords": []
+    },
+    "text-center": {
+        "version": "",
+        "keywords": []
+    },
+    "text-cursor": {
+        "version": "",
+        "keywords": []
+    },
+    "text-input": {
+        "version": "",
+        "keywords": []
+    },
+    "text-justify": {
+        "version": "",
+        "keywords": []
+    },
+    "text-left": {
+        "version": "",
+        "keywords": []
+    },
+    "text-right": {
+        "version": "",
+        "keywords": []
+    },
+    "text-selection": {
+        "version": "",
+        "keywords": []
+    },
+    "text-wrap": {
+        "version": "",
+        "keywords": []
+    },
+    "text": {
+        "version": "",
+        "keywords": []
+    },
+    "thermometer": {
+        "version": "",
+        "keywords": []
+    },
+    "thumbs-down": {
+        "version": "",
+        "keywords": []
+    },
+    "thumbs-up": {
+        "version": "",
+        "keywords": []
+    },
+    "ticket": {
+        "version": "",
+        "keywords": []
+    },
+    "toggle-left": {
+        "version": "",
+        "keywords": []
+    },
+    "toggle-right": {
+        "version": "",
+        "keywords": []
+    },
+    "togo-cup": {
+        "version": "",
+        "keywords": []
+    },
+    "tombstone-cross": {
+        "version": "",
+        "keywords": []
+    },
+    "tombstone": {
+        "version": "",
+        "keywords": []
+    },
+    "tool": {
+        "version": "",
+        "keywords": []
+    },
+    "tools": {
+        "version": "",
+        "keywords": []
+    },
+    "tower-observation": {
+        "version": "",
+        "keywords": []
+    },
+    "tower": {
+        "version": "",
+        "keywords": []
+    },
+    "traffic-cone": {
+        "version": "",
+        "keywords": []
+    },
+    "traffic-lights": {
+        "version": "",
+        "keywords": []
+    },
+    "train-front": {
+        "version": "",
+        "keywords": []
+    },
+    "trash": {
+        "version": "",
+        "keywords": []
+    },
+    "tree-pine": {
+        "version": "",
+        "keywords": []
+    },
+    "tree": {
+        "version": "",
+        "keywords": []
+    },
+    "triangle-inverted": {
+        "version": "",
+        "keywords": []
+    },
+    "triangle": {
+        "version": "",
+        "keywords": []
+    },
+    "trophy": {
+        "version": "",
+        "keywords": []
+    },
+    "truck": {
+        "version": "",
+        "keywords": []
+    },
+    "tv-retro": {
+        "version": "",
+        "keywords": []
+    },
+    "tv": {
+        "version": "",
+        "keywords": []
+    },
+    "umbrella": {
+        "version": "",
+        "keywords": []
+    },
+    "underline": {
+        "version": "",
+        "keywords": []
+    },
+    "unfold-horizontal": {
+        "version": "",
+        "keywords": []
+    },
+    "unfold-vertical": {
+        "version": "",
+        "keywords": []
+    },
+    "unlink": {
+        "version": "",
+        "keywords": []
+    },
+    "unlock": {
+        "version": "",
+        "keywords": []
+    },
+    "upload": {
+        "version": "",
+        "keywords": []
+    },
+    "usb-device": {
+        "version": "",
+        "keywords": []
+    },
+    "usb": {
+        "version": "",
+        "keywords": []
+    },
+    "user-check": {
+        "version": "",
+        "keywords": []
+    },
+    "user-circle": {
+        "version": "",
+        "keywords": []
+    },
+    "user-minus": {
+        "version": "",
+        "keywords": []
+    },
+    "user-plus": {
+        "version": "",
+        "keywords": []
+    },
+    "user-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "user-square": {
+        "version": "",
+        "keywords": []
+    },
+    "user-x": {
+        "version": "",
+        "keywords": []
+    },
+    "user": {
+        "version": "",
+        "keywords": []
+    },
+    "users": {
+        "version": "",
+        "keywords": []
+    },
+    "variable": {
+        "version": "",
+        "keywords": []
+    },
+    "vial": {
+        "version": "",
+        "keywords": []
+    },
+    "vibrate": {
+        "version": "",
+        "keywords": []
+    },
+    "video-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "video": {
+        "version": "",
+        "keywords": []
+    },
+    "virus-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "virus": {
+        "version": "",
+        "keywords": []
+    },
+    "volume-down": {
+        "version": "",
+        "keywords": []
+    },
+    "volume-mute": {
+        "version": "",
+        "keywords": []
+    },
+    "volume-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "volume-up": {
+        "version": "",
+        "keywords": []
+    },
+    "wallet-cards": {
+        "version": "",
+        "keywords": []
+    },
+    "wallet": {
+        "version": "",
+        "keywords": []
+    },
+    "wand": {
+        "version": "",
+        "keywords": []
+    },
+    "warehouse": {
+        "version": "",
+        "keywords": []
+    },
+    "watch": {
+        "version": "",
+        "keywords": []
+    },
+    "webcam-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "webcam": {
+        "version": "",
+        "keywords": []
+    },
+    "weight-scale": {
+        "version": "",
+        "keywords": []
+    },
+    "wifi-exclamation": {
+        "version": "",
+        "keywords": []
+    },
+    "wifi-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "wifi": {
+        "version": "",
+        "keywords": []
+    },
+    "wind-slash": {
+        "version": "",
+        "keywords": []
+    },
+    "wind": {
+        "version": "",
+        "keywords": []
+    },
+    "window": {
+        "version": "",
+        "keywords": []
+    },
+    "wine-glass": {
+        "version": "",
+        "keywords": []
+    },
+    "workflow": {
+        "version": "",
+        "keywords": []
+    },
+    "x-circle": {
+        "version": "",
+        "keywords": []
+    },
+    "x-square": {
+        "version": "",
+        "keywords": []
+    },
+    "x": {
+        "version": "",
+        "keywords": []
+    },
+    "zoom-in": {
+        "version": "",
+        "keywords": []
+    },
+    "zoom-out": {
+        "version": "",
+        "keywords": []
+    }
+}
