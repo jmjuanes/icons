@@ -2,6 +2,7 @@ import * as path from "node:path";
 import press from "mikel-press";
 import markdown from "mikel-markdown";
 import hljs from "highlight.js";
+import {generateChangelogData} from "./generate-changelog.js";
 import pkg from "../package.json" with {type: "json"};
 import iconsConfig from "../icons.json" with {type: "json"};
 import websiteConfig from "../website.config.json" with {type: "json"};
@@ -89,7 +90,7 @@ press.build({
     version: pkg.version,
     repository: pkg.repository.url,
     icons: iconsConfig.icons,
-    releases: (iconsConfig.releases || []).reverse(),
+    releases: generateChangelogData(),
     iconsCount: Math.floor(iconsConfig.icons.length / 100)*100,
     plugins: [
         press.SourcePlugin({source: "./docs"}),
