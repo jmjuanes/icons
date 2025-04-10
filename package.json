@@ -16,9 +16,8 @@
         "packages/*"
     ],
     "scripts": {
-        "build": "yarn build:icons && yarn build:react && yarn build:svg && yarn build:css",
-        "prebuild:icons": "rm -rf icons.json icons && mkdir icons",
-        "build:icons": "node ./scripts/build.js",
+        "build": "yarn build:json && yarn build:react && yarn build:svg && yarn build:css",
+        "build:json": "node ./scripts/build-json.js",
         "build:css": "yarn workspace @josemi-icons/css run build",
         "build:react": "yarn workspace @josemi-icons/react run build",
         "prebuild:svg": "rm -rf ./packages/svg/icons",
@@ -27,6 +26,7 @@
         "build:docs": "node ./scripts/site.js",
         "postbuild:docs": "cp public/* www/ && cp -R icons www/",
         "docs": "yarn run build:docs",
+        "load-icons": "node ./scripts/load-icons.js",
         "site": "yarn run build:docs",
         "serve": "serve ./www -p 8080",
         "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js packages",
