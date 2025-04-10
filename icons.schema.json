@@ -8,6 +8,12 @@
         "version": {
             "type": "string"
         },
+        "author": {
+            "type": "string"
+        },
+        "repository": {
+            "type": "string"
+        },
         "icons": {
             "type": "array",
             "items": {
@@ -18,6 +24,12 @@
                     },
                     "version": {
                         "type": "string"
+                    },
+                    "keywords": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
                     },
                     "path": {
                         "type": "string"
