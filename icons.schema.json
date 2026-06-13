@@ -1,5 +1,5 @@
 {
-    "$id": "https://icons.josemi.xyz/icons.schema.json",
+    "$id": "https://josemi.xyz/icons/icons.schema.json",
     "$schema": "https://json-schema.org/draft/2020-12/schema",
     "title": "Icons schema",
     "description": "A JSON schema for icons",
@@ -20,6 +20,9 @@
                 "type": "object",
                 "properties": {
                     "name": {
+                        "type": "string"
+                    },
+                    "componentName": {
                         "type": "string"
                     },
                     "version": {
