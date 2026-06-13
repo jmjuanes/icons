@@ -1,17 +1,19 @@
-## Output files and folders
-www/
-icons.json
-icons.zip
-src/
-
-## Output packages
-packages/react/index.js
-packages/svg/icons
-packages/svg/sprite.svg
-packages/css/icons.css
-
-## Other files and folders
+# nodejs stuff
 node_modules/
 package-lock.json
 yarn.lock
+
+# output files
+icons.json
+icons.zip
+icons.css
+icons.svg
+icons.js
+icons.tsx
+icons.d.ts
+
+# output documentation site
+www
+
+# other files
 .DS_Store
