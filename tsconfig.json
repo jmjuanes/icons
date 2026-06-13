@@ -26,6 +26,8 @@
         "*.tsx"
     ],
     "exclude": [
+        "node_modules/**/*",
+        "*.js",
         "scripts/*",
         "tests/*",
         "icons/*"
