@@ -1,6 +1,6 @@
 import { readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { resolve, join, basename, extname } from "node:path";
-import { extractIconPath } from "./helpers.js";
+import { extractIconPath } from "./common.js";
 import pkg from "../package.json" with { type: "json" };
 import type { Icon } from "./common.ts";
 
