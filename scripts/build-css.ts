@@ -1,5 +1,5 @@
 import { readFileSync, writeFileSync } from "node:fs";
-import { generateSvg, encodeSvg, minifyCss } from "./helpers.ts";
+import { generateSvg, encodeSvg, minifyCss } from "./common.ts";
 import type { Icon } from "./common.ts";
 
 const build = () => {
