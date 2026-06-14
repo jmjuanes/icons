@@ -1,14 +1,15 @@
-import * as fs from "node:fs";
-import {generateSvg, encodeSvg, minifyCss} from "../../scripts/helpers.js";
-import iconsConfig from "../../icons.json" with {type: "json"};
+import { readFileSync, writeFileSync } from "node:fs";
+import { generateSvg, encodeSvg, minifyCss } from "./common.ts";
+import type { Icon } from "./common.ts";
 
 const build = () => {
     const separator = "\n";
-    const icons = iconsConfig.icons;
+    const iconsConfig = JSON.parse(readFileSync("icons.json", "utf8"));
+    const icons = iconsConfig.icons as Icon[];
     const css = [
         `:root,`,
         `*:before {`,
-        ...icons.map(icon => {
+        ...icons.map((icon: Icon) => {
             const data = encodeSvg(generateSvg(icon.path));
             return `--josemi-icons-${icon.name}: url("data:image/svg+xml;utf8,${data}") no-repeat;`;
         }),
@@ -29,9 +30,9 @@ const build = () => {
         `    width: 1em;`,
         `    height: 1em;`,
         `}`,
-        ...icons.map(icon => {
+        ...icons.map((icon: Icon) => {
             const iconStyles = [
-                `.ji-{{name}}:before {`,
+                `.ji-${icon.name}:before {`,
                 `    mask: var(--josemi-icons-${icon.name}) no-repeat;`,
                 `    mask-size: 100% 100%;`,
                 `    -webkit-mask: var(--josemi-icons-${icon.name}) no-repeat;`,
@@ -47,7 +48,7 @@ const build = () => {
         compatibility: "*",
     });
     // write the minified css to a file
-    fs.writeFileSync("./icons.css", output.styles, "utf8");
+    writeFileSync("icons.css", output.styles, "utf8");
 };
 
 // run build script
