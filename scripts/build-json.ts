@@ -26,7 +26,7 @@ const build = () => {
     // write 'icons.json'
     const iconsPath = join(process?.cwd(), "icons.json");
     const iconsData = {
-        "$id": "https://josemi.xyz/icons/icons.schema.json",
+        "$id": "https://icons.josemi.xyz/icons.schema.json",
         "version": pkg.version,
         "author": pkg.author,
         "repository": pkg.repository.url,
