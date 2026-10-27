@@ -10,7 +10,7 @@
         "url": "https://github.com/jmjuanes/icons"
     },
     "bugs": "https://github.com/jmjuanes/icons/issues",
-    "homepage": "https://josemi.xyz/icons",
+    "homepage": "https://icons.josemi.xyz",
     "exports": {
         ".": {
             "types": "./index.d.ts",
@@ -39,9 +39,8 @@
         "build:css": "tsx ./scripts/build-css.ts",
         "build:react": "tsx ./scripts/build-react.ts && tsc",
         "build:svg": "tsx ./scripts/build-svg.ts",
-        "docs": "mikel --config mikel.config.js && cp -r assets ./www/",
-        "postdocs": "cp ../node_modules/lowcss/low.css www/low.css && cp icons.svg www/icons.svg && cp ../node_modules/highlight.js/styles/mono-blue.min.css www/highlight.css",
-        "docs:serve": "serve www -p 3000",
+        "gallery:build": "mikel --config mikel.config.js",
+        "gallery:serve": "serve www -p 3000",
         "test": "jest",
         "pack:icons": "zip -r icons.zip ./icons"
     },
@@ -62,9 +61,9 @@
         "jest": "^30.5.2",
         "jest-environment-jsdom": "^30.5.2",
         "lowcss": "^0.37.1",
-        "mikel": "^0.41.0",
-        "mikel-cli": "^0.41.0",
-        "mikel-jsx": "^0.41.0",
+        "mikel": "^0.42.2",
+        "mikel-cli": "^0.42.2",
+        "mikel-jsx": "^0.42.2",
         "react": "^19.3.1",
         "react-dom": "^19.3.1",
         "ts-jest": "^29.4.15",
