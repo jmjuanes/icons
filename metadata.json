@@ -1,0 +1,9132 @@
+[
+    {
+        "name": "access-point",
+        "category": "devices",
+        "keywords": [
+            "wifi",
+            "router",
+            "hotspot",
+            "signal",
+            "broadcast"
+        ]
+    },
+    {
+        "name": "accessible",
+        "category": "health",
+        "keywords": [
+            "wheelchair",
+            "disability",
+            "a11y",
+            "accessibility"
+        ]
+    },
+    {
+        "name": "acorn",
+        "category": "nature",
+        "keywords": [
+            "oak",
+            "nut",
+            "seed",
+            "autumn"
+        ]
+    },
+    {
+        "name": "activity-square",
+        "category": "health",
+        "keywords": [
+            "pulse",
+            "heartbeat",
+            "vitals",
+            "activity"
+        ]
+    },
+    {
+        "name": "activity",
+        "category": "health",
+        "keywords": [
+            "pulse",
+            "heartbeat",
+            "vitals",
+            "activity"
+        ]
+    },
+    {
+        "name": "address-book",
+        "category": "communication",
+        "keywords": [
+            "contacts",
+            "directory",
+            "phonebook",
+            "people"
+        ]
+    },
+    {
+        "name": "ai",
+        "category": "development",
+        "keywords": [
+            "artificial intelligence",
+            "machine learning",
+            "assistant",
+            "sparkles"
+        ]
+    },
+    {
+        "name": "alarm-check",
+        "category": "time",
+        "keywords": [
+            "alarm",
+            "clock",
+            "done",
+            "confirmed"
+        ]
+    },
+    {
+        "name": "alarm-minus",
+        "category": "time",
+        "keywords": [
+            "alarm",
+            "clock",
+            "remove",
+            "decrease"
+        ]
+    },
+    {
+        "name": "alarm-plus",
+        "category": "time",
+        "keywords": [
+            "alarm",
+            "clock",
+            "add",
+            "new"
+        ]
+    },
+    {
+        "name": "alarm-slash",
+        "category": "time",
+        "keywords": [
+            "alarm",
+            "clock",
+            "disabled",
+            "off"
+        ]
+    },
+    {
+        "name": "alarm-snooze",
+        "category": "time",
+        "keywords": [
+            "alarm",
+            "clock",
+            "sleep",
+            "postpone"
+        ]
+    },
+    {
+        "name": "alarm-x",
+        "category": "time",
+        "keywords": [
+            "alarm",
+            "clock",
+            "cancel",
+            "delete"
+        ]
+    },
+    {
+        "name": "alarm",
+        "category": "time",
+        "keywords": [
+            "clock",
+            "wake up",
+            "reminder",
+            "ring"
+        ]
+    },
+    {
+        "name": "album",
+        "category": "media",
+        "keywords": [
+            "music",
+            "record",
+            "cover",
+            "photo album"
+        ]
+    },
+    {
+        "name": "align-bottom",
+        "category": "design",
+        "keywords": [
+            "align",
+            "bottom",
+            "objects",
+            "layout"
+        ]
+    },
+    {
+        "name": "align-box-bottom-center",
+        "category": "design",
+        "keywords": [
+            "align",
+            "bottom",
+            "center",
+            "box"
+        ]
+    },
+    {
+        "name": "align-box-bottom-left",
+        "category": "design",
+        "keywords": [
+            "align",
+            "bottom",
+            "left",
+            "box"
+        ]
+    },
+    {
+        "name": "align-box-bottom-right",
+        "category": "design",
+        "keywords": [
+            "align",
+            "bottom",
+            "right",
+            "box"
+        ]
+    },
+    {
+        "name": "align-box-middle-center",
+        "category": "design",
+        "keywords": [
+            "align",
+            "middle",
+            "center",
+            "box"
+        ]
+    },
+    {
+        "name": "align-box-middle-left",
+        "category": "design",
+        "keywords": [
+            "align",
+            "middle",
+            "left",
+            "box"
+        ]
+    },
+    {
+        "name": "align-box-middle-right",
+        "category": "design",
+        "keywords": [
+            "align",
+            "middle",
+            "right",
+            "box"
+        ]
+    },
+    {
+        "name": "align-box-top-center",
+        "category": "design",
+        "keywords": [
+            "align",
+            "top",
+            "center",
+            "box"
+        ]
+    },
+    {
+        "name": "align-box-top-left",
+        "category": "design",
+        "keywords": [
+            "align",
+            "top",
+            "left",
+            "box"
+        ]
+    },
+    {
+        "name": "align-box-top-right",
+        "category": "design",
+        "keywords": [
+            "align",
+            "top",
+            "right",
+            "box"
+        ]
+    },
+    {
+        "name": "align-center",
+        "category": "text",
+        "keywords": [
+            "align",
+            "center",
+            "text",
+            "paragraph"
+        ]
+    },
+    {
+        "name": "align-left",
+        "category": "text",
+        "keywords": [
+            "align",
+            "left",
+            "text",
+            "paragraph"
+        ]
+    },
+    {
+        "name": "align-middle",
+        "category": "design",
+        "keywords": [
+            "align",
+            "middle",
+            "vertical center",
+            "objects"
+        ]
+    },
+    {
+        "name": "align-right",
+        "category": "text",
+        "keywords": [
+            "align",
+            "right",
+            "text",
+            "paragraph"
+        ]
+    },
+    {
+        "name": "align-top",
+        "category": "design",
+        "keywords": [
+            "align",
+            "top",
+            "objects",
+            "layout"
+        ]
+    },
+    {
+        "name": "ambulance",
+        "category": "health",
+        "keywords": [
+            "emergency",
+            "hospital",
+            "rescue",
+            "vehicle"
+        ]
+    },
+    {
+        "name": "anchor",
+        "category": "transport",
+        "keywords": [
+            "boat",
+            "ship",
+            "harbor",
+            "nautical"
+        ]
+    },
+    {
+        "name": "api",
+        "category": "development",
+        "keywords": [
+            "endpoint",
+            "interface",
+            "integration",
+            "rest"
+        ]
+    },
+    {
+        "name": "apple",
+        "category": "food",
+        "keywords": [
+            "fruit",
+            "healthy",
+            "snack",
+            "red apple"
+        ]
+    },
+    {
+        "name": "archive-slash",
+        "category": "files",
+        "keywords": [
+            "archive",
+            "disabled",
+            "unarchive",
+            "box"
+        ]
+    },
+    {
+        "name": "archive",
+        "category": "files",
+        "keywords": [
+            "box",
+            "storage",
+            "backup",
+            "store"
+        ]
+    },
+    {
+        "name": "armchair",
+        "category": "home",
+        "keywords": [
+            "chair",
+            "sofa",
+            "furniture",
+            "seat"
+        ]
+    },
+    {
+        "name": "arrow-alt-down",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "direction",
+            "block arrow",
+            "thick"
+        ]
+    },
+    {
+        "name": "arrow-alt-left",
+        "category": "arrows",
+        "keywords": [
+            "left",
+            "direction",
+            "block arrow",
+            "thick"
+        ]
+    },
+    {
+        "name": "arrow-alt-right",
+        "category": "arrows",
+        "keywords": [
+            "right",
+            "direction",
+            "block arrow",
+            "thick"
+        ]
+    },
+    {
+        "name": "arrow-alt-up",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "direction",
+            "block arrow",
+            "thick"
+        ]
+    },
+    {
+        "name": "arrow-circle-down",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "circle",
+            "direction",
+            "download"
+        ]
+    },
+    {
+        "name": "arrow-circle-left",
+        "category": "arrows",
+        "keywords": [
+            "left",
+            "circle",
+            "direction",
+            "back"
+        ]
+    },
+    {
+        "name": "arrow-circle-right",
+        "category": "arrows",
+        "keywords": [
+            "right",
+            "circle",
+            "direction",
+            "next"
+        ]
+    },
+    {
+        "name": "arrow-circle-up",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "circle",
+            "direction",
+            "upload"
+        ]
+    },
+    {
+        "name": "arrow-down-0-9",
+        "category": "arrows",
+        "keywords": [
+            "sort",
+            "ascending",
+            "numbers",
+            "order"
+        ]
+    },
+    {
+        "name": "arrow-down-9-0",
+        "category": "arrows",
+        "keywords": [
+            "sort",
+            "descending",
+            "numbers",
+            "order"
+        ]
+    },
+    {
+        "name": "arrow-down-a-z",
+        "category": "arrows",
+        "keywords": [
+            "sort",
+            "ascending",
+            "alphabetical",
+            "order"
+        ]
+    },
+    {
+        "name": "arrow-down-left",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "left",
+            "diagonal",
+            "direction"
+        ]
+    },
+    {
+        "name": "arrow-down-line",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "bottom",
+            "end",
+            "line"
+        ]
+    },
+    {
+        "name": "arrow-down-right",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "right",
+            "diagonal",
+            "direction"
+        ]
+    },
+    {
+        "name": "arrow-down-z-a",
+        "category": "arrows",
+        "keywords": [
+            "sort",
+            "descending",
+            "alphabetical",
+            "order"
+        ]
+    },
+    {
+        "name": "arrow-down",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "direction",
+            "decrease",
+            "south"
+        ]
+    },
+    {
+        "name": "arrow-left-line",
+        "category": "arrows",
+        "keywords": [
+            "left",
+            "start",
+            "beginning",
+            "line"
+        ]
+    },
+    {
+        "name": "arrow-left",
+        "category": "arrows",
+        "keywords": [
+            "left",
+            "back",
+            "previous",
+            "west"
+        ]
+    },
+    {
+        "name": "arrow-right-line",
+        "category": "arrows",
+        "keywords": [
+            "right",
+            "end",
+            "finish",
+            "line"
+        ]
+    },
+    {
+        "name": "arrow-right",
+        "category": "arrows",
+        "keywords": [
+            "right",
+            "next",
+            "forward",
+            "east"
+        ]
+    },
+    {
+        "name": "arrow-square-down",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "square",
+            "direction",
+            "box"
+        ]
+    },
+    {
+        "name": "arrow-square-left",
+        "category": "arrows",
+        "keywords": [
+            "left",
+            "square",
+            "direction",
+            "box"
+        ]
+    },
+    {
+        "name": "arrow-square-right",
+        "category": "arrows",
+        "keywords": [
+            "right",
+            "square",
+            "direction",
+            "box"
+        ]
+    },
+    {
+        "name": "arrow-square-up",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "square",
+            "direction",
+            "box"
+        ]
+    },
+    {
+        "name": "arrow-up-0-9",
+        "category": "arrows",
+        "keywords": [
+            "sort",
+            "ascending",
+            "numbers",
+            "order"
+        ]
+    },
+    {
+        "name": "arrow-up-9-0",
+        "category": "arrows",
+        "keywords": [
+            "sort",
+            "descending",
+            "numbers",
+            "order"
+        ]
+    },
+    {
+        "name": "arrow-up-a-z",
+        "category": "arrows",
+        "keywords": [
+            "sort",
+            "ascending",
+            "alphabetical",
+            "order"
+        ]
+    },
+    {
+        "name": "arrow-up-left",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "left",
+            "diagonal",
+            "direction"
+        ]
+    },
+    {
+        "name": "arrow-up-line",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "top",
+            "start",
+            "line"
+        ]
+    },
+    {
+        "name": "arrow-up-right",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "right",
+            "diagonal",
+            "external"
+        ]
+    },
+    {
+        "name": "arrow-up-z-a",
+        "category": "arrows",
+        "keywords": [
+            "sort",
+            "descending",
+            "alphabetical",
+            "order"
+        ]
+    },
+    {
+        "name": "arrow-up",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "direction",
+            "increase",
+            "north"
+        ]
+    },
+    {
+        "name": "arrows-down-up",
+        "category": "arrows",
+        "keywords": [
+            "swap",
+            "vertical",
+            "exchange",
+            "transfer"
+        ]
+    },
+    {
+        "name": "arrows-down",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "double",
+            "multiple",
+            "direction"
+        ]
+    },
+    {
+        "name": "arrows-horizontal",
+        "category": "arrows",
+        "keywords": [
+            "horizontal",
+            "resize",
+            "expand",
+            "width"
+        ]
+    },
+    {
+        "name": "arrows-left-right",
+        "category": "arrows",
+        "keywords": [
+            "swap",
+            "horizontal",
+            "exchange",
+            "transfer"
+        ]
+    },
+    {
+        "name": "arrows-left",
+        "category": "arrows",
+        "keywords": [
+            "left",
+            "double",
+            "multiple",
+            "direction"
+        ]
+    },
+    {
+        "name": "arrows-maximize",
+        "category": "arrows",
+        "keywords": [
+            "maximize",
+            "expand",
+            "fullscreen",
+            "enlarge"
+        ]
+    },
+    {
+        "name": "arrows-minimize",
+        "category": "arrows",
+        "keywords": [
+            "minimize",
+            "collapse",
+            "shrink",
+            "reduce"
+        ]
+    },
+    {
+        "name": "arrows-repeat",
+        "category": "arrows",
+        "keywords": [
+            "repeat",
+            "loop",
+            "cycle",
+            "refresh"
+        ]
+    },
+    {
+        "name": "arrows-right-left",
+        "category": "arrows",
+        "keywords": [
+            "swap",
+            "horizontal",
+            "exchange",
+            "transfer"
+        ]
+    },
+    {
+        "name": "arrows-right",
+        "category": "arrows",
+        "keywords": [
+            "right",
+            "double",
+            "multiple",
+            "direction"
+        ]
+    },
+    {
+        "name": "arrows-shuffle",
+        "category": "arrows",
+        "keywords": [
+            "shuffle",
+            "random",
+            "mix",
+            "music"
+        ]
+    },
+    {
+        "name": "arrows-split",
+        "category": "arrows",
+        "keywords": [
+            "split",
+            "branch",
+            "fork",
+            "divide"
+        ]
+    },
+    {
+        "name": "arrows-switch",
+        "category": "arrows",
+        "keywords": [
+            "switch",
+            "swap",
+            "exchange",
+            "toggle"
+        ]
+    },
+    {
+        "name": "arrows-up-down",
+        "category": "arrows",
+        "keywords": [
+            "swap",
+            "vertical",
+            "exchange",
+            "sort"
+        ]
+    },
+    {
+        "name": "arrows-up",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "double",
+            "multiple",
+            "direction"
+        ]
+    },
+    {
+        "name": "arrows-vertical",
+        "category": "arrows",
+        "keywords": [
+            "vertical",
+            "resize",
+            "expand",
+            "height"
+        ]
+    },
+    {
+        "name": "arrows",
+        "category": "arrows",
+        "keywords": [
+            "move",
+            "all directions",
+            "drag",
+            "cross"
+        ]
+    },
+    {
+        "name": "article",
+        "category": "text",
+        "keywords": [
+            "blog",
+            "post",
+            "news",
+            "content"
+        ]
+    },
+    {
+        "name": "aspect-ratio",
+        "category": "design",
+        "keywords": [
+            "ratio",
+            "proportion",
+            "size",
+            "screen"
+        ]
+    },
+    {
+        "name": "asterisk",
+        "category": "symbols",
+        "keywords": [
+            "star",
+            "required",
+            "footnote",
+            "wildcard"
+        ]
+    },
+    {
+        "name": "at",
+        "category": "communication",
+        "keywords": [
+            "email",
+            "mention",
+            "address",
+            "username"
+        ]
+    },
+    {
+        "name": "atom",
+        "category": "science",
+        "keywords": [
+            "physics",
+            "molecule",
+            "chemistry",
+            "nucleus"
+        ]
+    },
+    {
+        "name": "attachment",
+        "category": "files",
+        "keywords": [
+            "clip",
+            "paperclip",
+            "attach",
+            "file"
+        ]
+    },
+    {
+        "name": "audio-lines",
+        "category": "media",
+        "keywords": [
+            "sound",
+            "waveform",
+            "voice",
+            "audio"
+        ]
+    },
+    {
+        "name": "audio-waveform",
+        "category": "media",
+        "keywords": [
+            "sound",
+            "wave",
+            "voice",
+            "audio"
+        ]
+    },
+    {
+        "name": "award",
+        "category": "symbols",
+        "keywords": [
+            "prize",
+            "badge",
+            "medal",
+            "achievement"
+        ]
+    },
+    {
+        "name": "background",
+        "category": "design",
+        "keywords": [
+            "fill",
+            "color",
+            "backdrop",
+            "canvas"
+        ]
+    },
+    {
+        "name": "backpack",
+        "category": "objects",
+        "keywords": [
+            "bag",
+            "school",
+            "travel",
+            "hiking"
+        ]
+    },
+    {
+        "name": "backspace",
+        "category": "interface",
+        "keywords": [
+            "delete",
+            "erase",
+            "keyboard",
+            "remove"
+        ]
+    },
+    {
+        "name": "badge-check",
+        "category": "symbols",
+        "keywords": [
+            "verified",
+            "approved",
+            "done",
+            "seal"
+        ]
+    },
+    {
+        "name": "badge-exclamation",
+        "category": "symbols",
+        "keywords": [
+            "alert",
+            "warning",
+            "important",
+            "seal"
+        ]
+    },
+    {
+        "name": "badge-percent",
+        "category": "commerce",
+        "keywords": [
+            "discount",
+            "sale",
+            "offer",
+            "seal"
+        ]
+    },
+    {
+        "name": "badge-x",
+        "category": "symbols",
+        "keywords": [
+            "rejected",
+            "error",
+            "cancel",
+            "seal"
+        ]
+    },
+    {
+        "name": "badge",
+        "category": "symbols",
+        "keywords": [
+            "seal",
+            "label",
+            "tag",
+            "emblem"
+        ]
+    },
+    {
+        "name": "bag",
+        "category": "commerce",
+        "keywords": [
+            "shopping",
+            "purse",
+            "store",
+            "handbag"
+        ]
+    },
+    {
+        "name": "balance",
+        "category": "symbols",
+        "keywords": [
+            "justice",
+            "law",
+            "scale",
+            "weight"
+        ]
+    },
+    {
+        "name": "ball-basketball",
+        "category": "sports",
+        "keywords": [
+            "basketball",
+            "ball",
+            "sport",
+            "nba"
+        ]
+    },
+    {
+        "name": "ball-bowling",
+        "category": "sports",
+        "keywords": [
+            "bowling",
+            "ball",
+            "sport",
+            "game"
+        ]
+    },
+    {
+        "name": "ball-tennis",
+        "category": "sports",
+        "keywords": [
+            "tennis",
+            "ball",
+            "sport",
+            "racket"
+        ]
+    },
+    {
+        "name": "ball-volleyball",
+        "category": "sports",
+        "keywords": [
+            "volleyball",
+            "ball",
+            "sport",
+            "beach"
+        ]
+    },
+    {
+        "name": "ban",
+        "category": "symbols",
+        "keywords": [
+            "forbidden",
+            "prohibited",
+            "block",
+            "no"
+        ]
+    },
+    {
+        "name": "bandage",
+        "category": "health",
+        "keywords": [
+            "first aid",
+            "injury",
+            "plaster",
+            "wound"
+        ]
+    },
+    {
+        "name": "barrier",
+        "category": "objects",
+        "keywords": [
+            "roadblock",
+            "fence",
+            "construction",
+            "block"
+        ]
+    },
+    {
+        "name": "bars",
+        "category": "interface",
+        "keywords": [
+            "menu",
+            "hamburger",
+            "navigation",
+            "sidebar"
+        ]
+    },
+    {
+        "name": "basket",
+        "category": "commerce",
+        "keywords": [
+            "shopping",
+            "cart",
+            "store",
+            "buy"
+        ]
+    },
+    {
+        "name": "bat",
+        "category": "animals",
+        "keywords": [
+            "flying",
+            "halloween",
+            "night",
+            "vampire"
+        ]
+    },
+    {
+        "name": "bath",
+        "category": "home",
+        "keywords": [
+            "bathtub",
+            "bathroom",
+            "wash",
+            "water"
+        ]
+    },
+    {
+        "name": "battery-car",
+        "category": "devices",
+        "keywords": [
+            "electric",
+            "vehicle",
+            "charge",
+            "ev"
+        ]
+    },
+    {
+        "name": "battery-charging",
+        "category": "devices",
+        "keywords": [
+            "power",
+            "charge",
+            "energy",
+            "plug"
+        ]
+    },
+    {
+        "name": "battery-exclamation",
+        "category": "devices",
+        "keywords": [
+            "power",
+            "warning",
+            "critical",
+            "alert"
+        ]
+    },
+    {
+        "name": "battery-full",
+        "category": "devices",
+        "keywords": [
+            "power",
+            "energy",
+            "charged",
+            "level"
+        ]
+    },
+    {
+        "name": "battery-half",
+        "category": "devices",
+        "keywords": [
+            "power",
+            "energy",
+            "medium",
+            "level"
+        ]
+    },
+    {
+        "name": "battery-low",
+        "category": "devices",
+        "keywords": [
+            "power",
+            "energy",
+            "low",
+            "level"
+        ]
+    },
+    {
+        "name": "battery-slash",
+        "category": "devices",
+        "keywords": [
+            "power",
+            "disabled",
+            "off",
+            "energy"
+        ]
+    },
+    {
+        "name": "battery",
+        "category": "devices",
+        "keywords": [
+            "power",
+            "energy",
+            "charge",
+            "level"
+        ]
+    },
+    {
+        "name": "bed-empty",
+        "category": "home",
+        "keywords": [
+            "bed",
+            "bedroom",
+            "sleep",
+            "furniture"
+        ]
+    },
+    {
+        "name": "bed-front",
+        "category": "home",
+        "keywords": [
+            "bed",
+            "bedroom",
+            "sleep",
+            "furniture"
+        ]
+    },
+    {
+        "name": "bed-slash",
+        "category": "home",
+        "keywords": [
+            "bed",
+            "sleep",
+            "disabled",
+            "unavailable"
+        ]
+    },
+    {
+        "name": "bed",
+        "category": "home",
+        "keywords": [
+            "bedroom",
+            "sleep",
+            "hotel",
+            "furniture"
+        ]
+    },
+    {
+        "name": "beer",
+        "category": "food",
+        "keywords": [
+            "drink",
+            "pint",
+            "alcohol",
+            "pub"
+        ]
+    },
+    {
+        "name": "bell-school-slash",
+        "category": "interface",
+        "keywords": [
+            "school bell",
+            "mute",
+            "disabled",
+            "alarm"
+        ]
+    },
+    {
+        "name": "bell-school",
+        "category": "interface",
+        "keywords": [
+            "school bell",
+            "class",
+            "alarm",
+            "ring"
+        ]
+    },
+    {
+        "name": "bell-slash",
+        "category": "interface",
+        "keywords": [
+            "notification",
+            "mute",
+            "silent",
+            "disabled"
+        ]
+    },
+    {
+        "name": "bell",
+        "category": "interface",
+        "keywords": [
+            "notification",
+            "alert",
+            "alarm",
+            "ring"
+        ]
+    },
+    {
+        "name": "bezier-2",
+        "category": "design",
+        "keywords": [
+            "curve",
+            "path",
+            "vector",
+            "pen tool"
+        ]
+    },
+    {
+        "name": "bezier",
+        "category": "design",
+        "keywords": [
+            "curve",
+            "path",
+            "vector",
+            "anchor"
+        ]
+    },
+    {
+        "name": "bike",
+        "category": "transport",
+        "keywords": [
+            "bicycle",
+            "cycling",
+            "sport",
+            "ride"
+        ]
+    },
+    {
+        "name": "binary",
+        "category": "development",
+        "keywords": [
+            "bits",
+            "code",
+            "zeros ones",
+            "data"
+        ]
+    },
+    {
+        "name": "blocks",
+        "category": "shapes",
+        "keywords": [
+            "tetris",
+            "building",
+            "modules",
+            "toys"
+        ]
+    },
+    {
+        "name": "bluetooth-connected",
+        "category": "devices",
+        "keywords": [
+            "wireless",
+            "connected",
+            "pairing",
+            "signal"
+        ]
+    },
+    {
+        "name": "bluetooth-slash",
+        "category": "devices",
+        "keywords": [
+            "wireless",
+            "disabled",
+            "off",
+            "signal"
+        ]
+    },
+    {
+        "name": "bluetooth",
+        "category": "devices",
+        "keywords": [
+            "wireless",
+            "pairing",
+            "signal",
+            "connect"
+        ]
+    },
+    {
+        "name": "blur",
+        "category": "design",
+        "keywords": [
+            "effect",
+            "filter",
+            "soften",
+            "focus"
+        ]
+    },
+    {
+        "name": "bold",
+        "category": "text",
+        "keywords": [
+            "format",
+            "strong",
+            "font",
+            "weight"
+        ]
+    },
+    {
+        "name": "bolt-slash",
+        "category": "weather",
+        "keywords": [
+            "lightning",
+            "flash",
+            "disabled",
+            "power off"
+        ]
+    },
+    {
+        "name": "bolt",
+        "category": "weather",
+        "keywords": [
+            "lightning",
+            "flash",
+            "power",
+            "electricity"
+        ]
+    },
+    {
+        "name": "bomb",
+        "category": "games",
+        "keywords": [
+            "explosive",
+            "boom",
+            "danger",
+            "game"
+        ]
+    },
+    {
+        "name": "bone",
+        "category": "health",
+        "keywords": [
+            "skeleton",
+            "dog",
+            "anatomy",
+            "orthopedic"
+        ]
+    },
+    {
+        "name": "book-down",
+        "category": "files",
+        "keywords": [
+            "book",
+            "download",
+            "save",
+            "read"
+        ]
+    },
+    {
+        "name": "book-marked",
+        "category": "files",
+        "keywords": [
+            "book",
+            "bookmark",
+            "saved",
+            "reading"
+        ]
+    },
+    {
+        "name": "book-minus",
+        "category": "files",
+        "keywords": [
+            "book",
+            "remove",
+            "delete",
+            "library"
+        ]
+    },
+    {
+        "name": "book-open",
+        "category": "files",
+        "keywords": [
+            "book",
+            "read",
+            "pages",
+            "open"
+        ]
+    },
+    {
+        "name": "book-plus",
+        "category": "files",
+        "keywords": [
+            "book",
+            "add",
+            "new",
+            "library"
+        ]
+    },
+    {
+        "name": "book-slash",
+        "category": "files",
+        "keywords": [
+            "book",
+            "disabled",
+            "unavailable",
+            "hidden"
+        ]
+    },
+    {
+        "name": "book-template",
+        "category": "files",
+        "keywords": [
+            "book",
+            "layout",
+            "template",
+            "pages"
+        ]
+    },
+    {
+        "name": "book-up",
+        "category": "files",
+        "keywords": [
+            "book",
+            "upload",
+            "share",
+            "publish"
+        ]
+    },
+    {
+        "name": "book-x",
+        "category": "files",
+        "keywords": [
+            "book",
+            "remove",
+            "cancel",
+            "close"
+        ]
+    },
+    {
+        "name": "book",
+        "category": "files",
+        "keywords": [
+            "reading",
+            "library",
+            "pages",
+            "docs"
+        ]
+    },
+    {
+        "name": "bookmark",
+        "category": "interface",
+        "keywords": [
+            "save",
+            "favorite",
+            "mark",
+            "reading"
+        ]
+    },
+    {
+        "name": "books",
+        "category": "files",
+        "keywords": [
+            "library",
+            "reading",
+            "shelf",
+            "collection"
+        ]
+    },
+    {
+        "name": "border-all",
+        "category": "design",
+        "keywords": [
+            "border",
+            "table",
+            "grid",
+            "all sides"
+        ]
+    },
+    {
+        "name": "border-bottom",
+        "category": "design",
+        "keywords": [
+            "border",
+            "bottom",
+            "table",
+            "line"
+        ]
+    },
+    {
+        "name": "border-horizontal",
+        "category": "design",
+        "keywords": [
+            "border",
+            "horizontal",
+            "table",
+            "line"
+        ]
+    },
+    {
+        "name": "border-inner",
+        "category": "design",
+        "keywords": [
+            "border",
+            "inner",
+            "table",
+            "grid"
+        ]
+    },
+    {
+        "name": "border-left",
+        "category": "design",
+        "keywords": [
+            "border",
+            "left",
+            "table",
+            "line"
+        ]
+    },
+    {
+        "name": "border-none",
+        "category": "design",
+        "keywords": [
+            "border",
+            "none",
+            "table",
+            "remove"
+        ]
+    },
+    {
+        "name": "border-outer",
+        "category": "design",
+        "keywords": [
+            "border",
+            "outer",
+            "table",
+            "frame"
+        ]
+    },
+    {
+        "name": "border-radius",
+        "category": "design",
+        "keywords": [
+            "corner",
+            "rounded",
+            "css",
+            "radius"
+        ]
+    },
+    {
+        "name": "border-right",
+        "category": "design",
+        "keywords": [
+            "border",
+            "right",
+            "table",
+            "line"
+        ]
+    },
+    {
+        "name": "border-style",
+        "category": "design",
+        "keywords": [
+            "border",
+            "stroke",
+            "dashed",
+            "line"
+        ]
+    },
+    {
+        "name": "border-top",
+        "category": "design",
+        "keywords": [
+            "border",
+            "top",
+            "table",
+            "line"
+        ]
+    },
+    {
+        "name": "border-vertical",
+        "category": "design",
+        "keywords": [
+            "border",
+            "vertical",
+            "table",
+            "line"
+        ]
+    },
+    {
+        "name": "bot",
+        "category": "development",
+        "keywords": [
+            "robot",
+            "assistant",
+            "automation",
+            "chatbot"
+        ]
+    },
+    {
+        "name": "box-selection",
+        "category": "design",
+        "keywords": [
+            "select",
+            "marquee",
+            "area",
+            "dashed"
+        ]
+    },
+    {
+        "name": "box",
+        "category": "commerce",
+        "keywords": [
+            "package",
+            "delivery",
+            "cube",
+            "shipping"
+        ]
+    },
+    {
+        "name": "braces-dots",
+        "category": "development",
+        "keywords": [
+            "code",
+            "curly",
+            "json",
+            "ellipsis"
+        ]
+    },
+    {
+        "name": "braces-minus",
+        "category": "development",
+        "keywords": [
+            "code",
+            "curly",
+            "remove",
+            "json"
+        ]
+    },
+    {
+        "name": "braces-plus",
+        "category": "development",
+        "keywords": [
+            "code",
+            "curly",
+            "add",
+            "json"
+        ]
+    },
+    {
+        "name": "braces",
+        "category": "development",
+        "keywords": [
+            "code",
+            "curly",
+            "json",
+            "object"
+        ]
+    },
+    {
+        "name": "brackets",
+        "category": "development",
+        "keywords": [
+            "code",
+            "square",
+            "array",
+            "syntax"
+        ]
+    },
+    {
+        "name": "brain-circuit",
+        "category": "science",
+        "keywords": [
+            "ai",
+            "neural",
+            "intelligence",
+            "network"
+        ]
+    },
+    {
+        "name": "brain",
+        "category": "health",
+        "keywords": [
+            "mind",
+            "intelligence",
+            "think",
+            "neurology"
+        ]
+    },
+    {
+        "name": "briefcase-medical",
+        "category": "health",
+        "keywords": [
+            "doctor",
+            "first aid",
+            "medical bag",
+            "kit"
+        ]
+    },
+    {
+        "name": "briefcase",
+        "category": "commerce",
+        "keywords": [
+            "work",
+            "business",
+            "job",
+            "portfolio"
+        ]
+    },
+    {
+        "name": "bring-forward",
+        "category": "design",
+        "keywords": [
+            "layer",
+            "order",
+            "front",
+            "arrange"
+        ]
+    },
+    {
+        "name": "bring-front",
+        "category": "design",
+        "keywords": [
+            "layer",
+            "order",
+            "top",
+            "arrange"
+        ]
+    },
+    {
+        "name": "broom",
+        "category": "home",
+        "keywords": [
+            "clean",
+            "sweep",
+            "witch",
+            "tool"
+        ]
+    },
+    {
+        "name": "browser",
+        "category": "devices",
+        "keywords": [
+            "web",
+            "window",
+            "internet",
+            "chrome"
+        ]
+    },
+    {
+        "name": "brush",
+        "category": "design",
+        "keywords": [
+            "paint",
+            "draw",
+            "art",
+            "tool"
+        ]
+    },
+    {
+        "name": "bubbles",
+        "category": "nature",
+        "keywords": [
+            "soap",
+            "water",
+            "foam",
+            "air"
+        ]
+    },
+    {
+        "name": "bug-slash",
+        "category": "development",
+        "keywords": [
+            "bug",
+            "fixed",
+            "disabled",
+            "debug"
+        ]
+    },
+    {
+        "name": "bug",
+        "category": "development",
+        "keywords": [
+            "insect",
+            "error",
+            "debug",
+            "issue"
+        ]
+    },
+    {
+        "name": "building",
+        "category": "buildings",
+        "keywords": [
+            "office",
+            "city",
+            "company",
+            "architecture"
+        ]
+    },
+    {
+        "name": "bus-front",
+        "category": "transport",
+        "keywords": [
+            "bus",
+            "public transport",
+            "vehicle",
+            "front"
+        ]
+    },
+    {
+        "name": "bus",
+        "category": "transport",
+        "keywords": [
+            "public transport",
+            "vehicle",
+            "coach",
+            "travel"
+        ]
+    },
+    {
+        "name": "cactus",
+        "category": "nature",
+        "keywords": [
+            "plant",
+            "desert",
+            "succulent",
+            "spikes"
+        ]
+    },
+    {
+        "name": "cake-slice",
+        "category": "food",
+        "keywords": [
+            "dessert",
+            "piece",
+            "sweet",
+            "birthday"
+        ]
+    },
+    {
+        "name": "cake",
+        "category": "food",
+        "keywords": [
+            "birthday",
+            "dessert",
+            "party",
+            "celebration"
+        ]
+    },
+    {
+        "name": "calendar-check",
+        "category": "time",
+        "keywords": [
+            "date",
+            "schedule",
+            "done",
+            "event"
+        ]
+    },
+    {
+        "name": "calendar-minus",
+        "category": "time",
+        "keywords": [
+            "date",
+            "schedule",
+            "remove",
+            "event"
+        ]
+    },
+    {
+        "name": "calendar-plus",
+        "category": "time",
+        "keywords": [
+            "date",
+            "schedule",
+            "add",
+            "event"
+        ]
+    },
+    {
+        "name": "calendar-slash",
+        "category": "time",
+        "keywords": [
+            "date",
+            "schedule",
+            "disabled",
+            "unavailable"
+        ]
+    },
+    {
+        "name": "calendar-x",
+        "category": "time",
+        "keywords": [
+            "date",
+            "schedule",
+            "cancel",
+            "event"
+        ]
+    },
+    {
+        "name": "calendar",
+        "category": "time",
+        "keywords": [
+            "date",
+            "schedule",
+            "event",
+            "agenda"
+        ]
+    },
+    {
+        "name": "camera-slash",
+        "category": "media",
+        "keywords": [
+            "photo",
+            "disabled",
+            "off",
+            "picture"
+        ]
+    },
+    {
+        "name": "camera",
+        "category": "media",
+        "keywords": [
+            "photo",
+            "picture",
+            "photography",
+            "snapshot"
+        ]
+    },
+    {
+        "name": "camper",
+        "category": "transport",
+        "keywords": [
+            "caravan",
+            "rv",
+            "motorhome",
+            "travel"
+        ]
+    },
+    {
+        "name": "candle-holder",
+        "category": "home",
+        "keywords": [
+            "light",
+            "flame",
+            "decoration",
+            "candlestick"
+        ]
+    },
+    {
+        "name": "candy",
+        "category": "food",
+        "keywords": [
+            "sweet",
+            "sugar",
+            "wrapped",
+            "treat"
+        ]
+    },
+    {
+        "name": "car-front",
+        "category": "transport",
+        "keywords": [
+            "car",
+            "vehicle",
+            "auto",
+            "front"
+        ]
+    },
+    {
+        "name": "car",
+        "category": "transport",
+        "keywords": [
+            "vehicle",
+            "auto",
+            "automobile",
+            "drive"
+        ]
+    },
+    {
+        "name": "caret-down",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "dropdown",
+            "triangle",
+            "expand"
+        ]
+    },
+    {
+        "name": "caret-left",
+        "category": "arrows",
+        "keywords": [
+            "left",
+            "triangle",
+            "back",
+            "collapse"
+        ]
+    },
+    {
+        "name": "caret-right",
+        "category": "arrows",
+        "keywords": [
+            "right",
+            "triangle",
+            "next",
+            "expand"
+        ]
+    },
+    {
+        "name": "caret-up",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "triangle",
+            "collapse",
+            "sort"
+        ]
+    },
+    {
+        "name": "carrot",
+        "category": "food",
+        "keywords": [
+            "vegetable",
+            "orange",
+            "healthy",
+            "rabbit"
+        ]
+    },
+    {
+        "name": "cart-check",
+        "category": "commerce",
+        "keywords": [
+            "shopping",
+            "cart",
+            "done",
+            "checkout"
+        ]
+    },
+    {
+        "name": "cart-minus",
+        "category": "commerce",
+        "keywords": [
+            "shopping",
+            "cart",
+            "remove",
+            "decrease"
+        ]
+    },
+    {
+        "name": "cart-plus",
+        "category": "commerce",
+        "keywords": [
+            "shopping",
+            "cart",
+            "add",
+            "buy"
+        ]
+    },
+    {
+        "name": "cart-slash",
+        "category": "commerce",
+        "keywords": [
+            "shopping",
+            "cart",
+            "disabled",
+            "unavailable"
+        ]
+    },
+    {
+        "name": "cart-x",
+        "category": "commerce",
+        "keywords": [
+            "shopping",
+            "cart",
+            "remove",
+            "empty"
+        ]
+    },
+    {
+        "name": "cart",
+        "category": "commerce",
+        "keywords": [
+            "shopping",
+            "basket",
+            "store",
+            "buy"
+        ]
+    },
+    {
+        "name": "cassette-tape",
+        "category": "media",
+        "keywords": [
+            "music",
+            "retro",
+            "audio",
+            "tape"
+        ]
+    },
+    {
+        "name": "cast",
+        "category": "devices",
+        "keywords": [
+            "screen",
+            "stream",
+            "chromecast",
+            "airplay"
+        ]
+    },
+    {
+        "name": "castle",
+        "category": "buildings",
+        "keywords": [
+            "fortress",
+            "medieval",
+            "kingdom",
+            "tower"
+        ]
+    },
+    {
+        "name": "cauldron",
+        "category": "games",
+        "keywords": [
+            "witch",
+            "potion",
+            "halloween",
+            "magic"
+        ]
+    },
+    {
+        "name": "celsius",
+        "category": "weather",
+        "keywords": [
+            "temperature",
+            "degrees",
+            "unit",
+            "metric"
+        ]
+    },
+    {
+        "name": "certificate",
+        "category": "files",
+        "keywords": [
+            "diploma",
+            "award",
+            "ssl",
+            "document"
+        ]
+    },
+    {
+        "name": "chalkboard",
+        "category": "buildings",
+        "keywords": [
+            "blackboard",
+            "school",
+            "teaching",
+            "class"
+        ]
+    },
+    {
+        "name": "chart-area",
+        "category": "charts",
+        "keywords": [
+            "graph",
+            "area",
+            "statistics",
+            "data"
+        ]
+    },
+    {
+        "name": "chart-bar",
+        "category": "charts",
+        "keywords": [
+            "graph",
+            "bars",
+            "statistics",
+            "data"
+        ]
+    },
+    {
+        "name": "chart-line",
+        "category": "charts",
+        "keywords": [
+            "graph",
+            "trend",
+            "statistics",
+            "analytics"
+        ]
+    },
+    {
+        "name": "chart-pie",
+        "category": "charts",
+        "keywords": [
+            "graph",
+            "pie",
+            "statistics",
+            "proportion"
+        ]
+    },
+    {
+        "name": "chart-treemap",
+        "category": "charts",
+        "keywords": [
+            "graph",
+            "treemap",
+            "hierarchy",
+            "data"
+        ]
+    },
+    {
+        "name": "chat-dots",
+        "category": "communication",
+        "keywords": [
+            "message",
+            "typing",
+            "conversation",
+            "comment"
+        ]
+    },
+    {
+        "name": "chat",
+        "category": "communication",
+        "keywords": [
+            "message",
+            "conversation",
+            "comment",
+            "talk"
+        ]
+    },
+    {
+        "name": "check-circle",
+        "category": "interface",
+        "keywords": [
+            "done",
+            "success",
+            "confirm",
+            "ok"
+        ]
+    },
+    {
+        "name": "check-square",
+        "category": "interface",
+        "keywords": [
+            "done",
+            "checkbox",
+            "confirm",
+            "ok"
+        ]
+    },
+    {
+        "name": "check",
+        "category": "interface",
+        "keywords": [
+            "done",
+            "tick",
+            "confirm",
+            "ok"
+        ]
+    },
+    {
+        "name": "checks",
+        "category": "interface",
+        "keywords": [
+            "done",
+            "double check",
+            "read",
+            "confirm"
+        ]
+    },
+    {
+        "name": "cheese",
+        "category": "food",
+        "keywords": [
+            "dairy",
+            "slice",
+            "mouse",
+            "snack"
+        ]
+    },
+    {
+        "name": "chess-bishop",
+        "category": "games",
+        "keywords": [
+            "chess",
+            "piece",
+            "board game",
+            "strategy"
+        ]
+    },
+    {
+        "name": "chess-king",
+        "category": "games",
+        "keywords": [
+            "chess",
+            "piece",
+            "board game",
+            "strategy"
+        ]
+    },
+    {
+        "name": "chess-knight",
+        "category": "games",
+        "keywords": [
+            "chess",
+            "piece",
+            "horse",
+            "strategy"
+        ]
+    },
+    {
+        "name": "chess-pawn",
+        "category": "games",
+        "keywords": [
+            "chess",
+            "piece",
+            "board game",
+            "strategy"
+        ]
+    },
+    {
+        "name": "chess-queen",
+        "category": "games",
+        "keywords": [
+            "chess",
+            "piece",
+            "board game",
+            "strategy"
+        ]
+    },
+    {
+        "name": "chess-rook",
+        "category": "games",
+        "keywords": [
+            "chess",
+            "piece",
+            "tower",
+            "strategy"
+        ]
+    },
+    {
+        "name": "chevron-circle-down",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "circle",
+            "expand",
+            "more"
+        ]
+    },
+    {
+        "name": "chevron-circle-left",
+        "category": "arrows",
+        "keywords": [
+            "left",
+            "circle",
+            "back",
+            "previous"
+        ]
+    },
+    {
+        "name": "chevron-circle-right",
+        "category": "arrows",
+        "keywords": [
+            "right",
+            "circle",
+            "next",
+            "forward"
+        ]
+    },
+    {
+        "name": "chevron-circle-up",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "circle",
+            "collapse",
+            "less"
+        ]
+    },
+    {
+        "name": "chevron-down-left",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "left",
+            "diagonal",
+            "corner"
+        ]
+    },
+    {
+        "name": "chevron-down-right",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "right",
+            "diagonal",
+            "corner"
+        ]
+    },
+    {
+        "name": "chevron-down",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "expand",
+            "dropdown",
+            "more"
+        ]
+    },
+    {
+        "name": "chevron-left",
+        "category": "arrows",
+        "keywords": [
+            "left",
+            "back",
+            "previous",
+            "collapse"
+        ]
+    },
+    {
+        "name": "chevron-right",
+        "category": "arrows",
+        "keywords": [
+            "right",
+            "next",
+            "forward",
+            "expand"
+        ]
+    },
+    {
+        "name": "chevron-square-down",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "square",
+            "expand",
+            "box"
+        ]
+    },
+    {
+        "name": "chevron-square-left",
+        "category": "arrows",
+        "keywords": [
+            "left",
+            "square",
+            "back",
+            "box"
+        ]
+    },
+    {
+        "name": "chevron-square-right",
+        "category": "arrows",
+        "keywords": [
+            "right",
+            "square",
+            "next",
+            "box"
+        ]
+    },
+    {
+        "name": "chevron-square-up",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "square",
+            "collapse",
+            "box"
+        ]
+    },
+    {
+        "name": "chevron-up-left",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "left",
+            "diagonal",
+            "corner"
+        ]
+    },
+    {
+        "name": "chevron-up-right",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "right",
+            "diagonal",
+            "corner"
+        ]
+    },
+    {
+        "name": "chevron-up",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "collapse",
+            "less",
+            "top"
+        ]
+    },
+    {
+        "name": "chevrons-circle-down",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "double",
+            "circle",
+            "scroll"
+        ]
+    },
+    {
+        "name": "chevrons-circle-left",
+        "category": "arrows",
+        "keywords": [
+            "left",
+            "double",
+            "circle",
+            "rewind"
+        ]
+    },
+    {
+        "name": "chevrons-circle-right",
+        "category": "arrows",
+        "keywords": [
+            "right",
+            "double",
+            "circle",
+            "fast forward"
+        ]
+    },
+    {
+        "name": "chevrons-circle-up",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "double",
+            "circle",
+            "scroll"
+        ]
+    },
+    {
+        "name": "chevrons-down",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "double",
+            "scroll",
+            "more"
+        ]
+    },
+    {
+        "name": "chevrons-left",
+        "category": "arrows",
+        "keywords": [
+            "left",
+            "double",
+            "rewind",
+            "first"
+        ]
+    },
+    {
+        "name": "chevrons-right",
+        "category": "arrows",
+        "keywords": [
+            "right",
+            "double",
+            "fast forward",
+            "last"
+        ]
+    },
+    {
+        "name": "chevrons-square-down",
+        "category": "arrows",
+        "keywords": [
+            "down",
+            "double",
+            "square",
+            "box"
+        ]
+    },
+    {
+        "name": "chevrons-square-left",
+        "category": "arrows",
+        "keywords": [
+            "left",
+            "double",
+            "square",
+            "box"
+        ]
+    },
+    {
+        "name": "chevrons-square-right",
+        "category": "arrows",
+        "keywords": [
+            "right",
+            "double",
+            "square",
+            "box"
+        ]
+    },
+    {
+        "name": "chevrons-square-up",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "double",
+            "square",
+            "box"
+        ]
+    },
+    {
+        "name": "chevrons-up",
+        "category": "arrows",
+        "keywords": [
+            "up",
+            "double",
+            "scroll",
+            "top"
+        ]
+    },
+    {
+        "name": "church",
+        "category": "buildings",
+        "keywords": [
+            "religion",
+            "chapel",
+            "cathedral",
+            "christian"
+        ]
+    },
+    {
+        "name": "circle-fill",
+        "category": "shapes",
+        "keywords": [
+            "dot",
+            "filled",
+            "solid",
+            "round"
+        ]
+    },
+    {
+        "name": "circle-half",
+        "category": "shapes",
+        "keywords": [
+            "contrast",
+            "half",
+            "theme",
+            "round"
+        ]
+    },
+    {
+        "name": "circle",
+        "category": "shapes",
+        "keywords": [
+            "round",
+            "outline",
+            "ring",
+            "dot"
+        ]
+    },
+    {
+        "name": "circuit-board",
+        "category": "devices",
+        "keywords": [
+            "electronics",
+            "pcb",
+            "hardware",
+            "chip"
+        ]
+    },
+    {
+        "name": "clipboard-minus",
+        "category": "interface",
+        "keywords": [
+            "paste",
+            "remove",
+            "list",
+            "copy"
+        ]
+    },
+    {
+        "name": "clipboard-plus",
+        "category": "interface",
+        "keywords": [
+            "paste",
+            "add",
+            "list",
+            "copy"
+        ]
+    },
+    {
+        "name": "clipboard-slash",
+        "category": "interface",
+        "keywords": [
+            "paste",
+            "disabled",
+            "unavailable",
+            "copy"
+        ]
+    },
+    {
+        "name": "clipboard-x",
+        "category": "interface",
+        "keywords": [
+            "paste",
+            "cancel",
+            "remove",
+            "copy"
+        ]
+    },
+    {
+        "name": "clipboard",
+        "category": "interface",
+        "keywords": [
+            "paste",
+            "copy",
+            "notes",
+            "list"
+        ]
+    },
+    {
+        "name": "clock-square",
+        "category": "time",
+        "keywords": [
+            "time",
+            "watch",
+            "square",
+            "hour"
+        ]
+    },
+    {
+        "name": "clock",
+        "category": "time",
+        "keywords": [
+            "time",
+            "watch",
+            "hour",
+            "schedule"
+        ]
+    },
+    {
+        "name": "close",
+        "category": "interface",
+        "keywords": [
+            "x",
+            "cancel",
+            "dismiss",
+            "exit"
+        ]
+    },
+    {
+        "name": "cloud-bolt",
+        "category": "weather",
+        "keywords": [
+            "storm",
+            "thunder",
+            "lightning",
+            "rain"
+        ]
+    },
+    {
+        "name": "cloud-fog",
+        "category": "weather",
+        "keywords": [
+            "mist",
+            "haze",
+            "low visibility",
+            "cloud"
+        ]
+    },
+    {
+        "name": "cloud-rain",
+        "category": "weather",
+        "keywords": [
+            "rainy",
+            "shower",
+            "drizzle",
+            "wet"
+        ]
+    },
+    {
+        "name": "cloud-slash",
+        "category": "weather",
+        "keywords": [
+            "offline",
+            "disabled",
+            "no cloud",
+            "off"
+        ]
+    },
+    {
+        "name": "cloud-snow",
+        "category": "weather",
+        "keywords": [
+            "snowy",
+            "winter",
+            "flakes",
+            "cold"
+        ]
+    },
+    {
+        "name": "cloud-sun",
+        "category": "weather",
+        "keywords": [
+            "partly cloudy",
+            "sunny",
+            "forecast",
+            "day"
+        ]
+    },
+    {
+        "name": "cloud",
+        "category": "weather",
+        "keywords": [
+            "cloudy",
+            "sky",
+            "storage",
+            "forecast"
+        ]
+    },
+    {
+        "name": "code-block",
+        "category": "development",
+        "keywords": [
+            "snippet",
+            "pre",
+            "source",
+            "markdown"
+        ]
+    },
+    {
+        "name": "code-square",
+        "category": "development",
+        "keywords": [
+            "code",
+            "box",
+            "source",
+            "programming"
+        ]
+    },
+    {
+        "name": "code",
+        "category": "development",
+        "keywords": [
+            "programming",
+            "html",
+            "source",
+            "brackets"
+        ]
+    },
+    {
+        "name": "coffee-pot",
+        "category": "food",
+        "keywords": [
+            "coffee",
+            "kettle",
+            "drink",
+            "brew"
+        ]
+    },
+    {
+        "name": "coffee",
+        "category": "food",
+        "keywords": [
+            "cup",
+            "drink",
+            "cafe",
+            "hot"
+        ]
+    },
+    {
+        "name": "coffin-cross",
+        "category": "objects",
+        "keywords": [
+            "death",
+            "funeral",
+            "halloween",
+            "burial"
+        ]
+    },
+    {
+        "name": "coffin",
+        "category": "objects",
+        "keywords": [
+            "death",
+            "funeral",
+            "halloween",
+            "burial"
+        ]
+    },
+    {
+        "name": "cog",
+        "category": "interface",
+        "keywords": [
+            "settings",
+            "gear",
+            "preferences",
+            "config"
+        ]
+    },
+    {
+        "name": "color-swatch",
+        "category": "design",
+        "keywords": [
+            "palette",
+            "color",
+            "sample",
+            "paint"
+        ]
+    },
+    {
+        "name": "color-wheel",
+        "category": "design",
+        "keywords": [
+            "palette",
+            "color",
+            "hue",
+            "picker"
+        ]
+    },
+    {
+        "name": "column-insert-left",
+        "category": "design",
+        "keywords": [
+            "table",
+            "column",
+            "add",
+            "left"
+        ]
+    },
+    {
+        "name": "column-insert-right",
+        "category": "design",
+        "keywords": [
+            "table",
+            "column",
+            "add",
+            "right"
+        ]
+    },
+    {
+        "name": "columns-slash",
+        "category": "design",
+        "keywords": [
+            "layout",
+            "columns",
+            "disabled",
+            "single"
+        ]
+    },
+    {
+        "name": "columns",
+        "category": "design",
+        "keywords": [
+            "layout",
+            "columns",
+            "split",
+            "grid"
+        ]
+    },
+    {
+        "name": "command",
+        "category": "interface",
+        "keywords": [
+            "cmd",
+            "keyboard",
+            "shortcut",
+            "mac"
+        ]
+    },
+    {
+        "name": "compass",
+        "category": "maps",
+        "keywords": [
+            "navigation",
+            "direction",
+            "explore",
+            "north"
+        ]
+    },
+    {
+        "name": "component",
+        "category": "design",
+        "keywords": [
+            "module",
+            "reusable",
+            "symbol",
+            "piece"
+        ]
+    },
+    {
+        "name": "container",
+        "category": "development",
+        "keywords": [
+            "docker",
+            "package",
+            "box",
+            "deploy"
+        ]
+    },
+    {
+        "name": "contrast",
+        "category": "design",
+        "keywords": [
+            "brightness",
+            "theme",
+            "light dark",
+            "accessibility"
+        ]
+    },
+    {
+        "name": "cookie",
+        "category": "food",
+        "keywords": [
+            "biscuit",
+            "sweet",
+            "privacy",
+            "cookies"
+        ]
+    },
+    {
+        "name": "copy",
+        "category": "interface",
+        "keywords": [
+            "duplicate",
+            "clone",
+            "clipboard",
+            "paste"
+        ]
+    },
+    {
+        "name": "copyleft",
+        "category": "symbols",
+        "keywords": [
+            "license",
+            "free software",
+            "open source",
+            "gpl"
+        ]
+    },
+    {
+        "name": "copyright",
+        "category": "symbols",
+        "keywords": [
+            "license",
+            "legal",
+            "rights",
+            "c"
+        ]
+    },
+    {
+        "name": "corner-down-left",
+        "category": "arrows",
+        "keywords": [
+            "enter",
+            "return",
+            "down",
+            "left"
+        ]
+    },
+    {
+        "name": "corner-down-right",
+        "category": "arrows",
+        "keywords": [
+            "turn",
+            "down",
+            "right",
+            "corner"
+        ]
+    },
+    {
+        "name": "corner-left-down",
+        "category": "arrows",
+        "keywords": [
+            "turn",
+            "left",
+            "down",
+            "corner"
+        ]
+    },
+    {
+        "name": "corner-left-up",
+        "category": "arrows",
+        "keywords": [
+            "turn",
+            "left",
+            "up",
+            "corner"
+        ]
+    },
+    {
+        "name": "corner-right-down",
+        "category": "arrows",
+        "keywords": [
+            "turn",
+            "right",
+            "down",
+            "corner"
+        ]
+    },
+    {
+        "name": "corner-right-up",
+        "category": "arrows",
+        "keywords": [
+            "turn",
+            "right",
+            "up",
+            "corner"
+        ]
+    },
+    {
+        "name": "corner-up-left",
+        "category": "arrows",
+        "keywords": [
+            "turn",
+            "up",
+            "left",
+            "corner"
+        ]
+    },
+    {
+        "name": "corner-up-right",
+        "category": "arrows",
+        "keywords": [
+            "turn",
+            "up",
+            "right",
+            "corner"
+        ]
+    },
+    {
+        "name": "counter",
+        "category": "development",
+        "keywords": [
+            "count",
+            "number",
+            "increment",
+            "tally"
+        ]
+    },
+    {
+        "name": "curtain",
+        "category": "home",
+        "keywords": [
+            "window",
+            "drapes",
+            "theater"
+        ]
+    },
+    {
+        "name": "cpu",
+        "category": "devices",
+        "keywords": [
+            "processor",
+            "chip",
+            "hardware",
+            "computer"
+        ]
+    },
+    {
+        "name": "credit-card",
+        "category": "commerce",
+        "keywords": [
+            "payment",
+            "bank",
+            "card",
+            "checkout"
+        ]
+    },
+    {
+        "name": "crop",
+        "category": "design",
+        "keywords": [
+            "cut",
+            "trim",
+            "resize",
+            "image"
+        ]
+    },
+    {
+        "name": "cross",
+        "category": "symbols",
+        "keywords": [
+            "religion",
+            "christian",
+            "plus",
+            "crucifix"
+        ]
+    },
+    {
+        "name": "crow",
+        "category": "animals",
+        "keywords": [
+            "bird",
+            "raven",
+            "black",
+            "halloween"
+        ]
+    },
+    {
+        "name": "crown",
+        "category": "symbols",
+        "keywords": [
+            "king",
+            "queen",
+            "royalty",
+            "premium"
+        ]
+    },
+    {
+        "name": "css",
+        "category": "development",
+        "keywords": [
+            "stylesheet",
+            "web",
+            "style",
+            "code"
+        ]
+    },
+    {
+        "name": "cut",
+        "category": "interface",
+        "keywords": [
+            "scissors",
+            "clip",
+            "trim",
+            "edit"
+        ]
+    },
+    {
+        "name": "database-slash",
+        "category": "development",
+        "keywords": [
+            "data",
+            "storage",
+            "disabled",
+            "offline"
+        ]
+    },
+    {
+        "name": "database",
+        "category": "development",
+        "keywords": [
+            "data",
+            "storage",
+            "sql",
+            "server"
+        ]
+    },
+    {
+        "name": "desk",
+        "category": "home",
+        "keywords": [
+            "table",
+            "office",
+            "workspace",
+            "furniture"
+        ]
+    },
+    {
+        "name": "diagram-project",
+        "category": "charts",
+        "keywords": [
+            "gantt",
+            "timeline",
+            "planning",
+            "schedule"
+        ]
+    },
+    {
+        "name": "diagram-sankey",
+        "category": "charts",
+        "keywords": [
+            "flow",
+            "graph",
+            "sankey",
+            "data"
+        ]
+    },
+    {
+        "name": "diagram-subtask",
+        "category": "charts",
+        "keywords": [
+            "tree",
+            "hierarchy",
+            "subtasks",
+            "flow"
+        ]
+    },
+    {
+        "name": "dialpad",
+        "category": "devices",
+        "keywords": [
+            "phone",
+            "keypad",
+            "numbers",
+            "call"
+        ]
+    },
+    {
+        "name": "diamond",
+        "category": "shapes",
+        "keywords": [
+            "rhombus",
+            "gem",
+            "jewel",
+            "shape"
+        ]
+    },
+    {
+        "name": "dimensions",
+        "category": "design",
+        "keywords": [
+            "size",
+            "measure",
+            "width height",
+            "scale"
+        ]
+    },
+    {
+        "name": "disc",
+        "category": "media",
+        "keywords": [
+            "cd",
+            "dvd",
+            "record",
+            "music"
+        ]
+    },
+    {
+        "name": "disk",
+        "category": "devices",
+        "keywords": [
+            "floppy",
+            "save",
+            "storage",
+            "legacy"
+        ]
+    },
+    {
+        "name": "divide-circle",
+        "category": "symbols",
+        "keywords": [
+            "math",
+            "division",
+            "calculator",
+            "circle"
+        ]
+    },
+    {
+        "name": "divide-square",
+        "category": "symbols",
+        "keywords": [
+            "math",
+            "division",
+            "calculator",
+            "square"
+        ]
+    },
+    {
+        "name": "divide",
+        "category": "symbols",
+        "keywords": [
+            "math",
+            "division",
+            "calculator",
+            "operator"
+        ]
+    },
+    {
+        "name": "dna",
+        "category": "science",
+        "keywords": [
+            "genetics",
+            "biology",
+            "genome",
+            "helix"
+        ]
+    },
+    {
+        "name": "do-not-enter",
+        "category": "symbols",
+        "keywords": [
+            "forbidden",
+            "stop",
+            "traffic",
+            "restricted"
+        ]
+    },
+    {
+        "name": "dollar-circle",
+        "category": "commerce",
+        "keywords": [
+            "money",
+            "currency",
+            "usd",
+            "price"
+        ]
+    },
+    {
+        "name": "donut",
+        "category": "food",
+        "keywords": [
+            "doughnut",
+            "sweet",
+            "pastry",
+            "dessert"
+        ]
+    },
+    {
+        "name": "door-closed",
+        "category": "home",
+        "keywords": [
+            "entrance",
+            "exit",
+            "room",
+            "closed"
+        ]
+    },
+    {
+        "name": "door-open",
+        "category": "home",
+        "keywords": [
+            "entrance",
+            "exit",
+            "room",
+            "open"
+        ]
+    },
+    {
+        "name": "dots-vertical",
+        "category": "interface",
+        "keywords": [
+            "more",
+            "menu",
+            "options",
+            "kebab"
+        ]
+    },
+    {
+        "name": "dots",
+        "category": "interface",
+        "keywords": [
+            "more",
+            "menu",
+            "options",
+            "ellipsis"
+        ]
+    },
+    {
+        "name": "download",
+        "category": "interface",
+        "keywords": [
+            "save",
+            "get",
+            "import",
+            "arrow down"
+        ]
+    },
+    {
+        "name": "drawing-compass",
+        "category": "design",
+        "keywords": [
+            "geometry",
+            "circle",
+            "draw",
+            "school"
+        ]
+    },
+    {
+        "name": "drawing",
+        "category": "design",
+        "keywords": [
+            "sketch",
+            "pencil",
+            "art",
+            "illustration"
+        ]
+    },
+    {
+        "name": "droplet",
+        "category": "nature",
+        "keywords": [
+            "water",
+            "drop",
+            "liquid",
+            "rain"
+        ]
+    },
+    {
+        "name": "e-passport",
+        "category": "security",
+        "keywords": [
+            "biometric",
+            "travel",
+            "id",
+            "document"
+        ]
+    },
+    {
+        "name": "eclipse",
+        "category": "science",
+        "keywords": [
+            "sun",
+            "moon",
+            "astronomy",
+            "shadow"
+        ]
+    },
+    {
+        "name": "edit-slash",
+        "category": "interface",
+        "keywords": [
+            "edit",
+            "disabled",
+            "readonly",
+            "locked"
+        ]
+    },
+    {
+        "name": "edit",
+        "category": "interface",
+        "keywords": [
+            "pencil",
+            "write",
+            "modify",
+            "change"
+        ]
+    },
+    {
+        "name": "egg-cracked",
+        "category": "food",
+        "keywords": [
+            "broken",
+            "breakfast",
+            "hatch",
+            "shell"
+        ]
+    },
+    {
+        "name": "egg",
+        "category": "food",
+        "keywords": [
+            "breakfast",
+            "protein",
+            "ingredient",
+            "oval"
+        ]
+    },
+    {
+        "name": "eject",
+        "category": "media",
+        "keywords": [
+            "remove",
+            "disc",
+            "usb",
+            "unmount"
+        ]
+    },
+    {
+        "name": "emoji-angry",
+        "category": "emoji",
+        "keywords": [
+            "face",
+            "mad",
+            "rage",
+            "emotion"
+        ]
+    },
+    {
+        "name": "emoji-confused",
+        "category": "emoji",
+        "keywords": [
+            "face",
+            "puzzled",
+            "unsure",
+            "emotion"
+        ]
+    },
+    {
+        "name": "emoji-empty",
+        "category": "emoji",
+        "keywords": [
+            "face",
+            "blank",
+            "no expression",
+            "emotion"
+        ]
+    },
+    {
+        "name": "emoji-expressionless",
+        "category": "emoji",
+        "keywords": [
+            "face",
+            "blank",
+            "meh",
+            "emotion"
+        ]
+    },
+    {
+        "name": "emoji-laugh",
+        "category": "emoji",
+        "keywords": [
+            "face",
+            "happy",
+            "lol",
+            "emotion"
+        ]
+    },
+    {
+        "name": "emoji-neutral",
+        "category": "emoji",
+        "keywords": [
+            "face",
+            "meh",
+            "indifferent",
+            "emotion"
+        ]
+    },
+    {
+        "name": "emoji-sad",
+        "category": "emoji",
+        "keywords": [
+            "face",
+            "unhappy",
+            "cry",
+            "emotion"
+        ]
+    },
+    {
+        "name": "emoji-smile",
+        "category": "emoji",
+        "keywords": [
+            "face",
+            "happy",
+            "smiley",
+            "emotion"
+        ]
+    },
+    {
+        "name": "emoji-surprise",
+        "category": "emoji",
+        "keywords": [
+            "face",
+            "shocked",
+            "wow",
+            "emotion"
+        ]
+    },
+    {
+        "name": "emoji-wink",
+        "category": "emoji",
+        "keywords": [
+            "face",
+            "flirt",
+            "joke",
+            "emotion"
+        ]
+    },
+    {
+        "name": "envelope-open",
+        "category": "communication",
+        "keywords": [
+            "email",
+            "mail",
+            "message",
+            "read"
+        ]
+    },
+    {
+        "name": "envelope",
+        "category": "communication",
+        "keywords": [
+            "email",
+            "mail",
+            "message",
+            "inbox"
+        ]
+    },
+    {
+        "name": "equal",
+        "category": "symbols",
+        "keywords": [
+            "math",
+            "equality",
+            "operator",
+            "same"
+        ]
+    },
+    {
+        "name": "erase",
+        "category": "design",
+        "keywords": [
+            "eraser",
+            "delete",
+            "clear",
+            "remove"
+        ]
+    },
+    {
+        "name": "escape",
+        "category": "interface",
+        "keywords": [
+            "esc",
+            "keyboard",
+            "exit",
+            "cancel"
+        ]
+    },
+    {
+        "name": "exclamation-circle",
+        "category": "interface",
+        "keywords": [
+            "alert",
+            "warning",
+            "important",
+            "error"
+        ]
+    },
+    {
+        "name": "exclamation-diamond",
+        "category": "interface",
+        "keywords": [
+            "alert",
+            "warning",
+            "important",
+            "error"
+        ]
+    },
+    {
+        "name": "exclamation-square",
+        "category": "interface",
+        "keywords": [
+            "alert",
+            "warning",
+            "important",
+            "error"
+        ]
+    },
+    {
+        "name": "exclamation-triangle",
+        "category": "interface",
+        "keywords": [
+            "alert",
+            "warning",
+            "caution",
+            "danger"
+        ]
+    },
+    {
+        "name": "external-link",
+        "category": "interface",
+        "keywords": [
+            "open",
+            "new tab",
+            "outside",
+            "link"
+        ]
+    },
+    {
+        "name": "eye-slash",
+        "category": "interface",
+        "keywords": [
+            "hide",
+            "invisible",
+            "private",
+            "hidden"
+        ]
+    },
+    {
+        "name": "eye",
+        "category": "interface",
+        "keywords": [
+            "view",
+            "visible",
+            "show",
+            "preview"
+        ]
+    },
+    {
+        "name": "face-mask",
+        "category": "health",
+        "keywords": [
+            "covid",
+            "protection",
+            "medical",
+            "hygiene"
+        ]
+    },
+    {
+        "name": "factory",
+        "category": "buildings",
+        "keywords": [
+            "industry",
+            "plant",
+            "manufacturing",
+            "production"
+        ]
+    },
+    {
+        "name": "fahrenheit",
+        "category": "weather",
+        "keywords": [
+            "temperature",
+            "degrees",
+            "unit",
+            "imperial"
+        ]
+    },
+    {
+        "name": "ferris-wheel",
+        "category": "buildings",
+        "keywords": [
+            "amusement",
+            "park",
+            "fair",
+            "fun"
+        ]
+    },
+    {
+        "name": "file-brackets",
+        "category": "files",
+        "keywords": [
+            "document",
+            "code",
+            "json",
+            "data"
+        ]
+    },
+    {
+        "name": "file-check",
+        "category": "files",
+        "keywords": [
+            "document",
+            "done",
+            "approved",
+            "verified"
+        ]
+    },
+    {
+        "name": "file-code",
+        "category": "files",
+        "keywords": [
+            "document",
+            "source",
+            "programming",
+            "script"
+        ]
+    },
+    {
+        "name": "file-database",
+        "category": "files",
+        "keywords": [
+            "document",
+            "data",
+            "sql",
+            "storage"
+        ]
+    },
+    {
+        "name": "file-digit",
+        "category": "files",
+        "keywords": [
+            "document",
+            "binary",
+            "numbers",
+            "data"
+        ]
+    },
+    {
+        "name": "file-dots",
+        "category": "files",
+        "keywords": [
+            "document",
+            "more",
+            "options",
+            "page"
+        ]
+    },
+    {
+        "name": "file-empty",
+        "category": "files",
+        "keywords": [
+            "document",
+            "blank",
+            "new",
+            "page"
+        ]
+    },
+    {
+        "name": "file-image",
+        "category": "files",
+        "keywords": [
+            "document",
+            "picture",
+            "photo",
+            "media"
+        ]
+    },
+    {
+        "name": "file-minus",
+        "category": "files",
+        "keywords": [
+            "document",
+            "remove",
+            "delete",
+            "page"
+        ]
+    },
+    {
+        "name": "file-plus",
+        "category": "files",
+        "keywords": [
+            "document",
+            "add",
+            "new",
+            "create"
+        ]
+    },
+    {
+        "name": "file-slash",
+        "category": "files",
+        "keywords": [
+            "document",
+            "disabled",
+            "unavailable",
+            "missing"
+        ]
+    },
+    {
+        "name": "file-type",
+        "category": "files",
+        "keywords": [
+            "document",
+            "format",
+            "extension",
+            "text"
+        ]
+    },
+    {
+        "name": "file-x",
+        "category": "files",
+        "keywords": [
+            "document",
+            "cancel",
+            "delete",
+            "error"
+        ]
+    },
+    {
+        "name": "file-zip",
+        "category": "files",
+        "keywords": [
+            "archive",
+            "compressed",
+            "zip",
+            "package"
+        ]
+    },
+    {
+        "name": "file",
+        "category": "files",
+        "keywords": [
+            "document",
+            "page",
+            "paper",
+            "sheet"
+        ]
+    },
+    {
+        "name": "files",
+        "category": "files",
+        "keywords": [
+            "documents",
+            "copy",
+            "multiple",
+            "pages"
+        ]
+    },
+    {
+        "name": "fill",
+        "category": "design",
+        "keywords": [
+            "paint bucket",
+            "color",
+            "flood",
+            "background"
+        ]
+    },
+    {
+        "name": "film",
+        "category": "media",
+        "keywords": [
+            "movie",
+            "cinema",
+            "video",
+            "reel"
+        ]
+    },
+    {
+        "name": "filter-slash",
+        "category": "interface",
+        "keywords": [
+            "funnel",
+            "clear",
+            "remove",
+            "reset"
+        ]
+    },
+    {
+        "name": "filter",
+        "category": "interface",
+        "keywords": [
+            "funnel",
+            "sort",
+            "refine",
+            "search"
+        ]
+    },
+    {
+        "name": "fingerprint",
+        "category": "security",
+        "keywords": [
+            "biometric",
+            "identity",
+            "touch id",
+            "authentication"
+        ]
+    },
+    {
+        "name": "flag",
+        "category": "symbols",
+        "keywords": [
+            "report",
+            "country",
+            "mark",
+            "milestone"
+        ]
+    },
+    {
+        "name": "flame-slash",
+        "category": "nature",
+        "keywords": [
+            "fire",
+            "extinguished",
+            "disabled",
+            "off"
+        ]
+    },
+    {
+        "name": "flame",
+        "category": "nature",
+        "keywords": [
+            "fire",
+            "hot",
+            "trending",
+            "burn"
+        ]
+    },
+    {
+        "name": "flashlight-slash",
+        "category": "devices",
+        "keywords": [
+            "torch",
+            "light",
+            "disabled",
+            "off"
+        ]
+    },
+    {
+        "name": "flashlight",
+        "category": "devices",
+        "keywords": [
+            "torch",
+            "light",
+            "beam",
+            "lamp"
+        ]
+    },
+    {
+        "name": "flask-round",
+        "category": "science",
+        "keywords": [
+            "chemistry",
+            "lab",
+            "potion",
+            "experiment"
+        ]
+    },
+    {
+        "name": "flask-slash",
+        "category": "science",
+        "keywords": [
+            "chemistry",
+            "lab",
+            "disabled",
+            "experiment"
+        ]
+    },
+    {
+        "name": "flask",
+        "category": "science",
+        "keywords": [
+            "chemistry",
+            "lab",
+            "beaker",
+            "experiment"
+        ]
+    },
+    {
+        "name": "float-center",
+        "category": "text",
+        "keywords": [
+            "image",
+            "wrap",
+            "layout",
+            "center"
+        ]
+    },
+    {
+        "name": "float-left",
+        "category": "text",
+        "keywords": [
+            "image",
+            "wrap",
+            "layout",
+            "left"
+        ]
+    },
+    {
+        "name": "float-none",
+        "category": "text",
+        "keywords": [
+            "image",
+            "wrap",
+            "layout",
+            "inline"
+        ]
+    },
+    {
+        "name": "float-right",
+        "category": "text",
+        "keywords": [
+            "image",
+            "wrap",
+            "layout",
+            "right"
+        ]
+    },
+    {
+        "name": "fold-horizontal",
+        "category": "arrows",
+        "keywords": [
+            "collapse",
+            "compress",
+            "horizontal",
+            "shrink"
+        ]
+    },
+    {
+        "name": "fold-vertical",
+        "category": "arrows",
+        "keywords": [
+            "collapse",
+            "compress",
+            "vertical",
+            "shrink"
+        ]
+    },
+    {
+        "name": "folder-check",
+        "category": "files",
+        "keywords": [
+            "directory",
+            "done",
+            "approved",
+            "verified"
+        ]
+    },
+    {
+        "name": "folder-minus",
+        "category": "files",
+        "keywords": [
+            "directory",
+            "remove",
+            "delete",
+            "subtract"
+        ]
+    },
+    {
+        "name": "folder-open",
+        "category": "files",
+        "keywords": [
+            "directory",
+            "browse",
+            "open",
+            "explore"
+        ]
+    },
+    {
+        "name": "folder-plus",
+        "category": "files",
+        "keywords": [
+            "directory",
+            "add",
+            "new",
+            "create"
+        ]
+    },
+    {
+        "name": "folder-slash",
+        "category": "files",
+        "keywords": [
+            "directory",
+            "disabled",
+            "unavailable",
+            "missing"
+        ]
+    },
+    {
+        "name": "folder-x",
+        "category": "files",
+        "keywords": [
+            "directory",
+            "cancel",
+            "delete",
+            "error"
+        ]
+    },
+    {
+        "name": "folder",
+        "category": "files",
+        "keywords": [
+            "directory",
+            "documents",
+            "storage",
+            "organize"
+        ]
+    },
+    {
+        "name": "folders",
+        "category": "files",
+        "keywords": [
+            "directories",
+            "multiple",
+            "documents",
+            "copy"
+        ]
+    },
+    {
+        "name": "forbid",
+        "category": "symbols",
+        "keywords": [
+            "prohibited",
+            "not allowed",
+            "block",
+            "no"
+        ]
+    },
+    {
+        "name": "fork-knife",
+        "category": "food",
+        "keywords": [
+            "restaurant",
+            "cutlery",
+            "dining",
+            "eat"
+        ]
+    },
+    {
+        "name": "frame",
+        "category": "design",
+        "keywords": [
+            "artboard",
+            "canvas",
+            "box",
+            "container"
+        ]
+    },
+    {
+        "name": "fridge",
+        "category": "home",
+        "keywords": [
+            "refrigerator",
+            "kitchen",
+            "cold",
+            "appliance"
+        ]
+    },
+    {
+        "name": "fuel",
+        "category": "transport",
+        "keywords": [
+            "gas",
+            "petrol",
+            "station",
+            "pump"
+        ]
+    },
+    {
+        "name": "fullscreen-exit",
+        "category": "arrows",
+        "keywords": [
+            "minimize",
+            "exit",
+            "shrink",
+            "screen"
+        ]
+    },
+    {
+        "name": "fullscreen",
+        "category": "arrows",
+        "keywords": [
+            "maximize",
+            "expand",
+            "enlarge",
+            "screen"
+        ]
+    },
+    {
+        "name": "function-square",
+        "category": "development",
+        "keywords": [
+            "math",
+            "formula",
+            "fx",
+            "box"
+        ]
+    },
+    {
+        "name": "function-x",
+        "category": "development",
+        "keywords": [
+            "math",
+            "formula",
+            "variable",
+            "fx"
+        ]
+    },
+    {
+        "name": "function-y",
+        "category": "development",
+        "keywords": [
+            "math",
+            "formula",
+            "variable",
+            "fy"
+        ]
+    },
+    {
+        "name": "gallery-horizontal",
+        "category": "media",
+        "keywords": [
+            "carousel",
+            "slider",
+            "images",
+            "scroll"
+        ]
+    },
+    {
+        "name": "gallery-thumbnails",
+        "category": "media",
+        "keywords": [
+            "images",
+            "grid",
+            "previews",
+            "photos"
+        ]
+    },
+    {
+        "name": "gallery-vertical",
+        "category": "media",
+        "keywords": [
+            "feed",
+            "images",
+            "scroll",
+            "photos"
+        ]
+    },
+    {
+        "name": "gamepad",
+        "category": "games",
+        "keywords": [
+            "controller",
+            "console",
+            "play",
+            "joystick"
+        ]
+    },
+    {
+        "name": "gem",
+        "category": "symbols",
+        "keywords": [
+            "diamond",
+            "jewel",
+            "precious",
+            "premium"
+        ]
+    },
+    {
+        "name": "ghost",
+        "category": "games",
+        "keywords": [
+            "spirit",
+            "halloween",
+            "spooky",
+            "boo"
+        ]
+    },
+    {
+        "name": "gift-card",
+        "category": "commerce",
+        "keywords": [
+            "voucher",
+            "present",
+            "coupon",
+            "payment"
+        ]
+    },
+    {
+        "name": "gift",
+        "category": "commerce",
+        "keywords": [
+            "present",
+            "box",
+            "surprise",
+            "birthday"
+        ]
+    },
+    {
+        "name": "git-branch",
+        "category": "development",
+        "keywords": [
+            "version control",
+            "fork",
+            "source",
+            "code"
+        ]
+    },
+    {
+        "name": "git-commit",
+        "category": "development",
+        "keywords": [
+            "version control",
+            "save",
+            "history",
+            "code"
+        ]
+    },
+    {
+        "name": "git-fork",
+        "category": "development",
+        "keywords": [
+            "version control",
+            "copy",
+            "repository",
+            "clone"
+        ]
+    },
+    {
+        "name": "git-merge",
+        "category": "development",
+        "keywords": [
+            "version control",
+            "join",
+            "combine",
+            "code"
+        ]
+    },
+    {
+        "name": "git-pull-closed",
+        "category": "development",
+        "keywords": [
+            "pull request",
+            "rejected",
+            "closed",
+            "vcs"
+        ]
+    },
+    {
+        "name": "git-pull-draft",
+        "category": "development",
+        "keywords": [
+            "pull request",
+            "draft",
+            "wip",
+            "vcs"
+        ]
+    },
+    {
+        "name": "git-pull-request",
+        "category": "development",
+        "keywords": [
+            "pr",
+            "merge",
+            "review",
+            "vcs"
+        ]
+    },
+    {
+        "name": "glass",
+        "category": "food",
+        "keywords": [
+            "drink",
+            "cup",
+            "water",
+            "beverage"
+        ]
+    },
+    {
+        "name": "glasses",
+        "category": "objects",
+        "keywords": [
+            "eyewear",
+            "spectacles",
+            "reading",
+            "vision"
+        ]
+    },
+    {
+        "name": "globe",
+        "category": "maps",
+        "keywords": [
+            "world",
+            "earth",
+            "internet",
+            "language"
+        ]
+    },
+    {
+        "name": "graduation-hat",
+        "category": "people",
+        "keywords": [
+            "cap",
+            "education",
+            "university",
+            "degree"
+        ]
+    },
+    {
+        "name": "grid-divider",
+        "category": "design",
+        "keywords": [
+            "layout",
+            "grid",
+            "split",
+            "lines"
+        ]
+    },
+    {
+        "name": "grid-horizontal",
+        "category": "design",
+        "keywords": [
+            "layout",
+            "grid",
+            "rows",
+            "lines"
+        ]
+    },
+    {
+        "name": "grid-minus",
+        "category": "design",
+        "keywords": [
+            "layout",
+            "grid",
+            "remove",
+            "cell"
+        ]
+    },
+    {
+        "name": "grid-plus",
+        "category": "design",
+        "keywords": [
+            "layout",
+            "grid",
+            "add",
+            "cell"
+        ]
+    },
+    {
+        "name": "grid-search",
+        "category": "design",
+        "keywords": [
+            "layout",
+            "grid",
+            "find",
+            "magnify"
+        ]
+    },
+    {
+        "name": "grid-vertical",
+        "category": "design",
+        "keywords": [
+            "layout",
+            "grid",
+            "columns",
+            "lines"
+        ]
+    },
+    {
+        "name": "grid-x",
+        "category": "design",
+        "keywords": [
+            "layout",
+            "grid",
+            "remove",
+            "cancel"
+        ]
+    },
+    {
+        "name": "grid",
+        "category": "design",
+        "keywords": [
+            "layout",
+            "squares",
+            "cells",
+            "dashboard"
+        ]
+    },
+    {
+        "name": "hamburger",
+        "category": "food",
+        "keywords": [
+            "burger",
+            "fast food",
+            "sandwich",
+            "meal"
+        ]
+    },
+    {
+        "name": "hand-click",
+        "category": "interface",
+        "keywords": [
+            "pointer",
+            "tap",
+            "press",
+            "select"
+        ]
+    },
+    {
+        "name": "hand-grab",
+        "category": "interface",
+        "keywords": [
+            "drag",
+            "pan",
+            "hold",
+            "move"
+        ]
+    },
+    {
+        "name": "hand-move",
+        "category": "interface",
+        "keywords": [
+            "drag",
+            "pan",
+            "pointer",
+            "pick"
+        ]
+    },
+    {
+        "name": "hand-pointer",
+        "category": "interface",
+        "keywords": [
+            "click",
+            "link",
+            "cursor",
+            "select"
+        ]
+    },
+    {
+        "name": "hand-rock",
+        "category": "people",
+        "keywords": [
+            "fist",
+            "gesture",
+            "punch",
+            "power"
+        ]
+    },
+    {
+        "name": "hand-stop",
+        "category": "people",
+        "keywords": [
+            "halt",
+            "palm",
+            "gesture",
+            "wait"
+        ]
+    },
+    {
+        "name": "hard-drive",
+        "category": "devices",
+        "keywords": [
+            "disk",
+            "storage",
+            "hdd",
+            "server"
+        ]
+    },
+    {
+        "name": "hash",
+        "category": "symbols",
+        "keywords": [
+            "number sign",
+            "pound",
+            "hashtag",
+            "tag"
+        ]
+    },
+    {
+        "name": "haze",
+        "category": "weather",
+        "keywords": [
+            "fog",
+            "mist",
+            "smog",
+            "sun"
+        ]
+    },
+    {
+        "name": "heading-1",
+        "category": "text",
+        "keywords": [
+            "title",
+            "h1",
+            "header",
+            "format"
+        ]
+    },
+    {
+        "name": "heading-2",
+        "category": "text",
+        "keywords": [
+            "subtitle",
+            "h2",
+            "header",
+            "format"
+        ]
+    },
+    {
+        "name": "heading-3",
+        "category": "text",
+        "keywords": [
+            "h3",
+            "header",
+            "section",
+            "format"
+        ]
+    },
+    {
+        "name": "heading-4",
+        "category": "text",
+        "keywords": [
+            "h4",
+            "header",
+            "section",
+            "format"
+        ]
+    },
+    {
+        "name": "heading-5",
+        "category": "text",
+        "keywords": [
+            "h5",
+            "header",
+            "section",
+            "format"
+        ]
+    },
+    {
+        "name": "heading-6",
+        "category": "text",
+        "keywords": [
+            "h6",
+            "header",
+            "section",
+            "format"
+        ]
+    },
+    {
+        "name": "heading",
+        "category": "text",
+        "keywords": [
+            "title",
+            "header",
+            "format",
+            "h"
+        ]
+    },
+    {
+        "name": "headphones-slash",
+        "category": "media",
+        "keywords": [
+            "audio",
+            "mute",
+            "disabled",
+            "music"
+        ]
+    },
+    {
+        "name": "headphones",
+        "category": "media",
+        "keywords": [
+            "audio",
+            "music",
+            "listen",
+            "sound"
+        ]
+    },
+    {
+        "name": "headset",
+        "category": "devices",
+        "keywords": [
+            "support",
+            "call",
+            "mic",
+            "gaming"
+        ]
+    },
+    {
+        "name": "heart-crack",
+        "category": "symbols",
+        "keywords": [
+            "broken",
+            "love",
+            "dislike",
+            "sad"
+        ]
+    },
+    {
+        "name": "heart-slash",
+        "category": "symbols",
+        "keywords": [
+            "unlike",
+            "love",
+            "disabled",
+            "remove"
+        ]
+    },
+    {
+        "name": "heart",
+        "category": "symbols",
+        "keywords": [
+            "love",
+            "like",
+            "favorite",
+            "health"
+        ]
+    },
+    {
+        "name": "hexagon",
+        "category": "shapes",
+        "keywords": [
+            "polygon",
+            "six sides",
+            "shape",
+            "geometry"
+        ]
+    },
+    {
+        "name": "highlighter-slash",
+        "category": "text",
+        "keywords": [
+            "marker",
+            "highlight",
+            "disabled",
+            "remove"
+        ]
+    },
+    {
+        "name": "highlighter",
+        "category": "text",
+        "keywords": [
+            "marker",
+            "highlight",
+            "text",
+            "emphasis"
+        ]
+    },
+    {
+        "name": "history-redo",
+        "category": "arrows",
+        "keywords": [
+            "redo",
+            "forward",
+            "recent",
+            "restore"
+        ]
+    },
+    {
+        "name": "history-undo",
+        "category": "arrows",
+        "keywords": [
+            "undo",
+            "back",
+            "recent",
+            "restore"
+        ]
+    },
+    {
+        "name": "history",
+        "category": "time",
+        "keywords": [
+            "recent",
+            "past",
+            "clock",
+            "log"
+        ]
+    },
+    {
+        "name": "home",
+        "category": "home",
+        "keywords": [
+            "house",
+            "main",
+            "start",
+            "dashboard"
+        ]
+    },
+    {
+        "name": "hospital",
+        "category": "buildings",
+        "keywords": [
+            "health",
+            "clinic",
+            "emergency",
+            "medical"
+        ]
+    },
+    {
+        "name": "hotel",
+        "category": "buildings",
+        "keywords": [
+            "accommodation",
+            "lodging",
+            "travel",
+            "stay"
+        ]
+    },
+    {
+        "name": "hourglass",
+        "category": "time",
+        "keywords": [
+            "sand",
+            "wait",
+            "timer",
+            "loading"
+        ]
+    },
+    {
+        "name": "html",
+        "category": "development",
+        "keywords": [
+            "markup",
+            "web",
+            "code",
+            "tag"
+        ]
+    },
+    {
+        "name": "html5",
+        "category": "development",
+        "keywords": [
+            "markup",
+            "web",
+            "code",
+            "logo"
+        ]
+    },
+    {
+        "name": "hurricane",
+        "category": "weather",
+        "keywords": [
+            "storm",
+            "cyclone",
+            "tornado",
+            "wind"
+        ]
+    },
+    {
+        "name": "ice-cream-glass",
+        "category": "food",
+        "keywords": [
+            "dessert",
+            "sundae",
+            "sweet",
+            "cold"
+        ]
+    },
+    {
+        "name": "ice-cream",
+        "category": "food",
+        "keywords": [
+            "dessert",
+            "cone",
+            "sweet",
+            "cold"
+        ]
+    },
+    {
+        "name": "icons",
+        "category": "design",
+        "keywords": [
+            "symbols",
+            "glyphs",
+            "library",
+            "pictograms"
+        ]
+    },
+    {
+        "name": "id-badge",
+        "category": "people",
+        "keywords": [
+            "identification",
+            "credential",
+            "employee",
+            "card"
+        ]
+    },
+    {
+        "name": "id-card",
+        "category": "people",
+        "keywords": [
+            "identification",
+            "identity",
+            "license",
+            "document"
+        ]
+    },
+    {
+        "name": "image-circle",
+        "category": "media",
+        "keywords": [
+            "picture",
+            "avatar",
+            "photo",
+            "round"
+        ]
+    },
+    {
+        "name": "image-slash",
+        "category": "media",
+        "keywords": [
+            "picture",
+            "no image",
+            "broken",
+            "photo"
+        ]
+    },
+    {
+        "name": "image",
+        "category": "media",
+        "keywords": [
+            "picture",
+            "photo",
+            "gallery",
+            "landscape"
+        ]
+    },
+    {
+        "name": "inbox-slash",
+        "category": "communication",
+        "keywords": [
+            "mail",
+            "empty",
+            "disabled",
+            "messages"
+        ]
+    },
+    {
+        "name": "inbox",
+        "category": "communication",
+        "keywords": [
+            "mail",
+            "messages",
+            "incoming",
+            "tray"
+        ]
+    },
+    {
+        "name": "indent",
+        "category": "text",
+        "keywords": [
+            "tab",
+            "paragraph",
+            "format",
+            "increase"
+        ]
+    },
+    {
+        "name": "infinity",
+        "category": "symbols",
+        "keywords": [
+            "endless",
+            "unlimited",
+            "loop",
+            "math"
+        ]
+    },
+    {
+        "name": "info-circle",
+        "category": "interface",
+        "keywords": [
+            "information",
+            "help",
+            "about",
+            "details"
+        ]
+    },
+    {
+        "name": "info-square",
+        "category": "interface",
+        "keywords": [
+            "information",
+            "help",
+            "about",
+            "details"
+        ]
+    },
+    {
+        "name": "italic",
+        "category": "text",
+        "keywords": [
+            "format",
+            "emphasis",
+            "slanted",
+            "font"
+        ]
+    },
+    {
+        "name": "jar",
+        "category": "food",
+        "keywords": [
+            "container",
+            "glass",
+            "preserve",
+            "storage"
+        ]
+    },
+    {
+        "name": "javascript",
+        "category": "development",
+        "keywords": [
+            "js",
+            "web",
+            "code",
+            "language"
+        ]
+    },
+    {
+        "name": "journal",
+        "category": "files",
+        "keywords": [
+            "diary",
+            "notebook",
+            "log",
+            "notes"
+        ]
+    },
+    {
+        "name": "joystick",
+        "category": "games",
+        "keywords": [
+            "controller",
+            "arcade",
+            "gaming",
+            "retro"
+        ]
+    },
+    {
+        "name": "json",
+        "category": "development",
+        "keywords": [
+            "data",
+            "code",
+            "format",
+            "file"
+        ]
+    },
+    {
+        "name": "kanban",
+        "category": "interface",
+        "keywords": [
+            "board",
+            "tasks",
+            "project",
+            "agile"
+        ]
+    },
+    {
+        "name": "key",
+        "category": "security",
+        "keywords": [
+            "password",
+            "access",
+            "unlock",
+            "login"
+        ]
+    },
+    {
+        "name": "keyboard-music",
+        "category": "media",
+        "keywords": [
+            "piano",
+            "instrument",
+            "synth",
+            "midi"
+        ]
+    },
+    {
+        "name": "keyboard",
+        "category": "devices",
+        "keywords": [
+            "typing",
+            "keys",
+            "input",
+            "computer"
+        ]
+    },
+    {
+        "name": "lamp-desk",
+        "category": "home",
+        "keywords": [
+            "light",
+            "office",
+            "table",
+            "reading"
+        ]
+    },
+    {
+        "name": "lamp",
+        "category": "home",
+        "keywords": [
+            "light",
+            "lighting",
+            "decoration",
+            "furniture"
+        ]
+    },
+    {
+        "name": "landmark",
+        "category": "buildings",
+        "keywords": [
+            "bank",
+            "monument",
+            "museum",
+            "government"
+        ]
+    },
+    {
+        "name": "landscape",
+        "category": "nature",
+        "keywords": [
+            "scenery",
+            "mountains",
+            "view",
+            "horizon"
+        ]
+    },
+    {
+        "name": "language",
+        "category": "communication",
+        "keywords": [
+            "translate",
+            "locale",
+            "i18n",
+            "speech"
+        ]
+    },
+    {
+        "name": "laptop-mobile",
+        "category": "devices",
+        "keywords": [
+            "responsive",
+            "devices",
+            "multi-device",
+            "computer"
+        ]
+    },
+    {
+        "name": "laptop",
+        "category": "devices",
+        "keywords": [
+            "computer",
+            "notebook",
+            "pc",
+            "work"
+        ]
+    },
+    {
+        "name": "laser-pointer",
+        "category": "devices",
+        "keywords": [
+            "presentation",
+            "pointer",
+            "light",
+            "beam"
+        ]
+    },
+    {
+        "name": "layout",
+        "category": "design",
+        "keywords": [
+            "template",
+            "structure",
+            "wireframe",
+            "page"
+        ]
+    },
+    {
+        "name": "lifebuoy",
+        "category": "health",
+        "keywords": [
+            "help",
+            "support",
+            "rescue",
+            "safety"
+        ]
+    },
+    {
+        "name": "lightbulb",
+        "category": "objects",
+        "keywords": [
+            "idea",
+            "light",
+            "tip",
+            "innovation"
+        ]
+    },
+    {
+        "name": "lighthouse",
+        "category": "buildings",
+        "keywords": [
+            "beacon",
+            "sea",
+            "navigation",
+            "coast"
+        ]
+    },
+    {
+        "name": "line-horizontal",
+        "category": "shapes",
+        "keywords": [
+            "divider",
+            "rule",
+            "separator",
+            "dash"
+        ]
+    },
+    {
+        "name": "line-vertical",
+        "category": "shapes",
+        "keywords": [
+            "divider",
+            "rule",
+            "separator",
+            "pipe"
+        ]
+    },
+    {
+        "name": "line",
+        "category": "shapes",
+        "keywords": [
+            "diagonal",
+            "stroke",
+            "slash",
+            "segment"
+        ]
+    },
+    {
+        "name": "link",
+        "category": "interface",
+        "keywords": [
+            "url",
+            "chain",
+            "hyperlink",
+            "connect"
+        ]
+    },
+    {
+        "name": "list-check",
+        "category": "text",
+        "keywords": [
+            "checklist",
+            "tasks",
+            "todo",
+            "done"
+        ]
+    },
+    {
+        "name": "list-ordered",
+        "category": "text",
+        "keywords": [
+            "numbered",
+            "steps",
+            "sequence",
+            "order"
+        ]
+    },
+    {
+        "name": "list-square",
+        "category": "text",
+        "keywords": [
+            "bullets",
+            "items",
+            "menu",
+            "outline"
+        ]
+    },
+    {
+        "name": "list-todo",
+        "category": "text",
+        "keywords": [
+            "tasks",
+            "checklist",
+            "pending",
+            "planning"
+        ]
+    },
+    {
+        "name": "list",
+        "category": "text",
+        "keywords": [
+            "bullets",
+            "items",
+            "menu",
+            "rows"
+        ]
+    },
+    {
+        "name": "loader",
+        "category": "interface",
+        "keywords": [
+            "loading",
+            "spinner",
+            "progress",
+            "wait"
+        ]
+    },
+    {
+        "name": "location-minus",
+        "category": "maps",
+        "keywords": [
+            "pin",
+            "remove",
+            "place",
+            "marker"
+        ]
+    },
+    {
+        "name": "location-pin",
+        "category": "maps",
+        "keywords": [
+            "pin",
+            "place",
+            "marker",
+            "address"
+        ]
+    },
+    {
+        "name": "location-plus",
+        "category": "maps",
+        "keywords": [
+            "pin",
+            "add",
+            "place",
+            "marker"
+        ]
+    },
+    {
+        "name": "location-slash",
+        "category": "maps",
+        "keywords": [
+            "pin",
+            "disabled",
+            "gps off",
+            "unavailable"
+        ]
+    },
+    {
+        "name": "location",
+        "category": "maps",
+        "keywords": [
+            "gps",
+            "position",
+            "navigation",
+            "target"
+        ]
+    },
+    {
+        "name": "lock",
+        "category": "security",
+        "keywords": [
+            "secure",
+            "padlock",
+            "private",
+            "protected"
+        ]
+    },
+    {
+        "name": "login",
+        "category": "interface",
+        "keywords": [
+            "sign in",
+            "enter",
+            "access",
+            "account"
+        ]
+    },
+    {
+        "name": "logout",
+        "category": "interface",
+        "keywords": [
+            "sign out",
+            "exit",
+            "leave",
+            "account"
+        ]
+    },
+    {
+        "name": "lollipop",
+        "category": "food",
+        "keywords": [
+            "candy",
+            "sweet",
+            "sugar",
+            "treat"
+        ]
+    },
+    {
+        "name": "magnet",
+        "category": "science",
+        "keywords": [
+            "attract",
+            "magnetic",
+            "physics",
+            "pull"
+        ]
+    },
+    {
+        "name": "mailbox",
+        "category": "communication",
+        "keywords": [
+            "post",
+            "letterbox",
+            "mail",
+            "delivery"
+        ]
+    },
+    {
+        "name": "mansion",
+        "category": "buildings",
+        "keywords": [
+            "house",
+            "villa",
+            "luxury",
+            "estate"
+        ]
+    },
+    {
+        "name": "map-pinned",
+        "category": "maps",
+        "keywords": [
+            "location",
+            "pin",
+            "place",
+            "marker"
+        ]
+    },
+    {
+        "name": "map",
+        "category": "maps",
+        "keywords": [
+            "navigation",
+            "directions",
+            "atlas",
+            "location"
+        ]
+    },
+    {
+        "name": "martini-glass",
+        "category": "food",
+        "keywords": [
+            "cocktail",
+            "drink",
+            "bar",
+            "alcohol"
+        ]
+    },
+    {
+        "name": "medal",
+        "category": "symbols",
+        "keywords": [
+            "award",
+            "winner",
+            "prize",
+            "achievement"
+        ]
+    },
+    {
+        "name": "megaphone",
+        "category": "communication",
+        "keywords": [
+            "announcement",
+            "loudspeaker",
+            "marketing",
+            "broadcast"
+        ]
+    },
+    {
+        "name": "message-dots",
+        "category": "communication",
+        "keywords": [
+            "chat",
+            "typing",
+            "comment",
+            "conversation"
+        ]
+    },
+    {
+        "name": "message-empty",
+        "category": "communication",
+        "keywords": [
+            "chat",
+            "comment",
+            "blank",
+            "conversation"
+        ]
+    },
+    {
+        "name": "message-slash",
+        "category": "communication",
+        "keywords": [
+            "chat",
+            "muted",
+            "disabled",
+            "comment"
+        ]
+    },
+    {
+        "name": "message",
+        "category": "communication",
+        "keywords": [
+            "chat",
+            "comment",
+            "sms",
+            "conversation"
+        ]
+    },
+    {
+        "name": "microchip",
+        "category": "devices",
+        "keywords": [
+            "chip",
+            "processor",
+            "hardware",
+            "electronics"
+        ]
+    },
+    {
+        "name": "microphone-slash",
+        "category": "media",
+        "keywords": [
+            "mic",
+            "mute",
+            "disabled",
+            "audio"
+        ]
+    },
+    {
+        "name": "microphone",
+        "category": "media",
+        "keywords": [
+            "mic",
+            "record",
+            "voice",
+            "audio"
+        ]
+    },
+    {
+        "name": "microscope",
+        "category": "science",
+        "keywords": [
+            "lab",
+            "biology",
+            "research",
+            "magnify"
+        ]
+    },
+    {
+        "name": "microwave",
+        "category": "home",
+        "keywords": [
+            "oven",
+            "kitchen",
+            "appliance",
+            "heat"
+        ]
+    },
+    {
+        "name": "milk-bottle",
+        "category": "food",
+        "keywords": [
+            "dairy",
+            "drink",
+            "bottle",
+            "beverage"
+        ]
+    },
+    {
+        "name": "minus-circle",
+        "category": "interface",
+        "keywords": [
+            "remove",
+            "subtract",
+            "decrease",
+            "less"
+        ]
+    },
+    {
+        "name": "minus-square",
+        "category": "interface",
+        "keywords": [
+            "remove",
+            "subtract",
+            "collapse",
+            "less"
+        ]
+    },
+    {
+        "name": "minus",
+        "category": "interface",
+        "keywords": [
+            "remove",
+            "subtract",
+            "decrease",
+            "less"
+        ]
+    },
+    {
+        "name": "mirror",
+        "category": "home",
+        "keywords": [
+            "reflection",
+            "bathroom",
+            "furniture",
+            "look"
+        ]
+    },
+    {
+        "name": "mobile-slash",
+        "category": "devices",
+        "keywords": [
+            "phone",
+            "disabled",
+            "no signal",
+            "off"
+        ]
+    },
+    {
+        "name": "mobile",
+        "category": "devices",
+        "keywords": [
+            "phone",
+            "smartphone",
+            "cell",
+            "device"
+        ]
+    },
+    {
+        "name": "mochi",
+        "category": "food",
+        "keywords": [
+            "rice cake",
+            "japanese",
+            "dessert",
+            "sweet"
+        ]
+    },
+    {
+        "name": "money",
+        "category": "commerce",
+        "keywords": [
+            "cash",
+            "bill",
+            "currency",
+            "payment"
+        ]
+    },
+    {
+        "name": "monitor-heart-rate",
+        "category": "health",
+        "keywords": [
+            "ecg",
+            "pulse",
+            "hospital",
+            "vitals"
+        ]
+    },
+    {
+        "name": "monitor",
+        "category": "devices",
+        "keywords": [
+            "screen",
+            "display",
+            "computer",
+            "desktop"
+        ]
+    },
+    {
+        "name": "moon",
+        "category": "weather",
+        "keywords": [
+            "night",
+            "dark mode",
+            "lunar",
+            "sleep"
+        ]
+    },
+    {
+        "name": "mountain",
+        "category": "nature",
+        "keywords": [
+            "peak",
+            "hiking",
+            "landscape",
+            "climb"
+        ]
+    },
+    {
+        "name": "mouse",
+        "category": "devices",
+        "keywords": [
+            "pointer",
+            "cursor",
+            "computer",
+            "click"
+        ]
+    },
+    {
+        "name": "mug",
+        "category": "food",
+        "keywords": [
+            "cup",
+            "coffee",
+            "tea",
+            "drink"
+        ]
+    },
+    {
+        "name": "music-note",
+        "category": "media",
+        "keywords": [
+            "song",
+            "sound",
+            "audio",
+            "melody"
+        ]
+    },
+    {
+        "name": "music-player",
+        "category": "media",
+        "keywords": [
+            "ipod",
+            "audio",
+            "device",
+            "mp3"
+        ]
+    },
+    {
+        "name": "news",
+        "category": "text",
+        "keywords": [
+            "newspaper",
+            "article",
+            "press",
+            "media"
+        ]
+    },
+    {
+        "name": "not-equal",
+        "category": "symbols",
+        "keywords": [
+            "math",
+            "different",
+            "inequality",
+            "operator"
+        ]
+    },
+    {
+        "name": "note",
+        "category": "files",
+        "keywords": [
+            "memo",
+            "sticky",
+            "text",
+            "write"
+        ]
+    },
+    {
+        "name": "notebook",
+        "category": "files",
+        "keywords": [
+            "notes",
+            "journal",
+            "diary",
+            "paper"
+        ]
+    },
+    {
+        "name": "notepad",
+        "category": "files",
+        "keywords": [
+            "notes",
+            "memo",
+            "pad",
+            "write"
+        ]
+    },
+    {
+        "name": "number-circle-five",
+        "category": "symbols",
+        "keywords": [
+            "5",
+            "digit",
+            "step",
+            "badge"
+        ]
+    },
+    {
+        "name": "number-circle-four",
+        "category": "symbols",
+        "keywords": [
+            "4",
+            "digit",
+            "step",
+            "badge"
+        ]
+    },
+    {
+        "name": "number-circle-one",
+        "category": "symbols",
+        "keywords": [
+            "1",
+            "digit",
+            "step",
+            "badge"
+        ]
+    },
+    {
+        "name": "number-circle-three",
+        "category": "symbols",
+        "keywords": [
+            "3",
+            "digit",
+            "step",
+            "badge"
+        ]
+    },
+    {
+        "name": "number-circle-two",
+        "category": "symbols",
+        "keywords": [
+            "2",
+            "digit",
+            "step",
+            "badge"
+        ]
+    },
+    {
+        "name": "numbers",
+        "category": "symbols",
+        "keywords": [
+            "digits",
+            "123",
+            "count",
+            "numeric"
+        ]
+    },
+    {
+        "name": "object-difference",
+        "category": "design",
+        "keywords": [
+            "boolean",
+            "shapes",
+            "subtract",
+            "vector"
+        ]
+    },
+    {
+        "name": "object-group",
+        "category": "design",
+        "keywords": [
+            "group",
+            "objects",
+            "combine",
+            "select"
+        ]
+    },
+    {
+        "name": "object-intersect",
+        "category": "design",
+        "keywords": [
+            "boolean",
+            "shapes",
+            "overlap",
+            "vector"
+        ]
+    },
+    {
+        "name": "object-substract",
+        "category": "design",
+        "keywords": [
+            "boolean",
+            "shapes",
+            "subtract",
+            "vector"
+        ]
+    },
+    {
+        "name": "object-ungroup",
+        "category": "design",
+        "keywords": [
+            "ungroup",
+            "objects",
+            "separate",
+            "select"
+        ]
+    },
+    {
+        "name": "object-union",
+        "category": "design",
+        "keywords": [
+            "boolean",
+            "shapes",
+            "merge",
+            "vector"
+        ]
+    },
+    {
+        "name": "option",
+        "category": "interface",
+        "keywords": [
+            "alt",
+            "keyboard",
+            "key",
+            "mac"
+        ]
+    },
+    {
+        "name": "orbit",
+        "category": "science",
+        "keywords": [
+            "planet",
+            "space",
+            "astronomy",
+            "satellite"
+        ]
+    },
+    {
+        "name": "outdent",
+        "category": "text",
+        "keywords": [
+            "tab",
+            "paragraph",
+            "format",
+            "decrease"
+        ]
+    },
+    {
+        "name": "owl",
+        "category": "animals",
+        "keywords": [
+            "bird",
+            "night",
+            "wisdom",
+            "hoot"
+        ]
+    },
+    {
+        "name": "paint-roller-slash",
+        "category": "design",
+        "keywords": [
+            "paint",
+            "disabled",
+            "wall",
+            "decorate"
+        ]
+    },
+    {
+        "name": "paint-roller",
+        "category": "design",
+        "keywords": [
+            "paint",
+            "wall",
+            "decorate",
+            "brush"
+        ]
+    },
+    {
+        "name": "palette",
+        "category": "design",
+        "keywords": [
+            "colors",
+            "art",
+            "paint",
+            "theme"
+        ]
+    },
+    {
+        "name": "panel",
+        "category": "design",
+        "keywords": [
+            "layout",
+            "sidebar",
+            "window",
+            "pane"
+        ]
+    },
+    {
+        "name": "parentheses",
+        "category": "development",
+        "keywords": [
+            "code",
+            "brackets",
+            "function",
+            "math"
+        ]
+    },
+    {
+        "name": "parking-slash",
+        "category": "transport",
+        "keywords": [
+            "no parking",
+            "car",
+            "forbidden",
+            "park"
+        ]
+    },
+    {
+        "name": "parking",
+        "category": "transport",
+        "keywords": [
+            "car",
+            "lot",
+            "garage",
+            "park"
+        ]
+    },
+    {
+        "name": "party-horn",
+        "category": "symbols",
+        "keywords": [
+            "celebration",
+            "confetti",
+            "birthday",
+            "festive"
+        ]
+    },
+    {
+        "name": "passport",
+        "category": "security",
+        "keywords": [
+            "travel",
+            "id",
+            "document",
+            "border"
+        ]
+    },
+    {
+        "name": "path",
+        "category": "design",
+        "keywords": [
+            "vector",
+            "line",
+            "route",
+            "anchor"
+        ]
+    },
+    {
+        "name": "pause",
+        "category": "media",
+        "keywords": [
+            "stop",
+            "hold",
+            "player",
+            "wait"
+        ]
+    },
+    {
+        "name": "pdf",
+        "category": "files",
+        "keywords": [
+            "document",
+            "adobe",
+            "file",
+            "format"
+        ]
+    },
+    {
+        "name": "pen-nib",
+        "category": "design",
+        "keywords": [
+            "ink",
+            "calligraphy",
+            "draw",
+            "vector"
+        ]
+    },
+    {
+        "name": "pen-slash",
+        "category": "interface",
+        "keywords": [
+            "write",
+            "disabled",
+            "readonly",
+            "locked"
+        ]
+    },
+    {
+        "name": "pen",
+        "category": "interface",
+        "keywords": [
+            "write",
+            "edit",
+            "ink",
+            "draw"
+        ]
+    },
+    {
+        "name": "pencil-line",
+        "category": "interface",
+        "keywords": [
+            "write",
+            "edit",
+            "underline",
+            "draw"
+        ]
+    },
+    {
+        "name": "pencil-slash",
+        "category": "interface",
+        "keywords": [
+            "write",
+            "disabled",
+            "readonly",
+            "locked"
+        ]
+    },
+    {
+        "name": "pencil",
+        "category": "interface",
+        "keywords": [
+            "write",
+            "edit",
+            "draw",
+            "sketch"
+        ]
+    },
+    {
+        "name": "pentagon",
+        "category": "shapes",
+        "keywords": [
+            "polygon",
+            "five sides",
+            "shape",
+            "geometry"
+        ]
+    },
+    {
+        "name": "percent-circle",
+        "category": "commerce",
+        "keywords": [
+            "discount",
+            "sale",
+            "offer",
+            "rate"
+        ]
+    },
+    {
+        "name": "percent",
+        "category": "symbols",
+        "keywords": [
+            "math",
+            "discount",
+            "rate",
+            "ratio"
+        ]
+    },
+    {
+        "name": "phone-block",
+        "category": "communication",
+        "keywords": [
+            "call",
+            "blocked",
+            "reject",
+            "spam"
+        ]
+    },
+    {
+        "name": "phone-call",
+        "category": "communication",
+        "keywords": [
+            "call",
+            "ringing",
+            "telephone",
+            "talk"
+        ]
+    },
+    {
+        "name": "phone-incoming",
+        "category": "communication",
+        "keywords": [
+            "call",
+            "receive",
+            "telephone",
+            "answer"
+        ]
+    },
+    {
+        "name": "phone-office",
+        "category": "communication",
+        "keywords": [
+            "call",
+            "landline",
+            "telephone",
+            "desk"
+        ]
+    },
+    {
+        "name": "phone-outgoing",
+        "category": "communication",
+        "keywords": [
+            "call",
+            "dial",
+            "telephone",
+            "make"
+        ]
+    },
+    {
+        "name": "phone-pause",
+        "category": "communication",
+        "keywords": [
+            "call",
+            "hold",
+            "telephone",
+            "wait"
+        ]
+    },
+    {
+        "name": "phone-slash",
+        "category": "communication",
+        "keywords": [
+            "call",
+            "disabled",
+            "telephone",
+            "off"
+        ]
+    },
+    {
+        "name": "phone",
+        "category": "communication",
+        "keywords": [
+            "call",
+            "telephone",
+            "contact",
+            "dial"
+        ]
+    },
+    {
+        "name": "pill",
+        "category": "health",
+        "keywords": [
+            "medicine",
+            "drug",
+            "capsule",
+            "pharmacy"
+        ]
+    },
+    {
+        "name": "pills",
+        "category": "health",
+        "keywords": [
+            "medicine",
+            "drugs",
+            "tablets",
+            "pharmacy"
+        ]
+    },
+    {
+        "name": "pin",
+        "category": "interface",
+        "keywords": [
+            "pushpin",
+            "attach",
+            "fix",
+            "location"
+        ]
+    },
+    {
+        "name": "pipette",
+        "category": "design",
+        "keywords": [
+            "eyedropper",
+            "color picker",
+            "sample",
+            "lab"
+        ]
+    },
+    {
+        "name": "pizza",
+        "category": "food",
+        "keywords": [
+            "italian",
+            "slice",
+            "fast food",
+            "meal"
+        ]
+    },
+    {
+        "name": "plane-landing",
+        "category": "transport",
+        "keywords": [
+            "airplane",
+            "arrival",
+            "flight",
+            "airport"
+        ]
+    },
+    {
+        "name": "plane-takeoff",
+        "category": "transport",
+        "keywords": [
+            "airplane",
+            "departure",
+            "flight",
+            "airport"
+        ]
+    },
+    {
+        "name": "plane",
+        "category": "transport",
+        "keywords": [
+            "airplane",
+            "flight",
+            "travel",
+            "airport"
+        ]
+    },
+    {
+        "name": "planet",
+        "category": "science",
+        "keywords": [
+            "space",
+            "saturn",
+            "astronomy",
+            "universe"
+        ]
+    },
+    {
+        "name": "play",
+        "category": "media",
+        "keywords": [
+            "start",
+            "video",
+            "player",
+            "resume"
+        ]
+    },
+    {
+        "name": "plug-slash",
+        "category": "devices",
+        "keywords": [
+            "power",
+            "disconnected",
+            "offline",
+            "unplugged"
+        ]
+    },
+    {
+        "name": "plug",
+        "category": "devices",
+        "keywords": [
+            "power",
+            "connect",
+            "electric",
+            "socket"
+        ]
+    },
+    {
+        "name": "plus-circle",
+        "category": "interface",
+        "keywords": [
+            "add",
+            "new",
+            "create",
+            "more"
+        ]
+    },
+    {
+        "name": "plus-square",
+        "category": "interface",
+        "keywords": [
+            "add",
+            "new",
+            "create",
+            "more"
+        ]
+    },
+    {
+        "name": "plus",
+        "category": "interface",
+        "keywords": [
+            "add",
+            "new",
+            "create",
+            "more"
+        ]
+    },
+    {
+        "name": "pointer",
+        "category": "interface",
+        "keywords": [
+            "cursor",
+            "arrow",
+            "select",
+            "mouse"
+        ]
+    },
+    {
+        "name": "poll-horizontal",
+        "category": "charts",
+        "keywords": [
+            "survey",
+            "bars",
+            "vote",
+            "results"
+        ]
+    },
+    {
+        "name": "poll-vertical",
+        "category": "charts",
+        "keywords": [
+            "survey",
+            "bars",
+            "vote",
+            "results"
+        ]
+    },
+    {
+        "name": "poo",
+        "category": "emoji",
+        "keywords": [
+            "poop",
+            "funny",
+            "dirty",
+            "emoji"
+        ]
+    },
+    {
+        "name": "popcorn",
+        "category": "food",
+        "keywords": [
+            "cinema",
+            "movie",
+            "snack",
+            "corn"
+        ]
+    },
+    {
+        "name": "popsicle",
+        "category": "food",
+        "keywords": [
+            "ice lolly",
+            "dessert",
+            "summer",
+            "cold"
+        ]
+    },
+    {
+        "name": "postcard",
+        "category": "communication",
+        "keywords": [
+            "mail",
+            "card",
+            "travel",
+            "letter"
+        ]
+    },
+    {
+        "name": "power-bank",
+        "category": "devices",
+        "keywords": [
+            "battery",
+            "charger",
+            "portable",
+            "energy"
+        ]
+    },
+    {
+        "name": "power",
+        "category": "interface",
+        "keywords": [
+            "on",
+            "off",
+            "shutdown",
+            "switch"
+        ]
+    },
+    {
+        "name": "prescription-bottle",
+        "category": "health",
+        "keywords": [
+            "medicine",
+            "pharmacy",
+            "pills",
+            "drugs"
+        ]
+    },
+    {
+        "name": "presentation",
+        "category": "files",
+        "keywords": [
+            "slides",
+            "projector",
+            "keynote",
+            "talk"
+        ]
+    },
+    {
+        "name": "printer",
+        "category": "devices",
+        "keywords": [
+            "print",
+            "paper",
+            "office",
+            "output"
+        ]
+    },
+    {
+        "name": "projector",
+        "category": "devices",
+        "keywords": [
+            "presentation",
+            "cinema",
+            "beam",
+            "screen"
+        ]
+    },
+    {
+        "name": "pumpkin",
+        "category": "nature",
+        "keywords": [
+            "halloween",
+            "autumn",
+            "vegetable",
+            "squash"
+        ]
+    },
+    {
+        "name": "puzzle",
+        "category": "games",
+        "keywords": [
+            "piece",
+            "jigsaw",
+            "plugin",
+            "extension"
+        ]
+    },
+    {
+        "name": "qr-code",
+        "category": "interface",
+        "keywords": [
+            "scan",
+            "barcode",
+            "code",
+            "mobile"
+        ]
+    },
+    {
+        "name": "question-circle",
+        "category": "interface",
+        "keywords": [
+            "help",
+            "faq",
+            "support",
+            "unknown"
+        ]
+    },
+    {
+        "name": "question-square",
+        "category": "interface",
+        "keywords": [
+            "help",
+            "faq",
+            "support",
+            "unknown"
+        ]
+    },
+    {
+        "name": "quote",
+        "category": "text",
+        "keywords": [
+            "quotation",
+            "citation",
+            "blockquote",
+            "speech"
+        ]
+    },
+    {
+        "name": "radiation",
+        "category": "science",
+        "keywords": [
+            "radioactive",
+            "nuclear",
+            "danger",
+            "hazard"
+        ]
+    },
+    {
+        "name": "radio-slash",
+        "category": "media",
+        "keywords": [
+            "broadcast",
+            "disabled",
+            "off",
+            "fm"
+        ]
+    },
+    {
+        "name": "radio",
+        "category": "media",
+        "keywords": [
+            "broadcast",
+            "fm",
+            "music",
+            "receiver"
+        ]
+    },
+    {
+        "name": "rainbow",
+        "category": "weather",
+        "keywords": [
+            "colors",
+            "pride",
+            "sky",
+            "arc"
+        ]
+    },
+    {
+        "name": "rat",
+        "category": "animals",
+        "keywords": [
+            "mouse",
+            "rodent",
+            "pest",
+            "animal"
+        ]
+    },
+    {
+        "name": "receipt-dollar",
+        "category": "commerce",
+        "keywords": [
+            "invoice",
+            "bill",
+            "payment",
+            "usd"
+        ]
+    },
+    {
+        "name": "receipt",
+        "category": "commerce",
+        "keywords": [
+            "invoice",
+            "bill",
+            "payment",
+            "ticket"
+        ]
+    },
+    {
+        "name": "rectangle-horizontal",
+        "category": "shapes",
+        "keywords": [
+            "box",
+            "landscape",
+            "shape",
+            "wide"
+        ]
+    },
+    {
+        "name": "rectangle-vertical",
+        "category": "shapes",
+        "keywords": [
+            "box",
+            "portrait",
+            "shape",
+            "tall"
+        ]
+    },
+    {
+        "name": "refresh",
+        "category": "arrows",
+        "keywords": [
+            "reload",
+            "sync",
+            "update",
+            "renew"
+        ]
+    },
+    {
+        "name": "reload",
+        "category": "arrows",
+        "keywords": [
+            "refresh",
+            "sync",
+            "update",
+            "retry"
+        ]
+    },
+    {
+        "name": "reorder",
+        "category": "interface",
+        "keywords": [
+            "drag",
+            "sort",
+            "handle",
+            "list"
+        ]
+    },
+    {
+        "name": "rocket",
+        "category": "transport",
+        "keywords": [
+            "launch",
+            "space",
+            "startup",
+            "deploy"
+        ]
+    },
+    {
+        "name": "rotate",
+        "category": "arrows",
+        "keywords": [
+            "turn",
+            "spin",
+            "orientation",
+            "transform"
+        ]
+    },
+    {
+        "name": "route",
+        "category": "maps",
+        "keywords": [
+            "path",
+            "directions",
+            "journey",
+            "navigation"
+        ]
+    },
+    {
+        "name": "router",
+        "category": "devices",
+        "keywords": [
+            "wifi",
+            "network",
+            "internet",
+            "modem"
+        ]
+    },
+    {
+        "name": "row-insert-down",
+        "category": "design",
+        "keywords": [
+            "table",
+            "row",
+            "add",
+            "below"
+        ]
+    },
+    {
+        "name": "row-insert-up",
+        "category": "design",
+        "keywords": [
+            "table",
+            "row",
+            "add",
+            "above"
+        ]
+    },
+    {
+        "name": "ruler-2",
+        "category": "design",
+        "keywords": [
+            "measure",
+            "length",
+            "scale",
+            "tool"
+        ]
+    },
+    {
+        "name": "ruler",
+        "category": "design",
+        "keywords": [
+            "measure",
+            "length",
+            "scale",
+            "tool"
+        ]
+    },
+    {
+        "name": "satellite",
+        "category": "science",
+        "keywords": [
+            "space",
+            "orbit",
+            "communication",
+            "gps"
+        ]
+    },
+    {
+        "name": "scan",
+        "category": "interface",
+        "keywords": [
+            "scanner",
+            "capture",
+            "qr",
+            "focus"
+        ]
+    },
+    {
+        "name": "scarecrow",
+        "category": "nature",
+        "keywords": [
+            "field",
+            "farm",
+            "halloween",
+            "straw"
+        ]
+    },
+    {
+        "name": "school",
+        "category": "buildings",
+        "keywords": [
+            "education",
+            "class",
+            "building",
+            "learning"
+        ]
+    },
+    {
+        "name": "scoreboard",
+        "category": "sports",
+        "keywords": [
+            "score",
+            "game",
+            "points",
+            "results"
+        ]
+    },
+    {
+        "name": "scribble",
+        "category": "design",
+        "keywords": [
+            "draw",
+            "doodle",
+            "squiggle",
+            "freehand"
+        ]
+    },
+    {
+        "name": "scroll-empty",
+        "category": "files",
+        "keywords": [
+            "parchment",
+            "old",
+            "document",
+            "paper"
+        ]
+    },
+    {
+        "name": "scroll",
+        "category": "files",
+        "keywords": [
+            "parchment",
+            "old",
+            "document",
+            "history"
+        ]
+    },
+    {
+        "name": "sd-card",
+        "category": "devices",
+        "keywords": [
+            "memory",
+            "storage",
+            "flash",
+            "camera"
+        ]
+    },
+    {
+        "name": "search-check",
+        "category": "interface",
+        "keywords": [
+            "find",
+            "verified",
+            "magnifier",
+            "done"
+        ]
+    },
+    {
+        "name": "search-code",
+        "category": "interface",
+        "keywords": [
+            "find",
+            "code",
+            "magnifier",
+            "source"
+        ]
+    },
+    {
+        "name": "search-x",
+        "category": "interface",
+        "keywords": [
+            "find",
+            "clear",
+            "magnifier",
+            "cancel"
+        ]
+    },
+    {
+        "name": "search",
+        "category": "interface",
+        "keywords": [
+            "find",
+            "magnifier",
+            "lookup",
+            "zoom"
+        ]
+    },
+    {
+        "name": "selector",
+        "category": "interface",
+        "keywords": [
+            "dropdown",
+            "select",
+            "chevrons",
+            "input"
+        ]
+    },
+    {
+        "name": "send-back",
+        "category": "design",
+        "keywords": [
+            "layer",
+            "order",
+            "bottom",
+            "arrange"
+        ]
+    },
+    {
+        "name": "send-backward",
+        "category": "design",
+        "keywords": [
+            "layer",
+            "order",
+            "back",
+            "arrange"
+        ]
+    },
+    {
+        "name": "send",
+        "category": "communication",
+        "keywords": [
+            "submit",
+            "paper plane",
+            "message",
+            "post"
+        ]
+    },
+    {
+        "name": "server",
+        "category": "development",
+        "keywords": [
+            "hosting",
+            "rack",
+            "backend",
+            "data center"
+        ]
+    },
+    {
+        "name": "shapes",
+        "category": "design",
+        "keywords": [
+            "geometry",
+            "forms",
+            "objects",
+            "basic"
+        ]
+    },
+    {
+        "name": "share",
+        "category": "interface",
+        "keywords": [
+            "send",
+            "social",
+            "export",
+            "distribute"
+        ]
+    },
+    {
+        "name": "shield-alt",
+        "category": "security",
+        "keywords": [
+            "protection",
+            "defense",
+            "safe",
+            "guard"
+        ]
+    },
+    {
+        "name": "shield-check",
+        "category": "security",
+        "keywords": [
+            "protected",
+            "verified",
+            "safe",
+            "approved"
+        ]
+    },
+    {
+        "name": "shield-exclamation",
+        "category": "security",
+        "keywords": [
+            "warning",
+            "risk",
+            "alert",
+            "danger"
+        ]
+    },
+    {
+        "name": "shield-minus",
+        "category": "security",
+        "keywords": [
+            "protection",
+            "remove",
+            "reduce",
+            "privacy"
+        ]
+    },
+    {
+        "name": "shield-plus",
+        "category": "security",
+        "keywords": [
+            "protection",
+            "add",
+            "health",
+            "privacy"
+        ]
+    },
+    {
+        "name": "shield-question",
+        "category": "security",
+        "keywords": [
+            "protection",
+            "unknown",
+            "help",
+            "status"
+        ]
+    },
+    {
+        "name": "shield-slash",
+        "category": "security",
+        "keywords": [
+            "protection",
+            "disabled",
+            "off",
+            "unprotected"
+        ]
+    },
+    {
+        "name": "shield-x",
+        "category": "security",
+        "keywords": [
+            "protection",
+            "blocked",
+            "denied",
+            "threat"
+        ]
+    },
+    {
+        "name": "shield",
+        "category": "security",
+        "keywords": [
+            "protection",
+            "defense",
+            "safe",
+            "guard"
+        ]
+    },
+    {
+        "name": "ship",
+        "category": "transport",
+        "keywords": [
+            "boat",
+            "sea",
+            "cruise",
+            "vessel"
+        ]
+    },
+    {
+        "name": "sidebar-left-close",
+        "category": "design",
+        "keywords": [
+            "panel",
+            "collapse",
+            "hide",
+            "layout"
+        ]
+    },
+    {
+        "name": "sidebar-left-open",
+        "category": "design",
+        "keywords": [
+            "panel",
+            "expand",
+            "show",
+            "layout"
+        ]
+    },
+    {
+        "name": "sidebar-left",
+        "category": "design",
+        "keywords": [
+            "panel",
+            "navigation",
+            "layout",
+            "menu"
+        ]
+    },
+    {
+        "name": "sidebar-right-close",
+        "category": "design",
+        "keywords": [
+            "panel",
+            "collapse",
+            "hide",
+            "layout"
+        ]
+    },
+    {
+        "name": "sidebar-right-open",
+        "category": "design",
+        "keywords": [
+            "panel",
+            "expand",
+            "show",
+            "layout"
+        ]
+    },
+    {
+        "name": "sidebar-right",
+        "category": "design",
+        "keywords": [
+            "panel",
+            "details",
+            "layout",
+            "inspector"
+        ]
+    },
+    {
+        "name": "sign-post",
+        "category": "maps",
+        "keywords": [
+            "direction",
+            "signpost",
+            "road",
+            "navigation"
+        ]
+    },
+    {
+        "name": "signal-empty",
+        "category": "devices",
+        "keywords": [
+            "reception",
+            "bars",
+            "network",
+            "mobile"
+        ]
+    },
+    {
+        "name": "signal-high",
+        "category": "devices",
+        "keywords": [
+            "reception",
+            "bars",
+            "network",
+            "strong"
+        ]
+    },
+    {
+        "name": "signal-low",
+        "category": "devices",
+        "keywords": [
+            "reception",
+            "bars",
+            "network",
+            "weak"
+        ]
+    },
+    {
+        "name": "signal-medium",
+        "category": "devices",
+        "keywords": [
+            "reception",
+            "bars",
+            "network",
+            "average"
+        ]
+    },
+    {
+        "name": "signature",
+        "category": "design",
+        "keywords": [
+            "sign",
+            "autograph",
+            "handwriting",
+            "contract"
+        ]
+    },
+    {
+        "name": "sim-card",
+        "category": "devices",
+        "keywords": [
+            "mobile",
+            "phone",
+            "chip",
+            "telecom"
+        ]
+    },
+    {
+        "name": "sink",
+        "category": "home",
+        "keywords": [
+            "kitchen",
+            "bathroom",
+            "tap",
+            "wash"
+        ]
+    },
+    {
+        "name": "siren",
+        "category": "security",
+        "keywords": [
+            "alarm",
+            "emergency",
+            "alert",
+            "police"
+        ]
+    },
+    {
+        "name": "sitemap",
+        "category": "development",
+        "keywords": [
+            "hierarchy",
+            "tree",
+            "structure",
+            "navigation"
+        ]
+    },
+    {
+        "name": "skull",
+        "category": "games",
+        "keywords": [
+            "death",
+            "danger",
+            "pirate",
+            "poison"
+        ]
+    },
+    {
+        "name": "sliders",
+        "category": "interface",
+        "keywords": [
+            "settings",
+            "adjust",
+            "controls",
+            "equalizer"
+        ]
+    },
+    {
+        "name": "smoking-slash",
+        "category": "health",
+        "keywords": [
+            "no smoking",
+            "cigarette",
+            "forbidden",
+            "ban"
+        ]
+    },
+    {
+        "name": "smoking",
+        "category": "health",
+        "keywords": [
+            "cigarette",
+            "tobacco",
+            "smoke",
+            "area"
+        ]
+    },
+    {
+        "name": "soccer-field",
+        "category": "sports",
+        "keywords": [
+            "football",
+            "pitch",
+            "sport",
+            "stadium"
+        ]
+    },
+    {
+        "name": "soda-cup",
+        "category": "food",
+        "keywords": [
+            "drink",
+            "fast food",
+            "cola",
+            "beverage"
+        ]
+    },
+    {
+        "name": "sort-down",
+        "category": "interface",
+        "keywords": [
+            "descending",
+            "order",
+            "arrange",
+            "order by"
+        ]
+    },
+    {
+        "name": "sort-up",
+        "category": "interface",
+        "keywords": [
+            "ascending",
+            "order",
+            "arrange",
+            "order by"
+        ]
+    },
+    {
+        "name": "sort",
+        "category": "interface",
+        "keywords": [
+            "order",
+            "arrange",
+            "toggle",
+            "table"
+        ]
+    },
+    {
+        "name": "soup",
+        "category": "food",
+        "keywords": [
+            "bowl",
+            "hot",
+            "meal",
+            "broth"
+        ]
+    },
+    {
+        "name": "space",
+        "category": "interface",
+        "keywords": [
+            "spacebar",
+            "keyboard",
+            "gap",
+            "whitespace"
+        ]
+    },
+    {
+        "name": "sparkles",
+        "category": "symbols",
+        "keywords": [
+            "magic",
+            "ai",
+            "new",
+            "shine"
+        ]
+    },
+    {
+        "name": "speaker-slash",
+        "category": "media",
+        "keywords": [
+            "mute",
+            "volume",
+            "disabled",
+            "audio"
+        ]
+    },
+    {
+        "name": "speaker",
+        "category": "media",
+        "keywords": [
+            "audio",
+            "volume",
+            "sound",
+            "loudspeaker"
+        ]
+    },
+    {
+        "name": "spell-check",
+        "category": "text",
+        "keywords": [
+            "grammar",
+            "proofread",
+            "spelling",
+            "correct"
+        ]
+    },
+    {
+        "name": "sphere",
+        "category": "shapes",
+        "keywords": [
+            "ball",
+            "3d",
+            "globe",
+            "round"
+        ]
+    },
+    {
+        "name": "spider",
+        "category": "animals",
+        "keywords": [
+            "insect",
+            "web",
+            "arachnid",
+            "halloween"
+        ]
+    },
+    {
+        "name": "spinner",
+        "category": "interface",
+        "keywords": [
+            "loading",
+            "progress",
+            "wait",
+            "busy"
+        ]
+    },
+    {
+        "name": "spray-can",
+        "category": "design",
+        "keywords": [
+            "paint",
+            "graffiti",
+            "aerosol",
+            "spray"
+        ]
+    },
+    {
+        "name": "square-fill",
+        "category": "shapes",
+        "keywords": [
+            "box",
+            "filled",
+            "solid",
+            "stop"
+        ]
+    },
+    {
+        "name": "square-half",
+        "category": "shapes",
+        "keywords": [
+            "contrast",
+            "half",
+            "box",
+            "theme"
+        ]
+    },
+    {
+        "name": "square",
+        "category": "shapes",
+        "keywords": [
+            "box",
+            "outline",
+            "rectangle",
+            "checkbox"
+        ]
+    },
+    {
+        "name": "squirrel",
+        "category": "animals",
+        "keywords": [
+            "rodent",
+            "nut",
+            "forest",
+            "tail"
+        ]
+    },
+    {
+        "name": "stack",
+        "category": "design",
+        "keywords": [
+            "layers",
+            "pile",
+            "order",
+            "levels"
+        ]
+    },
+    {
+        "name": "stamp",
+        "category": "design",
+        "keywords": [
+            "seal",
+            "approve",
+            "mark",
+            "print"
+        ]
+    },
+    {
+        "name": "star-half",
+        "category": "symbols",
+        "keywords": [
+            "rating",
+            "review",
+            "half",
+            "favorite"
+        ]
+    },
+    {
+        "name": "star-slash",
+        "category": "symbols",
+        "keywords": [
+            "favorite",
+            "remove",
+            "unrated",
+            "disabled"
+        ]
+    },
+    {
+        "name": "star",
+        "category": "symbols",
+        "keywords": [
+            "favorite",
+            "rating",
+            "bookmark",
+            "important"
+        ]
+    },
+    {
+        "name": "step-backward",
+        "category": "media",
+        "keywords": [
+            "previous",
+            "rewind",
+            "player",
+            "back"
+        ]
+    },
+    {
+        "name": "step-forward",
+        "category": "media",
+        "keywords": [
+            "next",
+            "skip",
+            "player",
+            "forward"
+        ]
+    },
+    {
+        "name": "stethoscope",
+        "category": "health",
+        "keywords": [
+            "doctor",
+            "medical",
+            "checkup",
+            "clinic"
+        ]
+    },
+    {
+        "name": "sticker",
+        "category": "design",
+        "keywords": [
+            "label",
+            "decal",
+            "note",
+            "peel"
+        ]
+    },
+    {
+        "name": "stop",
+        "category": "media",
+        "keywords": [
+            "halt",
+            "player",
+            "end",
+            "square"
+        ]
+    },
+    {
+        "name": "stopwatch",
+        "category": "time",
+        "keywords": [
+            "timer",
+            "chronometer",
+            "speed",
+            "countdown"
+        ]
+    },
+    {
+        "name": "store",
+        "category": "commerce",
+        "keywords": [
+            "shop",
+            "market",
+            "retail",
+            "building"
+        ]
+    },
+    {
+        "name": "strikethrough",
+        "category": "text",
+        "keywords": [
+            "format",
+            "cross out",
+            "delete",
+            "font"
+        ]
+    },
+    {
+        "name": "suitcase",
+        "category": "transport",
+        "keywords": [
+            "luggage",
+            "travel",
+            "baggage",
+            "trip"
+        ]
+    },
+    {
+        "name": "sun",
+        "category": "weather",
+        "keywords": [
+            "sunny",
+            "day",
+            "light mode",
+            "brightness"
+        ]
+    },
+    {
+        "name": "sunrise",
+        "category": "weather",
+        "keywords": [
+            "dawn",
+            "morning",
+            "sun",
+            "horizon"
+        ]
+    },
+    {
+        "name": "sunset",
+        "category": "weather",
+        "keywords": [
+            "dusk",
+            "evening",
+            "sun",
+            "horizon"
+        ]
+    },
+    {
+        "name": "sword",
+        "category": "games",
+        "keywords": [
+            "weapon",
+            "blade",
+            "fight",
+            "medieval"
+        ]
+    },
+    {
+        "name": "syringe",
+        "category": "health",
+        "keywords": [
+            "injection",
+            "vaccine",
+            "needle",
+            "medicine"
+        ]
+    },
+    {
+        "name": "tab",
+        "category": "interface",
+        "keywords": [
+            "browser",
+            "page",
+            "navigation",
+            "keyboard"
+        ]
+    },
+    {
+        "name": "table-cells",
+        "category": "design",
+        "keywords": [
+            "grid",
+            "spreadsheet",
+            "data",
+            "cells"
+        ]
+    },
+    {
+        "name": "table-columns",
+        "category": "design",
+        "keywords": [
+            "grid",
+            "spreadsheet",
+            "data",
+            "columns"
+        ]
+    },
+    {
+        "name": "table-rows",
+        "category": "design",
+        "keywords": [
+            "grid",
+            "spreadsheet",
+            "data",
+            "rows"
+        ]
+    },
+    {
+        "name": "table-slash",
+        "category": "design",
+        "keywords": [
+            "grid",
+            "spreadsheet",
+            "disabled",
+            "remove"
+        ]
+    },
+    {
+        "name": "table",
+        "category": "design",
+        "keywords": [
+            "grid",
+            "spreadsheet",
+            "data",
+            "rows"
+        ]
+    },
+    {
+        "name": "tablet",
+        "category": "devices",
+        "keywords": [
+            "ipad",
+            "screen",
+            "touch",
+            "device"
+        ]
+    },
+    {
+        "name": "tag-slash",
+        "category": "commerce",
+        "keywords": [
+            "label",
+            "price",
+            "disabled",
+            "remove"
+        ]
+    },
+    {
+        "name": "tag",
+        "category": "commerce",
+        "keywords": [
+            "label",
+            "price",
+            "category",
+            "badge"
+        ]
+    },
+    {
+        "name": "tags",
+        "category": "commerce",
+        "keywords": [
+            "labels",
+            "prices",
+            "categories",
+            "badges"
+        ]
+    },
+    {
+        "name": "temperature-down",
+        "category": "weather",
+        "keywords": [
+            "thermometer",
+            "cold",
+            "decrease",
+            "cooling"
+        ]
+    },
+    {
+        "name": "temperature-minus",
+        "category": "weather",
+        "keywords": [
+            "thermometer",
+            "cold",
+            "remove",
+            "lower"
+        ]
+    },
+    {
+        "name": "temperature-plus",
+        "category": "weather",
+        "keywords": [
+            "thermometer",
+            "hot",
+            "add",
+            "raise"
+        ]
+    },
+    {
+        "name": "temperature-up",
+        "category": "weather",
+        "keywords": [
+            "thermometer",
+            "hot",
+            "increase",
+            "heating"
+        ]
+    },
+    {
+        "name": "temperature",
+        "category": "weather",
+        "keywords": [
+            "thermometer",
+            "degrees",
+            "heat",
+            "climate"
+        ]
+    },
+    {
+        "name": "template",
+        "category": "design",
+        "keywords": [
+            "layout",
+            "pattern",
+            "wireframe",
+            "page"
+        ]
+    },
+    {
+        "name": "tent",
+        "category": "nature",
+        "keywords": [
+            "camping",
+            "outdoor",
+            "travel",
+            "shelter"
+        ]
+    },
+    {
+        "name": "terminal",
+        "category": "development",
+        "keywords": [
+            "console",
+            "cli",
+            "shell",
+            "command line"
+        ]
+    },
+    {
+        "name": "terrace",
+        "category": "buildings",
+        "keywords": [
+            "balcony",
+            "patio",
+            "outdoor",
+            "restaurant"
+        ]
+    },
+    {
+        "name": "text-center",
+        "category": "text",
+        "keywords": [
+            "align",
+            "center",
+            "paragraph",
+            "format"
+        ]
+    },
+    {
+        "name": "text-cursor",
+        "category": "text",
+        "keywords": [
+            "caret",
+            "type",
+            "insert",
+            "input"
+        ]
+    },
+    {
+        "name": "text-input",
+        "category": "interface",
+        "keywords": [
+            "field",
+            "form",
+            "type",
+            "textbox"
+        ]
+    },
+    {
+        "name": "text-justify",
+        "category": "text",
+        "keywords": [
+            "align",
+            "justify",
+            "paragraph",
+            "format"
+        ]
+    },
+    {
+        "name": "text-left",
+        "category": "text",
+        "keywords": [
+            "align",
+            "left",
+            "paragraph",
+            "format"
+        ]
+    },
+    {
+        "name": "text-right",
+        "category": "text",
+        "keywords": [
+            "align",
+            "right",
+            "paragraph",
+            "format"
+        ]
+    },
+    {
+        "name": "text-selection",
+        "category": "text",
+        "keywords": [
+            "select",
+            "highlight",
+            "range",
+            "cursor"
+        ]
+    },
+    {
+        "name": "text-wrap",
+        "category": "text",
+        "keywords": [
+            "wrap",
+            "line break",
+            "overflow",
+            "format"
+        ]
+    },
+    {
+        "name": "text",
+        "category": "text",
+        "keywords": [
+            "font",
+            "type",
+            "letters",
+            "paragraph"
+        ]
+    },
+    {
+        "name": "thermometer",
+        "category": "health",
+        "keywords": [
+            "temperature",
+            "fever",
+            "heat",
+            "measure"
+        ]
+    },
+    {
+        "name": "thumbs-down",
+        "category": "symbols",
+        "keywords": [
+            "dislike",
+            "bad",
+            "reject",
+            "vote"
+        ]
+    },
+    {
+        "name": "thumbs-up",
+        "category": "symbols",
+        "keywords": [
+            "like",
+            "good",
+            "approve",
+            "vote"
+        ]
+    },
+    {
+        "name": "ticket",
+        "category": "commerce",
+        "keywords": [
+            "admission",
+            "event",
+            "coupon",
+            "pass"
+        ]
+    },
+    {
+        "name": "toggle-left",
+        "category": "interface",
+        "keywords": [
+            "switch",
+            "off",
+            "disabled",
+            "setting"
+        ]
+    },
+    {
+        "name": "toggle-right",
+        "category": "interface",
+        "keywords": [
+            "switch",
+            "on",
+            "enabled",
+            "setting"
+        ]
+    },
+    {
+        "name": "togo-cup",
+        "category": "food",
+        "keywords": [
+            "take away",
+            "coffee",
+            "paper cup",
+            "drink"
+        ]
+    },
+    {
+        "name": "tombstone-cross",
+        "category": "objects",
+        "keywords": [
+            "grave",
+            "death",
+            "cemetery",
+            "halloween"
+        ]
+    },
+    {
+        "name": "tombstone",
+        "category": "objects",
+        "keywords": [
+            "grave",
+            "death",
+            "cemetery",
+            "halloween"
+        ]
+    },
+    {
+        "name": "tool",
+        "category": "objects",
+        "keywords": [
+            "wrench",
+            "fix",
+            "repair",
+            "settings"
+        ]
+    },
+    {
+        "name": "tools",
+        "category": "objects",
+        "keywords": [
+            "wrench",
+            "hammer",
+            "repair",
+            "maintenance"
+        ]
+    },
+    {
+        "name": "tower-observation",
+        "category": "buildings",
+        "keywords": [
+            "lookout",
+            "viewpoint",
+            "tall",
+            "structure"
+        ]
+    },
+    {
+        "name": "tower",
+        "category": "buildings",
+        "keywords": [
+            "castle",
+            "fortress",
+            "chess",
+            "building"
+        ]
+    },
+    {
+        "name": "traffic-cone",
+        "category": "transport",
+        "keywords": [
+            "road",
+            "construction",
+            "warning",
+            "barrier"
+        ]
+    },
+    {
+        "name": "traffic-lights",
+        "category": "transport",
+        "keywords": [
+            "stoplight",
+            "signal",
+            "road",
+            "intersection"
+        ]
+    },
+    {
+        "name": "train-front",
+        "category": "transport",
+        "keywords": [
+            "railway",
+            "locomotive",
+            "metro",
+            "front"
+        ]
+    },
+    {
+        "name": "trash",
+        "category": "interface",
+        "keywords": [
+            "delete",
+            "bin",
+            "garbage",
+            "remove"
+        ]
+    },
+    {
+        "name": "tree-pine",
+        "category": "nature",
+        "keywords": [
+            "conifer",
+            "forest",
+            "christmas",
+            "evergreen"
+        ]
+    },
+    {
+        "name": "tree",
+        "category": "nature",
+        "keywords": [
+            "forest",
+            "plant",
+            "oak",
+            "environment"
+        ]
+    },
+    {
+        "name": "triangle-inverted",
+        "category": "shapes",
+        "keywords": [
+            "down",
+            "shape",
+            "geometry",
+            "polygon"
+        ]
+    },
+    {
+        "name": "triangle",
+        "category": "shapes",
+        "keywords": [
+            "shape",
+            "geometry",
+            "polygon",
+            "delta"
+        ]
+    },
+    {
+        "name": "trophy",
+        "category": "symbols",
+        "keywords": [
+            "winner",
+            "award",
+            "cup",
+            "champion"
+        ]
+    },
+    {
+        "name": "truck",
+        "category": "transport",
+        "keywords": [
+            "delivery",
+            "shipping",
+            "lorry",
+            "cargo"
+        ]
+    },
+    {
+        "name": "tv-retro",
+        "category": "devices",
+        "keywords": [
+            "television",
+            "vintage",
+            "crt",
+            "old"
+        ]
+    },
+    {
+        "name": "tv",
+        "category": "devices",
+        "keywords": [
+            "television",
+            "screen",
+            "display",
+            "watch"
+        ]
+    },
+    {
+        "name": "umbrella",
+        "category": "weather",
+        "keywords": [
+            "rain",
+            "protection",
+            "forecast",
+            "wet"
+        ]
+    },
+    {
+        "name": "underline",
+        "category": "text",
+        "keywords": [
+            "format",
+            "font",
+            "emphasis",
+            "line"
+        ]
+    },
+    {
+        "name": "unfold-horizontal",
+        "category": "arrows",
+        "keywords": [
+            "expand",
+            "open",
+            "horizontal",
+            "widen"
+        ]
+    },
+    {
+        "name": "unfold-vertical",
+        "category": "arrows",
+        "keywords": [
+            "expand",
+            "open",
+            "vertical",
+            "heighten"
+        ]
+    },
+    {
+        "name": "unlink",
+        "category": "interface",
+        "keywords": [
+            "url",
+            "break",
+            "disconnect",
+            "chain"
+        ]
+    },
+    {
+        "name": "unlock",
+        "category": "security",
+        "keywords": [
+            "open",
+            "padlock",
+            "access",
+            "unsecured"
+        ]
+    },
+    {
+        "name": "upload",
+        "category": "interface",
+        "keywords": [
+            "send",
+            "export",
+            "publish",
+            "arrow up"
+        ]
+    },
+    {
+        "name": "usb-device",
+        "category": "devices",
+        "keywords": [
+            "flash drive",
+            "pendrive",
+            "storage",
+            "memory"
+        ]
+    },
+    {
+        "name": "usb",
+        "category": "devices",
+        "keywords": [
+            "cable",
+            "port",
+            "connector",
+            "plug"
+        ]
+    },
+    {
+        "name": "user-check",
+        "category": "people",
+        "keywords": [
+            "account",
+            "verified",
+            "approved",
+            "profile"
+        ]
+    },
+    {
+        "name": "user-circle",
+        "category": "people",
+        "keywords": [
+            "account",
+            "avatar",
+            "profile",
+            "person"
+        ]
+    },
+    {
+        "name": "user-minus",
+        "category": "people",
+        "keywords": [
+            "account",
+            "remove",
+            "delete",
+            "profile"
+        ]
+    },
+    {
+        "name": "user-plus",
+        "category": "people",
+        "keywords": [
+            "account",
+            "add",
+            "invite",
+            "profile"
+        ]
+    },
+    {
+        "name": "user-slash",
+        "category": "people",
+        "keywords": [
+            "account",
+            "disabled",
+            "blocked",
+            "profile"
+        ]
+    },
+    {
+        "name": "user-square",
+        "category": "people",
+        "keywords": [
+            "account",
+            "avatar",
+            "profile",
+            "person"
+        ]
+    },
+    {
+        "name": "user-x",
+        "category": "people",
+        "keywords": [
+            "account",
+            "cancel",
+            "remove",
+            "profile"
+        ]
+    },
+    {
+        "name": "user",
+        "category": "people",
+        "keywords": [
+            "account",
+            "profile",
+            "person",
+            "avatar"
+        ]
+    },
+    {
+        "name": "users",
+        "category": "people",
+        "keywords": [
+            "group",
+            "team",
+            "community",
+            "accounts"
+        ]
+    },
+    {
+        "name": "variable",
+        "category": "development",
+        "keywords": [
+            "code",
+            "math",
+            "x",
+            "parameter"
+        ]
+    },
+    {
+        "name": "vector-circle",
+        "category": "design",
+        "keywords": [
+            "shape",
+            "path",
+            "anchor",
+            "ellipse"
+        ]
+    },
+    {
+        "name": "vector-handle-2",
+        "category": "design",
+        "keywords": [
+            "bezier",
+            "control point",
+            "anchor",
+            "path"
+        ]
+    },
+    {
+        "name": "vector-handle",
+        "category": "design",
+        "keywords": [
+            "bezier",
+            "control point",
+            "anchor",
+            "path"
+        ]
+    },
+    {
+        "name": "vector-rectangle",
+        "category": "design",
+        "keywords": [
+            "shape",
+            "path",
+            "anchor",
+            "box"
+        ]
+    },
+    {
+        "name": "vector-square",
+        "category": "design",
+        "keywords": [
+            "shape",
+            "path",
+            "anchor",
+            "box"
+        ]
+    },
+    {
+        "name": "vial",
+        "category": "science",
+        "keywords": [
+            "test tube",
+            "lab",
+            "chemistry",
+            "sample"
+        ]
+    },
+    {
+        "name": "vibrate",
+        "category": "devices",
+        "keywords": [
+            "phone",
+            "haptic",
+            "silent",
+            "buzz"
+        ]
+    },
+    {
+        "name": "video-slash",
+        "category": "media",
+        "keywords": [
+            "camera",
+            "disabled",
+            "off",
+            "film"
+        ]
+    },
+    {
+        "name": "video",
+        "category": "media",
+        "keywords": [
+            "camera",
+            "film",
+            "movie",
+            "record"
+        ]
+    },
+    {
+        "name": "virus-slash",
+        "category": "health",
+        "keywords": [
+            "germ",
+            "disinfect",
+            "protected",
+            "clean"
+        ]
+    },
+    {
+        "name": "virus",
+        "category": "health",
+        "keywords": [
+            "germ",
+            "covid",
+            "infection",
+            "bacteria"
+        ]
+    },
+    {
+        "name": "volume-down",
+        "category": "media",
+        "keywords": [
+            "audio",
+            "lower",
+            "quiet",
+            "speaker"
+        ]
+    },
+    {
+        "name": "volume-mute",
+        "category": "media",
+        "keywords": [
+            "audio",
+            "silent",
+            "off",
+            "speaker"
+        ]
+    },
+    {
+        "name": "volume-slash",
+        "category": "media",
+        "keywords": [
+            "audio",
+            "disabled",
+            "off",
+            "speaker"
+        ]
+    },
+    {
+        "name": "volume-up",
+        "category": "media",
+        "keywords": [
+            "audio",
+            "louder",
+            "loud",
+            "speaker"
+        ]
+    },
+    {
+        "name": "wall-bricks",
+        "category": "buildings",
+        "keywords": [
+            "construction",
+            "masonry",
+            "firewall",
+            "brick"
+        ]
+    },
+    {
+        "name": "wallet-cards",
+        "category": "commerce",
+        "keywords": [
+            "payment",
+            "cards",
+            "money",
+            "billfold"
+        ]
+    },
+    {
+        "name": "wallet",
+        "category": "commerce",
+        "keywords": [
+            "payment",
+            "money",
+            "purse",
+            "billfold"
+        ]
+    },
+    {
+        "name": "wand",
+        "category": "games",
+        "keywords": [
+            "magic",
+            "wizard",
+            "spell",
+            "magician"
+        ]
+    },
+    {
+        "name": "wardrobe",
+        "category": "home",
+        "keywords": [
+            "closet",
+            "clothes",
+            "furniture",
+            "storage"
+        ]
+    },
+    {
+        "name": "warehouse",
+        "category": "buildings",
+        "keywords": [
+            "storage",
+            "logistics",
+            "depot",
+            "inventory"
+        ]
+    },
+    {
+        "name": "watch",
+        "category": "devices",
+        "keywords": [
+            "smartwatch",
+            "wearable",
+            "time",
+            "wrist"
+        ]
+    },
+    {
+        "name": "webcam-slash",
+        "category": "devices",
+        "keywords": [
+            "camera",
+            "disabled",
+            "off",
+            "video"
+        ]
+    },
+    {
+        "name": "webcam",
+        "category": "devices",
+        "keywords": [
+            "camera",
+            "video",
+            "call",
+            "stream"
+        ]
+    },
+    {
+        "name": "weight-scale",
+        "category": "health",
+        "keywords": [
+            "weigh",
+            "balance",
+            "bathroom",
+            "mass"
+        ]
+    },
+    {
+        "name": "wifi-exclamation",
+        "category": "devices",
+        "keywords": [
+            "wireless",
+            "error",
+            "warning",
+            "connection"
+        ]
+    },
+    {
+        "name": "wifi-slash",
+        "category": "devices",
+        "keywords": [
+            "wireless",
+            "offline",
+            "disabled",
+            "no connection"
+        ]
+    },
+    {
+        "name": "wifi",
+        "category": "devices",
+        "keywords": [
+            "wireless",
+            "internet",
+            "network",
+            "connection"
+        ]
+    },
+    {
+        "name": "wind-slash",
+        "category": "weather",
+        "keywords": [
+            "breeze",
+            "calm",
+            "disabled",
+            "air"
+        ]
+    },
+    {
+        "name": "wind",
+        "category": "weather",
+        "keywords": [
+            "breeze",
+            "air",
+            "gust",
+            "windy"
+        ]
+    },
+    {
+        "name": "window",
+        "category": "devices",
+        "keywords": [
+            "app",
+            "browser",
+            "screen",
+            "interface"
+        ]
+    },
+    {
+        "name": "wine-glass",
+        "category": "food",
+        "keywords": [
+            "drink",
+            "alcohol",
+            "red wine",
+            "bar"
+        ]
+    },
+    {
+        "name": "workflow",
+        "category": "development",
+        "keywords": [
+            "process",
+            "flow",
+            "automation",
+            "pipeline"
+        ]
+    },
+    {
+        "name": "x-circle",
+        "category": "interface",
+        "keywords": [
+            "close",
+            "cancel",
+            "error",
+            "remove"
+        ]
+    },
+    {
+        "name": "x-square",
+        "category": "interface",
+        "keywords": [
+            "close",
+            "cancel",
+            "error",
+            "remove"
+        ]
+    },
+    {
+        "name": "x",
+        "category": "interface",
+        "keywords": [
+            "close",
+            "cancel",
+            "multiply",
+            "remove"
+        ]
+    },
+    {
+        "name": "zodiac-aquarius",
+        "category": "symbols",
+        "keywords": [
+            "astrology",
+            "horoscope",
+            "sign",
+            "water bearer"
+        ]
+    },
+    {
+        "name": "zodiac-aries",
+        "category": "symbols",
+        "keywords": [
+            "astrology",
+            "horoscope",
+            "sign",
+            "ram"
+        ]
+    },
+    {
+        "name": "zodiac-cancer",
+        "category": "symbols",
+        "keywords": [
+            "astrology",
+            "horoscope",
+            "sign",
+            "crab"
+        ]
+    },
+    {
+        "name": "zodiac-capricorn",
+        "category": "symbols",
+        "keywords": [
+            "astrology",
+            "horoscope",
+            "sign",
+            "goat"
+        ]
+    },
+    {
+        "name": "zodiac-gemini",
+        "category": "symbols",
+        "keywords": [
+            "astrology",
+            "horoscope",
+            "sign",
+            "twins"
+        ]
+    },
+    {
+        "name": "zodiac-leo",
+        "category": "symbols",
+        "keywords": [
+            "astrology",
+            "horoscope",
+            "sign",
+            "lion"
+        ]
+    },
+    {
+        "name": "zodiac-libra",
+        "category": "symbols",
+        "keywords": [
+            "astrology",
+            "horoscope",
+            "sign",
+            "scales"
+        ]
+    },
+    {
+        "name": "zodiac-pisces",
+        "category": "symbols",
+        "keywords": [
+            "astrology",
+            "horoscope",
+            "sign",
+            "fish"
+        ]
+    },
+    {
+        "name": "zodiac-sagittarius",
+        "category": "symbols",
+        "keywords": [
+            "astrology",
+            "horoscope",
+            "sign",
+            "archer"
+        ]
+    },
+    {
+        "name": "zodiac-scorpio",
+        "category": "symbols",
+        "keywords": [
+            "astrology",
+            "horoscope",
+            "sign",
+            "scorpion"
+        ]
+    },
+    {
+        "name": "zodiac-taurus",
+        "category": "symbols",
+        "keywords": [
+            "astrology",
+            "horoscope",
+            "sign",
+            "bull"
+        ]
+    },
+    {
+        "name": "zodiac-virgo",
+        "category": "symbols",
+        "keywords": [
+            "astrology",
+            "horoscope",
+            "sign",
+            "maiden"
+        ]
+    },
+    {
+        "name": "zoom-in",
+        "category": "interface",
+        "keywords": [
+            "magnify",
+            "enlarge",
+            "search",
+            "plus"
+        ]
+    },
+    {
+        "name": "zoom-out",
+        "category": "interface",
+        "keywords": [
+            "magnify",
+            "shrink",
+            "search",
+            "minus"
+        ]
+    }
+]
