@@ -28,6 +28,9 @@
                     "version": {
                         "type": "string"
                     },
+                    "category": {
+                        "type": "string"
+                    },
                     "keywords": {
                         "type": "array",
                         "items": {

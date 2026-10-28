@@ -4,7 +4,16 @@ import CleanCSS from "clean-css";
 export type Icon = {
 	name: string;
 	componentName: string;
+	category: string;
+	keywords: string[];
 	path: string;
+};
+
+// base metadata type
+export type IconMetadata = {
+	name: string;
+	category: string;
+	keywords: string[];
 };
 
 // minify the provided css string
