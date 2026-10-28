@@ -41,6 +41,9 @@ export default defineConfig({
         JSXPlugin(),
         CopyPlugin([
             {
+                from: "gallery.js",
+            },
+            {
                 from: "icons.schema.json",
             },
             {
