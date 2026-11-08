@@ -11,6 +11,7 @@ icons.svg
 icons.js
 icons.tsx
 icons.d.ts
+icons.html
 
 # output documentation site
 www
