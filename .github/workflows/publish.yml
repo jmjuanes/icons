@@ -1,0 +1,25 @@
+## This workflow is limited only when a new tag is created
+on:
+  push:
+    tags: ["*"]
+
+## Set permissions to the github token
+## https://github.com/softprops/action-gh-release#permissions 
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    if: ${{ github.repository == 'jmjuanes/icons' }}
+    runs-on: ubuntu-latest
+    env:
+      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: "lts/*"
+          registry-url: "https://registry.npmjs.org"
+      - rum: yarn install
+      - run: yarn run build
+      - run: npm publish --access public
