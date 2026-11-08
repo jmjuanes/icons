@@ -39,10 +39,10 @@
         "build:css": "tsx ./scripts/build-css.ts",
         "build:react": "tsx ./scripts/build-react.ts && tsc",
         "build:svg": "tsx ./scripts/build-svg.ts",
-        "gallery:build": "mikel --config mikel.config.js",
-        "gallery:serve": "serve www -p 3000",
+        "build:gallery": "mikel --config mikel.config.js",
+        "serve": "serve . -p 3000",
         "test": "jest",
-        "pack:icons": "zip -r icons.zip ./icons"
+        "pack": "zip -r icons.zip ./icons"
     },
     "optionalDependencies": {
         "react": ">=18"
@@ -60,10 +60,10 @@
         "cross-env": "^10.1.0",
         "jest": "^30.5.2",
         "jest-environment-jsdom": "^30.5.2",
-        "lowcss": "^0.37.1",
-        "mikel": "^0.42.2",
-        "mikel-cli": "^0.42.2",
-        "mikel-jsx": "^0.42.2",
+        "lowcss": "^0.38.0",
+        "mikel": "^0.43.0",
+        "mikel-cli": "^0.43.0",
+        "mikel-jsx": "^0.43.0",
         "react": "^19.3.1",
         "react-dom": "^19.3.1",
         "ts-jest": "^29.4.15",
