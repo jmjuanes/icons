@@ -5,7 +5,7 @@
     <meta name="title" content="{{@site.title}}" />
     <meta name="description" content="{{@site.description}}" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" />
-    <link rel="stylesheet" href="/node_modules/lowcss/low.css" />
+    <link rel="stylesheet" href="/low.css" />
     <style>
         dialog::backdrop {
             background: rgba(17, 24, 39, 0.4);
@@ -54,7 +54,7 @@
             }
         }
     </style>
-    <title>{{@site.title}} v{{@site.version}}</title>
+    <title>{{@site.title}} v{{@pkg.version}}</title>
 </head>
 <body class="font-sans m-0 p-0 leading-normal bg-gray-50 text-gray-900">
     <header class="w-full max-w-7xl h-16 px-6 mx-auto flex items-center justify-between">
@@ -88,7 +88,7 @@
                     </button>
                 </div>
                 <div class="text-xs opacity-60">
-                    <span>Current version: <b>v{{@env.version}}</b></span>
+                    <span>Current version: <b>v{{@pkg.version}}</b></span>
                 </div>
             </div>
         </section>
@@ -178,9 +178,9 @@
     </footer>
     <script type="text/javascript">
         (() => {
-            const PACKAGE_NAME = "josemi-icons";
-            const PACKAGE_VERSION = "{{@env.version}}";
-            const PACKAGE_REPOSITORY = "{{@env.repository}}";
+            const PACKAGE_NAME = "{{@pkg.name}}";
+            const PACKAGE_VERSION = "{{@pkg.version}}";
+            const PACKAGE_REPOSITORY = "{{@pkg.repository}}";
             const INSTALL_COMMAND = `npm install ${PACKAGE_NAME}`;
             const HERO_COLUMNS = 8;
             const HERO_ROWS = 4;
