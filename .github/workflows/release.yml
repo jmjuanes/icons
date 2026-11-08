@@ -1,5 +1,3 @@
-name: Release
-
 ## This workflow is limited only when a new tag is created
 on:
   push:
@@ -11,56 +9,17 @@ permissions:
   contents: write
 
 jobs:
-  build:
-    name: Build
+  release:
+    if: ${{ github.repository == 'jmjuanes/icons' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
         with:
-          node-version: latest
+          node-version: "lts/*"
       - run: yarn install
-      - run: yarn run build
-      - run: yarn run pack:icons
-      - uses: actions/upload-artifact@v7
-        with:
-          name: icons-package
-          path: icons.*
-          retention-days: 1
-      - uses: actions/upload-artifact@v7
-        with:
-            name: icons-zip
-            path: icons.zip
-            retention-days: 1
-
-  release:
-    if: ${{ github.repository == 'jmjuanes/mochu' }}
-    runs-on: ubuntu-latest
-    name: Release
-    needs: [build]
-    steps:
-      - uses: actions/download-artifact@v8
-        with:
-          name: icons-zip
+      - run: yarn run pack
       - uses: softprops/action-gh-release@v3
         with:
           files: icons.zip
           generate_release_notes: true
-  
-  publish:
-    if: ${{ github.repository == 'jmjuanes/mochu' }}
-    runs-on: ubuntu-latest
-    name: Publish
-    needs: [build]
-    env:
-      NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-    steps:
-      - uses: actions/checkout@v7
-      - uses: actions/setup-node@v7
-        with:
-          node-version: latest
-          registry-url: 'https://registry.npmjs.org'
-      - uses: actions/download-artifact@v8
-        with:
-          name: icons-package
-      - run: npm publish --access public
