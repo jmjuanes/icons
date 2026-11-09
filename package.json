@@ -1,6 +1,6 @@
 {
     "name": "josemi-icons",
-    "version": "0.7.0",
+    "version": "0.8.0",
     "description": "An open source and hand-crafted SVG icons library",
     "type": "module",
     "author": "Josemi Juanes <hello@josemi.xyz>",
