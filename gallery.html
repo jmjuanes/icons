@@ -1,0 +1,542 @@
+<html lang="en">
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="title" content="{{@site.title}}" />
+    <meta name="description" content="{{@site.description}}" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&display=swap" />
+    <link rel="stylesheet" href="/low.css" />
+    <style>
+        dialog::backdrop {
+            background: rgba(17, 24, 39, 0.4);
+        }
+        /* Hero: floating icons fade out towards the center so the title stays readable */
+        .hero-bg {
+            -webkit-mask-image: radial-gradient(ellipse at center, transparent 15%, #000 80%);
+            mask-image: radial-gradient(ellipse at center, transparent 15%, #000 80%);
+        }
+        .hero-icon {
+            animation: hero-float var(--d, 8s) ease-in-out infinite alternate;
+        }
+        @keyframes hero-float {
+            from { transform: translateY(0) rotate(var(--r, 0deg)); }
+            to { transform: translateY(-12px) rotate(var(--r, 0deg)); }
+        }
+        @media (prefers-reduced-motion: reduce) {
+            .hero-icon {
+                animation: none;
+                transform: rotate(var(--r, 0deg));
+            }
+        }
+        /* Sidebar: sticky on desktop, and it scrolls by itself when there are more categories than screen height */
+        @media (min-width: 768px) {
+            [data-role="sidebar"] {
+                max-height: calc(100vh - 32px);
+            }
+        }
+        /* Categories dropdown on mobile */
+        @media (max-width: 767px) {
+            [data-role="categories-panel"] {
+                max-height: 50vh;
+                overflow-y: auto;
+                padding: 8px; border: 1px solid #e5e7eb;
+                border-radius: 12px;
+                box-shadow: 0 8px 24px rgba(17, 24, 39, 0.12);
+            }
+        }
+        /* Detail dialog becomes a bottom sheet on mobile */
+        @media (max-width: 639px) {
+            dialog[data-role="detail"] {
+                max-width: 100%;
+                max-height: 90vh;
+                margin: auto 0 0 0;
+                border-radius: 16px 16px 0 0;
+            }
+        }
+    </style>
+    <title>{{@site.title}} v{{@pkg.version}}</title>
+</head>
+<body class="font-sans m-0 p-0 leading-normal bg-gray-50 text-gray-900">
+    <header class="w-full max-w-7xl h-16 px-6 mx-auto flex items-center justify-between">
+        <a href="/" class="flex items-center gap-2 no-underline leading-none">
+            <div class="flex items-center gap-1 text-base font-bold">
+                <span class="leading-none">{{@site.title}}</span>
+            </div>
+        </a>
+        <div class="flex flex-row gap-3 items-center">
+            <m-each items="{@site.header.links}">
+                <a href="{{this.url}}" class="font-medium hover:underline flex items-center text-sm">
+                    <span>{{this.text}}</span>
+                </a>
+            </m-each>
+        </div>
+    </header>
+    <main class="w-full max-w-7xl mx-auto px-6 pb-16" data-role="gallery">
+        <section class="relative overflow-hidden pt-16 pb-12">
+            <div class="hero-bg absolute top-0 left-0 w-full h-full pointer-events-none opacity-20" data-role="hero-icons" aria-hidden="true"></div>
+            <div class="flex flex-col justify-center items-center relative" style="min-height:24rem;">
+                <div class="w-full max-w-3xl mx-auto font-bold text-5xl mb-4 leading-none text-center tracking-tight">
+                    <span>Beautifully crafted SVG icons.</span>
+                </div>
+                <div class="w-full max-w-xl mx-auto mb-8 text-base text-center leading-relaxed">
+                    <span>Over {{@site.iconsCount}}+ meticulously crafted, smooth and consistent line icons that serve as the perfect starting point for your next project.</span>
+                </div>
+                <div class="flex flex-col items-center gap-4 mb-2">
+                    <button type="button" class="flex items-center gap-3 pl-4 pr-2 py-2 rounded-full border-1 border-gray-200 bg-white text-sm cursor-pointer" data-action="copy-install">
+                        <code class="font-mono">npm install josemi-icons</code>
+                        <span class="px-2 py-1 rounded-full bg-gray-200 text-xs font-bold" data-field="install-label">Copy</span>
+                    </button>
+                </div>
+                <div class="text-xs opacity-60">
+                    <span>Current version: <b>v{{@pkg.version}}</b></span>
+                </div>
+            </div>
+        </section>
+        <div class="flex flex-col md:flex-row gap-4 md:gap-8 relative min-h-0">
+            <aside class="relative w-full md:w-56 min-h-0 shrink-0 md:sticky top-0 md:self-start md:overflow-y-auto" data-role="sidebar">
+                <button type="button" class="md:hidden flex items-center justify-between w-full px-3 py-2 rounded-lg border-1 border-gray-200 bg-white text-sm cursor-pointer" aria-expanded="false" data-action="toggle-categories">
+                    <span class="flex items-center gap-2">
+                        <span class="font-medium capitalize" data-field="current-label">All</span>
+                        <span class="text-2xs opacity-60" data-field="current-count"></span>
+                    </span>
+                    <span class="opacity-60">▾</span>
+                </button>
+                <div class="hidden md:block absolute md:static top-full md:top-0 left-0 w-full z-10 mt-1 md:mt-0 bg-gray-50" data-role="categories-panel">
+                    <div class="hidden md:block text-sm font-bold mb-2 px-3">Categories</div>
+                    <div class="flex flex-col gap-1" data-role="categories" data-active-class="bg-gray-200" data-inactive-class="bg-gray-50 hover:bg-gray-100"></div>
+                </div>
+            </aside>
+            <section class="flex-1 min-w-0 w-full" data-role="content">
+                <div class="flex flex-col-reverse md:flex-row md:items-center md:justify-between gap-3 mb-6">
+                    <div class="text-sm opacity-60 shrink-0" data-role="count"></div>
+                    <div class="relative w-full md:max-w-md">
+                        <div class="flex items-center text-lg absolute top-0 left-0 p-3 opacity-80">
+                            <m-icon icon="search" />
+                        </div>
+                        <input type="text" id="search" class="block w-full rounded-lg py-2 pr-3 pl-10 text-base bg-white border-1 border-gray-200" placeholder="Search for icons..." />
+                    </div>
+                </div>
+                <div class="hidden" data-role="empty-icons">
+                    <div class="flex flex-col items-center py-16">
+                        <div class="text-foreground text-9xl mb-2">
+                            <m-icon icon="emoji-confused" />
+                        </div>
+                        <div class="font-heading text-center text-4xl mb-0">No icons found...</div>
+                        <div class="text-center text-lg max-w-md mx-auto">
+                            <span>There are no icons that match your current search. Try searching for something else.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3 md:gap-4 w-full" data-role="grid">
+                    <m-each items="{@site.icons}">
+                        <div class="min-w-0" data-role="icon-tile" data-name="{{this.name}}" data-category="{{this.category}}" data-keywords="{{this.keywords}}" data-path="{{this.path}}" title="{{this.name}}">
+                            <div role="button" tabindex="0" class="relative flex flex-col justify-center p-3 md:p-4 cursor-pointer rounded-lg border-1 border-gray-200 hover:bg-white hover:border-gray-900" data-role="tile">
+                                <div class="flex justify-center items-center h-10 text-3xl" data-role="icon">
+                                    <m-icon icon="{this.name}" />
+                                </div>
+                                <div class="truncate o-50 text-2xs text-center mt-2">
+                                    <span>{{this.name}}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </m-each>
+                </div>
+            </section>
+        </div>
+    </main>
+    <dialog data-role="detail" aria-label="Icon details" class="w-full max-w-lg p-0 rounded-xl border-1 border-gray-200 bg-white text-gray-900">
+        <div class="p-5">
+            <div class="flex items-center justify-between gap-4 mb-4">
+                <div>
+                    <div class="font-bold text-lg leading-none" data-field="name"></div>
+                    <div class="text-sm opacity-60 mt-2 capitalize" data-field="category"></div>
+                </div>
+                <button type="button" class="p-2 flex items-center rounded-lg border-1 border-gray-200 cursor-pointer bg-white hover:bg-gray-100" data-action="close">
+                    <div class="flex items-center text-xl">
+                        <m-icon icon="x" />
+                    </div>
+                </button>
+            </div>
+            <div class="flex items-center justify-center h-40 mb-3 rounded-xl border-1 border-gray-200 bg-gray-50 text-6xl" data-field="preview"></div>
+            <pre class="m-0 mb-3 p-3 rounded-lg bg-gray-900 text-gray-50 text-sm font-mono overflow-x-auto" data-field="snippet"></pre>
+            <div class="grid grid-cols-2 gap-2">
+                <button type="button" class="px-3 py-2 rounded-lg border-1 border-gray-900 bg-gray-900 text-white text-sm font-medium cursor-pointer" data-action="copy-svg">Copy SVG</button>
+                <button type="button" class="px-3 py-2 rounded-lg border-1 border-gray-200 text-sm font-medium cursor-pointer hover:bg-gray-50" data-action="download-svg">Download SVG</button>
+            </div>
+        </div>
+    </dialog>
+    <template data-template="category">
+        <button type="button" class="flex items-center justify-between gap-2 px-3 py-2 rounded-lg text-left cursor-pointer" data-key="">
+            <span class="capitalize text-xs" data-field="label"></span>
+            <span class="text-2xs opacity-60" data-field="count"></span>
+        </button>
+    </template>
+    <footer class="w-full max-w-7xl mx-auto px-6 pt-10 pb-20 text-sm">
+        <div class="mb-2 text-center opacity-60">
+            Designed by <a href="https://josemi.xyz" target="_blank" class="font-medium underline">Josemi</a> in Valencia, Spain.
+        </div>
+    </footer>
+    <script type="text/javascript">
+        (() => {
+            const PACKAGE_NAME = "{{@pkg.name}}";
+            const PACKAGE_VERSION = "{{@pkg.version}}";
+            const PACKAGE_REPOSITORY = "{{@pkg.repository}}";
+            const INSTALL_COMMAND = `npm install ${PACKAGE_NAME}`;
+            const HERO_COLUMNS = 8;
+            const HERO_ROWS = 4;
+
+            const toClasses = (value) => {
+                return (value || "").split(/\s+/).filter(Boolean);
+            };
+
+            // Optional data attributes may render as empty or as the text "undefined".
+            const clean = (value) => {
+                return (value && value !== "undefined" && value !== "null") ? value.trim() : "";
+            };
+
+            // get a template by name in the document
+            const fromTemplate = (name) => {
+                return document.querySelector(`[data-template="${name}"]`).content.firstElementChild.cloneNode(true);
+            };
+
+            const init = () => {
+                const root = document.querySelector(`[data-role="gallery"]`);
+                const grid = document.querySelector(`[data-role="grid"]`);
+                const dialog = document.querySelector(`[data-role="detail"]`);
+
+                // if some of the elements is not in the document... what??
+                if (!root || !grid || !dialog) {
+                    return;
+                }
+
+                // get reference to other elements
+                const searchInput = document.getElementById("search");
+                const content = root.querySelector(`[data-role="content"]`);
+                const emptyState = root.querySelector(`[data-role="empty-icons"]`);
+                const countLabel = root.querySelector(`[data-role="count"]`);
+                const sidebar = root.querySelector(`[data-role="sidebar"]`);
+                const categoriesPanel = root.querySelector(`[data-role="categories-panel"]`);
+                const categoriesContainer = root.querySelector(`[data-role="categories"]`);
+                const categoriesToggle = root.querySelector(`[data-action="toggle-categories"]`);
+                const heroContainer = root.querySelector(`[data-role="hero-icons"]`);
+
+                // utility function to get a field in the dialog component
+                const detailField = (name) => {
+                    return dialog.querySelector(`[data-field="${name}"]`);
+                };
+
+                // state.category is the key of the selected category, or an empty string for all of them
+                const state = {
+                    query: "",
+                    category: "",
+                };
+                const labels = new Map();
+                const counts = new Map();
+
+                // initialize the variable that stores the current icon in the detail
+                const detail = {};
+
+                // get all tiles (icons) rendered in the document
+                const getTiles = () => {
+                    return Array.from(grid.querySelectorAll(`[data-role="icon-tile"]`));
+                };
+
+                // Hero background: a sample of icons cloned from the grid and scattered over a jittered grid.
+                // The pseudo-random generator is seeded, so the layout is the same on every visit.
+                const buildHero = () => {
+                    if (!heroContainer) {
+                        return;
+                    }
+                    let seed = 7;
+                    const random = () => {
+                        seed = (seed * 16807) % 2147483647;
+                        return (seed - 1) / 2147483646;
+                    };
+                    const tiles = getTiles();
+                    const step = Math.max(1, Math.floor(tiles.length / (HERO_COLUMNS * HERO_ROWS)));
+                    for (let i = 0; i < HERO_COLUMNS * HERO_ROWS && i * step < tiles.length; i++) {
+                        const svg = tiles[i * step].querySelector("svg");
+                        if (!svg) {
+                            continue;
+                        }
+                        const column = i % HERO_COLUMNS;
+                        const row = Math.floor(i / HERO_COLUMNS);
+                        const item = document.createElement("div");
+                        // On small screens only half of the icons are shown
+                        item.className = `hero-icon absolute leading-none ${i % 2 === 1 ? "hidden sm:block" : ""}`;
+                        item.style.left = `${((column + 0.1 + random() * 0.7) / HERO_COLUMNS) * 100}%`;
+                        item.style.top = `${((row + 0.1 + random() * 0.7) / HERO_ROWS) * 100}%`;
+                        item.style.fontSize = `${28 + Math.round(random() * 16)}px`;
+                        item.style.animationDelay = `${(-random() * 8).toFixed(2)}s`;
+                        item.style.setProperty("--r", `${Math.round(random() * 40 - 20)}deg`);
+                        item.style.setProperty("--d", `${(6 + random() * 4).toFixed(2)}s`);
+                        item.appendChild(svg.cloneNode(true));
+                        heroContainer.appendChild(item);
+                    }
+                };
+
+                // Filtering: search text + the selected category (only one at a time)
+                const applyFilters = () => {
+                    const tokens = state.query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+                    const tiles = getTiles();
+                    let visible = 0;
+                    tiles.forEach((tile) => {
+                        const category = clean(tile.dataset.category).toLowerCase();
+                        const haystack = `${tile.dataset.name} ${clean(tile.dataset.keywords)}`.toLowerCase();
+                        const matchesQuery = tokens.every((token) => {
+                            return haystack.includes(token);
+                        });
+                        const matchesCategory = state.category === "" || state.category === category;
+                        const isVisible = matchesQuery && matchesCategory;
+                        tile.classList.toggle("hidden", !isVisible);
+                        visible = visible + (isVisible ? 1 : 0);
+                    });
+                    emptyState.classList.toggle("hidden", visible !== 0);
+                    countLabel.textContent = visible === tiles.length ? `${visible} icons` : `${visible} of ${tiles.length} icons`;
+                };
+
+                // Category list. The active/inactive classes come from data attributes in the HTML.
+                const renderCategories = () => {
+                    const active = toClasses(categoriesContainer.dataset.activeClass);
+                    const inactive = toClasses(categoriesContainer.dataset.inactiveClass);
+                    categoriesContainer.querySelectorAll(`[data-key]`).forEach((item) => {
+                        const isActive = item.dataset.key === state.category;
+                        item.classList.remove(...(isActive ? inactive : active));
+                        item.classList.add(...(isActive ? active : inactive));
+                        // item.setAttribute("aria-pressed", String(isActive));
+                    });
+                    // label of the dropdown button (mobile)
+                    const isAll = state.category === "";
+                    root.querySelector(`[data-field="current-label"]`).textContent = isAll ? "All" : labels.get(state.category);
+                    root.querySelector(`[data-field="current-count"]`).textContent = String(isAll ? getTiles().length : counts.get(state.category));
+                };
+
+                // inserts a new category item
+                const addCategoryItem = (key, label, count) => {
+                    const item = fromTemplate("category");
+                    item.dataset.key = key;
+                    item.querySelector(`[data-field="label"]`).textContent = label;
+                    item.querySelector(`[data-field="count"]`).textContent = String(count);
+                    categoriesContainer.appendChild(item);
+                };
+
+                // build categories from tiles
+                const buildCategories = () => {
+                    getTiles().forEach((tile) => {
+                        if (tile.dataset.category) {
+                            const label = clean(tile.dataset.category);
+                            const key = label.toLowerCase();
+                            labels.set(key, label);
+                            counts.set(key, (counts.get(key) || 0) + 1);
+                        }
+                    });
+                    // insert the category All for displaying all icons
+                    addCategoryItem("", "All", getTiles().length);
+                    // insert other categories
+                    // we make sure to sort all categories by name
+                    const sortedCategoriesNames = Array.from(labels.keys()).sort((a, b) => {
+                        return a.localeCompare(b);
+                    });
+                    sortedCategoriesNames.forEach((key) => {
+                        addCategoryItem(key, labels.get(key), counts.get(key));
+                    });
+                };
+
+                const update = () => {
+                    applyFilters();
+                    renderCategories();
+                };
+
+                // on desktop the panel is always visible, so this only has an effect on mobile
+                const closeCategories = () => {
+                    categoriesPanel.classList.add("hidden");
+                    categoriesToggle.setAttribute("aria-expanded", "false");
+                };
+
+                // toggle categories dropdown
+                categoriesToggle.addEventListener("click", () => {
+                    const opening = categoriesPanel.classList.contains("hidden");
+                    categoriesPanel.classList.toggle("hidden", !opening);
+                    categoriesToggle.setAttribute("aria-expanded", String(opening));
+                });
+
+                // when the touches the screen, we have to make sure that the categories
+                // dropdown is closed
+                document.addEventListener("click", (event) => {
+                    if (!sidebar.contains(event.target)) {
+                        closeCategories();
+                    }
+                });
+
+                // when clicking on a category, we have to filter the displayed icons
+                // to show only the icons in the clicked category
+                categoriesContainer.addEventListener("click", (event) => {
+                    const item = event.target.closest("[data-key]");
+                    if (item) {
+                        // clicking the selected category again goes back to all of them
+                        state.category = item.dataset.key === state.category ? "" : item.dataset.key;
+                        update();
+                        closeCategories();
+                        // if the top of the gallery is out of view, bring it back
+                        const top = content.getBoundingClientRect().top;
+                        if (top < 0) {
+                            window.scrollTo({
+                                top: top + window.scrollY - 16,
+                                behavior: "smooth",
+                            });
+                        }
+                    }
+                });
+
+                // on input, save the query and update displayed icons
+                searchInput.addEventListener("input", () => {
+                    state.query = searchInput.value;
+                    update();
+                });
+
+                // capture key pressed event in the entire document
+                document.addEventListener("keydown", (event) => {
+                    const tag = document.activeElement ? document.activeElement.tagName : "";
+                    if (event.key === "/" && !event.metaKey && !event.ctrlKey && !event.altKey && tag !== "INPUT" && !dialog.open) {
+                        event.preventDefault();
+                        searchInput.focus();
+                    }
+                });
+
+                // get SVG of the icon with the version and link to the repository
+                const getSvgMarkup = (tile) => {
+                    const iconPath = tile.dataset.path;
+                    return [
+                        `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em">`,
+                        `    <!-- ${PACKAGE_NAME} v${PACKAGE_VERSION} - ${PACKAGE_REPOSITORY} -->`,
+                        `    <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="${iconPath}" />`,
+                        `</svg>`,
+                    ].join("\n");
+                };
+
+                // render the SVG snippet in the dialog
+                const renderSnippet = () => {
+                    detailField("snippet").textContent = detail?.tile ? getSvgMarkup(detail.tile) : "";
+                };
+
+                // download a blob object
+                const saveBlob = (blob, filename) => {
+                    const link = document.createElement("a");
+                    link.href = URL.createObjectURL(blob);
+                    link.download = filename;
+                    link.click();
+                    setTimeout(() => URL.revokeObjectURL(link.href), 1000);
+                };
+
+                // copy to clipboard
+                const copy = async (element, text) => {
+                    try {
+                        await navigator.clipboard.writeText(text);
+                        flash(element, "Copied!");
+                    }
+                    catch (error) {
+                        flash(element, "Copy failed");
+                    }
+                };
+
+                // change the text content of an element for the given time
+                const flash = (element, message, time = 1200) => {
+                    element.dataset.original = element.dataset.original || element.textContent;
+                    element.textContent = message;
+                    setTimeout(() => {
+                        element.textContent = element.dataset.original;
+                    }, time);
+                };
+
+                // open the detail element
+                const openDetail = (tile) => {
+                    detail.name = tile.dataset.name;
+                    detail.tile = tile;
+                    // current = {
+                    //     name: tile.dataset.name,
+                    //     tile: tile,
+                    // };
+                    detailField("name").textContent = detail.name;
+                    detailField("category").textContent = clean(tile.dataset.category);
+                    renderSnippet();
+                    const svgElement = tile.querySelector("svg");
+                    if (svgElement) {
+                        detailField("preview").replaceChildren(svgElement.cloneNode(true));
+                    }
+                    history.replaceState(null, "", `#${encodeURIComponent(detail.name)}`);
+                    if (!dialog.open) {
+                        dialog.showModal();
+                    }
+                };
+
+                // when clicking on an element in the grid, display the detail dialog
+                grid.addEventListener("click", (event) => {
+                    const tileElement = event.target.closest(`[data-role="icon-tile"]`);
+                    if (tileElement) {
+                        openDetail(tileElement);
+                    }
+                });
+
+                // when pressing a key when an element in the grid is focused
+                grid.addEventListener("keydown", (event) => {
+                    if ((event.key === "Enter" || event.key === " ") && event.target.matches(`[data-role="tile"]`)) {
+                        event.preventDefault();
+                        openDetail(event.target.closest(`[data-role="icon"]`));
+                    }
+                });
+
+                // when closing the dialog, reset the location to remove the icon
+                dialog.addEventListener("close", () => {
+                    history.replaceState(null, "", location.pathname + location.search);
+                    detail.name = null;
+                });
+
+                // when clickin inside the dialog, peroform an action
+                dialog.addEventListener("click", (event) => {
+                    if (event.target === dialog) {
+                        dialog.close();
+                        return;
+                    }
+                    const button = event.target.closest(`[data-action]`);
+                    if (!button || !detail?.name) {
+                        return;
+                    }
+                    const action = button.dataset.action;
+                    if (action === "close") {
+                        dialog.close();
+                    }
+                    else if (action === "copy-svg") {
+                        copy(button, getSvgMarkup(detail.tile));
+                    }
+                    else if (action === "download-svg") {
+                        saveBlob(new Blob([getSvgMarkup(detail.tile)], { type: "image/svg+xml" }), `${detail.name}.svg`);
+                    }
+                });
+
+                // install command in the hero
+                const installButton = root.querySelector(`[data-action="copy-install"]`);
+                if (installButton) {
+                    installButton.addEventListener("click", () => {
+                        copy(installButton.querySelector(`[data-field="install-label"]`), INSTALL_COMMAND);
+                    });
+                }
+
+                // build all and update the filters
+                buildHero();
+                buildCategories();
+                update();
+
+                // deep link: /#icon-name opens its detail
+                const hash = decodeURIComponent(location.hash.slice(1));
+                const target = hash ? getTiles().find((tile) => tile.dataset.name === hash) : null;
+                if (target) {
+                    openDetail(target);
+                }
+            };
+
+            // initialize then DOM is ready
+            document.addEventListener("DOMContentLoaded", () => init());
+        })();
+    </script>
+</body>
+</html>
